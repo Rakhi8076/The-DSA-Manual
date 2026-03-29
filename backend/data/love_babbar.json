@@ -1,0 +1,5592 @@
+[
+  {
+    "id": "babbar-ARR-01",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Find the Duplicate Number",
+    "pattern": "Basics",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/find-the-duplicate-number/",
+    "embedding_text": "Arrays Basics Find the Duplicate Number"
+  },
+  {
+    "id": "babbar-ARR-02",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Merge Intervals",
+    "pattern": "Intervals",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/merge-intervals/",
+    "embedding_text": "Arrays Intervals Merge Intervals"
+  },
+  {
+    "id": "babbar-ARR-03",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Next Permutation",
+    "pattern": "Permutation",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/next-permutation/",
+    "embedding_text": "Arrays Permutation Next Permutation"
+  },
+  {
+    "id": "babbar-ARR-04",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Best Time to Buy and Sell Stock",
+    "pattern": "StockDP",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "embedding_text": "Arrays Stocks Best Time to Buy and Sell Stock"
+  },
+  {
+    "id": "babbar-ARR-05",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Reverse an Array or String",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/reverse-string/",
+    "embedding_text": "Arrays Basics Reverse an Array or String"
+  },
+  {
+    "id": "babbar-ARR-06",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Maximum and Minimum in an Array",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1",
+    "embedding_text": "Arrays Basics Maximum and Minimum in an Array"
+  },
+  {
+    "id": "babbar-ARR-07",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Kth Smallest Element",
+    "pattern": "Sorting",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "embedding_text": "Arrays Sorting Kth Smallest Element"
+  },
+  {
+    "id": "babbar-ARR-08",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Sort 0s, 1s and 2s",
+    "pattern": "Sorting",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/sort-colors/",
+    "embedding_text": "Arrays Sorting Sort 0s, 1s and 2s"
+  },
+  {
+    "id": "babbar-ARR-09",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Move Negative Numbers to Beginning",
+    "pattern": "TwoPointer",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/move-all-negative-elements-to-end1813/1",
+    "embedding_text": "Arrays Two Pointers Move Negative Numbers to Beginning"
+  },
+  {
+    "id": "babbar-ARR-10",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Union of Arrays with Duplicates",
+    "pattern": "Hashing",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/union-of-two-arrays3538/1",
+    "embedding_text": "Arrays Hashing Union of Arrays with Duplicates"
+  },
+  {
+    "id": "babbar-ARR-11",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Rotate Array by One",
+    "pattern": "Basics",
+    "difficulty": "basic",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1",
+    "embedding_text": "Arrays Rotation Rotate Array by One"
+  },
+  {
+    "id": "babbar-ARR-12",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Kadane's Algorithm",
+    "pattern": "Kadane",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/maximum-subarray/",
+    "embedding_text": "Arrays Kadane Kadane's Algorithm"
+  },
+  {
+    "id": "babbar-ARR-13",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Minimize the Heights II",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/minimize-the-heights3351/1",
+    "embedding_text": "Arrays Greedy Minimize the Heights II"
+  },
+  {
+    "id": "babbar-ARR-14",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Minimum Jumps",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/jump-game-ii/",
+    "embedding_text": "Arrays Greedy Minimum Jumps"
+  },
+  {
+    "id": "babbar-ARR-15",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Merge Without Extra Space",
+    "pattern": "Sorting",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1",
+    "embedding_text": "Arrays Sorting Merge Without Extra Space"
+  },
+  {
+    "id": "babbar-ARR-16",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Count Inversions",
+    "pattern": "Sorting",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1",
+    "embedding_text": "Arrays Sorting Count Inversions"
+  },
+  {
+    "id": "babbar-ARR-17",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Two Sum – Pairs with 0 Sum",
+    "pattern": "Hashing",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1",
+    "embedding_text": "Arrays Hashing Two Sum – Pairs with 0 Sum"
+  },
+  {
+    "id": "babbar-ARR-18",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Common in 3 Sorted Arrays",
+    "pattern": "TwoPointer",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/common-elements1132/1",
+    "embedding_text": "Arrays Two Pointers Common in 3 Sorted Arrays"
+  },
+  {
+    "id": "babbar-ARR-19",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Rearrange Array Alternately",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/rearrange-array-alternately-1587115620/1",
+    "embedding_text": "Arrays Rearrangement Rearrange Array Alternately"
+  },
+  {
+    "id": "babbar-ARR-20",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Subarray with 0 Sum",
+    "pattern": "Hashing",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/subarray-sum-equals-k/",
+    "embedding_text": "Arrays Hashing Subarray with 0 Sum"
+  },
+  {
+    "id": "babbar-ARR-21",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Factorials of Large Numbers",
+    "pattern": "Math",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/factorials-of-large-numbers2508/1",
+    "embedding_text": "Arrays Math Factorials of Large Numbers"
+  },
+  {
+    "id": "babbar-ARR-22",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Maximum Product Subarray",
+    "pattern": "ArrayDP",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/maximum-product-subarray/",
+    "embedding_text": "Arrays DP Maximum Product Subarray"
+  },
+  {
+    "id": "babbar-ARR-23",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Longest Consecutive Subsequence",
+    "pattern": "Hashing",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-consecutive-sequence/",
+    "embedding_text": "Arrays Hashing Longest Consecutive Subsequence"
+  },
+  {
+    "id": "babbar-ARR-24",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Elements Appearing More Than N/K Times",
+    "pattern": "Hashing",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/count-element-occurences/1",
+    "embedding_text": "Arrays Hashing Elements Appearing More Than N/K Times"
+  },
+  {
+    "id": "babbar-ARR-25",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Buy and Sell Stock at Most Twice",
+    "pattern": "StockDP",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/",
+    "embedding_text": "Arrays Stocks Buy and Sell Stock at Most Twice"
+  },
+  {
+    "id": "babbar-ARR-26",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Array Subset",
+    "pattern": "SubsetDP",
+    "difficulty": "basic",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/array-subset-of-another-array2317/1",
+    "embedding_text": "Arrays Subset Array Subset"
+  },
+  {
+    "id": "babbar-ARR-27",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Triplet Sum in Array",
+    "pattern": "TwoPointer",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/3sum/",
+    "embedding_text": "Arrays Two Pointers Triplet Sum in Array"
+  },
+  {
+    "id": "babbar-ARR-28",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Trapping Rain Water",
+    "pattern": "Stack",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/trapping-rain-water/",
+    "embedding_text": "Arrays Stack Trapping Rain Water"
+  },
+  {
+    "id": "babbar-ARR-29",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Chocolate Distribution Problem",
+    "pattern": "Sorting",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1",
+    "embedding_text": "Arrays Sorting Chocolate Distribution Problem"
+  },
+  {
+    "id": "babbar-ARR-30",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Smallest Subarray with Sum Greater than X",
+    "pattern": "SlidingWindow",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x5651/1",
+    "embedding_text": "Arrays Sliding Window Smallest Subarray with Sum Greater than X"
+  },
+  {
+    "id": "babbar-ARR-31",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Three Way Partitioning",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/three-way-partitioning/1",
+    "embedding_text": "Arrays Partition Three Way Partitioning"
+  },
+  {
+    "id": "babbar-ARR-32",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Minimum Swaps and K Together",
+    "pattern": "SlidingWindow",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together/1",
+    "embedding_text": "Arrays Sliding Window Minimum Swaps and K Together"
+  },
+  {
+    "id": "babbar-ARR-33",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Palindromic Array",
+    "pattern": "Basics",
+    "difficulty": "basic",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/palindromic-array-1587115620/1",
+    "embedding_text": "Arrays Palindrome Palindromic Array"
+  },
+  {
+    "id": "babbar-ARR-34",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Median of an Array",
+    "pattern": "Math",
+    "difficulty": "basic",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/find-the-median0527/1",
+    "embedding_text": "Arrays Math Median of an Array"
+  },
+  {
+    "id": "babbar-ARR-35",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Median of Two Sorted Arrays",
+    "pattern": "BinarySearch",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "embedding_text": "Arrays Binary Search Median of Two Sorted Arrays"
+  },
+  {
+    "id": "babbar-MAT-01",
+    "topic": "Matrix",
+    "section": "Matrix",
+    "question": "Search a 2D Matrix",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/search-a-2d-matrix/",
+    "embedding_text": "Matrix Binary Search Search a 2D Matrix"
+  },
+  {
+    "id": "babbar-MAT-02",
+    "topic": "Matrix",
+    "section": "Matrix",
+    "question": "Spirally Traversing a Matrix",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/spiral-matrix/",
+    "embedding_text": "Matrix Traversal Spirally Traversing a Matrix"
+  },
+  {
+    "id": "babbar-MAT-03",
+    "topic": "Matrix",
+    "section": "Matrix",
+    "question": "Median in a Row-wise Sorted Matrix",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/median-of-a-row-wise-sorted-matrix/",
+    "embedding_text": "Matrix Binary Search Median in a Row-wise Sorted Matrix"
+  },
+  {
+    "id": "babbar-MAT-04",
+    "topic": "Matrix",
+    "section": "Matrix",
+    "question": "Row with Maximum 1s",
+    "pattern": "Basics",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/row-with-maximum-ones/",
+    "embedding_text": "Matrix Arrays Row with Maximum 1s"
+  },
+  {
+    "id": "babbar-MAT-05",
+    "topic": "Matrix",
+    "section": "Matrix",
+    "question": "Sorted Matrix",
+    "pattern": "Sorting",
+    "difficulty": "basic",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/sorted-matrix2333/1",
+    "embedding_text": "Matrix Sorting Sorted Matrix"
+  },
+  {
+    "id": "babbar-MAT-06",
+    "topic": "Matrix",
+    "section": "Matrix",
+    "question": "Maximum Size Rectangle",
+    "pattern": "Stack",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/maximal-rectangle/",
+    "embedding_text": "Matrix Stack Maximum Size Rectangle"
+  },
+  {
+    "id": "babbar-MAT-07",
+    "topic": "Matrix",
+    "section": "Matrix",
+    "question": "Find a Specific Pair in Matrix",
+    "pattern": "Math",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-a-specific-pair-in-matrix/",
+    "embedding_text": "Matrix Math Find a Specific Pair in Matrix"
+  },
+  {
+    "id": "babbar-MAT-08",
+    "topic": "Matrix",
+    "section": "Matrix",
+    "question": "Rotate Matrix by 90 Degree (Clockwise)",
+    "pattern": "Matrix",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/rotate-image/",
+    "embedding_text": "Matrix Matrix Rotation Rotate Matrix by 90 Degree (Clockwise)"
+  },
+  {
+    "id": "babbar-MAT-09",
+    "topic": "Matrix",
+    "section": "Matrix",
+    "question": "Kth Smallest Element in a Matrix",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
+    "embedding_text": "Matrix Heaps Kth Smallest Element in a Matrix"
+  },
+  {
+    "id": "babbar-MAT-10",
+    "topic": "Matrix",
+    "section": "Matrix",
+    "question": "Common Elements in All Rows of a Given Matrix",
+    "pattern": "Hashing",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/common-elements-in-all-rows-of-a-given-matrix/1",
+    "embedding_text": "Matrix Hashing Common Elements in All Rows of a Given Matrix"
+  },
+  {
+    "id": "babbar-STR-01",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Reverse String",
+    "pattern": "TwoPointer",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/reverse-string/",
+    "embedding_text": "Strings Two Pointers Reverse String"
+  },
+  {
+    "id": "babbar-STR-02",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Count and Say",
+    "pattern": "Simulation",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/count-and-say/",
+    "embedding_text": "Strings Simulation Count and Say"
+  },
+  {
+    "id": "babbar-STR-03",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Longest Common Prefix",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-common-prefix/",
+    "embedding_text": "Strings Arrays Longest Common Prefix"
+  },
+  {
+    "id": "babbar-STR-04",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Palindrome String",
+    "pattern": "StringManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/valid-palindrome/",
+    "embedding_text": "Strings Strings Palindrome String"
+  },
+  {
+    "id": "babbar-STR-05",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Print All The Duplicates In The Input String",
+    "pattern": "StringManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/print-all-the-duplicates-in-the-input-string/",
+    "embedding_text": "Strings Strings Print All The Duplicates In The Input String"
+  },
+  {
+    "id": "babbar-STR-06",
+    "topic": "Strings",
+    "section": "String",
+    "question": "A Program To Check If Strings Are Rotations Of Each Other",
+    "pattern": "StringManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/rotate-string/",
+    "embedding_text": "Strings Strings A Program To Check If Strings Are Rotations Of Each Other"
+  },
+  {
+    "id": "babbar-STR-07",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Longest Palindrome in a String",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "embedding_text": "Strings Dynamic Programming Longest Palindrome in a String"
+  },
+  {
+    "id": "babbar-STR-08",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Longest Repeating Subsequence",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/longest-repeating-subsequence2004/1",
+    "embedding_text": "Strings Dynamic Programming Longest Repeating Subsequence"
+  },
+  {
+    "id": "babbar-STR-09",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Print Subsequences String",
+    "pattern": "Recursion",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/print-subsequences-string/",
+    "embedding_text": "Strings Recursion Print Subsequences String"
+  },
+  {
+    "id": "babbar-STR-10",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Permutations of a String",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/permutations/",
+    "embedding_text": "Strings Backtracking Permutations of a String"
+  },
+  {
+    "id": "babbar-STR-11",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Split the binary string into substrings with equal number of 0s and 1s",
+    "pattern": "StringManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/split-binary-string-substrings-equal-number-0s-1s/",
+    "embedding_text": "Strings Strings Split the binary string into substrings with equal number of 0s and 1s"
+  },
+  {
+    "id": "babbar-STR-12",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Word Wrap",
+    "pattern": "DPGeneral",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/word-wrap1646/1",
+    "embedding_text": "Strings Dynamic Programming Word Wrap"
+  },
+  {
+    "id": "babbar-STR-13",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Edit Distance",
+    "pattern": "DPGeneral",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/edit-distance/",
+    "embedding_text": "Strings Dynamic Programming Edit Distance"
+  },
+  {
+    "id": "babbar-STR-14",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Next Permutation",
+    "pattern": "Basics",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/next-permutation/",
+    "embedding_text": "Strings Arrays Next Permutation"
+  },
+  {
+    "id": "babbar-STR-15",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Parenthesis Checker",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/valid-parentheses/",
+    "embedding_text": "Strings Queue and Stacks Parenthesis Checker"
+  },
+  {
+    "id": "babbar-STR-16",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Word Break",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/word-break/",
+    "embedding_text": "Strings Dynamic Programming Word Break"
+  },
+  {
+    "id": "babbar-STR-17",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Rabin Karp Algorithm For Pattern Searching",
+    "pattern": "StringManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/",
+    "embedding_text": "Strings Strings Rabin Karp Algorithm For Pattern Searching"
+  },
+  {
+    "id": "babbar-STR-18",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Longest Prefix Suffix",
+    "pattern": "StringManipulation",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/longest-prefix-suffix2527/1",
+    "embedding_text": "Strings Strings Longest Prefix Suffix"
+  },
+  {
+    "id": "babbar-STR-19",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Convert Sentence Equivalent Mobile Numeric Keypad Sequence",
+    "pattern": "StringManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/convert-sentence-equivalent-mobile-numeric-keypad-sequence/",
+    "embedding_text": "Strings Strings Convert Sentence Equivalent Mobile Numeric Keypad Sequence"
+  },
+  {
+    "id": "babbar-STR-20",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Count the Reversals",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/count-the-reversals0401/1",
+    "embedding_text": "Strings Queue and Stacks Count the Reversals"
+  },
+  {
+    "id": "babbar-STR-21",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Count Palindromic Subsequences",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/count-palindromic-subsequences/1",
+    "embedding_text": "Strings Dynamic Programming Count Palindromic Subsequences"
+  },
+  {
+    "id": "babbar-STR-22",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Find the string in grid",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-string-in-a-grid/",
+    "embedding_text": "Strings DFS Find the string in grid"
+  },
+  {
+    "id": "babbar-STR-23",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Boyer Moore Algorithm For Pattern Searching",
+    "pattern": "StringManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/boyer-moore-algorithm-for-pattern-searching/",
+    "embedding_text": "Strings Strings Boyer Moore Algorithm For Pattern Searching"
+  },
+  {
+    "id": "babbar-STR-24",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Roman to Integer",
+    "pattern": "StringManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/roman-to-integer/",
+    "embedding_text": "Strings Strings Roman to Integer"
+  },
+  {
+    "id": "babbar-STR-25",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Min Number of Flips",
+    "pattern": "StringManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/minimum-number-of-flips-1587115620/1",
+    "embedding_text": "Strings Strings Min Number of Flips"
+  },
+  {
+    "id": "babbar-STR-26",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Second most repeated string in a sequence",
+    "pattern": "Hashing",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/second-most-repeated-string-in-a-sequence0534/1",
+    "embedding_text": "Strings HashMap and Set Second most repeated string in a sequence"
+  },
+  {
+    "id": "babbar-STR-27",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Minimum Swaps for Bracket Balancing",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/minimum-swaps-for-bracket-balancing/1",
+    "embedding_text": "Strings Greedy Algorithms Minimum Swaps for Bracket Balancing"
+  },
+  {
+    "id": "babbar-STR-28",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Longest Common Subsequence",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-common-subsequence/",
+    "embedding_text": "Strings Dynamic Programming Longest Common Subsequence"
+  },
+  {
+    "id": "babbar-STR-29",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Program Generate Possible Valid Ip Addresses Given String",
+    "pattern": "Backtracking",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/restore-ip-addresses/",
+    "embedding_text": "Strings Backtracking Program Generate Possible Valid Ip Addresses Given String"
+  },
+  {
+    "id": "babbar-STR-30",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Smallest distinct window",
+    "pattern": "Basics",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/smallest-distinct-window/1",
+    "embedding_text": "Strings Arrays Smallest distinct window"
+  },
+  {
+    "id": "babbar-STR-31",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Rearrange characters",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/rearrange-characters-string-no-two-adjacent/",
+    "embedding_text": "Strings Heaps and Maps Rearrange characters"
+  },
+  {
+    "id": "babbar-STR-32",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Minimum Characters Added Front Make String Palindrome",
+    "pattern": "StringManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/minimum-characters-to-be-added-at-front-to-make-string-palindrome/1",
+    "embedding_text": "Strings Strings Minimum Characters Added Front Make String Palindrome"
+  },
+  {
+    "id": "babbar-STR-33",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Print Anagrams Together",
+    "pattern": "Hashing",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/group-anagrams/",
+    "embedding_text": "Strings HashMap and Set Print Anagrams Together"
+  },
+  {
+    "id": "babbar-STR-34",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Smallest window containing all characters",
+    "pattern": "Hashing",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/minimum-window-substring/",
+    "embedding_text": "Strings HashMap and Set Smallest window containing all characters"
+  },
+  {
+    "id": "babbar-STR-35",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Remove Consecutive Characters",
+    "pattern": "StringManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/remove-consecutive-characters/1",
+    "embedding_text": "Strings Strings Remove Consecutive Characters"
+  },
+  {
+    "id": "babbar-STR-36",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Wildcard string matching",
+    "pattern": "StringManipulation",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/wildcard-matching/",
+    "embedding_text": "Strings Strings Wildcard string matching"
+  },
+  {
+    "id": "babbar-STR-37",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Function To Find Number Of Customers Who Could Not Get A Computer",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/function-to-find-number-of-customers-who-could-not-get-a-computer/",
+    "embedding_text": "Strings Greedy Function To Find Number Of Customers Who Could Not Get A Computer"
+  },
+  {
+    "id": "babbar-STR-38",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Transform One String To Another Using Minimum Number Of Given Operation",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/transform-one-string-to-another-using-minimum-number-of-given-operation/",
+    "embedding_text": "Strings Greedy Transform One String To Another Using Minimum Number Of Given Operation"
+  },
+  {
+    "id": "babbar-STR-39",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Isomorphic Strings",
+    "pattern": "Hashing",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/isomorphic-strings/",
+    "embedding_text": "Strings HashMap and Set Isomorphic Strings"
+  },
+  {
+    "id": "babbar-STR-40",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Recursively print all sentences that can be formed from list of word lists",
+    "pattern": "Recursion",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/recursively-print-all-sentences-that-can-be-formed-from-list-of-word-lists/",
+    "embedding_text": "Strings Recursion Recursively print all sentences that can be formed from list of word lists"
+  },
+  {
+    "id": "babbar-STR-41",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Find Count Number Given String Present 2d Character Array",
+    "pattern": "StringManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-count-number-given-string-present-2d-character-array/",
+    "embedding_text": "Strings Strings Find Count Number Given String Present 2d Character Array"
+  },
+  {
+    "id": "babbar-SS-01",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Search in Rotated Sorted Array",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "embedding_text": "Searching & Sorting Binary Search Search in Rotated Sorted Array"
+  },
+  {
+    "id": "babbar-SS-02",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "First and Last Occurrences",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+    "embedding_text": "Searching & Sorting Binary Search First and Last Occurrences"
+  },
+  {
+    "id": "babbar-SS-03",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Value equal to index value",
+    "pattern": "Basics",
+    "difficulty": "basic",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/value-equal-to-index-value1330/1",
+    "embedding_text": "Searching & Sorting Arrays Value equal to index value"
+  },
+  {
+    "id": "babbar-SS-04",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Count Squares",
+    "pattern": "Math",
+    "difficulty": "basic",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/count-squares3649/1",
+    "embedding_text": "Searching & Sorting Math Count Squares"
+  },
+  {
+    "id": "babbar-SS-05",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Middle of Three",
+    "pattern": "Math",
+    "difficulty": "basic",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/middle-of-three2926/1",
+    "embedding_text": "Searching & Sorting Math Middle of Three"
+  },
+  {
+    "id": "babbar-SS-06",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Optimum Location Point Minimize Total Distance",
+    "pattern": "Math",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/optimum-location-point-minimize-total-distance/",
+    "embedding_text": "Searching & Sorting Math Optimum Location Point Minimize Total Distance"
+  },
+  {
+    "id": "babbar-SS-07",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Missing And Repeating",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/find-missing-and-repeating2512/1",
+    "embedding_text": "Searching & Sorting Arrays Missing And Repeating"
+  },
+  {
+    "id": "babbar-SS-08",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Majority Element",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/majority-element/",
+    "embedding_text": "Searching & Sorting Greedy Majority Element"
+  },
+  {
+    "id": "babbar-SS-09",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Searching Array Adjacent Differ K",
+    "pattern": "BinarySearch",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/searching-array-adjacent-differ-k/",
+    "embedding_text": "Searching & Sorting Searching Searching Array Adjacent Differ K"
+  },
+  {
+    "id": "babbar-SS-10",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Pair With Difference",
+    "pattern": "BinarySearch",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/pair-with-difference/1",
+    "embedding_text": "Searching & Sorting Binary Search Pair With Difference"
+  },
+  {
+    "id": "babbar-SS-11",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "4 Sum – All Quadruples",
+    "pattern": "Hashing",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/4sum/",
+    "embedding_text": "Searching & Sorting Hashing 4 Sum – All Quadruples"
+  },
+  {
+    "id": "babbar-SS-12",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Stickler Thief",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/house-robber/",
+    "embedding_text": "Searching & Sorting Dynamic Programming Stickler Thief"
+  },
+  {
+    "id": "babbar-SS-13",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Triplets with Smaller Sum",
+    "pattern": "TwoPointer",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/count-triplets-with-sum-smaller-than-x5549/1",
+    "embedding_text": "Searching & Sorting Two Pointers Triplets with Smaller Sum"
+  },
+  {
+    "id": "babbar-SS-14",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Rearrange characters",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/rearrange-characters-string-no-two-adjacent/",
+    "embedding_text": "Searching & Sorting Heaps Rearrange characters"
+  },
+  {
+    "id": "babbar-SS-15",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Zero Sum Subarrays",
+    "pattern": "Hashing",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/zero-sum-subarrays1825/1",
+    "embedding_text": "Searching & Sorting Hashing Zero Sum Subarrays"
+  },
+  {
+    "id": "babbar-SS-16",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Product array puzzle",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/product-of-array-except-self/",
+    "embedding_text": "Searching & Sorting Arrays Product array puzzle"
+  },
+  {
+    "id": "babbar-SS-17",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Sort by Set Bit Count",
+    "pattern": "Sorting",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/sort-by-set-bit-count1153/1",
+    "embedding_text": "Searching & Sorting Sorting Sort by Set Bit Count"
+  },
+  {
+    "id": "babbar-SS-18",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Minimum Swaps to Sort",
+    "pattern": "Sorting",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/minimum-swaps/1",
+    "embedding_text": "Searching & Sorting Sorting Minimum Swaps to Sort"
+  },
+  {
+    "id": "babbar-SS-19",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "rasta and kheshtak",
+    "pattern": "Math",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/rasta-and-kheshtak/0",
+    "embedding_text": "Searching & Sorting Math rasta and kheshtak"
+  },
+  {
+    "id": "babbar-SS-20",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "kth smallest number again 2",
+    "pattern": "Heap",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/k-th-smallest-element-again/1",
+    "embedding_text": "Searching & Sorting Heap kth smallest number again 2"
+  },
+  {
+    "id": "babbar-SS-21",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "K-th element of two Arrays",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1",
+    "embedding_text": "Searching & Sorting Binary Search K-th element of two Arrays"
+  },
+  {
+    "id": "babbar-SS-22",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "AGGRCOW",
+    "pattern": "BinarySearch",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.spoj.com/problems/AGGRCOW/",
+    "embedding_text": "Searching & Sorting Binary Search AGGRCOW"
+  },
+  {
+    "id": "babbar-SS-23",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Allocate Minimum Pages",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1",
+    "embedding_text": "Searching & Sorting Binary Search Allocate Minimum Pages"
+  },
+  {
+    "id": "babbar-SS-24",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "EKO",
+    "pattern": "BinarySearch",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.spoj.com/problems/EKO/",
+    "embedding_text": "Searching & Sorting Binary Search EKO"
+  },
+  {
+    "id": "babbar-SS-25",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Weighted Job Scheduling Log N Time",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/weighted-job-scheduling-log-n-time/",
+    "embedding_text": "Searching & Sorting Greedy Weighted Job Scheduling Log N Time"
+  },
+  {
+    "id": "babbar-SS-26",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Arithmetic Number",
+    "pattern": "Math",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/arithmetic-number2815/1",
+    "embedding_text": "Searching & Sorting Math Arithmetic Number"
+  },
+  {
+    "id": "babbar-SS-27",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Smallest number with at least n trailing zeroes in factorial",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/find-the-smallest-number-with-at-least-n-trailing-zeroes-in-factorial/1",
+    "embedding_text": "Searching & Sorting Binary Search Smallest number with at least n trailing zeroes in factorial"
+  },
+  {
+    "id": "babbar-SS-28",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "PRATA",
+    "pattern": "BinarySearch",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.spoj.com/problems/PRATA/",
+    "embedding_text": "Searching & Sorting Binary Search PRATA"
+  },
+  {
+    "id": "babbar-SS-29",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "ANARC05B",
+    "pattern": "BinarySearch",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.spoj.com/problems/ANARC05B/",
+    "embedding_text": "Searching & Sorting Binary Search ANARC05B"
+  },
+  {
+    "id": "babbar-SS-30",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "Count Inversions",
+    "pattern": "Sorting",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1",
+    "embedding_text": "Searching & Sorting Sorting Count Inversions"
+  },
+  {
+    "id": "babbar-SS-31",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "In Place Merge Sort",
+    "pattern": "Sorting",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/in-place-merge-sort/1",
+    "embedding_text": "Searching & Sorting Sorting In Place Merge Sort"
+  },
+  {
+    "id": "babbar-LL-01",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Middle of the Linked List",
+    "pattern": "TwoPointer",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/middle-of-the-linked-list/",
+    "embedding_text": "Linked List Two Pointers Middle of the Linked List"
+  },
+  {
+    "id": "babbar-LL-02",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Reverse a linked list",
+    "pattern": "Linked Lists",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/reverse-linked-list/",
+    "embedding_text": "Linked List Linked Lists Reverse a linked list"
+  },
+  {
+    "id": "babbar-LL-03",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Linked List Group Reverse",
+    "pattern": "Linked Lists",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1",
+    "embedding_text": "Linked List Linked Lists Linked List Group Reverse"
+  },
+  {
+    "id": "babbar-LL-04",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Detect Loop in linked list",
+    "pattern": "Linked Lists",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/linked-list-cycle/",
+    "embedding_text": "Linked List Linked Lists Detect Loop in linked list"
+  },
+  {
+    "id": "babbar-LL-05",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Remove loop in Linked List",
+    "pattern": "Linked Lists",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/remove-loop-in-linked-list/1",
+    "embedding_text": "Linked List Linked Lists Remove loop in Linked List"
+  },
+  {
+    "id": "babbar-LL-06",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Find First Node Of Loop In A Linked List",
+    "pattern": "Linked Lists",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/find-first-node-of-loop-in-a-linked-list/1",
+    "embedding_text": "Linked List Linked Lists Find First Node Of Loop In A Linked List"
+  },
+  {
+    "id": "babbar-LL-07",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Remove Duplicates from a Sorted Linked List",
+    "pattern": "Linked Lists",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/",
+    "embedding_text": "Linked List Linked Lists Remove Duplicates from a Sorted Linked List"
+  },
+  {
+    "id": "babbar-LL-08",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Remove duplicates from a linked list",
+    "pattern": "Linked Lists",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/remove-duplicates-from-an-unsorted-linked-list/1",
+    "embedding_text": "Linked List Linked Lists Remove duplicates from a linked list"
+  },
+  {
+    "id": "babbar-LL-09",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Move Last Element To Front Of A Given Linked List",
+    "pattern": "Linked Lists",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/move-last-element-to-front-of-a-given-linked-list/",
+    "embedding_text": "Linked List Linked Lists Move Last Element To Front Of A Given Linked List"
+  },
+  {
+    "id": "babbar-LL-10",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Add to a Linked List Number",
+    "pattern": "Linked Lists",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1",
+    "embedding_text": "Linked List Linked Lists Add to a Linked List Number"
+  },
+  {
+    "id": "babbar-LL-11",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Add Number Linked Lists",
+    "pattern": "Linked Lists",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/add-two-numbers/",
+    "embedding_text": "Linked List Linked Lists Add Number Linked Lists"
+  },
+  {
+    "id": "babbar-LL-12",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Intersection Sorted Linked Lists",
+    "pattern": "Linked Lists",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/intersection-of-two-sorted-linked-lists/1",
+    "embedding_text": "Linked List Linked Lists Intersection Sorted Linked Lists"
+  },
+  {
+    "id": "babbar-LL-13",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Intersection in Y Shaped Lists",
+    "pattern": "Linked Lists",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+    "embedding_text": "Linked List Linked Lists Intersection in Y Shaped Lists"
+  },
+  {
+    "id": "babbar-LL-14",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Merge Sort for Linked List",
+    "pattern": "Sorting",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/merge-sort-for-linked-list/1",
+    "embedding_text": "Linked List Sorting Merge Sort for Linked List"
+  },
+  {
+    "id": "babbar-LL-15",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Quick Sort on Linked List",
+    "pattern": "Sorting",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/quick-sort-on-linked-list/1",
+    "embedding_text": "Linked List Sorting Quick Sort on Linked List"
+  },
+  {
+    "id": "babbar-LL-16",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Check If Circular Linked List",
+    "pattern": "Linked Lists",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/circular-linked-list/1",
+    "embedding_text": "Linked List Linked Lists Check If Circular Linked List"
+  },
+  {
+    "id": "babbar-LL-17",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Split a Linked List into two halves",
+    "pattern": "Linked Lists",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/split-a-circular-linked-list-into-two-halves/1",
+    "embedding_text": "Linked List Linked Lists Split a Linked List into two halves"
+  },
+  {
+    "id": "babbar-LL-18",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Palindrome Linked List",
+    "pattern": "Linked Lists",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/palindrome-linked-list/",
+    "embedding_text": "Linked List Linked Lists Palindrome Linked List"
+  },
+  {
+    "id": "babbar-LL-19",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Deletion Circular Linked List",
+    "pattern": "Linked Lists",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/deletion-circular-linked-list/",
+    "embedding_text": "Linked List Linked Lists Deletion Circular Linked List"
+  },
+  {
+    "id": "babbar-LL-20",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Reverse a Doubly Linked List",
+    "pattern": "Doubly Linked List",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/reverse-a-doubly-linked-list/",
+    "embedding_text": "Linked List Doubly Linked List Reverse a Doubly Linked List"
+  },
+  {
+    "id": "babbar-LL-21",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Find Pairs Given Sum Doubly Linked List",
+    "pattern": "Doubly Linked List",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-pairs-with-given-sum-in-doubly-linked-list/",
+    "embedding_text": "Linked List Doubly Linked List Find Pairs Given Sum Doubly Linked List"
+  },
+  {
+    "id": "babbar-LL-22",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Count Triplets Sorted Doubly Linked List Whose Sum Equal Given Value X",
+    "pattern": "Doubly Linked List",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/count-triplets-sorted-doubly-linked-list-whose-sum-equal-given-value-x/",
+    "embedding_text": "Linked List Doubly Linked List Count Triplets Sorted Doubly Linked List Whose Sum Equal Given Value X"
+  },
+  {
+    "id": "babbar-LL-23",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Sort K Sorted Doubly Linked List",
+    "pattern": "Doubly Linked List",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/sort-k-sorted-doubly-linked-list/",
+    "embedding_text": "Linked List Doubly Linked List Sort K Sorted Doubly Linked List"
+  },
+  {
+    "id": "babbar-LL-24",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Rotate Doubly Linked List N Nodes",
+    "pattern": "Doubly Linked List",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/rotate-doubly-linked-list-n-nodes/",
+    "embedding_text": "Linked List Doubly Linked List Rotate Doubly Linked List N Nodes"
+  },
+  {
+    "id": "babbar-LL-25",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Reverse Doubly Linked List Groups Given Size",
+    "pattern": "Doubly Linked List",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/reverse-doubly-linked-list-groups-given-size/",
+    "embedding_text": "Linked List Doubly Linked List Reverse Doubly Linked List Groups Given Size"
+  },
+  {
+    "id": "babbar-LL-26",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Flattening a Linked List",
+    "pattern": "Linked Lists",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1",
+    "embedding_text": "Linked List Linked Lists Flattening a Linked List"
+  },
+  {
+    "id": "babbar-LL-27",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Sort a linked list of 0s, 1s and 2s",
+    "pattern": "Linked Lists",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/sort-a-linked-list-of-0s-1s-or-2s/1",
+    "embedding_text": "Linked List Linked Lists Sort a linked list of 0s, 1s and 2s"
+  },
+  {
+    "id": "babbar-LL-28",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Clone List with Next and Random",
+    "pattern": "Linked Lists",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "embedding_text": "Linked List Linked Lists Clone List with Next and Random"
+  },
+  {
+    "id": "babbar-LL-29",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Merge K sorted linked lists",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "embedding_text": "Linked List Heaps and Maps Merge K sorted linked lists"
+  },
+  {
+    "id": "babbar-LL-30",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Multiply two linked lists",
+    "pattern": "Linked Lists",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/multiply-two-linked-lists/1",
+    "embedding_text": "Linked List Linked Lists Multiply two linked lists"
+  },
+  {
+    "id": "babbar-LL-31",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Delete nodes having greater value on right",
+    "pattern": "Linked Lists",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/delete-nodes-having-greater-value-on-right/1",
+    "embedding_text": "Linked List Linked Lists Delete nodes having greater value on right"
+  },
+  {
+    "id": "babbar-LL-32",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Segregate Evens and Odds in a Linked List",
+    "pattern": "Linked Lists",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list/1",
+    "embedding_text": "Linked List Linked Lists Segregate Evens and Odds in a Linked List"
+  },
+  {
+    "id": "babbar-LL-33",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Kth from End of Linked List",
+    "pattern": "Linked Lists",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1",
+    "embedding_text": "Linked List Linked Lists Kth from End of Linked List"
+  },
+  {
+    "id": "babbar-LL-34",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Stream First Non-repeating",
+    "pattern": "Queue and Hashing",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream/1",
+    "embedding_text": "Linked List Queue and Hashing Stream First Non-repeating"
+  },
+  {
+    "id": "babbar-BST-01",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Delete Node in a BST",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/delete-node-in-a-bst/",
+    "embedding_text": "BST Deletion Delete Node in a BST"
+  },
+  {
+    "id": "babbar-BST-02",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Binary Search Tree Set 1 (Search and Insertion)",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/",
+    "embedding_text": "BST Basics Binary Search Tree Set 1 (Search and Insertion)"
+  },
+  {
+    "id": "babbar-BST-03",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Minimum in BST",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-the-minimum-element-in-a-binary-search-tree/",
+    "embedding_text": "BST Basics Minimum in BST"
+  },
+  {
+    "id": "babbar-BST-04",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Predecessor and Successor",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/inorder-predecessor-successor-given-key-bst/",
+    "embedding_text": "BST Traversal Predecessor and Successor"
+  },
+  {
+    "id": "babbar-BST-05",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Check for BST",
+    "pattern": "BSTValidation",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "embedding_text": "BST Validation Check for BST"
+  },
+  {
+    "id": "babbar-BST-06",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Populate Inorder Successor for all nodes",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/populate-inorder-successor-for-all-nodes/",
+    "embedding_text": "BST Traversal Populate Inorder Successor for all nodes"
+  },
+  {
+    "id": "babbar-BST-07",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Lowest Common Ancestor in a BST",
+    "pattern": "Recursion",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+    "embedding_text": "BST LCA Lowest Common Ancestor in a BST"
+  },
+  {
+    "id": "babbar-BST-08",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Construct BST from Preorder Traversal",
+    "pattern": "BSTConstruction",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/",
+    "embedding_text": "BST Construction Construct BST from Preorder Traversal"
+  },
+  {
+    "id": "babbar-BST-09",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Binary Tree to BST",
+    "pattern": "BSTConstruction",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/binary-tree-to-binary-search-tree-conversion/",
+    "embedding_text": "BST Conversion Binary Tree to BST"
+  },
+  {
+    "id": "babbar-BST-10",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Convert Normal BST to Balanced BST",
+    "pattern": "BSTConstruction",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/convert-normal-bst-balanced-bst/",
+    "embedding_text": "BST Balancing Convert Normal BST to Balanced BST"
+  },
+  {
+    "id": "babbar-BST-11",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Merge Two Balanced Binary Search Trees",
+    "pattern": "Merging",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/merge-two-balanced-binary-search-trees/",
+    "embedding_text": "BST Merge Merge Two Balanced Binary Search Trees"
+  },
+  {
+    "id": "babbar-BST-12",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Kth Largest Element in BST",
+    "pattern": "BSTTraversal",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-k-th-largest-element-in-bst-when-modification-to-bst-is-not-allowed/",
+    "embedding_text": "BST Order Statistics Kth Largest Element in BST"
+  },
+  {
+    "id": "babbar-BST-13",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Kth Smallest Element in BST",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+    "embedding_text": "BST Order Statistics Kth Smallest Element in BST"
+  },
+  {
+    "id": "babbar-BST-14",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Find Sum Pairs Across Two BSTs",
+    "pattern": "BSTTraversal",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-pair-with-given-sum-in-bst/",
+    "embedding_text": "BST Two Trees Find Sum Pairs Across Two BSTs"
+  },
+  {
+    "id": "babbar-BST-15",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Find Median of BST in O(1) Space",
+    "pattern": "BSTTraversal",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-median-of-bst-in-o1-space/",
+    "embedding_text": "BST Traversal Find Median of BST in O(1) Space"
+  },
+  {
+    "id": "babbar-BST-16",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Count BST Nodes that lie in a given range",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/count-bst-nodes-that-are-in-a-given-range/",
+    "embedding_text": "BST Range Query Count BST Nodes that lie in a given range"
+  },
+  {
+    "id": "babbar-BST-17",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Replace every element with the least greater element on its right",
+    "pattern": "Basics",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/replace-every-element-with-the-least-greater-element-on-its-right/",
+    "embedding_text": "BST Arrays Replace every element with the least greater element on its right"
+  },
+  {
+    "id": "babbar-BST-18",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Given N Appointments Find Conflicting Appointments",
+    "pattern": "Intervals",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/given-n-appointments-find-conflicting-appointments/",
+    "embedding_text": "BST Intervals Given N Appointments Find Conflicting Appointments"
+  },
+  {
+    "id": "babbar-BST-19",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Preorder to BST",
+    "pattern": "BSTConstruction",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversal/",
+    "embedding_text": "BST Construction Preorder to BST"
+  },
+  {
+    "id": "babbar-BST-20",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "BST with Dead End",
+    "pattern": "BSTValidation",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/check-whether-bst-contains-dead-end/",
+    "embedding_text": "BST Validation BST with Dead End"
+  },
+  {
+    "id": "babbar-BST-21",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Largest BST",
+    "pattern": "BSTValidation",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/largest-bst-binary-tree-set-2/",
+    "embedding_text": "BST Subtree Largest BST"
+  },
+  {
+    "id": "babbar-BST-22",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Flatten BST to Sorted List (Increasing Order)",
+    "pattern": "BSTTraversal",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/increasing-order-search-tree/",
+    "embedding_text": "BST Flattening Flatten BST to Sorted List (Increasing Order)"
+  },
+  {
+    "id": "babbar-BT-01",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "Remove Invalid Parentheses",
+    "pattern": "Backtracking",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/remove-invalid-parentheses/",
+    "embedding_text": "Backtracking Backtracking Remove Invalid Parentheses"
+  },
+  {
+    "id": "babbar-BT-02",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "Rat in a Maze",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1",
+    "embedding_text": "Backtracking Backtracking Rat in a Maze"
+  },
+  {
+    "id": "babbar-BT-03",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "Printing Solutions of N-Queen Problem",
+    "pattern": "Backtracking",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/n-queen-problem0315/1",
+    "embedding_text": "Backtracking Backtracking Printing Solutions of N-Queen Problem"
+  },
+  {
+    "id": "babbar-BT-04",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "Word Break – 2",
+    "pattern": "Backtracking",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/word-break-part-2/1",
+    "embedding_text": "Backtracking Backtracking Word Break – 2"
+  },
+  {
+    "id": "babbar-BT-05",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "Solve the Sudoku",
+    "pattern": "Backtracking",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/sudoku-solver/",
+    "embedding_text": "Backtracking Backtracking Solve the Sudoku"
+  },
+  {
+    "id": "babbar-BT-06",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "M-Coloring Problem",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1",
+    "embedding_text": "Backtracking Backtracking M-Coloring Problem"
+  },
+  {
+    "id": "babbar-BT-07",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "Palindromic Partitioning",
+    "pattern": "Backtracking",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/palindrome-partitioning/",
+    "embedding_text": "Backtracking Backtracking Palindromic Partitioning"
+  },
+  {
+    "id": "babbar-BT-08",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "Partition Equal Subset Sum",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/partition-equal-subset-sum/",
+    "embedding_text": "Backtracking Dynamic Programming Partition Equal Subset Sum"
+  },
+  {
+    "id": "babbar-BT-09",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "The Knight's Tour Problem",
+    "pattern": "Backtracking",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/the-knights-tour-problem/1",
+    "embedding_text": "Backtracking Backtracking The Knight's Tour Problem"
+  },
+  {
+    "id": "babbar-BT-10",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "Tug of War",
+    "pattern": "Backtracking",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/tug-of-war/",
+    "embedding_text": "Backtracking Backtracking Tug of War"
+  },
+  {
+    "id": "babbar-BT-11",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "Find Shortest Safe Route in a Path with Landmines",
+    "pattern": "Backtracking",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-shortest-safe-route-in-a-path-with-landmines/",
+    "embedding_text": "Backtracking Backtracking Find Shortest Safe Route in a Path with Landmines"
+  },
+  {
+    "id": "babbar-BT-12",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "Target Sum Combinations",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/combination-sum/",
+    "embedding_text": "Backtracking Backtracking Target Sum Combinations"
+  },
+  {
+    "id": "babbar-BT-13",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "Largest Number in K Swaps",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/largest-number-in-k-swaps/1",
+    "embedding_text": "Backtracking Backtracking Largest Number in K Swaps"
+  },
+  {
+    "id": "babbar-BT-14",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "Permutations of a String",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/permutations/",
+    "embedding_text": "Backtracking Backtracking Permutations of a String"
+  },
+  {
+    "id": "babbar-BT-15",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "Find if There is a Path of More Than K Length From a Source",
+    "pattern": "Backtracking",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-if-there-is-a-path-of-more-than-k-length-from-a-source/",
+    "embedding_text": "Backtracking Backtracking Find if There is a Path of More Than K Length From a Source"
+  },
+  {
+    "id": "babbar-BT-16",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "Longest Possible Route in a Matrix with Hurdles",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/longest-possible-route-in-a-matrix-with-hurdles/",
+    "embedding_text": "Backtracking Backtracking Longest Possible Route in a Matrix with Hurdles"
+  },
+  {
+    "id": "babbar-BT-17",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "Print All Possible Paths from Top Left to Bottom Right of a Matrix",
+    "pattern": "Backtracking",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/print-all-possible-paths-from-top-left-to-bottom-right-of-a-mxn-matrix/",
+    "embedding_text": "Backtracking Backtracking Print All Possible Paths from Top Left to Bottom Right of a Matrix"
+  },
+  {
+    "id": "babbar-BT-18",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "Partition Array to K Subsets",
+    "pattern": "Backtracking",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/partition-to-k-equal-sum-subsets/",
+    "embedding_text": "Backtracking Backtracking Partition Array to K Subsets"
+  },
+  {
+    "id": "babbar-BT-19",
+    "topic": "Backtracking",
+    "section": "Backtracking",
+    "question": "Find the K-th Permutation Sequence",
+    "pattern": "Backtracking",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/permutation-sequence/",
+    "embedding_text": "Backtracking Backtracking Find the K-th Permutation Sequence"
+  },
+  {
+    "id": "babbar-HEAP-01",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "Reorganize String",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/reorganize-string/",
+    "embedding_text": "Heaps Heap Reorganize String"
+  },
+  {
+    "id": "babbar-HEAP-02",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "Building Heap from Array",
+    "pattern": "Heap",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/building-heap-from-array/",
+    "embedding_text": "Heaps Heap Building Heap from Array"
+  },
+  {
+    "id": "babbar-HEAP-03",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "Heap Sort",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/heap-sort/",
+    "embedding_text": "Heaps Heap Heap Sort"
+  },
+  {
+    "id": "babbar-HEAP-04",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "Sliding Window Maximum",
+    "pattern": "SlidingWindow",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/sliding-window-maximum/",
+    "embedding_text": "Heaps Sliding Window Sliding Window Maximum"
+  },
+  {
+    "id": "babbar-HEAP-05",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "K largest elements",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/k-largest-elements-in-an-array/",
+    "embedding_text": "Heaps Heap K largest elements"
+  },
+  {
+    "id": "babbar-HEAP-06",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "Kth Smallest/Largest Element in Unsorted Array",
+    "pattern": "Heap",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "embedding_text": "Heaps Heap Kth Smallest/Largest Element in Unsorted Array"
+  },
+  {
+    "id": "babbar-HEAP-07",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "Merge K Sorted Arrays",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/merge-k-sorted-arrays/",
+    "embedding_text": "Heaps Heap Merge K Sorted Arrays"
+  },
+  {
+    "id": "babbar-HEAP-08",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "Merge two Binary Max Heaps",
+    "pattern": "Heap",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/merge-two-binary-max-heaps/",
+    "embedding_text": "Heaps Heap Merge two Binary Max Heaps"
+  },
+  {
+    "id": "babbar-HEAP-09",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "K-th Largest Sum Contiguous Subarray",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/k-th-largest-sum-contiguous-subarray/",
+    "embedding_text": "Heaps Heap K-th Largest Sum Contiguous Subarray"
+  },
+  {
+    "id": "babbar-HEAP-10",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "Merge K sorted linked lists",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "embedding_text": "Heaps Heap Merge K sorted linked lists"
+  },
+  {
+    "id": "babbar-HEAP-11",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "Smallest range in K lists",
+    "pattern": "Heap",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+    "embedding_text": "Heaps Heap Smallest range in K lists"
+  },
+  {
+    "id": "babbar-HEAP-12",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "Find median in a stream",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-median-in-a-stream/",
+    "embedding_text": "Heaps Heap Find median in a stream"
+  },
+  {
+    "id": "babbar-HEAP-13",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "Is Binary Tree Heap",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/check-if-a-given-binary-tree-is-heap/",
+    "embedding_text": "Heaps Heap Is Binary Tree Heap"
+  },
+  {
+    "id": "babbar-HEAP-14",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "Minimum Cost of Ropes",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/connect-n-ropes-minimum-cost/",
+    "embedding_text": "Heaps Heap Minimum Cost of Ropes"
+  },
+  {
+    "id": "babbar-HEAP-15",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "Convert BST to Min Heap",
+    "pattern": "Heap",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/convert-bst-min-heap/",
+    "embedding_text": "Heaps Heap Convert BST to Min Heap"
+  },
+  {
+    "id": "babbar-HEAP-16",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "Convert Min Heap to Max Heap",
+    "pattern": "Heap",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/convert-min-heap-to-max-heap/",
+    "embedding_text": "Heaps Heap Convert Min Heap to Max Heap"
+  },
+  {
+    "id": "babbar-HEAP-17",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "Rearrange characters",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/rearrange-characters-string-no-two-adjacent/",
+    "embedding_text": "Heaps Heap Rearrange characters"
+  },
+  {
+    "id": "babbar-HEAP-18",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "Minimum sum",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/minimum-sum-of-two-numbers-formed-from-digits-of-an-array/",
+    "embedding_text": "Heaps Heap Minimum sum"
+  },
+  {
+    "id": "babbar-GR-01",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Flood Fill",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/flood-fill/",
+    "embedding_text": "Graphs Graphs Flood Fill"
+  },
+  {
+    "id": "babbar-GR-02",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Clone Graph",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/clone-graph/",
+    "embedding_text": "Graphs Graphs Clone Graph"
+  },
+  {
+    "id": "babbar-GR-03",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Number of Operations to Make Network Connected",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/",
+    "embedding_text": "Graphs Graphs Number of Operations to Make Network Connected"
+  },
+  {
+    "id": "babbar-GR-04",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Word Ladder",
+    "pattern": "DFS",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/word-ladder/",
+    "embedding_text": "Graphs Graphs Word Ladder"
+  },
+  {
+    "id": "babbar-GR-05",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Snakes and Ladders",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/snakes-and-ladders/",
+    "embedding_text": "Graphs Graphs Snakes and Ladders"
+  },
+  {
+    "id": "babbar-GR-06",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Cheapest Flights Within K Stops",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+    "embedding_text": "Graphs Graphs Cheapest Flights Within K Stops"
+  },
+  {
+    "id": "babbar-GR-07",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "BFS of graph",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/",
+    "embedding_text": "Graphs Graphs BFS of graph"
+  },
+  {
+    "id": "babbar-GR-08",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Depth First Search Or Dfs For A Graph",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/",
+    "embedding_text": "Graphs Graphs Depth First Search Or Dfs For A Graph"
+  },
+  {
+    "id": "babbar-GR-09",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Detect Cycle In A Graph",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/detect-cycle-in-a-graph/",
+    "embedding_text": "Graphs Graphs Detect Cycle In A Graph"
+  },
+  {
+    "id": "babbar-GR-10",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Undirected Graph Cycle",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/detect-cycle-undirected-graph/",
+    "embedding_text": "Graphs Graphs Undirected Graph Cycle"
+  },
+  {
+    "id": "babbar-GR-11",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Rat in a Maze",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/rat-in-a-maze-backtracking-2/",
+    "embedding_text": "Graphs Graphs Rat in a Maze"
+  },
+  {
+    "id": "babbar-GR-12",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Steps by Knight",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/steps-by-knight/",
+    "embedding_text": "Graphs Graphs Steps by Knight"
+  },
+  {
+    "id": "babbar-GR-13",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Dijkstras Shortest Path Algorithm",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/",
+    "embedding_text": "Graphs Graphs Dijkstras Shortest Path Algorithm"
+  },
+  {
+    "id": "babbar-GR-14",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Topological Sort",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/topological-sorting/",
+    "embedding_text": "Graphs Graphs Topological Sort"
+  },
+  {
+    "id": "babbar-GR-15",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Minimum time taken by each job to be completed given by a DAG",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/minimum-time-taken-by-each-job-to-be-completed-given-by-a-directed-acyclic-graph/",
+    "embedding_text": "Graphs Graphs Minimum time taken by each job to be completed given by a DAG"
+  },
+  {
+    "id": "babbar-GR-16",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Find Whether It Is Possible To Finish All Tasks Or Not From Given Dependencies",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-whether-it-is-possible-to-finish-all-tasks-or-not-from-given-dependencies/",
+    "embedding_text": "Graphs Graphs Find Whether It Is Possible To Finish All Tasks Or Not From Given Dependencies"
+  },
+  {
+    "id": "babbar-GR-17",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Find the number of islands",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/number-of-islands/",
+    "embedding_text": "Graphs Graphs Find the number of islands"
+  },
+  {
+    "id": "babbar-GR-18",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Alien Dictionary",
+    "pattern": "DFS",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/alien-dictionary/",
+    "embedding_text": "Graphs Graphs Alien Dictionary"
+  },
+  {
+    "id": "babbar-GR-19",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Kruskal's Minimum Spanning Tree",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/",
+    "embedding_text": "Graphs Graphs Kruskal's Minimum Spanning Tree"
+  },
+  {
+    "id": "babbar-GR-20",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Prim's Minimum Spanning Tree",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/",
+    "embedding_text": "Graphs Graphs Prim's Minimum Spanning Tree"
+  },
+  {
+    "id": "babbar-GR-21",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Total Number Spanning Trees Graph",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/total-number-spanning-trees-graph/",
+    "embedding_text": "Graphs Graphs Total Number Spanning Trees Graph"
+  },
+  {
+    "id": "babbar-GR-22",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Negative weight cycle",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/detect-negative-cycle-graph-bellman-ford/",
+    "embedding_text": "Graphs Graphs Negative weight cycle"
+  },
+  {
+    "id": "babbar-GR-23",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Floyd Warshall",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/",
+    "embedding_text": "Graphs Graphs Floyd Warshall"
+  },
+  {
+    "id": "babbar-GR-24",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Travelling Salesman Problem",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/",
+    "embedding_text": "Graphs Graphs Travelling Salesman Problem"
+  },
+  {
+    "id": "babbar-GR-25",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Graph Coloring Applications",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/graph-coloring-applications/",
+    "embedding_text": "Graphs Graphs Graph Coloring Applications"
+  },
+  {
+    "id": "babbar-GR-26",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Bridge In A Graph",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/bridge-in-a-graph/",
+    "embedding_text": "Graphs Graphs Bridge In A Graph"
+  },
+  {
+    "id": "babbar-GR-27",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Strongly Connected",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/strongly-connected-components/",
+    "embedding_text": "Graphs Graphs Strongly Connected"
+  },
+  {
+    "id": "babbar-GR-28",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Bipartite Graph",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/bipartite-graph/",
+    "embedding_text": "Graphs Graphs Bipartite Graph"
+  },
+  {
+    "id": "babbar-GR-29",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Detect Negative Cycle Graph Bellman Ford",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/detect-negative-cycle-graph-bellman-ford/",
+    "embedding_text": "Graphs Graphs Detect Negative Cycle Graph Bellman Ford"
+  },
+  {
+    "id": "babbar-GR-30",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Find Longest Path Directed Acyclic Graph",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/",
+    "embedding_text": "Graphs Graphs Find Longest Path Directed Acyclic Graph"
+  },
+  {
+    "id": "babbar-GR-31",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Journey to the Moon",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.hackerrank.com/challenges/journey-to-the-moon/problem",
+    "embedding_text": "Graphs Graphs Journey to the Moon"
+  },
+  {
+    "id": "babbar-GR-32",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Oliver and the Game",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.hackerearth.com/problem/algorithm/oliver-and-the-game/",
+    "embedding_text": "Graphs Graphs Oliver and the Game"
+  },
+  {
+    "id": "babbar-GR-33",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Water Jug Problem Using BFS",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/water-jug-problem-using-bfs/",
+    "embedding_text": "Graphs Graphs Water Jug Problem Using BFS"
+  },
+  {
+    "id": "babbar-GR-34",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Find If There Is A Path Of More Than K Length From A Source",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-if-there-is-a-path-of-more-than-k-length-from-a-source/",
+    "embedding_text": "Graphs Graphs Find If There Is A Path Of More Than K Length From A Source"
+  },
+  {
+    "id": "babbar-GR-35",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "M-Coloring Problem",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/m-coloring-problem-backtracking-5/",
+    "embedding_text": "Graphs Graphs M-Coloring Problem"
+  },
+  {
+    "id": "babbar-GR-36",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Minimum Edges Reverse Make Path Source Destination",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/minimum-edges-reverse-make-path-source-destination/",
+    "embedding_text": "Graphs Graphs Minimum Edges Reverse Make Path Source Destination"
+  },
+  {
+    "id": "babbar-GR-37",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Paths Travel Nodes Using Edges",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/paths-travel-nodes-using-edges-even-bridges-konigsberg/",
+    "embedding_text": "Graphs Graphs Paths Travel Nodes Using Edges"
+  },
+  {
+    "id": "babbar-GR-38",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Vertex Cover Problem",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/vertex-cover-problem-set-1-introduction-approximate-algorithm/",
+    "embedding_text": "Graphs Graphs Vertex Cover Problem"
+  },
+  {
+    "id": "babbar-GR-39",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Chinese Postman Route Inspection",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/chinese-postman-route-inspection-set-1-introduction/",
+    "embedding_text": "Graphs Graphs Chinese Postman Route Inspection"
+  },
+  {
+    "id": "babbar-GR-40",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Number Of Triangles In Directed And Undirected Graphs",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/number-of-triangles-in-directed-and-undirected-graphs/",
+    "embedding_text": "Graphs Graphs Number Of Triangles In Directed And Undirected Graphs"
+  },
+  {
+    "id": "babbar-GR-41",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Minimize Cash Flow Among Given Set Friends",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/",
+    "embedding_text": "Graphs Graphs Minimize Cash Flow Among Given Set Friends"
+  },
+  {
+    "id": "babbar-GR-42",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Two Clique Problem",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/two-clique-problem-check-graph-can-divided-two-cliques/",
+    "embedding_text": "Graphs Graphs Two Clique Problem"
+  },
+  {
+    "id": "babbar-DP-01",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Longest Palindromic Substring",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Longest Palindromic Substring"
+  },
+  {
+    "id": "babbar-DP-02",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Maximum Length of Pair Chain",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/maximum-length-of-pair-chain/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Maximum Length of Pair Chain"
+  },
+  {
+    "id": "babbar-DP-03",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Coin Change (Count Ways)",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/coin-change-dp-7/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Coin Change (Count Ways)"
+  },
+  {
+    "id": "babbar-DP-04",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "0-1 Knapsack Problem",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/",
+    "embedding_text": "Dynamic Programming Dynamic Programming 0-1 Knapsack Problem"
+  },
+  {
+    "id": "babbar-DP-05",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "nCr",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/program-ncr-combinations/",
+    "embedding_text": "Dynamic Programming Dynamic Programming nCr"
+  },
+  {
+    "id": "babbar-DP-06",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Permutation Coefficient",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/permutation-coefficient/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Permutation Coefficient"
+  },
+  {
+    "id": "babbar-DP-07",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Program Nth Catalan Number",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/program-nth-catalan-number/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Program Nth Catalan Number"
+  },
+  {
+    "id": "babbar-DP-08",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Matrix Chain Multiplication",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Matrix Chain Multiplication"
+  },
+  {
+    "id": "babbar-DP-09",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Edit Distance",
+    "pattern": "DPGeneral",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/edit-distance/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Edit Distance"
+  },
+  {
+    "id": "babbar-DP-10",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Partition Equal Subset Sum",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/partition-equal-subset-sum/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Partition Equal Subset Sum"
+  },
+  {
+    "id": "babbar-DP-11",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Friends Pairing Problem",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/friends-pairing-problem/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Friends Pairing Problem"
+  },
+  {
+    "id": "babbar-DP-12",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Gold Mine Problem",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/gold-mine-problem/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Gold Mine Problem"
+  },
+  {
+    "id": "babbar-DP-13",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Assembly Line Scheduling",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/assembly-line-scheduling-dp-34/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Assembly Line Scheduling"
+  },
+  {
+    "id": "babbar-DP-14",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Painting the Fence",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/painting-the-fence-problem/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Painting the Fence"
+  },
+  {
+    "id": "babbar-DP-15",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Maximize The Cut Segments",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/cutting-a-rod-dp-13/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Maximize The Cut Segments"
+  },
+  {
+    "id": "babbar-DP-16",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Longest Common Subsequence",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-common-subsequence/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Longest Common Subsequence"
+  },
+  {
+    "id": "babbar-DP-17",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Longest Repeating Subsequence",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/longest-repeating-subsequence/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Longest Repeating Subsequence"
+  },
+  {
+    "id": "babbar-DP-18",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Longest Increasing Subsequence",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Longest Increasing Subsequence"
+  },
+  {
+    "id": "babbar-DP-19",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Space Optimized Solution LCS",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/space-optimized-solution-lcs/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Space Optimized Solution LCS"
+  },
+  {
+    "id": "babbar-DP-20",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "LCS of three strings",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/lcs-longest-common-subsequence-three-strings/",
+    "embedding_text": "Dynamic Programming Dynamic Programming LCS of three strings"
+  },
+  {
+    "id": "babbar-DP-21",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Max Sum Increasing Subsequence",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/maximum-sum-increasing-subsequence-dp-14/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Max Sum Increasing Subsequence"
+  },
+  {
+    "id": "babbar-DP-22",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Count Subsequences Product Less K",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/count-subsequences-product-less-k/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Count Subsequences Product Less K"
+  },
+  {
+    "id": "babbar-DP-23",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Longest subsequence-1",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/longest-subsequence-such-that-difference-between-adjacents-is-one/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Longest subsequence-1"
+  },
+  {
+    "id": "babbar-DP-24",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Maximum Subsequence Sum Such That No Three Are Consecutive",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/maximum-subsequence-sum-such-that-no-three-are-consecutive/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Maximum Subsequence Sum Such That No Three Are Consecutive"
+  },
+  {
+    "id": "babbar-DP-25",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Egg Dropping Puzzle",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/egg-dropping-puzzle-dp-11/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Egg Dropping Puzzle"
+  },
+  {
+    "id": "babbar-DP-26",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Sum Except First and Last",
+    "pattern": "DPGeneral",
+    "difficulty": "basic",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/sum-elements-except-first-last/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Sum Except First and Last"
+  },
+  {
+    "id": "babbar-DP-27",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Largest square formed in a matrix",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/largest-square-submatrix-with-all-1s/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Largest square formed in a matrix"
+  },
+  {
+    "id": "babbar-DP-28",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Pairs with certain difference",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/count-pairs-difference-k/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Pairs with certain difference"
+  },
+  {
+    "id": "babbar-DP-29",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Maximum path sum in matrix",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/maximum-path-sum-matrix/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Maximum path sum in matrix"
+  },
+  {
+    "id": "babbar-DP-30",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Maximum difference of zeros and ones in binary string",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/maximum-difference-zeros-ones-binary-string/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Maximum difference of zeros and ones in binary string"
+  },
+  {
+    "id": "babbar-DP-31",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Minimum Jumps",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Minimum Jumps"
+  },
+  {
+    "id": "babbar-DP-32",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Minimum cost to fill given weight in a bag",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/minimum-cost-to-fill-given-weight-in-a-bag/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Minimum cost to fill given weight in a bag"
+  },
+  {
+    "id": "babbar-DP-33",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Minimum Removals Array Make Max Min K",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/minimum-removals-array-make-max-min-k/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Minimum Removals Array Make Max Min K"
+  },
+  {
+    "id": "babbar-DP-34",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Longest Common Substring",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/longest-common-substring-dp-29/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Longest Common Substring"
+  },
+  {
+    "id": "babbar-DP-35",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Reach a given score",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/reach-a-given-score/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Reach a given score"
+  },
+  {
+    "id": "babbar-DP-36",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "BBT counter",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/count-balanced-binary-trees-height-h/",
+    "embedding_text": "Dynamic Programming Dynamic Programming BBT counter"
+  },
+  {
+    "id": "babbar-DP-37",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Kadane's Algorithm",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Kadane's Algorithm"
+  },
+  {
+    "id": "babbar-DP-38",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Smallest sum contiguous subarray",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/smallest-sum-contiguous-subarray/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Smallest sum contiguous subarray"
+  },
+  {
+    "id": "babbar-DP-39",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Knapsack with Duplicate Items",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/unbounded-knapsack-repetition-items-allowed/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Knapsack with Duplicate Items"
+  },
+  {
+    "id": "babbar-DP-40",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Word Break",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/word-break-problem-dp-32/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Word Break"
+  },
+  {
+    "id": "babbar-DP-41",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Largest Independent Set Problem",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/largest-independent-set-problem-dp-26/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Largest Independent Set Problem"
+  },
+  {
+    "id": "babbar-DP-42",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Longest Palindromic Subsequence",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/longest-palindromic-subsequence-dp-12/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Longest Palindromic Subsequence"
+  },
+  {
+    "id": "babbar-DP-43",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Count Palindromic Subsequences",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/count-palindromic-subsequences/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Count Palindromic Subsequences"
+  },
+  {
+    "id": "babbar-DP-44",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Longest Alternating Subsequence",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/longest-alternating-subsequence/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Longest Alternating Subsequence"
+  },
+  {
+    "id": "babbar-DP-45",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Weighted Job Scheduling",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/weighted-job-scheduling/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Weighted Job Scheduling"
+  },
+  {
+    "id": "babbar-DP-46",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Coin Game Winner Every Player Three Choices",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/coin-game-winner-every-player-three-choices/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Coin Game Winner Every Player Three Choices"
+  },
+  {
+    "id": "babbar-DP-47",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Count Derangements",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/count-derangements-permutation-such-that-no-element-appears-in-its-original-position/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Count Derangements"
+  },
+  {
+    "id": "babbar-DP-48",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Maximum Profit By Buying And Selling A Share At Most Twice",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/maximum-profit-by-buying-and-selling-a-share-at-most-twice/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Maximum Profit By Buying And Selling A Share At Most Twice"
+  },
+  {
+    "id": "babbar-DP-49",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Optimal Strategy For A Game",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/optimal-strategy-for-a-game-dp-31/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Optimal Strategy For A Game"
+  },
+  {
+    "id": "babbar-DP-50",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Optimal Binary Search Tree",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/optimal-binary-search-tree-dp-24/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Optimal Binary Search Tree"
+  },
+  {
+    "id": "babbar-DP-51",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Palindromic Partitioning",
+    "pattern": "DPGeneral",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/palindromic-partitioning-dp-17/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Palindromic Partitioning"
+  },
+  {
+    "id": "babbar-DP-52",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Word Wrap",
+    "pattern": "DPGeneral",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/word-wrap-problem-dp-19/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Word Wrap"
+  },
+  {
+    "id": "babbar-DP-53",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Mobile Numeric Keypad",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/mobile-numeric-keypad-problem/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Mobile Numeric Keypad"
+  },
+  {
+    "id": "babbar-DP-54",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Boolean Parenthesization",
+    "pattern": "DPGeneral",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/boolean-parenthesization-problem-dp-37/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Boolean Parenthesization"
+  },
+  {
+    "id": "babbar-DP-55",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Largest Rectangular Sub Matrix Whose Sum Is 0",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/largest-rectangular-sub-matrix-whose-sum-is-0/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Largest Rectangular Sub Matrix Whose Sum Is 0"
+  },
+  {
+    "id": "babbar-DP-56",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Largest Area Rectangular Sub Matrix Equal Number Of 0s And 1s",
+    "pattern": "DPGeneral",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/largest-area-rectangular-sub-matrix-equal-number-1s-0s/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Largest Area Rectangular Sub Matrix Equal Number Of 0s And 1s"
+  },
+  {
+    "id": "babbar-DP-57",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Maximum Sum Rectangle",
+    "pattern": "DPGeneral",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/maximum-sum-rectangle-in-a-2d-matrix-dp-27/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Maximum Sum Rectangle"
+  },
+  {
+    "id": "babbar-DP-58",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Stock Buy And Sell – Max K Transactions Allowed",
+    "pattern": "DPGeneral",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/maximum-profit-by-buying-and-selling-a-share-at-most-k-times/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Stock Buy And Sell – Max K Transactions Allowed"
+  },
+  {
+    "id": "babbar-DP-59",
+    "topic": "Dynamic Programming",
+    "section": "DynamicProgramming",
+    "question": "Interleaved Strings",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/check-whether-a-string-is-an-interleaving-of-two-other-strings/",
+    "embedding_text": "Dynamic Programming Dynamic Programming Interleaved Strings"
+  },
+  {
+    "id": "babbar-BT-1",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Level Order Traversal",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/level-order-tree-traversal/",
+    "embedding_text": "Binary Trees Binary Trees Level Order Traversal"
+  },
+  {
+    "id": "babbar-BT-2",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Reverse Level Order Traversal",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/reverse-level-order-traversal/",
+    "embedding_text": "Binary Trees Binary Trees Reverse Level Order Traversal"
+  },
+  {
+    "id": "babbar-BT-3",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Height of Binary Tree",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/write-a-c-program-to-find-the-maximum-depth-or-height-of-a-tree/",
+    "embedding_text": "Binary Trees Binary Trees Height of Binary Tree"
+  },
+  {
+    "id": "babbar-BT-4",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Diameter of a Binary Tree",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/diameter-of-a-binary-tree/",
+    "embedding_text": "Binary Trees Binary Trees Diameter of a Binary Tree"
+  },
+  {
+    "id": "babbar-BT-5",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Create a Mirror Tree From the Given Binary Tree",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/create-a-mirror-tree-from-the-given-binary-tree/",
+    "embedding_text": "Binary Trees Binary Trees Create a Mirror Tree From the Given Binary Tree"
+  },
+  {
+    "id": "babbar-BT-6",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Left View of Binary Tree",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/print-left-view-binary-tree/",
+    "embedding_text": "Binary Trees Binary Trees Left View of Binary Tree"
+  },
+  {
+    "id": "babbar-BT-7",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Right View of Binary Tree",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/print-right-view-binary-tree/",
+    "embedding_text": "Binary Trees Binary Trees Right View of Binary Tree"
+  },
+  {
+    "id": "babbar-BT-8",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Top View of Binary Tree",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/print-nodes-top-view-binary-tree/",
+    "embedding_text": "Binary Trees Binary Trees Top View of Binary Tree"
+  },
+  {
+    "id": "babbar-BT-9",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Bottom View of Binary Tree",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/bottom-view-binary-tree/",
+    "embedding_text": "Binary Trees Binary Trees Bottom View of Binary Tree"
+  },
+  {
+    "id": "babbar-BT-10",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "ZigZag Tree Traversal",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/zigzag-tree-traversal/",
+    "embedding_text": "Binary Trees Binary Trees ZigZag Tree Traversal"
+  },
+  {
+    "id": "babbar-BT-11",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Balanced Tree Check",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/",
+    "embedding_text": "Binary Trees Binary Trees Balanced Tree Check"
+  },
+  {
+    "id": "babbar-BT-12",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Diagonal Tree Traversal",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/diagonal-traversal-of-binary-tree/",
+    "embedding_text": "Binary Trees Binary Trees Diagonal Tree Traversal"
+  },
+  {
+    "id": "babbar-BT-13",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Tree Boundary Traversal",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/",
+    "embedding_text": "Binary Trees Binary Trees Tree Boundary Traversal"
+  },
+  {
+    "id": "babbar-BT-14",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Construct Binary Tree String Bracket Representation",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/construct-binary-tree-string-bracket-representation/",
+    "embedding_text": "Binary Trees Binary Trees Construct Binary Tree String Bracket Representation"
+  },
+  {
+    "id": "babbar-BT-15",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Binary Tree to DLL",
+    "pattern": "DFS",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/convert-binary-tree-to-doubly-linked-list/",
+    "embedding_text": "Binary Trees Binary Trees Binary Tree to DLL"
+  },
+  {
+    "id": "babbar-BT-16",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Transform to Sum Tree",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/transform-a-binary-tree-to-sum-tree/",
+    "embedding_text": "Binary Trees Binary Trees Transform to Sum Tree"
+  },
+  {
+    "id": "babbar-BT-17",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Construct Tree from Inorder & Preorder",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/",
+    "embedding_text": "Binary Trees Binary Trees Construct Tree from Inorder & Preorder"
+  },
+  {
+    "id": "babbar-BT-18",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Minimum Swap Required Convert Binary Tree Binary Search Tree",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/minimum-swap-required-convert-binary-tree-binary-search-tree/",
+    "embedding_text": "Binary Trees Binary Trees Minimum Swap Required Convert Binary Tree Binary Search Tree"
+  },
+  {
+    "id": "babbar-BT-19",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Sum Tree",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/check-if-a-binary-tree-is-sum-tree/",
+    "embedding_text": "Binary Trees Binary Trees Sum Tree"
+  },
+  {
+    "id": "babbar-BT-20",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Leaves at Same Level or Not",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/check-if-all-leaf-nodes-are-at-same-level/",
+    "embedding_text": "Binary Trees Binary Trees Leaves at Same Level or Not"
+  },
+  {
+    "id": "babbar-BT-21",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Duplicate Subtree",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-duplicate-subtrees/",
+    "embedding_text": "Binary Trees Binary Trees Duplicate Subtree"
+  },
+  {
+    "id": "babbar-BT-22",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Check Mirror in N-ary Tree",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/check-if-two-n-ary-trees-are-mirror/",
+    "embedding_text": "Binary Trees Binary Trees Check Mirror in N-ary Tree"
+  },
+  {
+    "id": "babbar-BT-23",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Sum of Nodes on the Longest Path",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/sum-of-nodes-on-the-longest-path-from-root-to-leaf-node/",
+    "embedding_text": "Binary Trees Binary Trees Sum of Nodes on the Longest Path"
+  },
+  {
+    "id": "babbar-BT-24",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Check Given Graph is Tree",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/check-given-graph-tree/",
+    "embedding_text": "Binary Trees Binary Trees Check Given Graph is Tree"
+  },
+  {
+    "id": "babbar-BT-25",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Find Largest Subtree Sum Tree",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-largest-subtree-sum-tree/",
+    "embedding_text": "Binary Trees Binary Trees Find Largest Subtree Sum Tree"
+  },
+  {
+    "id": "babbar-BT-26",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Maximum Sum Nodes Binary Tree No Two Adjacent",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/maximum-sum-nodes-binary-tree-no-two-adjacent/",
+    "embedding_text": "Binary Trees Binary Trees Maximum Sum Nodes Binary Tree No Two Adjacent"
+  },
+  {
+    "id": "babbar-BT-27",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Print K Sum Paths Binary Tree",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/",
+    "embedding_text": "Binary Trees Binary Trees Print K Sum Paths Binary Tree"
+  },
+  {
+    "id": "babbar-BT-28",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "LCA in Binary Tree",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/",
+    "embedding_text": "Binary Trees Binary Trees LCA in Binary Tree"
+  },
+  {
+    "id": "babbar-BT-29",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Min Distance Between Two Given Nodes of a Binary Tree",
+    "pattern": "DFS",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-distance-between-two-nodes-of-a-binary-tree/",
+    "embedding_text": "Binary Trees Binary Trees Min Distance Between Two Given Nodes of a Binary Tree"
+  },
+  {
+    "id": "babbar-BT-30",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Kth Ancestor Node Binary Tree",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/kth-ancestor-node-binary-tree/",
+    "embedding_text": "Binary Trees Binary Trees Kth Ancestor Node Binary Tree"
+  },
+  {
+    "id": "babbar-BT-31",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Duplicate Subtrees",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-duplicate-subtrees/",
+    "embedding_text": "Binary Trees Binary Trees Duplicate Subtrees"
+  },
+  {
+    "id": "babbar-BT-32",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Isomorphic Trees",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/check-if-two-trees-are-isomorphic/",
+    "embedding_text": "Binary Trees Binary Trees Isomorphic Trees"
+  },
+  {
+    "id": "babbar-GR-1",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "N Meetings in One Room",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/n-meetings-in-one-room/",
+    "embedding_text": "Greedy Greedy N Meetings in One Room"
+  },
+  {
+    "id": "babbar-GR-2",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Job Sequencing Problem",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/job-sequencing-problem/",
+    "embedding_text": "Greedy Greedy Job Sequencing Problem"
+  },
+  {
+    "id": "babbar-GR-3",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Huffman Encoding",
+    "pattern": "Greedy",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/",
+    "embedding_text": "Greedy Greedy Huffman Encoding"
+  },
+  {
+    "id": "babbar-GR-4",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Water Connection Problem",
+    "pattern": "Greedy",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/water-connection-problem/",
+    "embedding_text": "Greedy Greedy Water Connection Problem"
+  },
+  {
+    "id": "babbar-GR-5",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Fractional Knapsack",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/fractional-knapsack-problem/",
+    "embedding_text": "Greedy Greedy Fractional Knapsack"
+  },
+  {
+    "id": "babbar-GR-6",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Choose and Swap",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/lexicographically-smallest-string-formed-by-swapping-at-most-once/",
+    "embedding_text": "Greedy Greedy Choose and Swap"
+  },
+  {
+    "id": "babbar-GR-7",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Maximum Trains Stoppage Can Be Provided",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/maximum-trains-for-which-stoppage-can-be-provided/",
+    "embedding_text": "Greedy Greedy Maximum Trains Stoppage Can Be Provided"
+  },
+  {
+    "id": "babbar-GR-8",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Minimum Platforms",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/",
+    "embedding_text": "Greedy Greedy Minimum Platforms"
+  },
+  {
+    "id": "babbar-GR-9",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Buy Maximum Stocks if i Stocks Can Be Bought on ith Day",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/buy-maximum-stocks-stocks-can-bought-th-day/",
+    "embedding_text": "Greedy Greedy Buy Maximum Stocks if i Stocks Can Be Bought on ith Day"
+  },
+  {
+    "id": "babbar-GR-10",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Shop in Candy Store",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/shop-in-candy-store/",
+    "embedding_text": "Greedy Greedy Shop in Candy Store"
+  },
+  {
+    "id": "babbar-GR-11",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Minimize Cash Flow Among Given Set Friends Borrowed Money",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/",
+    "embedding_text": "Greedy Greedy Minimize Cash Flow Among Given Set Friends Borrowed Money"
+  },
+  {
+    "id": "babbar-GR-12",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Minimum Cost Cut Board Squares",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/minimum-cost-cut-board-squares/",
+    "embedding_text": "Greedy Greedy Minimum Cost Cut Board Squares"
+  },
+  {
+    "id": "babbar-GR-13",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Survival",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/survival/",
+    "embedding_text": "Greedy Greedy Survival"
+  },
+  {
+    "id": "babbar-GR-14",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Find Maximum Meetings In One Room",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-maximum-meetings-in-one-room/",
+    "embedding_text": "Greedy Greedy Find Maximum Meetings In One Room"
+  },
+  {
+    "id": "babbar-GR-15",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Maximum Product Subset Array",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/maximum-product-subset-array/",
+    "embedding_text": "Greedy Greedy Maximum Product Subset Array"
+  },
+  {
+    "id": "babbar-GR-16",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Maximize Sum After K Negations",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/maximize-sum-after-k-negations/",
+    "embedding_text": "Greedy Greedy Maximize Sum After K Negations"
+  },
+  {
+    "id": "babbar-GR-17",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Max Value Permutation",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/maximize-sum-of-consecutive-differences-circular-array/",
+    "embedding_text": "Greedy Greedy Max Value Permutation"
+  },
+  {
+    "id": "babbar-GR-18",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Maximum Sum Absolute Difference Array",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/maximum-sum-absolute-difference-array/",
+    "embedding_text": "Greedy Greedy Maximum Sum Absolute Difference Array"
+  },
+  {
+    "id": "babbar-GR-19",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Swap and Maximize",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/maximize-sum-absolute-difference-array/",
+    "embedding_text": "Greedy Greedy Swap and Maximize"
+  },
+  {
+    "id": "babbar-GR-20",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Minimum Sum Absolute Difference Pairs Two Arrays",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/minimum-sum-absolute-difference-pairs-two-arrays/",
+    "embedding_text": "Greedy Greedy Minimum Sum Absolute Difference Pairs Two Arrays"
+  },
+  {
+    "id": "babbar-GR-21",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Program For Shortest Job First CPU Scheduling",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/program-for-shortest-job-first-or-sjf-cpu-scheduling-set-1-non-preemptive/",
+    "embedding_text": "Greedy Greedy Program For Shortest Job First CPU Scheduling"
+  },
+  {
+    "id": "babbar-GR-22",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Page Faults in LRU",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/page-faults-in-lru/",
+    "embedding_text": "Greedy Greedy Page Faults in LRU"
+  },
+  {
+    "id": "babbar-GR-23",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Smallest Subset Sum Greater Elements",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/smallest-subset-sum-greater-elements/",
+    "embedding_text": "Greedy Greedy Smallest Subset Sum Greater Elements"
+  },
+  {
+    "id": "babbar-GR-24",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Chocolate Distribution Problem",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/chocolate-distribution-problem/",
+    "embedding_text": "Greedy Greedy Chocolate Distribution Problem"
+  },
+  {
+    "id": "babbar-GR-25",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "DEFKIN",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.spoj.com/problems/DEFKIN/",
+    "embedding_text": "Greedy Greedy DEFKIN"
+  },
+  {
+    "id": "babbar-GR-26",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "DIEHARD",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.spoj.com/problems/DIEHARD/",
+    "embedding_text": "Greedy Greedy DIEHARD"
+  },
+  {
+    "id": "babbar-GR-27",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "GERGOVIA",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.spoj.com/problems/GERGOVIA/",
+    "embedding_text": "Greedy Greedy GERGOVIA"
+  },
+  {
+    "id": "babbar-GR-28",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "GCJ101BB",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.spoj.com/problems/GCJ101BB/",
+    "embedding_text": "Greedy Greedy GCJ101BB"
+  },
+  {
+    "id": "babbar-GR-29",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "CHOCOLA",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.spoj.com/problems/CHOCOLA/",
+    "embedding_text": "Greedy Greedy CHOCOLA"
+  },
+  {
+    "id": "babbar-GR-30",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "ARRANGE",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.spoj.com/problems/ARRANGE/",
+    "embedding_text": "Greedy Greedy ARRANGE"
+  },
+  {
+    "id": "babbar-GR-31",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "K Centers Problem",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/k-centers-problem-set-1-greedy-approximate-algorithm/",
+    "embedding_text": "Greedy Greedy K Centers Problem"
+  },
+  {
+    "id": "babbar-GR-32",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Minimum Cost of Ropes",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/minimum-cost-of-ropes/",
+    "embedding_text": "Greedy Greedy Minimum Cost of Ropes"
+  },
+  {
+    "id": "babbar-GR-33",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Smallest Number",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/smallest-number-by-rearranging-digits-of-a-given-number/",
+    "embedding_text": "Greedy Greedy Smallest Number"
+  },
+  {
+    "id": "babbar-GR-34",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Rearrange Characters",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/rearrange-characters-string-no-two-adjacent/",
+    "embedding_text": "Greedy Greedy Rearrange Characters"
+  },
+  {
+    "id": "babbar-GR-35",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Find Maximum Sum Possible Equal Sum Three Stacks",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-maximum-sum-possible-equal-sum-three-stacks/",
+    "embedding_text": "Greedy Greedy Find Maximum Sum Possible Equal Sum Three Stacks"
+  },
+  {
+    "id": "babbar-SQ-1",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Queue Set Introduction And Array Implementation",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Queue Set Introduction And Array Implementation"
+  },
+  {
+    "id": "babbar-SQ-2",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Two Stacks in an Array",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/implement-two-stacks-in-an-array/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Two Stacks in an Array"
+  },
+  {
+    "id": "babbar-SQ-3",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Design A Stack With Find Middle Operation",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/design-a-stack-with-find-middle-operation/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Design A Stack With Find Middle Operation"
+  },
+  {
+    "id": "babbar-SQ-4",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Efficiently Implement K Stacks Single Array",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Efficiently Implement K Stacks Single Array"
+  },
+  {
+    "id": "babbar-SQ-5",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Parenthesis Checker",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/parenthesis-checker/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Parenthesis Checker"
+  },
+  {
+    "id": "babbar-SQ-6",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Reverse Using Stack",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/reverse-a-string-using-stack/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Reverse Using Stack"
+  },
+  {
+    "id": "babbar-SQ-7",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Special Stack",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/design-and-implement-special-stack-data-structure/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Special Stack"
+  },
+  {
+    "id": "babbar-SQ-8",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Next Greater Element",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/next-greater-element/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Next Greater Element"
+  },
+  {
+    "id": "babbar-SQ-9",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "The Celebrity Problem",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/the-celebrity-problem/",
+    "embedding_text": "Stacks & Queues Stacks & Queues The Celebrity Problem"
+  },
+  {
+    "id": "babbar-SQ-10",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Arithmetic Expression Evaluation",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/arithmetic-expression-evalution/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Arithmetic Expression Evaluation"
+  },
+  {
+    "id": "babbar-SQ-11",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Postfix Evaluation",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/evaluation-of-postfix-expression/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Postfix Evaluation"
+  },
+  {
+    "id": "babbar-SQ-12",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Reverse A Stack Using Recursion",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/reverse-a-stack-using-recursion/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Reverse A Stack Using Recursion"
+  },
+  {
+    "id": "babbar-SQ-13",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Sort a Stack",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/sort-a-stack-using-recursion/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Sort a Stack"
+  },
+  {
+    "id": "babbar-SQ-14",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Overlapping Intervals",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/merging-intervals/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Overlapping Intervals"
+  },
+  {
+    "id": "babbar-SQ-15",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Histogram Max Rectangular Area",
+    "pattern": "Stack",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/largest-rectangle-under-histogram/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Histogram Max Rectangular Area"
+  },
+  {
+    "id": "babbar-SQ-16",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Valid Substring",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-the-length-of-the-longest-valid-substring/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Valid Substring"
+  },
+  {
+    "id": "babbar-SQ-17",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Expression Contains Redundant Bracket Or Not",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/expression-contains-redundant-bracket-not/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Expression Contains Redundant Bracket Or Not"
+  },
+  {
+    "id": "babbar-SQ-18",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Stack Using Queue",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/implement-stack-using-queue/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Stack Using Queue"
+  },
+  {
+    "id": "babbar-SQ-19",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Implement Stack Queue Using Deque",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/implement-stack-queue-using-deque/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Implement Stack Queue Using Deque"
+  },
+  {
+    "id": "babbar-SQ-20",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Stack Permutations",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/check-if-an-array-is-stack-permutation-of-other/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Stack Permutations"
+  },
+  {
+    "id": "babbar-SQ-21",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Queue Using Two Stacks",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/queue-using-stacks/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Queue Using Two Stacks"
+  },
+  {
+    "id": "babbar-SQ-22",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Efficiently Implement K Queues in a Single Array",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/efficiently-implement-k-queues-single-array/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Efficiently Implement K Queues in a Single Array"
+  },
+  {
+    "id": "babbar-SQ-23",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Circular Queue",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/circular-queue-set-1-introduction-array-implementation/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Circular Queue"
+  },
+  {
+    "id": "babbar-SQ-24",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "LRU Cache",
+    "pattern": "Stack",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/lru-cache-implementation/",
+    "embedding_text": "Stacks & Queues Stacks & Queues LRU Cache"
+  },
+  {
+    "id": "babbar-SQ-25",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Queue Reversal",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/reversing-a-queue/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Queue Reversal"
+  },
+  {
+    "id": "babbar-SQ-26",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Reverse First K of a Queue",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/reverse-first-k-elements-queue/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Reverse First K of a Queue"
+  },
+  {
+    "id": "babbar-SQ-27",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Interleave First Half Queue Second Half",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/interleave-first-half-queue-second-half/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Interleave First Half Queue Second Half"
+  },
+  {
+    "id": "babbar-SQ-28",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Gas Station",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Gas Station"
+  },
+  {
+    "id": "babbar-SQ-29",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Rotten Oranges",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/rotten-oranges/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Rotten Oranges"
+  },
+  {
+    "id": "babbar-SQ-30",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Distance of Nearest Cell Having 1",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/distance-nearest-cell-1-binary-matrix/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Distance of Nearest Cell Having 1"
+  },
+  {
+    "id": "babbar-SQ-31",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "First Negative in Every Window of Size K",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/first-negative-integer-every-window-size-k/",
+    "embedding_text": "Stacks & Queues Stacks & Queues First Negative in Every Window of Size K"
+  },
+  {
+    "id": "babbar-SQ-32",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Check if All Levels of Two Trees are Anagrams or Not",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/check-if-all-levels-of-two-binary-trees-are-anagrams-or-not/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Check if All Levels of Two Trees are Anagrams or Not"
+  },
+  {
+    "id": "babbar-SQ-33",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Sum of Minimum and Maximum Elements of All Subarrays of Size K",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/sum-minimum-maximum-elements-subarrays-size-k/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Sum of Minimum and Maximum Elements of All Subarrays of Size K"
+  },
+  {
+    "id": "babbar-SQ-34",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Game with String",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/game-with-string/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Game with String"
+  },
+  {
+    "id": "babbar-SQ-35",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "First Non-Repeating Character in a Stream",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/first-non-repeating-character-in-a-stream/",
+    "embedding_text": "Stacks & Queues Stacks & Queues First Non-Repeating Character in a Stream"
+  },
+  {
+    "id": "babbar-SQ-36",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Next Smaller Element",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/next-smaller-element/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Next Smaller Element"
+  },
+  {
+    "id": "babbar-TR-1",
+    "topic": "Tries",
+    "section": "Trie",
+    "question": "Trie Insert And Search",
+    "pattern": "Trie",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/trie-insert-and-search/",
+    "embedding_text": "Tries Trie Trie Insert And Search"
+  },
+  {
+    "id": "babbar-TR-2",
+    "topic": "Tries",
+    "section": "Trie",
+    "question": "Find All Shortest Unique Prefixes",
+    "pattern": "Trie",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-all-shortest-unique-prefixes-to-represent-each-word-in-a-given-list/",
+    "embedding_text": "Tries Trie Find All Shortest Unique Prefixes"
+  },
+  {
+    "id": "babbar-TR-3",
+    "topic": "Tries",
+    "section": "Trie",
+    "question": "Word Break Problem Trie Solution",
+    "pattern": "Trie",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/word-break-problem-trie-solution/",
+    "embedding_text": "Tries Trie Word Break Problem Trie Solution"
+  },
+  {
+    "id": "babbar-TR-4",
+    "topic": "Tries",
+    "section": "Trie",
+    "question": "Print Anagrams Together",
+    "pattern": "Trie",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/print-anagrams-together/",
+    "embedding_text": "Tries Trie Print Anagrams Together"
+  },
+  {
+    "id": "babbar-TR-5",
+    "topic": "Tries",
+    "section": "Trie",
+    "question": "Phone Directory",
+    "pattern": "Trie",
+    "difficulty": "hard",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/implement-a-phone-directory/",
+    "embedding_text": "Tries Trie Phone Directory"
+  },
+  {
+    "id": "babbar-TR-6",
+    "topic": "Tries",
+    "section": "Trie",
+    "question": "Unique Rows in Boolean Matrix",
+    "pattern": "Trie",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-unique-rows-in-a-boolean-matrix/",
+    "embedding_text": "Tries Trie Unique Rows in Boolean Matrix"
+  },
+  {
+    "id": "babbar-BM-1",
+    "topic": "Bit Manipulation",
+    "section": "BitManipulation",
+    "question": "Number of 1 Bits",
+    "pattern": "BitManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/count-set-bits-in-an-integer/",
+    "embedding_text": "Bit Manipulation Bit Manipulation Number of 1 Bits"
+  },
+  {
+    "id": "babbar-BM-2",
+    "topic": "Bit Manipulation",
+    "section": "BitManipulation",
+    "question": "Unique Number II",
+    "pattern": "BitManipulation",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-two-non-repeating-elements-in-an-array-of-repeating-elements/",
+    "embedding_text": "Bit Manipulation Bit Manipulation Unique Number II"
+  },
+  {
+    "id": "babbar-BM-3",
+    "topic": "Bit Manipulation",
+    "section": "BitManipulation",
+    "question": "Bit Difference",
+    "pattern": "BitManipulation",
+    "difficulty": "basic",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/",
+    "embedding_text": "Bit Manipulation Bit Manipulation Bit Difference"
+  },
+  {
+    "id": "babbar-BM-4",
+    "topic": "Bit Manipulation",
+    "section": "BitManipulation",
+    "question": "Count Set Bits",
+    "pattern": "BitManipulation",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/count-set-bits-in-an-integer/",
+    "embedding_text": "Bit Manipulation Bit Manipulation Count Set Bits"
+  },
+  {
+    "id": "babbar-BM-5",
+    "topic": "Bit Manipulation",
+    "section": "BitManipulation",
+    "question": "Power of 2",
+    "pattern": "BitManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/program-to-find-whether-a-given-number-is-power-of-2/",
+    "embedding_text": "Bit Manipulation Bit Manipulation Power of 2"
+  },
+  {
+    "id": "babbar-BM-6",
+    "topic": "Bit Manipulation",
+    "section": "BitManipulation",
+    "question": "First Set Bit",
+    "pattern": "BitManipulation",
+    "difficulty": "basic",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/position-of-rightmost-set-bit/",
+    "embedding_text": "Bit Manipulation Bit Manipulation First Set Bit"
+  },
+  {
+    "id": "babbar-BM-7",
+    "topic": "Bit Manipulation",
+    "section": "BitManipulation",
+    "question": "Copy Set Bits In A Range",
+    "pattern": "BitManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/copy-set-bits-in-a-range/",
+    "embedding_text": "Bit Manipulation Bit Manipulation Copy Set Bits In A Range"
+  },
+  {
+    "id": "babbar-BM-8",
+    "topic": "Bit Manipulation",
+    "section": "BitManipulation",
+    "question": "Divide Two Integers Without Using Multiplication Division Mod Operator",
+    "pattern": "BitManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/divide-two-integers-without-using-multiplication-division-mod-operator/",
+    "embedding_text": "Bit Manipulation Bit Manipulation Divide Two Integers Without Using Multiplication Division Mod Operator"
+  },
+  {
+    "id": "babbar-BM-9",
+    "topic": "Bit Manipulation",
+    "section": "BitManipulation",
+    "question": "Calculate Square Of A Number Without Using And Pow",
+    "pattern": "BitManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/calculate-square-of-a-number-without-using-and-pow/",
+    "embedding_text": "Bit Manipulation Bit Manipulation Calculate Square Of A Number Without Using And Pow"
+  },
+  {
+    "id": "babbar-BM-10",
+    "topic": "Bit Manipulation",
+    "section": "BitManipulation",
+    "question": "Power Set",
+    "pattern": "BitManipulation",
+    "difficulty": "medium",
+    "sources": [
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/power-set/",
+    "embedding_text": "Bit Manipulation Bit Manipulation Power Set"
+  }
+]

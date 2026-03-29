@@ -1,0 +1,2831 @@
+[
+  {
+    "id": "arrays-majority-element",
+    "topic": "Arrays",
+    "section": "Array (Part 1)",
+    "question": "Majority Element",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/majority-element/",
+    "embedding_text": "Arrays Basics Majority Element",
+    "_origIds": [
+      "ARR-01",
+      "babbar-SS-08",
+      "striver-3.2-3"
+    ]
+  },
+  {
+    "id": "arrays-merge-2-sorted-arrays-without-extra-space",
+    "topic": "Arrays",
+    "section": "Array (Part 1)",
+    "question": "Merge 2 Sorted Arrays Without Extra Space",
+    "pattern": "Sorting",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/merge-sorted-array/",
+    "embedding_text": "Arrays Sorting Merge 2 Sorted Arrays Without Extra Space",
+    "_origIds": [
+      "ARR-03",
+      "striver-3.3-7"
+    ]
+  },
+  {
+    "id": "arrays-single-number",
+    "topic": "Arrays",
+    "section": "Array (Part 1)",
+    "question": "Single Number",
+    "pattern": "BitManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/single-number/",
+    "embedding_text": "Arrays Bit Manipulation Single Number",
+    "_origIds": [
+      "ARR-04",
+      "striver-3.1-12",
+      "striver-8.2-2"
+    ]
+  },
+  {
+    "id": "arrays-stock-buy-sell",
+    "topic": "Arrays",
+    "section": "Array (Part 1)",
+    "question": "Stock Buy & Sell",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "embedding_text": "Arrays Greedy Stock Buy & Sell",
+    "_origIds": [
+      "ARR-05",
+      "DP-02",
+      "babbar-ARR-04",
+      "striver-3.2-6",
+      "striver-16.6-1"
+    ]
+  },
+  {
+    "id": "arrays-pow-x-n",
+    "topic": "Arrays",
+    "section": "Array (Part 1)",
+    "question": "Pow(x, n)",
+    "pattern": "Math",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/powx-n/",
+    "embedding_text": "Arrays Math Pow(x, n)",
+    "_origIds": [
+      "ARR-06",
+      "striver-7.1-2",
+      "striver-8.3-5"
+    ]
+  },
+  {
+    "id": "arrays-kadane-s-algorithm",
+    "topic": "Arrays",
+    "section": "Array (Part 2)",
+    "question": "Kadane's Algorithm",
+    "pattern": "Kadane",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/maximum-subarray/",
+    "embedding_text": "Arrays Kadane / DP Kadane's Algorithm",
+    "_origIds": [
+      "ARR-07",
+      "babbar-ARR-12",
+      "striver-3.2-4"
+    ]
+  },
+  {
+    "id": "arrays-sort-array-of-0s-1s-2s",
+    "topic": "Arrays",
+    "section": "Array (Part 2)",
+    "question": "Sort Array of 0s, 1s & 2s",
+    "pattern": "Sorting",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/sort-colors/",
+    "embedding_text": "Arrays Sorting Sort Array of 0s, 1s & 2s",
+    "_origIds": [
+      "ARR-09",
+      "babbar-ARR-08",
+      "striver-3.2-2"
+    ]
+  },
+  {
+    "id": "arrays-3sum",
+    "topic": "Arrays",
+    "section": "Array (Part 2)",
+    "question": "3Sum",
+    "pattern": "TwoPointer",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/3sum/",
+    "embedding_text": "Arrays Two Pointers 3Sum",
+    "_origIds": [
+      "ARR-10",
+      "babbar-ARR-27",
+      "striver-3.3-3"
+    ]
+  },
+  {
+    "id": "arrays-4sum",
+    "topic": "Arrays",
+    "section": "Array (Part 2)",
+    "question": "4Sum",
+    "pattern": "TwoPointer",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/4sum/",
+    "embedding_text": "Arrays Two Pointers 4Sum",
+    "_origIds": [
+      "ARR-11",
+      "babbar-SS-11",
+      "striver-3.3-4"
+    ]
+  },
+  {
+    "id": "arrays-search-in-2d-matrix",
+    "topic": "Arrays",
+    "section": "Array (Part 2)",
+    "question": "Search in 2D Matrix",
+    "pattern": "Matrix",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/search-a-2d-matrix/",
+    "embedding_text": "Arrays Matrix Search in 2D Matrix",
+    "_origIds": [
+      "ARR-12",
+      "babbar-MAT-01",
+      "striver-4.2-2"
+    ]
+  },
+  {
+    "id": "arrays-next-permutation",
+    "topic": "Arrays",
+    "section": "Array (Part 3)",
+    "question": "Next Permutation",
+    "pattern": "Permutation",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/next-permutation/",
+    "embedding_text": "Arrays Permutation Next Permutation",
+    "_origIds": [
+      "ARR-13",
+      "babbar-ARR-03",
+      "babbar-STR-14",
+      "striver-3.2-8"
+    ]
+  },
+  {
+    "id": "arrays-merge-overlapping-intervals",
+    "topic": "Arrays",
+    "section": "Array (Part 3)",
+    "question": "Merge Overlapping Intervals",
+    "pattern": "Intervals",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/merge-intervals/",
+    "embedding_text": "Arrays Intervals Merge Overlapping Intervals",
+    "_origIds": [
+      "ARR-14",
+      "babbar-ARR-02",
+      "striver-3.3-6",
+      "striver-12.2-10"
+    ]
+  },
+  {
+    "id": "arrays-longest-substring-without-repeating",
+    "topic": "Arrays",
+    "section": "Array (Part 3)",
+    "question": "Longest Substring Without Repeating",
+    "pattern": "SlidingWindow",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "embedding_text": "Arrays Sliding Window Longest Substring Without Repeating",
+    "_origIds": [
+      "ARR-15",
+      "striver-10.1-1"
+    ]
+  },
+  {
+    "id": "arrays-set-matrix-zeroes",
+    "topic": "Arrays",
+    "section": "Array (Part 3)",
+    "question": "Set Matrix Zeroes",
+    "pattern": "Matrix",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "embedding_text": "Arrays Matrix Set Matrix Zeroes",
+    "_origIds": [
+      "ARR-16",
+      "striver-3.2-11"
+    ]
+  },
+  {
+    "id": "arrays-word-search",
+    "topic": "Arrays",
+    "section": "Array (Part 3)",
+    "question": "Word Search",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/word-search/",
+    "embedding_text": "Arrays Backtracking Word Search",
+    "_origIds": [
+      "ARR-17",
+      "striver-7.3-2"
+    ]
+  },
+  {
+    "id": "arrays-product-of-array-except-self",
+    "topic": "Arrays",
+    "section": "Array (Part 3)",
+    "question": "Product of Array Except Self",
+    "pattern": "PrefixProduct",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/product-of-array-except-self/",
+    "embedding_text": "Arrays Prefix Product Product of Array Except Self",
+    "_origIds": [
+      "ARR-18",
+      "babbar-SS-16"
+    ]
+  },
+  {
+    "id": "arrays-subarray-sum-equals-k",
+    "topic": "Arrays",
+    "section": "Array (Part 4)",
+    "question": "Subarray Sum Equals K",
+    "pattern": "PrefixSum",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/subarray-sum-equals-k/",
+    "embedding_text": "Arrays Prefix Sum Subarray Sum Equals K",
+    "_origIds": [
+      "ARR-19",
+      "babbar-ARR-20",
+      "striver-3.2-14"
+    ]
+  },
+  {
+    "id": "arrays-find-duplicate",
+    "topic": "Arrays",
+    "section": "Array (Part 4)",
+    "question": "Find Duplicate",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/find-the-duplicate-number/",
+    "embedding_text": "Arrays Binary Search Find Duplicate",
+    "_origIds": [
+      "ARR-20",
+      "babbar-ARR-01"
+    ]
+  },
+  {
+    "id": "arrays-count-inversions",
+    "topic": "Arrays",
+    "section": "Array (Part 4)",
+    "question": "Count Inversions",
+    "pattern": "MergeSort",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1",
+    "embedding_text": "Arrays Merge Sort Count Inversions",
+    "_origIds": [
+      "ARR-21",
+      "RB-11",
+      "babbar-ARR-16",
+      "babbar-SS-30",
+      "striver-3.3-9"
+    ]
+  },
+  {
+    "id": "arrays-spiral-matrix",
+    "topic": "Arrays",
+    "section": "Array (Part 4)",
+    "question": "Spiral Matrix",
+    "pattern": "Matrix",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/spiral-matrix/",
+    "embedding_text": "Arrays Matrix Spiral Matrix",
+    "_origIds": [
+      "ARR-22",
+      "babbar-MAT-02",
+      "striver-3.2-13"
+    ]
+  },
+  {
+    "id": "arrays-trapping-rain-water",
+    "topic": "Arrays",
+    "section": "Array (Part 5)",
+    "question": "Trapping Rain Water",
+    "pattern": "MonotonicStack",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/trapping-rain-water/",
+    "embedding_text": "Arrays Monotonic Stack Trapping Rain Water",
+    "_origIds": [
+      "ARR-24",
+      "babbar-ARR-28",
+      "striver-9.3-5"
+    ]
+  },
+  {
+    "id": "arrays-sliding-window-maximum",
+    "topic": "Arrays",
+    "section": "Array (Part 5)",
+    "question": "Sliding Window Maximum",
+    "pattern": "MonotonicQueue",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/sliding-window-maximum/",
+    "embedding_text": "Arrays Monotonic Queue Sliding Window Maximum",
+    "_origIds": [
+      "ARR-25",
+      "babbar-HEAP-04",
+      "striver-9.4-1"
+    ]
+  },
+  {
+    "id": "arrays-largest-rectangle-in-histogram",
+    "topic": "Arrays",
+    "section": "Array (Part 5)",
+    "question": "Largest Rectangle in Histogram",
+    "pattern": "Stack",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+    "embedding_text": "Arrays Stack Largest Rectangle in Histogram",
+    "_origIds": [
+      "ARR-26",
+      "SQ-16",
+      "striver-9.3-11"
+    ]
+  },
+  {
+    "id": "arrays-reverse-pairs",
+    "topic": "Arrays",
+    "section": "Array (Part 5)",
+    "question": "Reverse Pairs",
+    "pattern": "DivideConquer",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/reverse-pairs/",
+    "embedding_text": "Arrays Divide & Conquer Reverse Pairs",
+    "_origIds": [
+      "ARR-27",
+      "striver-3.3-10"
+    ]
+  },
+  {
+    "id": "strings-valid-palindrome",
+    "topic": "Strings",
+    "section": "Strings (Part 1)",
+    "question": "Valid Palindrome",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/valid-palindrome/",
+    "embedding_text": "Strings Basics Valid Palindrome",
+    "_origIds": [
+      "STR-01",
+      "babbar-STR-04",
+      "striver-1.5-8"
+    ]
+  },
+  {
+    "id": "strings-valid-anagram",
+    "topic": "Strings",
+    "section": "Strings (Part 1)",
+    "question": "Valid Anagram",
+    "pattern": "Hashing",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/valid-anagram/",
+    "embedding_text": "Strings Hashing Valid Anagram",
+    "_origIds": [
+      "STR-02",
+      "striver-5.1-7"
+    ]
+  },
+  {
+    "id": "strings-reverse-words-in-string",
+    "topic": "Strings",
+    "section": "Strings (Part 1)",
+    "question": "Reverse Words in String",
+    "pattern": "StringManipulation",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/reverse-words-in-a-string/",
+    "embedding_text": "Strings String Manipulation Reverse Words in String",
+    "_origIds": [
+      "STR-03",
+      "striver-5.1-2",
+      "striver-5.2-8"
+    ]
+  },
+  {
+    "id": "strings-longest-common-prefix",
+    "topic": "Strings",
+    "section": "Strings (Part 2)",
+    "question": "Longest Common Prefix",
+    "pattern": "PrefixSum",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-common-prefix/",
+    "embedding_text": "Strings Prefix Longest Common Prefix",
+    "_origIds": [
+      "STR-07",
+      "TR-05",
+      "babbar-STR-03",
+      "striver-5.1-4"
+    ]
+  },
+  {
+    "id": "strings-group-anagrams",
+    "topic": "Strings",
+    "section": "Strings (Part 2)",
+    "question": "Group Anagrams",
+    "pattern": "Hashing",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/group-anagrams/",
+    "embedding_text": "Strings Hashing Group Anagrams",
+    "_origIds": [
+      "STR-08",
+      "babbar-STR-33"
+    ]
+  },
+  {
+    "id": "strings-minimum-window-substring",
+    "topic": "Strings",
+    "section": "Strings (Part 2)",
+    "question": "Minimum Window Substring",
+    "pattern": "SlidingWindow",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/minimum-window-substring/",
+    "embedding_text": "Strings Sliding Window Minimum Window Substring",
+    "_origIds": [
+      "STR-09",
+      "babbar-STR-34",
+      "striver-10.2-3"
+    ]
+  },
+  {
+    "id": "strings-kmp-algorithm",
+    "topic": "Strings",
+    "section": "Strings (Part 2)",
+    "question": "KMP Algorithm",
+    "pattern": "PatternMatching",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-happy-prefix/",
+    "embedding_text": "Strings Pattern Matching KMP Algorithm",
+    "_origIds": [
+      "STR-10",
+      "striver-18.1-8"
+    ]
+  },
+  {
+    "id": "binary-search-single-element-in-sorted-array",
+    "topic": "Binary Search",
+    "section": "Binary Search",
+    "question": "Single Element in Sorted Array",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/single-element-in-a-sorted-array/",
+    "embedding_text": "Binary Search Binary Search Basics Single Element in Sorted Array",
+    "_origIds": [
+      "BS-2",
+      "striver-4.1-12"
+    ]
+  },
+  {
+    "id": "binary-search-search-in-rotated-sorted-array",
+    "topic": "Binary Search",
+    "section": "Binary Search",
+    "question": "Search in Rotated Sorted Array",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "embedding_text": "Binary Search Rotated Sorted Array Search in Rotated Sorted Array",
+    "_origIds": [
+      "BS-3",
+      "babbar-SS-01",
+      "striver-4.1-9"
+    ]
+  },
+  {
+    "id": "binary-search-aggressive-cows",
+    "topic": "Binary Search",
+    "section": "Binary Search",
+    "question": "Aggressive Cows",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/dsa/assign-stalls-to-k-cows-to-maximize-the-minimum-distance-between-them/",
+    "embedding_text": "Binary Search Binary Search on Answer Aggressive Cows",
+    "_origIds": [
+      "BS-4",
+      "striver-4.3-8"
+    ]
+  },
+  {
+    "id": "binary-search-allocate-minimum-pages",
+    "topic": "Binary Search",
+    "section": "Binary Search",
+    "question": "Allocate Minimum Pages",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1",
+    "embedding_text": "Binary Search Binary Search on Answer Allocate Minimum Pages",
+    "_origIds": [
+      "BS-5",
+      "babbar-SS-23"
+    ]
+  },
+  {
+    "id": "binary-search-median-of-two-sorted-arrays",
+    "topic": "Binary Search",
+    "section": "Binary Search",
+    "question": "Median of Two Sorted Arrays",
+    "pattern": "BinarySearch",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "embedding_text": "Binary Search Advanced Binary Search Median of Two Sorted Arrays",
+    "_origIds": [
+      "BS-7",
+      "babbar-ARR-35",
+      "striver-4.3-7",
+      "striver-4.3-13"
+    ]
+  },
+  {
+    "id": "recursion-backtracking-combination-sum-i",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking",
+    "question": "Combination Sum I",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/combination-sum/",
+    "embedding_text": "Recursion & Backtracking Combination Sum Combination Sum I",
+    "_origIds": [
+      "RB-1",
+      "babbar-BT-12",
+      "striver-7.2-7"
+    ]
+  },
+  {
+    "id": "recursion-backtracking-combination-sum-ii",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking",
+    "question": "Combination Sum II",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/combination-sum-ii/",
+    "embedding_text": "Recursion & Backtracking Combination Sum Combination Sum II",
+    "_origIds": [
+      "RB-2",
+      "striver-7.2-8"
+    ]
+  },
+  {
+    "id": "recursion-backtracking-palindrome-partitioning",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking",
+    "question": "Palindrome Partitioning",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/palindrome-partitioning/",
+    "embedding_text": "Recursion & Backtracking Partitioning / Backtracking Palindrome Partitioning",
+    "_origIds": [
+      "RB-3",
+      "babbar-BT-07",
+      "striver-7.3-1"
+    ]
+  },
+  {
+    "id": "recursion-backtracking-n-queens",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking",
+    "question": "N Queens",
+    "pattern": "Backtracking",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/n-queens/",
+    "embedding_text": "Recursion & Backtracking Backtracking N Queens",
+    "_origIds": [
+      "RB-4",
+      "striver-7.3-3"
+    ]
+  },
+  {
+    "id": "recursion-backtracking-sudoku-solver",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking",
+    "question": "Sudoku Solver",
+    "pattern": "Backtracking",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/sudoku-solver/",
+    "embedding_text": "Recursion & Backtracking Backtracking Sudoku Solver",
+    "_origIds": [
+      "RB-5",
+      "babbar-BT-05",
+      "striver-7.3-7"
+    ]
+  },
+  {
+    "id": "recursion-backtracking-m-coloring-problem",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking",
+    "question": "M Coloring Problem",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/m-coloring-problem-backtracking-5/",
+    "embedding_text": "Recursion & Backtracking Graph Coloring / Backtracking M Coloring Problem",
+    "_origIds": [
+      "RB-6",
+      "striver-7.3-6"
+    ]
+  },
+  {
+    "id": "recursion-backtracking-subsets-ii",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking (Day 10)",
+    "question": "Subsets II",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/subsets-ii/",
+    "embedding_text": "Recursion & Backtracking Subsets / Backtracking Subsets II",
+    "_origIds": [
+      "RB-8",
+      "striver-7.2-10"
+    ]
+  },
+  {
+    "id": "recursion-backtracking-merge-sort",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking (Day 10)",
+    "question": "Merge Sort",
+    "pattern": "DivideConquer",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/merge-sort/",
+    "embedding_text": "Recursion & Backtracking Divide and Conquer Merge Sort",
+    "_origIds": [
+      "RB-9",
+      "striver-2.2-1"
+    ]
+  },
+  {
+    "id": "recursion-backtracking-rat-in-a-maze",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking (Day 10)",
+    "question": "Rat in a Maze",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1",
+    "embedding_text": "Recursion & Backtracking Backtracking Rat in a Maze",
+    "_origIds": [
+      "RB-10",
+      "babbar-BT-02",
+      "babbar-GR-11",
+      "striver-7.3-4"
+    ]
+  },
+  {
+    "id": "linked-list-middle-of-a-linked-list",
+    "topic": "Linked List",
+    "section": "Linked List (Part 1)",
+    "question": "Middle of a Linked List",
+    "pattern": "LinkedListBasics",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/middle-of-the-linked-list/",
+    "embedding_text": "Linked List Linked List Basics Middle of a Linked List",
+    "_origIds": [
+      "LL-1",
+      "babbar-LL-01",
+      "striver-6.3-1"
+    ]
+  },
+  {
+    "id": "linked-list-reverse-linked-list",
+    "topic": "Linked List",
+    "section": "Linked List (Part 1)",
+    "question": "Reverse Linked List",
+    "pattern": "LinkedListBasics",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/reverse-linked-list/",
+    "embedding_text": "Linked List Linked List Basics Reverse Linked List",
+    "_origIds": [
+      "LL-2",
+      "babbar-LL-02",
+      "striver-6.3-2",
+      "striver-6.3-3"
+    ]
+  },
+  {
+    "id": "linked-list-remove-cycle-in-a-linked-list",
+    "topic": "Linked List",
+    "section": "Linked List (Part 1)",
+    "question": "Remove Cycle in a Linked List",
+    "pattern": "FloydCycle",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/linked-list-cycle-ii/",
+    "embedding_text": "Linked List Cycle in Linked List Remove Cycle in a Linked List",
+    "_origIds": [
+      "LL-3",
+      "striver-6.3-5"
+    ]
+  },
+  {
+    "id": "linked-list-detect-cycle-in-a-linked-list",
+    "topic": "Linked List",
+    "section": "Linked List (Part 1)",
+    "question": "Detect Cycle in a Linked List",
+    "pattern": "FloydCycle",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/linked-list-cycle/",
+    "embedding_text": "Linked List Cycle in Linked List Detect Cycle in a Linked List",
+    "_origIds": [
+      "LL-4",
+      "babbar-LL-04",
+      "striver-6.3-4"
+    ]
+  },
+  {
+    "id": "linked-list-is-linked-list-a-palindrome-or-not",
+    "topic": "Linked List",
+    "section": "Linked List (Part 2)",
+    "question": "Is Linked List a Palindrome or Not",
+    "pattern": "LinkedListBasics",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/palindrome-linked-list/",
+    "embedding_text": "Linked List Linked List Basics Is Linked List a Palindrome or Not",
+    "_origIds": [
+      "LL-7",
+      "babbar-LL-18",
+      "striver-6.3-7"
+    ]
+  },
+  {
+    "id": "linked-list-clone-list-with-random-pointers",
+    "topic": "Linked List",
+    "section": "Linked List (Part 2)",
+    "question": "Clone List with Random Pointers",
+    "pattern": "LinkedListAdvanced",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "embedding_text": "Linked List Linked List Advanced Clone List with Random Pointers",
+    "_origIds": [
+      "LL-8",
+      "babbar-LL-28",
+      "striver-6.5-4"
+    ]
+  },
+  {
+    "id": "linked-list-add-2-numbers",
+    "topic": "Linked List",
+    "section": "Linked List (Part 2)",
+    "question": "Add 2 Numbers",
+    "pattern": "Math",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/add-two-numbers/",
+    "embedding_text": "Linked List Linked List Math Add 2 Numbers",
+    "_origIds": [
+      "LL-10",
+      "babbar-LL-11",
+      "striver-6.3-15"
+    ]
+  },
+  {
+    "id": "linked-list-reverse-nodes-in-k-groups",
+    "topic": "Linked List",
+    "section": "Linked List (Part 2)",
+    "question": "Reverse Nodes in K Groups",
+    "pattern": "Reversal",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+    "embedding_text": "Linked List Linked List Reversal Reverse Nodes in K Groups",
+    "_origIds": [
+      "LL-11",
+      "striver-6.5-1"
+    ]
+  },
+  {
+    "id": "linked-list-rotate-a-linked-list",
+    "topic": "Linked List",
+    "section": "Linked List (Part 2)",
+    "question": "Rotate a Linked List",
+    "pattern": "LinkedListOps",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/rotate-list/",
+    "embedding_text": "Linked List Linked List Operations Rotate a Linked List",
+    "_origIds": [
+      "LL-12",
+      "striver-6.5-2"
+    ]
+  },
+  {
+    "id": "stacks-queues-implement-stack-using-queue",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 1)",
+    "question": "Implement Stack using Queue",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/implement-stack-using-queues/",
+    "embedding_text": "Stacks & Queues Stack using Queue Implement Stack using Queue",
+    "_origIds": [
+      "SQ-1",
+      "striver-9.1-3"
+    ]
+  },
+  {
+    "id": "stacks-queues-next-greater-element-i",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 1)",
+    "question": "Next Greater Element I",
+    "pattern": "MonotonicStack",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/next-greater-element-i/",
+    "embedding_text": "Stacks & Queues Monotonic Stack Next Greater Element I",
+    "_origIds": [
+      "SQ-2",
+      "striver-9.3-1"
+    ]
+  },
+  {
+    "id": "stacks-queues-implement-queue-using-stack",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 1)",
+    "question": "Implement Queue using Stack",
+    "pattern": "Queue",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/implement-queue-using-stacks/",
+    "embedding_text": "Stacks & Queues Queue using Stack Implement Queue using Stack",
+    "_origIds": [
+      "SQ-3",
+      "striver-9.1-4"
+    ]
+  },
+  {
+    "id": "stacks-queues-valid-parenthesis",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 1)",
+    "question": "Valid Parenthesis",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/valid-parentheses/",
+    "embedding_text": "Stacks & Queues Stack Basics Valid Parenthesis",
+    "_origIds": [
+      "SQ-4",
+      "babbar-STR-15",
+      "striver-9.1-7"
+    ]
+  },
+  {
+    "id": "stacks-queues-lru-cache",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 2)",
+    "question": "LRU Cache",
+    "pattern": "Design",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/lru-cache/",
+    "embedding_text": "Stacks & Queues Design / Cache LRU Cache",
+    "_origIds": [
+      "SQ-8",
+      "striver-9.4-5"
+    ]
+  },
+  {
+    "id": "stacks-queues-get-min-element-from-stack",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 2)",
+    "question": "Get Min Element from Stack",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/min-stack/",
+    "embedding_text": "Stacks & Queues Stack Get Min Element from Stack",
+    "_origIds": [
+      "SQ-9",
+      "striver-9.1-8"
+    ]
+  },
+  {
+    "id": "stacks-queues-next-smaller-element",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 2)",
+    "question": "Next Smaller Element",
+    "pattern": "MonotonicStack",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/next-smaller-element-1587115620/1",
+    "embedding_text": "Stacks & Queues Monotonic Stack Next Smaller Element",
+    "_origIds": [
+      "SQ-10",
+      "babbar-SQ-36",
+      "striver-9.3-3"
+    ]
+  },
+  {
+    "id": "stacks-queues-rotten-oranges",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 3)",
+    "question": "Rotten Oranges",
+    "pattern": "BFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/rotting-oranges/",
+    "embedding_text": "Stacks & Queues Queue / BFS Rotten Oranges",
+    "_origIds": [
+      "SQ-12",
+      "GR-15",
+      "striver-9.4-4",
+      "striver-15.2-3"
+    ]
+  },
+  {
+    "id": "stacks-queues-sort-a-stack",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 3)",
+    "question": "Sort a Stack",
+    "pattern": "Recursion",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/sort-a-stack/1",
+    "embedding_text": "Stacks & Queues Stack / Recursion Sort a Stack",
+    "_origIds": [
+      "SQ-13",
+      "babbar-SQ-13"
+    ]
+  },
+  {
+    "id": "stacks-queues-stock-span",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 3)",
+    "question": "Stock Span",
+    "pattern": "MonotonicStack",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/online-stock-span/",
+    "embedding_text": "Stacks & Queues Monotonic Stack Stock Span",
+    "_origIds": [
+      "SQ-14",
+      "striver-9.3-7",
+      "striver-9.4-2"
+    ]
+  },
+  {
+    "id": "binary-trees-preorder-traversal",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 1)",
+    "question": "Preorder Traversal",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+    "embedding_text": "Binary Trees Tree Traversals Preorder Traversal",
+    "_origIds": [
+      "BT-1",
+      "striver-13.1-5",
+      "striver-13.1-9"
+    ]
+  },
+  {
+    "id": "binary-trees-level-order-traversal",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 1)",
+    "question": "Level Order Traversal",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "embedding_text": "Binary Trees Tree Traversals Level Order Traversal",
+    "_origIds": [
+      "BT-2",
+      "GR-02",
+      "striver-13.1-8"
+    ]
+  },
+  {
+    "id": "binary-trees-inorder-traversal",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 1)",
+    "question": "Inorder Traversal",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "embedding_text": "Binary Trees Tree Traversals Inorder Traversal",
+    "_origIds": [
+      "BT-3",
+      "striver-13.1-6",
+      "striver-13.1-10",
+      "striver-13.3-12",
+      "striver-13.3-13"
+    ]
+  },
+  {
+    "id": "binary-trees-symmetric-tree",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 1)",
+    "question": "Symmetric Tree",
+    "pattern": "Recursion",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/symmetric-tree/",
+    "embedding_text": "Binary Trees Tree Properties Symmetric Tree",
+    "_origIds": [
+      "BT-5",
+      "BT-10",
+      "striver-13.2-12"
+    ]
+  },
+  {
+    "id": "binary-trees-postorder-traversal",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 1)",
+    "question": "Postorder Traversal",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+    "embedding_text": "Binary Trees Tree Traversals Postorder Traversal",
+    "_origIds": [
+      "BT-6",
+      "striver-13.1-7",
+      "striver-13.1-11",
+      "striver-13.1-12"
+    ]
+  },
+  {
+    "id": "binary-trees-diameter-of-a-tree",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 2)",
+    "question": "Diameter of a Tree",
+    "pattern": "Recursion",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "embedding_text": "Binary Trees Tree Properties Diameter of a Tree",
+    "_origIds": [
+      "BT-8",
+      "striver-13.2-3"
+    ]
+  },
+  {
+    "id": "binary-trees-are-2-trees-identical-or-not",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 2)",
+    "question": "Are 2 Trees Identical or Not",
+    "pattern": "Recursion",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/same-tree/",
+    "embedding_text": "Binary Trees Tree Comparison Are 2 Trees Identical or Not",
+    "_origIds": [
+      "BT-9",
+      "striver-13.2-5"
+    ]
+  },
+  {
+    "id": "binary-trees-is-tree-height-balanced",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 2)",
+    "question": "Is Tree Height Balanced",
+    "pattern": "Recursion",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/balanced-binary-tree/",
+    "embedding_text": "Binary Trees Tree Properties Is Tree Height Balanced",
+    "_origIds": [
+      "BT-12",
+      "striver-13.2-2"
+    ]
+  },
+  {
+    "id": "binary-trees-lowest-common-ancestor-lca",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 3)",
+    "question": "Lowest Common Ancestor (LCA)",
+    "pattern": "Recursion",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "embedding_text": "Binary Trees Tree Queries Lowest Common Ancestor (LCA)",
+    "_origIds": [
+      "BT-15",
+      "striver-13.3-2"
+    ]
+  },
+  {
+    "id": "binary-trees-construct-bt-from-inorder-preorder",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 3)",
+    "question": "Construct BT from Inorder & Preorder",
+    "pattern": "Recursion",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+    "embedding_text": "Binary Trees Tree Construction Construct BT from Inorder & Preorder",
+    "_origIds": [
+      "BT-17",
+      "striver-13.3-9"
+    ]
+  },
+  {
+    "id": "binary-trees-transform-to-sum-tree",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 3)",
+    "question": "Transform to Sum Tree",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/transform-to-sum-tree/1",
+    "embedding_text": "Binary Trees Tree Transformation Transform to Sum Tree",
+    "_origIds": [
+      "BT-18",
+      "babbar-BT-16"
+    ]
+  },
+  {
+    "id": "binary-trees-flatten-bt-to-ll",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 4)",
+    "question": "Flatten BT to LL",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+    "embedding_text": "Binary Trees Tree Transformation Flatten BT to LL",
+    "_origIds": [
+      "BT-19",
+      "striver-13.3-14"
+    ]
+  },
+  {
+    "id": "binary-trees-max-path-sum",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 4)",
+    "question": "Max Path Sum",
+    "pattern": "TreeDP",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    "embedding_text": "Binary Trees Tree DP Max Path Sum",
+    "_origIds": [
+      "BT-20",
+      "striver-13.2-4"
+    ]
+  },
+  {
+    "id": "binary-trees-max-width-of-bt",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 4)",
+    "question": "Max Width of BT",
+    "pattern": "Recursion",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/maximum-width-of-binary-tree/",
+    "embedding_text": "Binary Trees Tree Properties Max Width of BT",
+    "_origIds": [
+      "BT-21",
+      "striver-13.3-3"
+    ]
+  },
+  {
+    "id": "binary-trees-construct-bt-from-inorder-postorder",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 4)",
+    "question": "Construct BT from Inorder & Postorder",
+    "pattern": "Recursion",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
+    "embedding_text": "Binary Trees Tree Construction Construct BT from Inorder & Postorder",
+    "_origIds": [
+      "BT-22",
+      "striver-13.3-10"
+    ]
+  },
+  {
+    "id": "binary-trees-zig-zag-traversal-of-bt",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 4)",
+    "question": "Zig Zag Traversal of BT",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+    "embedding_text": "Binary Trees Tree Traversal Zig Zag Traversal of BT",
+    "_origIds": [
+      "BT-23",
+      "striver-13.2-6"
+    ]
+  },
+  {
+    "id": "bst-kth-largest-in-bst",
+    "topic": "BST",
+    "section": "BST (Part 1)",
+    "question": "Kth Largest in BST",
+    "pattern": "BSTTraversal",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+    "embedding_text": "BST BST Order Statistics Kth Largest in BST",
+    "_origIds": [
+      "BST-01",
+      "striver-11.3-3"
+    ]
+  },
+  {
+    "id": "bst-kth-smallest-in-bst",
+    "topic": "BST",
+    "section": "BST (Part 1)",
+    "question": "Kth Smallest in BST",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+    "embedding_text": "BST BST Order Statistics Kth Smallest in BST",
+    "_origIds": [
+      "BST-03",
+      "babbar-BST-13",
+      "striver-14.2-5"
+    ]
+  },
+  {
+    "id": "bst-lca-in-bst",
+    "topic": "BST",
+    "section": "BST (Part 1)",
+    "question": "LCA in BST",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+    "embedding_text": "BST BST Queries LCA in BST",
+    "_origIds": [
+      "BST-04",
+      "babbar-BST-07",
+      "striver-14.2-7"
+    ]
+  },
+  {
+    "id": "bst-validate-bst",
+    "topic": "BST",
+    "section": "BST (Part 1)",
+    "question": "Validate BST",
+    "pattern": "BSTValidation",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "embedding_text": "BST BST Validation Validate BST",
+    "_origIds": [
+      "BST-05",
+      "babbar-BST-05",
+      "striver-14.2-6"
+    ]
+  },
+  {
+    "id": "bst-recover-bst",
+    "topic": "BST",
+    "section": "BST (Part 2)",
+    "question": "Recover BST",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/recover-binary-search-tree/",
+    "embedding_text": "BST BST Correction Recover BST",
+    "_origIds": [
+      "BST-06",
+      "striver-14.2-12"
+    ]
+  },
+  {
+    "id": "bst-construct-bst-from-preorder",
+    "topic": "BST",
+    "section": "BST (Part 2)",
+    "question": "Construct BST from Preorder",
+    "pattern": "BSTConstruction",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/",
+    "embedding_text": "BST BST Construction Construct BST from Preorder",
+    "_origIds": [
+      "BST-08",
+      "babbar-BST-08",
+      "striver-14.2-8"
+    ]
+  },
+  {
+    "id": "bst-bst-iterator",
+    "topic": "BST",
+    "section": "BST (Part 2)",
+    "question": "BST Iterator",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/binary-search-tree-iterator/",
+    "embedding_text": "BST BST Iterator BST Iterator",
+    "_origIds": [
+      "BST-09",
+      "striver-14.2-10"
+    ]
+  },
+  {
+    "id": "bst-inorder-successor",
+    "topic": "BST",
+    "section": "BST (Part 3)",
+    "question": "Inorder Successor",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/inorder-successor-in-bst/",
+    "embedding_text": "BST BST Traversal Inorder Successor",
+    "_origIds": [
+      "BST-15",
+      "striver-14.2-9"
+    ]
+  },
+  {
+    "id": "heaps-merge-k-sorted-arrays",
+    "topic": "Heaps",
+    "section": "Heaps",
+    "question": "Merge K Sorted Arrays",
+    "pattern": "Heap",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "embedding_text": "Heaps Heap Merging Merge K Sorted Arrays",
+    "_origIds": [
+      "HP-01",
+      "babbar-LL-29",
+      "babbar-HEAP-10",
+      "striver-11.2-4"
+    ]
+  },
+  {
+    "id": "heaps-k-most-frequent-elements",
+    "topic": "Heaps",
+    "section": "Heaps",
+    "question": "K Most Frequent Elements",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "embedding_text": "Heaps Top K Elements K Most Frequent Elements",
+    "_origIds": [
+      "HP-02",
+      "striver-11.3-6"
+    ]
+  },
+  {
+    "id": "heaps-median-from-stream",
+    "topic": "Heaps",
+    "section": "Heaps",
+    "question": "Median from Stream",
+    "pattern": "Heap",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "embedding_text": "Heaps Heap + Stream Median from Stream",
+    "_origIds": [
+      "HP-03",
+      "striver-11.3-5"
+    ]
+  },
+  {
+    "id": "heaps-smallest-range-in-k-sorted-list",
+    "topic": "Heaps",
+    "section": "Heaps",
+    "question": "Smallest Range in K Sorted List",
+    "pattern": "Heap",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+    "embedding_text": "Heaps Heap Range Problems Smallest Range in K Sorted List",
+    "_origIds": [
+      "HP-04",
+      "babbar-HEAP-11"
+    ]
+  },
+  {
+    "id": "heaps-kth-smallest-element",
+    "topic": "Heaps",
+    "section": "Heaps",
+    "question": "Kth Smallest Element",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "embedding_text": "Heaps Heap Selection Kth Smallest Element",
+    "_origIds": [
+      "HP-05",
+      "babbar-ARR-07",
+      "babbar-HEAP-06",
+      "striver-11.2-1"
+    ]
+  },
+  {
+    "id": "heaps-heap-sort",
+    "topic": "Heaps",
+    "section": "Heaps",
+    "question": "Heap Sort",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/heap-sort/1",
+    "embedding_text": "Heaps Heap Sorting Heap Sort",
+    "_origIds": [
+      "HP-06",
+      "babbar-HEAP-03"
+    ]
+  },
+  {
+    "id": "tries-word-break-problem",
+    "topic": "Tries",
+    "section": "Tries",
+    "question": "Word Break Problem",
+    "pattern": "Trie",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/word-break/",
+    "embedding_text": "Tries Trie + DP Word Break Problem",
+    "_origIds": [
+      "TR-01",
+      "babbar-STR-16",
+      "striver-7.3-5"
+    ]
+  },
+  {
+    "id": "tries-implement-a-trie",
+    "topic": "Tries",
+    "section": "Tries",
+    "question": "Implement a Trie",
+    "pattern": "Trie",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+    "embedding_text": "Tries Trie Basics Implement a Trie",
+    "_origIds": [
+      "TR-02",
+      "striver-17.1-1"
+    ]
+  },
+  {
+    "id": "graphs-detect-cycle-in-directed-graph-using-dfs",
+    "topic": "Graphs",
+    "section": "Graphs (Part 1)",
+    "question": "Detect Cycle in Directed Graph using DFS",
+    "pattern": "CycleDetection",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/course-schedule/",
+    "embedding_text": "Graphs Cycle Detection Detect Cycle in Directed Graph using DFS",
+    "_origIds": [
+      "GR-05",
+      "GR-06",
+      "striver-15.2-14",
+      "striver-15.3-4"
+    ]
+  },
+  {
+    "id": "graphs-flood-fill-algorithm",
+    "topic": "Graphs",
+    "section": "Graphs (Part 2)",
+    "question": "Flood Fill Algorithm",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/flood-fill/",
+    "embedding_text": "Graphs Graph Traversal Flood Fill Algorithm",
+    "_origIds": [
+      "GR-08",
+      "babbar-GR-01",
+      "striver-15.2-4"
+    ]
+  },
+  {
+    "id": "graphs-course-schedule-ii",
+    "topic": "Graphs",
+    "section": "Graphs (Part 2)",
+    "question": "Course Schedule II",
+    "pattern": "TopologicalSort",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/course-schedule-ii/",
+    "embedding_text": "Graphs Topological Sort Course Schedule II",
+    "_origIds": [
+      "GR-10",
+      "striver-15.3-5"
+    ]
+  },
+  {
+    "id": "graphs-cheapest-flights-within-k-stops",
+    "topic": "Graphs",
+    "section": "Graphs (Part 2)",
+    "question": "Cheapest Flights within K Stops",
+    "pattern": "ShortestPath",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+    "embedding_text": "Graphs Shortest Path Cheapest Flights within K Stops",
+    "_origIds": [
+      "GR-11",
+      "GR-18",
+      "babbar-GR-06",
+      "striver-15.4-7"
+    ]
+  },
+  {
+    "id": "graphs-dijkstra-s-algorithm",
+    "topic": "Graphs",
+    "section": "Graphs (Part 2)",
+    "question": "Dijkstra's Algorithm",
+    "pattern": "ShortestPath",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/network-delay-time/",
+    "embedding_text": "Graphs Shortest Path Dijkstra's Algorithm",
+    "_origIds": [
+      "GR-12",
+      "striver-15.4-8"
+    ]
+  },
+  {
+    "id": "graphs-clone-a-graph",
+    "topic": "Graphs",
+    "section": "Graphs (Part 3)",
+    "question": "Clone a Graph",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/clone-graph/",
+    "embedding_text": "Graphs Graph Traversal Clone a Graph",
+    "_origIds": [
+      "GR-16",
+      "babbar-GR-02"
+    ]
+  },
+  {
+    "id": "graphs-01-matrix",
+    "topic": "Graphs",
+    "section": "Graphs (Part 3)",
+    "question": "01 Matrix",
+    "pattern": "BFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/01-matrix/",
+    "embedding_text": "Graphs Multi Source BFS 01 Matrix",
+    "_origIds": [
+      "GR-19",
+      "striver-15.2-7"
+    ]
+  },
+  {
+    "id": "graphs-number-of-islands",
+    "topic": "Graphs",
+    "section": "Graphs (Part 4)",
+    "question": "Number of Islands",
+    "pattern": "BFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/number-of-islands/",
+    "embedding_text": "Graphs Grid Traversal Number of Islands",
+    "_origIds": [
+      "GR-20",
+      "babbar-GR-17"
+    ]
+  },
+  {
+    "id": "graphs-is-graph-bipartite",
+    "topic": "Graphs",
+    "section": "Graphs (Part 4)",
+    "question": "Is Graph Bipartite?",
+    "pattern": "GraphColoring",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/is-graph-bipartite/",
+    "embedding_text": "Graphs Graph Coloring Is Graph Bipartite?",
+    "_origIds": [
+      "GR-21",
+      "striver-15.2-13"
+    ]
+  },
+  {
+    "id": "graphs-most-stones-removed",
+    "topic": "Graphs",
+    "section": "Graphs (Part 4)",
+    "question": "Most Stones Removed",
+    "pattern": "DSU",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
+    "embedding_text": "Graphs Disjoint Set (DSU) Most Stones Removed",
+    "_origIds": [
+      "GR-23",
+      "striver-15.5-7"
+    ]
+  },
+  {
+    "id": "graphs-number-of-ways-to-arrive-at-destination",
+    "topic": "Graphs",
+    "section": "Graphs (Part 4)",
+    "question": "Number of Ways to Arrive at Destination",
+    "pattern": "ShortestPath",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/",
+    "embedding_text": "Graphs Shortest Path Number of Ways to Arrive at Destination",
+    "_origIds": [
+      "GR-24",
+      "striver-15.4-9"
+    ]
+  },
+  {
+    "id": "graphs-number-of-provinces",
+    "topic": "Graphs",
+    "section": "Graphs (Part 4)",
+    "question": "Number of Provinces",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/number-of-provinces/",
+    "embedding_text": "Graphs Connected Components Number of Provinces",
+    "_origIds": [
+      "GR-25",
+      "striver-15.2-1"
+    ]
+  },
+  {
+    "id": "graphs-alien-dictionary",
+    "topic": "Graphs",
+    "section": "Graphs (Part 4)",
+    "question": "Alien Dictionary",
+    "pattern": "TopologicalSort",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/alien-dictionary/1",
+    "embedding_text": "Graphs Topological Sort Alien Dictionary",
+    "_origIds": [
+      "GR-26",
+      "babbar-GR-18"
+    ]
+  },
+  {
+    "id": "dynamic-programming-target-sum-subset",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 1)",
+    "question": "Target Sum Subset",
+    "pattern": "SubsetDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/target-sum/",
+    "embedding_text": "Dynamic Programming Subset DP Target Sum Subset",
+    "_origIds": [
+      "DP-03",
+      "striver-16.4-8"
+    ]
+  },
+  {
+    "id": "dynamic-programming-coin-change",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 1)",
+    "question": "Coin Change",
+    "pattern": "CoinChangeDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/coin-change/",
+    "embedding_text": "Dynamic Programming Coin Change DP Coin Change",
+    "_origIds": [
+      "DP-04",
+      "DP-05",
+      "striver-16.4-7"
+    ]
+  },
+  {
+    "id": "dynamic-programming-longest-common-substring",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 2)",
+    "question": "Longest Common Substring",
+    "pattern": "StringDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/longest-common-substring1452/1",
+    "embedding_text": "Dynamic Programming String DP Longest Common Substring",
+    "_origIds": [
+      "DP-06",
+      "babbar-DP-34"
+    ]
+  },
+  {
+    "id": "dynamic-programming-longest-common-subsequence",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 2)",
+    "question": "Longest Common Subsequence",
+    "pattern": "StringDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-common-subsequence/",
+    "embedding_text": "Dynamic Programming String DP Longest Common Subsequence",
+    "_origIds": [
+      "DP-07",
+      "babbar-STR-28",
+      "babbar-DP-16",
+      "striver-16.5-1"
+    ]
+  },
+  {
+    "id": "dynamic-programming-longest-increasing-subsequence",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 2)",
+    "question": "Longest Increasing Subsequence",
+    "pattern": "LIS",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "embedding_text": "Dynamic Programming Sequence DP Longest Increasing Subsequence",
+    "_origIds": [
+      "DP-08",
+      "babbar-DP-18",
+      "striver-16.7-1"
+    ]
+  },
+  {
+    "id": "dynamic-programming-edit-distance",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 2)",
+    "question": "Edit Distance",
+    "pattern": "StringDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/edit-distance/",
+    "embedding_text": "Dynamic Programming String DP Edit Distance",
+    "_origIds": [
+      "DP-09",
+      "babbar-STR-13",
+      "babbar-DP-09",
+      "striver-16.5-9"
+    ]
+  },
+  {
+    "id": "dynamic-programming-longest-palindromic-subsequenc",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 2)",
+    "question": "Longest Palindromic Subsequence",
+    "pattern": "PalindromeDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-palindromic-subsequence/",
+    "embedding_text": "Dynamic Programming Palindrome DP Longest Palindromic Subsequence",
+    "_origIds": [
+      "DP-10",
+      "striver-16.5-4"
+    ]
+  },
+  {
+    "id": "dynamic-programming-buy-sell-stocks-ii",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 2)",
+    "question": "Buy & Sell Stocks II",
+    "pattern": "StockDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+    "embedding_text": "Dynamic Programming Stock DP Buy & Sell Stocks II",
+    "_origIds": [
+      "DP-11",
+      "striver-16.6-2"
+    ]
+  },
+  {
+    "id": "dynamic-programming-palindromic-partitioning",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 3)",
+    "question": "Palindromic Partitioning",
+    "pattern": "PartitionDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/palindrome-partitioning-ii/",
+    "embedding_text": "Dynamic Programming Partition DP Palindromic Partitioning",
+    "_origIds": [
+      "DP-15",
+      "striver-16.8-6"
+    ]
+  },
+  {
+    "id": "dynamic-programming-minimum-partitioning",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 4)",
+    "question": "Minimum Partitioning",
+    "pattern": "PartitionDP",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/partition-equal-subset-sum/",
+    "embedding_text": "Dynamic Programming Partition DP Minimum Partitioning",
+    "_origIds": [
+      "DP-17",
+      "babbar-BT-08",
+      "babbar-DP-10",
+      "striver-16.4-2"
+    ]
+  },
+  {
+    "id": "dynamic-programming-maximum-product-subarray",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 4)",
+    "question": "Maximum Product Subarray",
+    "pattern": "ArrayDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/maximum-product-subarray/",
+    "embedding_text": "Dynamic Programming Array DP Maximum Product Subarray",
+    "_origIds": [
+      "DP-18",
+      "babbar-ARR-22",
+      "striver-3.3-11"
+    ]
+  },
+  {
+    "id": "dynamic-programming-wildcard-pattern-matching",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 4)",
+    "question": "Wildcard Pattern Matching",
+    "pattern": "StringDP",
+    "difficulty": "hard",
+    "sources": [
+      "apna",
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/wildcard-matching/",
+    "embedding_text": "Dynamic Programming String DP Wildcard Pattern Matching",
+    "_origIds": [
+      "DP-19",
+      "babbar-STR-36",
+      "striver-16.5-10"
+    ]
+  },
+  {
+    "id": "greedy-assign-cookies",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Assign Cookies",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/assign-cookies/",
+    "embedding_text": "Greedy Greedy Basics Assign Cookies",
+    "_origIds": [
+      "GREEDY-01",
+      "striver-12.1-1"
+    ]
+  },
+  {
+    "id": "greedy-fractional-knapsack",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Fractional Knapsack",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1",
+    "embedding_text": "Greedy Knapsack (Greedy) Fractional Knapsack",
+    "_origIds": [
+      "GREEDY-03",
+      "babbar-GR-5"
+    ]
+  },
+  {
+    "id": "greedy-activity-selection",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Activity Selection",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/non-overlapping-intervals/",
+    "embedding_text": "Greedy Interval Scheduling Activity Selection",
+    "_origIds": [
+      "GREEDY-05",
+      "striver-12.2-11"
+    ]
+  },
+  {
+    "id": "greedy-maximum-length-of-pair-chain",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Maximum Length of Pair Chain",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "babbar"
+    ],
+    "leetcode": "https://leetcode.com/problems/maximum-length-of-pair-chain/",
+    "embedding_text": "Greedy Interval DP / Greedy Maximum Length of Pair Chain",
+    "_origIds": [
+      "GREEDY-06",
+      "babbar-DP-02"
+    ]
+  },
+  {
+    "id": "miscellaneous-power-set",
+    "topic": "Miscellaneous",
+    "section": "Miscellaneous",
+    "question": "Power Set",
+    "pattern": "BitManipulation",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/subsets/",
+    "embedding_text": "Miscellaneous Bit Manipulation Power Set",
+    "_origIds": [
+      "MISC-01",
+      "striver-7.2-3",
+      "striver-8.2-3"
+    ]
+  },
+  {
+    "id": "miscellaneous-max-xor-of-two-numbers",
+    "topic": "Miscellaneous",
+    "section": "Miscellaneous",
+    "question": "Max XOR of Two Numbers",
+    "pattern": "BitManipulation",
+    "difficulty": "medium",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+    "embedding_text": "Miscellaneous Bit Manipulation + Trie Max XOR of Two Numbers",
+    "_origIds": [
+      "MISC-02",
+      "striver-17.2-5"
+    ]
+  },
+  {
+    "id": "miscellaneous-power-of-two",
+    "topic": "Miscellaneous",
+    "section": "Miscellaneous",
+    "question": "Power of Two",
+    "pattern": "BitManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "apna",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/power-of-two/",
+    "embedding_text": "Miscellaneous Bit Manipulation Power of Two",
+    "_origIds": [
+      "MISC-03",
+      "striver-8.1-4"
+    ]
+  },
+  {
+    "id": "arrays-minimum-jumps",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Minimum Jumps",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/jump-game-ii/",
+    "embedding_text": "Arrays Greedy Minimum Jumps",
+    "_origIds": [
+      "babbar-ARR-14",
+      "striver-12.2-3"
+    ]
+  },
+  {
+    "id": "arrays-longest-consecutive-subsequence",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Longest Consecutive Subsequence",
+    "pattern": "Hashing",
+    "difficulty": "medium",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-consecutive-sequence/",
+    "embedding_text": "Arrays Hashing Longest Consecutive Subsequence",
+    "_origIds": [
+      "babbar-ARR-23",
+      "striver-3.2-10"
+    ]
+  },
+  {
+    "id": "arrays-buy-and-sell-stock-at-most-twice",
+    "topic": "Arrays",
+    "section": "Array",
+    "question": "Buy and Sell Stock at Most Twice",
+    "pattern": "StockDP",
+    "difficulty": "easy",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/",
+    "embedding_text": "Arrays Stocks Buy and Sell Stock at Most Twice",
+    "_origIds": [
+      "babbar-ARR-25",
+      "striver-16.6-3"
+    ]
+  },
+  {
+    "id": "matrix-maximum-size-rectangle",
+    "topic": "Matrix",
+    "section": "Matrix",
+    "question": "Maximum Size Rectangle",
+    "pattern": "Stack",
+    "difficulty": "hard",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/maximal-rectangle/",
+    "embedding_text": "Matrix Stack Maximum Size Rectangle",
+    "_origIds": [
+      "babbar-MAT-06",
+      "striver-9.3-12",
+      "striver-16.9-1"
+    ]
+  },
+  {
+    "id": "matrix-rotate-matrix-by-90-degree-clockwise",
+    "topic": "Matrix",
+    "section": "Matrix",
+    "question": "Rotate Matrix by 90 Degree (Clockwise)",
+    "pattern": "Matrix",
+    "difficulty": "easy",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/rotate-image/",
+    "embedding_text": "Matrix Matrix Rotation Rotate Matrix by 90 Degree (Clockwise)",
+    "_origIds": [
+      "babbar-MAT-08",
+      "striver-3.2-12"
+    ]
+  },
+  {
+    "id": "strings-count-and-say",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Count and Say",
+    "pattern": "Simulation",
+    "difficulty": "medium",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/count-and-say/",
+    "embedding_text": "Strings Simulation Count and Say",
+    "_origIds": [
+      "babbar-STR-02",
+      "striver-18.1-2"
+    ]
+  },
+  {
+    "id": "strings-a-program-to-check-if-strings-are-rotation",
+    "topic": "Strings",
+    "section": "String",
+    "question": "A Program To Check If Strings Are Rotations Of Each Other",
+    "pattern": "StringManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/rotate-string/",
+    "embedding_text": "Strings Strings A Program To Check If Strings Are Rotations Of Each Other",
+    "_origIds": [
+      "babbar-STR-06",
+      "striver-5.1-6"
+    ]
+  },
+  {
+    "id": "strings-longest-palindrome-in-a-string",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Longest Palindrome in a String",
+    "pattern": "DPGeneral",
+    "difficulty": "medium",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "embedding_text": "Strings Dynamic Programming Longest Palindrome in a String",
+    "_origIds": [
+      "babbar-STR-07",
+      "babbar-DP-01",
+      "striver-5.2-6"
+    ]
+  },
+  {
+    "id": "strings-roman-to-integer",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Roman to Integer",
+    "pattern": "StringManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/roman-to-integer/",
+    "embedding_text": "Strings Strings Roman to Integer",
+    "_origIds": [
+      "babbar-STR-24",
+      "striver-5.2-3"
+    ]
+  },
+  {
+    "id": "strings-isomorphic-strings",
+    "topic": "Strings",
+    "section": "String",
+    "question": "Isomorphic Strings",
+    "pattern": "Hashing",
+    "difficulty": "easy",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/isomorphic-strings/",
+    "embedding_text": "Strings HashMap and Set Isomorphic Strings",
+    "_origIds": [
+      "babbar-STR-39",
+      "striver-5.1-5"
+    ]
+  },
+  {
+    "id": "searching-sorting-first-and-last-occurrences",
+    "topic": "Searching & Sorting",
+    "section": "SearchingAndSorting",
+    "question": "First and Last Occurrences",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+    "embedding_text": "Searching & Sorting Binary Search First and Last Occurrences",
+    "_origIds": [
+      "babbar-SS-02",
+      "striver-4.1-6"
+    ]
+  },
+  {
+    "id": "linked-list-intersection-in-y-shaped-lists",
+    "topic": "Linked List",
+    "section": "LinkedList",
+    "question": "Intersection in Y Shaped Lists",
+    "pattern": "Linked Lists",
+    "difficulty": "medium",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+    "embedding_text": "Linked List Linked Lists Intersection in Y Shaped Lists",
+    "_origIds": [
+      "babbar-LL-13",
+      "striver-6.3-13"
+    ]
+  },
+  {
+    "id": "bst-delete-node-in-a-bst",
+    "topic": "BST",
+    "section": "BinarySearchTrees",
+    "question": "Delete Node in a BST",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/delete-node-in-a-bst/",
+    "embedding_text": "BST Deletion Delete Node in a BST",
+    "_origIds": [
+      "babbar-BST-01",
+      "striver-14.2-4"
+    ]
+  },
+  {
+    "id": "heaps-convert-min-heap-to-max-heap",
+    "topic": "Heaps",
+    "section": "Heap",
+    "question": "Convert Min Heap to Max Heap",
+    "pattern": "Heap",
+    "difficulty": "easy",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/convert-min-heap-to-max-heap/",
+    "embedding_text": "Heaps Heap Convert Min Heap to Max Heap",
+    "_origIds": [
+      "babbar-HEAP-16",
+      "striver-11.1-4"
+    ]
+  },
+  {
+    "id": "graphs-number-of-operations-to-make-network-connec",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Number of Operations to Make Network Connected",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/",
+    "embedding_text": "Graphs Graphs Number of Operations to Make Network Connected",
+    "_origIds": [
+      "babbar-GR-03",
+      "striver-15.5-6"
+    ]
+  },
+  {
+    "id": "graphs-word-ladder",
+    "topic": "Graphs",
+    "section": "Graphs",
+    "question": "Word Ladder",
+    "pattern": "DFS",
+    "difficulty": "hard",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://leetcode.com/problems/word-ladder/",
+    "embedding_text": "Graphs Graphs Word Ladder",
+    "_origIds": [
+      "babbar-GR-04",
+      "striver-15.2-10"
+    ]
+  },
+  {
+    "id": "binary-trees-top-view-of-binary-tree",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Top View of Binary Tree",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/print-nodes-top-view-binary-tree/",
+    "embedding_text": "Binary Trees Binary Trees Top View of Binary Tree",
+    "_origIds": [
+      "babbar-BT-8",
+      "striver-13.2-9"
+    ]
+  },
+  {
+    "id": "binary-trees-bottom-view-of-binary-tree",
+    "topic": "Binary Trees",
+    "section": "BinaryTree",
+    "question": "Bottom View of Binary Tree",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/bottom-view-binary-tree/",
+    "embedding_text": "Binary Trees Binary Trees Bottom View of Binary Tree",
+    "_origIds": [
+      "babbar-BT-9",
+      "striver-13.2-10"
+    ]
+  },
+  {
+    "id": "greedy-n-meetings-in-one-room",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "N Meetings in One Room",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/n-meetings-in-one-room/",
+    "embedding_text": "Greedy Greedy N Meetings in One Room",
+    "_origIds": [
+      "babbar-GR-1",
+      "striver-12.2-1"
+    ]
+  },
+  {
+    "id": "greedy-job-sequencing-problem",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Job Sequencing Problem",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/job-sequencing-problem/",
+    "embedding_text": "Greedy Greedy Job Sequencing Problem",
+    "_origIds": [
+      "babbar-GR-2",
+      "striver-12.2-5"
+    ]
+  },
+  {
+    "id": "greedy-program-for-shortest-job-first-cpu-scheduli",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Program For Shortest Job First CPU Scheduling",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/program-for-shortest-job-first-or-sjf-cpu-scheduling-set-1-non-preemptive/",
+    "embedding_text": "Greedy Greedy Program For Shortest Job First CPU Scheduling",
+    "_origIds": [
+      "babbar-GR-21",
+      "striver-12.2-7"
+    ]
+  },
+  {
+    "id": "stacks-queues-reverse-a-stack-using-recursion",
+    "topic": "Stacks & Queues",
+    "section": "StackQueue",
+    "question": "Reverse A Stack Using Recursion",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "babbar",
+      "striver"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/reverse-a-stack-using-recursion/",
+    "embedding_text": "Stacks & Queues Stacks & Queues Reverse A Stack Using Recursion",
+    "_origIds": [
+      "babbar-SQ-12",
+      "striver-7.1-5"
+    ]
+  }
+]

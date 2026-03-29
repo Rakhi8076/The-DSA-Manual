@@ -1,0 +1,2498 @@
+[
+  {
+    "id": "ARR-01",
+    "topic": "Arrays",
+    "section": "Array (Part 1)",
+    "question": "Majority Element",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/majority-element/",
+    "embedding_text": "Arrays Basics Majority Element"
+  },
+  {
+    "id": "ARR-02",
+    "topic": "Arrays",
+    "section": "Array (Part 1)",
+    "question": "Repeat & Missing Number",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/find-missing-and-repeated-values/",
+    "embedding_text": "Arrays Basics Repeat & Missing Number"
+  },
+  {
+    "id": "ARR-03",
+    "topic": "Arrays",
+    "section": "Array (Part 1)",
+    "question": "Merge 2 Sorted Arrays Without Extra Space",
+    "pattern": "Sorting",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/merge-sorted-array/",
+    "embedding_text": "Arrays Sorting Merge 2 Sorted Arrays Without Extra Space"
+  },
+  {
+    "id": "ARR-04",
+    "topic": "Arrays",
+    "section": "Array (Part 1)",
+    "question": "Single Number",
+    "pattern": "BitManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/single-number/",
+    "embedding_text": "Arrays Bit Manipulation Single Number"
+  },
+  {
+    "id": "ARR-05",
+    "topic": "Arrays",
+    "section": "Array (Part 1)",
+    "question": "Stock Buy & Sell",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "embedding_text": "Arrays Greedy Stock Buy & Sell"
+  },
+  {
+    "id": "ARR-06",
+    "topic": "Arrays",
+    "section": "Array (Part 1)",
+    "question": "Pow(x, n)",
+    "pattern": "Math",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/powx-n/",
+    "embedding_text": "Arrays Math Pow(x, n)"
+  },
+  {
+    "id": "ARR-07",
+    "topic": "Arrays",
+    "section": "Array (Part 2)",
+    "question": "Kadane's Algorithm",
+    "pattern": "Kadane",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/maximum-subarray/",
+    "embedding_text": "Arrays Kadane / DP Kadane's Algorithm"
+  },
+  {
+    "id": "ARR-08",
+    "topic": "Arrays",
+    "section": "Array (Part 2)",
+    "question": "Container With Most Water",
+    "pattern": "TwoPointer",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/container-with-most-water/",
+    "embedding_text": "Arrays Two Pointers Container With Most Water"
+  },
+  {
+    "id": "ARR-09",
+    "topic": "Arrays",
+    "section": "Array (Part 2)",
+    "question": "Sort Array of 0s, 1s & 2s",
+    "pattern": "Sorting",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/sort-colors/",
+    "embedding_text": "Arrays Sorting Sort Array of 0s, 1s & 2s"
+  },
+  {
+    "id": "ARR-10",
+    "topic": "Arrays",
+    "section": "Array (Part 2)",
+    "question": "3Sum",
+    "pattern": "TwoPointer",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/3sum/",
+    "embedding_text": "Arrays Two Pointers 3Sum"
+  },
+  {
+    "id": "ARR-11",
+    "topic": "Arrays",
+    "section": "Array (Part 2)",
+    "question": "4Sum",
+    "pattern": "TwoPointer",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/4sum/",
+    "embedding_text": "Arrays Two Pointers 4Sum"
+  },
+  {
+    "id": "ARR-12",
+    "topic": "Arrays",
+    "section": "Array (Part 2)",
+    "question": "Search in 2D Matrix",
+    "pattern": "Matrix",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/search-a-2d-matrix/",
+    "embedding_text": "Arrays Matrix Search in 2D Matrix"
+  },
+  {
+    "id": "ARR-13",
+    "topic": "Arrays",
+    "section": "Array (Part 3)",
+    "question": "Next Permutation",
+    "pattern": "Permutation",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/next-permutation/",
+    "embedding_text": "Arrays Permutation Next Permutation"
+  },
+  {
+    "id": "ARR-14",
+    "topic": "Arrays",
+    "section": "Array (Part 3)",
+    "question": "Merge Overlapping Intervals",
+    "pattern": "Intervals",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/merge-intervals/",
+    "embedding_text": "Arrays Intervals Merge Overlapping Intervals"
+  },
+  {
+    "id": "ARR-15",
+    "topic": "Arrays",
+    "section": "Array (Part 3)",
+    "question": "Longest Substring Without Repeating",
+    "pattern": "SlidingWindow",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "embedding_text": "Arrays Sliding Window Longest Substring Without Repeating"
+  },
+  {
+    "id": "ARR-16",
+    "topic": "Arrays",
+    "section": "Array (Part 3)",
+    "question": "Set Matrix Zeroes",
+    "pattern": "Matrix",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "embedding_text": "Arrays Matrix Set Matrix Zeroes"
+  },
+  {
+    "id": "ARR-17",
+    "topic": "Arrays",
+    "section": "Array (Part 3)",
+    "question": "Word Search",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/word-search/",
+    "embedding_text": "Arrays Backtracking Word Search"
+  },
+  {
+    "id": "ARR-18",
+    "topic": "Arrays",
+    "section": "Array (Part 3)",
+    "question": "Product of Array Except Self",
+    "pattern": "PrefixProduct",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/product-of-array-except-self/",
+    "embedding_text": "Arrays Prefix Product Product of Array Except Self"
+  },
+  {
+    "id": "ARR-19",
+    "topic": "Arrays",
+    "section": "Array (Part 4)",
+    "question": "Subarray Sum Equals K",
+    "pattern": "PrefixSum",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/subarray-sum-equals-k/",
+    "embedding_text": "Arrays Prefix Sum Subarray Sum Equals K"
+  },
+  {
+    "id": "ARR-20",
+    "topic": "Arrays",
+    "section": "Array (Part 4)",
+    "question": "Find Duplicate",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/find-the-duplicate-number/",
+    "embedding_text": "Arrays Binary Search Find Duplicate"
+  },
+  {
+    "id": "ARR-21",
+    "topic": "Arrays",
+    "section": "Array (Part 4)",
+    "question": "Count Inversions",
+    "pattern": "MergeSort",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1",
+    "embedding_text": "Arrays Merge Sort Count Inversions"
+  },
+  {
+    "id": "ARR-22",
+    "topic": "Arrays",
+    "section": "Array (Part 4)",
+    "question": "Spiral Matrix",
+    "pattern": "Matrix",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/spiral-matrix/",
+    "embedding_text": "Arrays Matrix Spiral Matrix"
+  },
+  {
+    "id": "ARR-23",
+    "topic": "Arrays",
+    "section": "Array (Part 4)",
+    "question": "Search in Sorted Matrix II",
+    "pattern": "Matrix",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+    "embedding_text": "Arrays Matrix Search in Sorted Matrix II"
+  },
+  {
+    "id": "ARR-24",
+    "topic": "Arrays",
+    "section": "Array (Part 5)",
+    "question": "Trapping Rain Water",
+    "pattern": "MonotonicStack",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/trapping-rain-water/",
+    "embedding_text": "Arrays Monotonic Stack Trapping Rain Water"
+  },
+  {
+    "id": "ARR-25",
+    "topic": "Arrays",
+    "section": "Array (Part 5)",
+    "question": "Sliding Window Maximum",
+    "pattern": "MonotonicQueue",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/sliding-window-maximum/",
+    "embedding_text": "Arrays Monotonic Queue Sliding Window Maximum"
+  },
+  {
+    "id": "ARR-26",
+    "topic": "Arrays",
+    "section": "Array (Part 5)",
+    "question": "Largest Rectangle in Histogram",
+    "pattern": "Stack",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+    "embedding_text": "Arrays Stack Largest Rectangle in Histogram"
+  },
+  {
+    "id": "ARR-27",
+    "topic": "Arrays",
+    "section": "Array (Part 5)",
+    "question": "Reverse Pairs",
+    "pattern": "DivideConquer",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/reverse-pairs/",
+    "embedding_text": "Arrays Divide & Conquer Reverse Pairs"
+  },
+  {
+    "id": "STR-01",
+    "topic": "Strings",
+    "section": "Strings (Part 1)",
+    "question": "Valid Palindrome",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/valid-palindrome/",
+    "embedding_text": "Strings Basics Valid Palindrome"
+  },
+  {
+    "id": "STR-02",
+    "topic": "Strings",
+    "section": "Strings (Part 1)",
+    "question": "Valid Anagram",
+    "pattern": "Hashing",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/valid-anagram/",
+    "embedding_text": "Strings Hashing Valid Anagram"
+  },
+  {
+    "id": "STR-03",
+    "topic": "Strings",
+    "section": "Strings (Part 1)",
+    "question": "Reverse Words in String",
+    "pattern": "StringManipulation",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/reverse-words-in-a-string/",
+    "embedding_text": "Strings String Manipulation Reverse Words in String"
+  },
+  {
+    "id": "STR-04",
+    "topic": "Strings",
+    "section": "Strings (Part 1)",
+    "question": "Remove All Occurrences of a Substring",
+    "pattern": "StringManipulation",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/remove-all-occurrences-of-a-substring/",
+    "embedding_text": "Strings String Manipulation Remove All Occurrences of a Substring"
+  },
+  {
+    "id": "STR-05",
+    "topic": "Strings",
+    "section": "Strings (Part 1)",
+    "question": "Permutation in String",
+    "pattern": "SlidingWindow",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/permutation-in-string/",
+    "embedding_text": "Strings Sliding Window Permutation in String"
+  },
+  {
+    "id": "STR-06",
+    "topic": "Strings",
+    "section": "Strings (Part 1)",
+    "question": "String Compression",
+    "pattern": "TwoPointer",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/string-compression/",
+    "embedding_text": "Strings Two Pointers String Compression"
+  },
+  {
+    "id": "STR-07",
+    "topic": "Strings",
+    "section": "Strings (Part 2)",
+    "question": "Longest Common Prefix",
+    "pattern": "PrefixSum",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-common-prefix/",
+    "embedding_text": "Strings Prefix Longest Common Prefix"
+  },
+  {
+    "id": "STR-08",
+    "topic": "Strings",
+    "section": "Strings (Part 2)",
+    "question": "Group Anagrams",
+    "pattern": "Hashing",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/group-anagrams/",
+    "embedding_text": "Strings Hashing Group Anagrams"
+  },
+  {
+    "id": "STR-09",
+    "topic": "Strings",
+    "section": "Strings (Part 2)",
+    "question": "Minimum Window Substring",
+    "pattern": "SlidingWindow",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/minimum-window-substring/",
+    "embedding_text": "Strings Sliding Window Minimum Window Substring"
+  },
+  {
+    "id": "STR-10",
+    "topic": "Strings",
+    "section": "Strings (Part 2)",
+    "question": "KMP Algorithm",
+    "pattern": "PatternMatching",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-happy-prefix/",
+    "embedding_text": "Strings Pattern Matching KMP Algorithm"
+  },
+  {
+    "id": "STR-11",
+    "topic": "Strings",
+    "section": "Strings (Part 2)",
+    "question": "Rabin Karp Algorithm",
+    "pattern": "RollingHash",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/search-pattern-rabin-karp-algorithm--141631/1",
+    "embedding_text": "Strings Rolling Hash Rabin Karp Algorithm"
+  },
+  {
+    "id": "BS-1",
+    "topic": "Binary Search",
+    "section": "Binary Search",
+    "question": "Peak Index in Mountain Array",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/peak-index-in-a-mountain-array/",
+    "embedding_text": "Binary Search Binary Search Basics Peak Index in Mountain Array"
+  },
+  {
+    "id": "BS-2",
+    "topic": "Binary Search",
+    "section": "Binary Search",
+    "question": "Single Element in Sorted Array",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/single-element-in-a-sorted-array/",
+    "embedding_text": "Binary Search Binary Search Basics Single Element in Sorted Array"
+  },
+  {
+    "id": "BS-3",
+    "topic": "Binary Search",
+    "section": "Binary Search",
+    "question": "Search in Rotated Sorted Array",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "embedding_text": "Binary Search Rotated Sorted Array Search in Rotated Sorted Array"
+  },
+  {
+    "id": "BS-4",
+    "topic": "Binary Search",
+    "section": "Binary Search",
+    "question": "Aggressive Cows",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/dsa/assign-stalls-to-k-cows-to-maximize-the-minimum-distance-between-them/",
+    "embedding_text": "Binary Search Binary Search on Answer Aggressive Cows"
+  },
+  {
+    "id": "BS-5",
+    "topic": "Binary Search",
+    "section": "Binary Search",
+    "question": "Allocate Minimum Pages",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1",
+    "embedding_text": "Binary Search Binary Search on Answer Allocate Minimum Pages"
+  },
+  {
+    "id": "BS-6",
+    "topic": "Binary Search",
+    "section": "Binary Search",
+    "question": "Painter's Partition",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/1",
+    "embedding_text": "Binary Search Binary Search on Answer Painter's Partition"
+  },
+  {
+    "id": "BS-7",
+    "topic": "Binary Search",
+    "section": "Binary Search",
+    "question": "Median of Two Sorted Arrays",
+    "pattern": "BinarySearch",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "embedding_text": "Binary Search Advanced Binary Search Median of Two Sorted Arrays"
+  },
+  {
+    "id": "RB-1",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking",
+    "question": "Combination Sum I",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/combination-sum/",
+    "embedding_text": "Recursion & Backtracking Combination Sum Combination Sum I"
+  },
+  {
+    "id": "RB-2",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking",
+    "question": "Combination Sum II",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/combination-sum-ii/",
+    "embedding_text": "Recursion & Backtracking Combination Sum Combination Sum II"
+  },
+  {
+    "id": "RB-3",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking",
+    "question": "Palindrome Partitioning",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/palindrome-partitioning/",
+    "embedding_text": "Recursion & Backtracking Partitioning / Backtracking Palindrome Partitioning"
+  },
+  {
+    "id": "RB-4",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking",
+    "question": "N Queens",
+    "pattern": "Backtracking",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/n-queens/",
+    "embedding_text": "Recursion & Backtracking Backtracking N Queens"
+  },
+  {
+    "id": "RB-5",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking",
+    "question": "Sudoku Solver",
+    "pattern": "Backtracking",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/sudoku-solver/",
+    "embedding_text": "Recursion & Backtracking Backtracking Sudoku Solver"
+  },
+  {
+    "id": "RB-6",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking",
+    "question": "M Coloring Problem",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/m-coloring-problem-backtracking-5/",
+    "embedding_text": "Recursion & Backtracking Graph Coloring / Backtracking M Coloring Problem"
+  },
+  {
+    "id": "RB-7",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking (Day 10)",
+    "question": "Knight's Tour",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/",
+    "embedding_text": "Recursion & Backtracking Backtracking Knight's Tour"
+  },
+  {
+    "id": "RB-8",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking (Day 10)",
+    "question": "Subsets II",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/subsets-ii/",
+    "embedding_text": "Recursion & Backtracking Subsets / Backtracking Subsets II"
+  },
+  {
+    "id": "RB-9",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking (Day 10)",
+    "question": "Merge Sort",
+    "pattern": "DivideConquer",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/merge-sort/",
+    "embedding_text": "Recursion & Backtracking Divide and Conquer Merge Sort"
+  },
+  {
+    "id": "RB-10",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking (Day 10)",
+    "question": "Rat in a Maze",
+    "pattern": "Backtracking",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1",
+    "embedding_text": "Recursion & Backtracking Backtracking Rat in a Maze"
+  },
+  {
+    "id": "RB-11",
+    "topic": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking (Day 10)",
+    "question": "Count Inversions",
+    "pattern": "DivideConquer",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1",
+    "embedding_text": "Recursion & Backtracking Divide and Conquer Count Inversions"
+  },
+  {
+    "id": "LL-1",
+    "topic": "Linked List",
+    "section": "Linked List (Part 1)",
+    "question": "Middle of a Linked List",
+    "pattern": "LinkedListBasics",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/middle-of-the-linked-list/",
+    "embedding_text": "Linked List Linked List Basics Middle of a Linked List"
+  },
+  {
+    "id": "LL-2",
+    "topic": "Linked List",
+    "section": "Linked List (Part 1)",
+    "question": "Reverse Linked List",
+    "pattern": "LinkedListBasics",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/reverse-linked-list/",
+    "embedding_text": "Linked List Linked List Basics Reverse Linked List"
+  },
+  {
+    "id": "LL-3",
+    "topic": "Linked List",
+    "section": "Linked List (Part 1)",
+    "question": "Remove Cycle in a Linked List",
+    "pattern": "FloydCycle",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/linked-list-cycle-ii/",
+    "embedding_text": "Linked List Cycle in Linked List Remove Cycle in a Linked List"
+  },
+  {
+    "id": "LL-4",
+    "topic": "Linked List",
+    "section": "Linked List (Part 1)",
+    "question": "Detect Cycle in a Linked List",
+    "pattern": "FloydCycle",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/linked-list-cycle/",
+    "embedding_text": "Linked List Cycle in Linked List Detect Cycle in a Linked List"
+  },
+  {
+    "id": "LL-5",
+    "topic": "Linked List",
+    "section": "Linked List (Part 1)",
+    "question": "Merge 2 Sorted Linked Lists",
+    "pattern": "Merging",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "embedding_text": "Linked List Linked List Merging Merge 2 Sorted Linked Lists"
+  },
+  {
+    "id": "LL-6",
+    "topic": "Linked List",
+    "section": "Linked List (Part 1)",
+    "question": "Flatten a Linked List",
+    "pattern": "LinkedListAdvanced",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/",
+    "embedding_text": "Linked List Linked List Advanced Flatten a Linked List"
+  },
+  {
+    "id": "LL-7",
+    "topic": "Linked List",
+    "section": "Linked List (Part 2)",
+    "question": "Is Linked List a Palindrome or Not",
+    "pattern": "LinkedListBasics",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/palindrome-linked-list/",
+    "embedding_text": "Linked List Linked List Basics Is Linked List a Palindrome or Not"
+  },
+  {
+    "id": "LL-8",
+    "topic": "Linked List",
+    "section": "Linked List (Part 2)",
+    "question": "Clone List with Random Pointers",
+    "pattern": "LinkedListAdvanced",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "embedding_text": "Linked List Linked List Advanced Clone List with Random Pointers"
+  },
+  {
+    "id": "LL-9",
+    "topic": "Linked List",
+    "section": "Linked List (Part 2)",
+    "question": "Reverse Linked List II",
+    "pattern": "Reversal",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/reverse-linked-list-ii/",
+    "embedding_text": "Linked List Linked List Reversal Reverse Linked List II"
+  },
+  {
+    "id": "LL-10",
+    "topic": "Linked List",
+    "section": "Linked List (Part 2)",
+    "question": "Add 2 Numbers",
+    "pattern": "Math",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/add-two-numbers/",
+    "embedding_text": "Linked List Linked List Math Add 2 Numbers"
+  },
+  {
+    "id": "LL-11",
+    "topic": "Linked List",
+    "section": "Linked List (Part 2)",
+    "question": "Reverse Nodes in K Groups",
+    "pattern": "Reversal",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+    "embedding_text": "Linked List Linked List Reversal Reverse Nodes in K Groups"
+  },
+  {
+    "id": "LL-12",
+    "topic": "Linked List",
+    "section": "Linked List (Part 2)",
+    "question": "Rotate a Linked List",
+    "pattern": "LinkedListOps",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/rotate-list/",
+    "embedding_text": "Linked List Linked List Operations Rotate a Linked List"
+  },
+  {
+    "id": "SQ-1",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 1)",
+    "question": "Implement Stack using Queue",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/implement-stack-using-queues/",
+    "embedding_text": "Stacks & Queues Stack using Queue Implement Stack using Queue"
+  },
+  {
+    "id": "SQ-2",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 1)",
+    "question": "Next Greater Element I",
+    "pattern": "MonotonicStack",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/next-greater-element-i/",
+    "embedding_text": "Stacks & Queues Monotonic Stack Next Greater Element I"
+  },
+  {
+    "id": "SQ-3",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 1)",
+    "question": "Implement Queue using Stack",
+    "pattern": "Queue",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/implement-queue-using-stacks/",
+    "embedding_text": "Stacks & Queues Queue using Stack Implement Queue using Stack"
+  },
+  {
+    "id": "SQ-4",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 1)",
+    "question": "Valid Parenthesis",
+    "pattern": "Stack",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/valid-parentheses/",
+    "embedding_text": "Stacks & Queues Stack Basics Valid Parenthesis"
+  },
+  {
+    "id": "SQ-5",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 1)",
+    "question": "1st Non Repeating in Stream",
+    "pattern": "Queue",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/first-unique-character-in-a-string/",
+    "embedding_text": "Stacks & Queues Queue 1st Non Repeating in Stream"
+  },
+  {
+    "id": "SQ-6",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 1)",
+    "question": "Reverse First K Elements of Queue",
+    "pattern": "Queue",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/reverse-first-k-elements-queue/",
+    "embedding_text": "Stacks & Queues Queue Reverse First K Elements of Queue"
+  },
+  {
+    "id": "SQ-7",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 2)",
+    "question": "Time Needed to Buy Tickets",
+    "pattern": "Queue",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/time-needed-to-buy-tickets/",
+    "embedding_text": "Stacks & Queues Queue Simulation Time Needed to Buy Tickets"
+  },
+  {
+    "id": "SQ-8",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 2)",
+    "question": "LRU Cache",
+    "pattern": "Design",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/lru-cache/",
+    "embedding_text": "Stacks & Queues Design / Cache LRU Cache"
+  },
+  {
+    "id": "SQ-9",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 2)",
+    "question": "Get Min Element from Stack",
+    "pattern": "Stack",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/min-stack/",
+    "embedding_text": "Stacks & Queues Stack Get Min Element from Stack"
+  },
+  {
+    "id": "SQ-10",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 2)",
+    "question": "Next Smaller Element",
+    "pattern": "MonotonicStack",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/next-smaller-element-1587115620/1",
+    "embedding_text": "Stacks & Queues Monotonic Stack Next Smaller Element"
+  },
+  {
+    "id": "SQ-11",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 2)",
+    "question": "Celebrity Problem",
+    "pattern": "TwoPointer",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/the-celebrity-problem/1",
+    "embedding_text": "Stacks & Queues Stack / Two Pointer Celebrity Problem"
+  },
+  {
+    "id": "SQ-12",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 3)",
+    "question": "Rotten Oranges",
+    "pattern": "BFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/rotting-oranges/",
+    "embedding_text": "Stacks & Queues Queue / BFS Rotten Oranges"
+  },
+  {
+    "id": "SQ-13",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 3)",
+    "question": "Sort a Stack",
+    "pattern": "Recursion",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/sort-a-stack/1",
+    "embedding_text": "Stacks & Queues Stack / Recursion Sort a Stack"
+  },
+  {
+    "id": "SQ-14",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 3)",
+    "question": "Stock Span",
+    "pattern": "MonotonicStack",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/online-stock-span/",
+    "embedding_text": "Stacks & Queues Monotonic Stack Stock Span"
+  },
+  {
+    "id": "SQ-15",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 3)",
+    "question": "Circular Tour / Gas Station",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/gas-station/",
+    "embedding_text": "Stacks & Queues Queue / Greedy Circular Tour / Gas Station"
+  },
+  {
+    "id": "SQ-16",
+    "topic": "Stacks & Queues",
+    "section": "Stacks & Queues (Part 3)",
+    "question": "Max Area in Histogram",
+    "pattern": "MonotonicStack",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+    "embedding_text": "Stacks & Queues Monotonic Stack Max Area in Histogram"
+  },
+  {
+    "id": "BT-1",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 1)",
+    "question": "Preorder Traversal",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+    "embedding_text": "Binary Trees Tree Traversals Preorder Traversal"
+  },
+  {
+    "id": "BT-2",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 1)",
+    "question": "Level Order Traversal",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "embedding_text": "Binary Trees Tree Traversals Level Order Traversal"
+  },
+  {
+    "id": "BT-3",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 1)",
+    "question": "Inorder Traversal",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "embedding_text": "Binary Trees Tree Traversals Inorder Traversal"
+  },
+  {
+    "id": "BT-4",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 1)",
+    "question": "Minimum Distance between Nodes",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/find-distance-between-two-nodes-of-a-binary-tree/",
+    "embedding_text": "Binary Trees Tree Distance Minimum Distance between Nodes"
+  },
+  {
+    "id": "BT-5",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 1)",
+    "question": "Symmetric Tree",
+    "pattern": "Recursion",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/symmetric-tree/",
+    "embedding_text": "Binary Trees Tree Properties Symmetric Tree"
+  },
+  {
+    "id": "BT-6",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 1)",
+    "question": "Postorder Traversal",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+    "embedding_text": "Binary Trees Tree Traversals Postorder Traversal"
+  },
+  {
+    "id": "BT-7",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 2)",
+    "question": "Morris Inorder Traversal",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/",
+    "embedding_text": "Binary Trees Tree Traversals Morris Inorder Traversal"
+  },
+  {
+    "id": "BT-8",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 2)",
+    "question": "Diameter of a Tree",
+    "pattern": "Recursion",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "embedding_text": "Binary Trees Tree Properties Diameter of a Tree"
+  },
+  {
+    "id": "BT-9",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 2)",
+    "question": "Are 2 Trees Identical or Not",
+    "pattern": "Recursion",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/same-tree/",
+    "embedding_text": "Binary Trees Tree Comparison Are 2 Trees Identical or Not"
+  },
+  {
+    "id": "BT-10",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 2)",
+    "question": "Check if BT is Mirror of itself or not",
+    "pattern": "Recursion",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/symmetric-tree/",
+    "embedding_text": "Binary Trees Tree Properties Check if BT is Mirror of itself or not"
+  },
+  {
+    "id": "BT-11",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 2)",
+    "question": "Subtree of Another Tree",
+    "pattern": "Recursion",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/subtree-of-another-tree/",
+    "embedding_text": "Binary Trees Tree Comparison Subtree of Another Tree"
+  },
+  {
+    "id": "BT-12",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 2)",
+    "question": "Is Tree Height Balanced",
+    "pattern": "Recursion",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/balanced-binary-tree/",
+    "embedding_text": "Binary Trees Tree Properties Is Tree Height Balanced"
+  },
+  {
+    "id": "BT-13",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 3)",
+    "question": "Bottom View of a Tree",
+    "pattern": "BFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1",
+    "embedding_text": "Binary Trees Tree Views Bottom View of a Tree"
+  },
+  {
+    "id": "BT-14",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 3)",
+    "question": "Top View of a Tree",
+    "pattern": "BFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1",
+    "embedding_text": "Binary Trees Tree Views Top View of a Tree"
+  },
+  {
+    "id": "BT-15",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 3)",
+    "question": "Lowest Common Ancestor (LCA)",
+    "pattern": "Recursion",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "embedding_text": "Binary Trees Tree Queries Lowest Common Ancestor (LCA)"
+  },
+  {
+    "id": "BT-16",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 3)",
+    "question": "Kth Level of Tree",
+    "pattern": "BFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/k-distance-from-root/1",
+    "embedding_text": "Binary Trees Tree Levels Kth Level of Tree"
+  },
+  {
+    "id": "BT-17",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 3)",
+    "question": "Construct BT from Inorder & Preorder",
+    "pattern": "Recursion",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+    "embedding_text": "Binary Trees Tree Construction Construct BT from Inorder & Preorder"
+  },
+  {
+    "id": "BT-18",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 3)",
+    "question": "Transform to Sum Tree",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/transform-to-sum-tree/1",
+    "embedding_text": "Binary Trees Tree Transformation Transform to Sum Tree"
+  },
+  {
+    "id": "BT-19",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 4)",
+    "question": "Flatten BT to LL",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+    "embedding_text": "Binary Trees Tree Transformation Flatten BT to LL"
+  },
+  {
+    "id": "BT-20",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 4)",
+    "question": "Max Path Sum",
+    "pattern": "TreeDP",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    "embedding_text": "Binary Trees Tree DP Max Path Sum"
+  },
+  {
+    "id": "BT-21",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 4)",
+    "question": "Max Width of BT",
+    "pattern": "Recursion",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/maximum-width-of-binary-tree/",
+    "embedding_text": "Binary Trees Tree Properties Max Width of BT"
+  },
+  {
+    "id": "BT-22",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 4)",
+    "question": "Construct BT from Inorder & Postorder",
+    "pattern": "Recursion",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
+    "embedding_text": "Binary Trees Tree Construction Construct BT from Inorder & Postorder"
+  },
+  {
+    "id": "BT-23",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 4)",
+    "question": "Zig Zag Traversal of BT",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+    "embedding_text": "Binary Trees Tree Traversal Zig Zag Traversal of BT"
+  },
+  {
+    "id": "BT-24",
+    "topic": "Binary Trees",
+    "section": "Binary Trees (Part 4)",
+    "question": "Kth Ancestor",
+    "pattern": "Recursion",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/kth-ancestor-in-a-tree/1",
+    "embedding_text": "Binary Trees Tree Queries Kth Ancestor"
+  },
+  {
+    "id": "BST-01",
+    "topic": "BST",
+    "section": "BST (Part 1)",
+    "question": "Kth Largest in BST",
+    "pattern": "BSTTraversal",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+    "embedding_text": "BST BST Order Statistics Kth Largest in BST"
+  },
+  {
+    "id": "BST-02",
+    "topic": "BST",
+    "section": "BST (Part 1)",
+    "question": "Sorted Array to Balanced BST",
+    "pattern": "BSTConstruction",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/",
+    "embedding_text": "BST BST Construction Sorted Array to Balanced BST"
+  },
+  {
+    "id": "BST-03",
+    "topic": "BST",
+    "section": "BST (Part 1)",
+    "question": "Kth Smallest in BST",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+    "embedding_text": "BST BST Order Statistics Kth Smallest in BST"
+  },
+  {
+    "id": "BST-04",
+    "topic": "BST",
+    "section": "BST (Part 1)",
+    "question": "LCA in BST",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+    "embedding_text": "BST BST Queries LCA in BST"
+  },
+  {
+    "id": "BST-05",
+    "topic": "BST",
+    "section": "BST (Part 1)",
+    "question": "Validate BST",
+    "pattern": "BSTValidation",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "embedding_text": "BST BST Validation Validate BST"
+  },
+  {
+    "id": "BST-06",
+    "topic": "BST",
+    "section": "BST (Part 2)",
+    "question": "Recover BST",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/recover-binary-search-tree/",
+    "embedding_text": "BST BST Correction Recover BST"
+  },
+  {
+    "id": "BST-07",
+    "topic": "BST",
+    "section": "BST (Part 2)",
+    "question": "Populate Next Right Pointers",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
+    "embedding_text": "BST BST Traversal Populate Next Right Pointers"
+  },
+  {
+    "id": "BST-08",
+    "topic": "BST",
+    "section": "BST (Part 2)",
+    "question": "Construct BST from Preorder",
+    "pattern": "BSTConstruction",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/",
+    "embedding_text": "BST BST Construction Construct BST from Preorder"
+  },
+  {
+    "id": "BST-09",
+    "topic": "BST",
+    "section": "BST (Part 2)",
+    "question": "BST Iterator",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/binary-search-tree-iterator/",
+    "embedding_text": "BST BST Iterator BST Iterator"
+  },
+  {
+    "id": "BST-10",
+    "topic": "BST",
+    "section": "BST (Part 2)",
+    "question": "Flatten BST to Sorted List",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/flatten-bst-to-sorted-list--111950/1",
+    "embedding_text": "BST BST Transformation Flatten BST to Sorted List"
+  },
+  {
+    "id": "BST-11",
+    "topic": "BST",
+    "section": "BST (Part 3)",
+    "question": "Merge 2 BSTs",
+    "pattern": "Merging",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/merge-two-bst-s/1",
+    "embedding_text": "BST BST Merging Merge 2 BSTs"
+  },
+  {
+    "id": "BST-12",
+    "topic": "BST",
+    "section": "BST (Part 3)",
+    "question": "Serialize & Deserialize BST",
+    "pattern": "Serialization",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/serialize-and-deserialize-bst/",
+    "embedding_text": "BST BST Serialization Serialize & Deserialize BST"
+  },
+  {
+    "id": "BST-13",
+    "topic": "BST",
+    "section": "BST (Part 3)",
+    "question": "Inorder Predecessor",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/inorder-predecessor-and-successor/1",
+    "embedding_text": "BST BST Traversal Inorder Predecessor"
+  },
+  {
+    "id": "BST-14",
+    "topic": "BST",
+    "section": "BST (Part 3)",
+    "question": "Largest BST in BT",
+    "pattern": "BSTValidation",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/largest-bst/1",
+    "embedding_text": "BST BST Properties Largest BST in BT"
+  },
+  {
+    "id": "BST-15",
+    "topic": "BST",
+    "section": "BST (Part 3)",
+    "question": "Inorder Successor",
+    "pattern": "BSTTraversal",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/inorder-successor-in-bst/",
+    "embedding_text": "BST BST Traversal Inorder Successor"
+  },
+  {
+    "id": "HP-01",
+    "topic": "Heaps",
+    "section": "Heaps",
+    "question": "Merge K Sorted Arrays",
+    "pattern": "Heap",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "embedding_text": "Heaps Heap Merging Merge K Sorted Arrays"
+  },
+  {
+    "id": "HP-02",
+    "topic": "Heaps",
+    "section": "Heaps",
+    "question": "K Most Frequent Elements",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "embedding_text": "Heaps Top K Elements K Most Frequent Elements"
+  },
+  {
+    "id": "HP-03",
+    "topic": "Heaps",
+    "section": "Heaps",
+    "question": "Median from Stream",
+    "pattern": "Heap",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "embedding_text": "Heaps Heap + Stream Median from Stream"
+  },
+  {
+    "id": "HP-04",
+    "topic": "Heaps",
+    "section": "Heaps",
+    "question": "Smallest Range in K Sorted List",
+    "pattern": "Heap",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+    "embedding_text": "Heaps Heap Range Problems Smallest Range in K Sorted List"
+  },
+  {
+    "id": "HP-05",
+    "topic": "Heaps",
+    "section": "Heaps",
+    "question": "Kth Smallest Element",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "embedding_text": "Heaps Heap Selection Kth Smallest Element"
+  },
+  {
+    "id": "HP-06",
+    "topic": "Heaps",
+    "section": "Heaps",
+    "question": "Heap Sort",
+    "pattern": "Heap",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/heap-sort/1",
+    "embedding_text": "Heaps Heap Sorting Heap Sort"
+  },
+  {
+    "id": "TR-01",
+    "topic": "Tries",
+    "section": "Tries",
+    "question": "Word Break Problem",
+    "pattern": "Trie",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/word-break/",
+    "embedding_text": "Tries Trie + DP Word Break Problem"
+  },
+  {
+    "id": "TR-02",
+    "topic": "Tries",
+    "section": "Tries",
+    "question": "Implement a Trie",
+    "pattern": "Trie",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+    "embedding_text": "Tries Trie Basics Implement a Trie"
+  },
+  {
+    "id": "TR-03",
+    "topic": "Tries",
+    "section": "Tries",
+    "question": "Longest String with All Prefix",
+    "pattern": "Trie",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/longest-string-with-all-prefixes/1",
+    "embedding_text": "Tries Trie Prefix Problems Longest String with All Prefix"
+  },
+  {
+    "id": "TR-04",
+    "topic": "Tries",
+    "section": "Tries",
+    "question": "Implement a Phone Directory",
+    "pattern": "Trie",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/phone-directory/1",
+    "embedding_text": "Tries Trie Applications Implement a Phone Directory"
+  },
+  {
+    "id": "TR-05",
+    "topic": "Tries",
+    "section": "Tries",
+    "question": "Longest Common Prefix",
+    "pattern": "Trie",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-common-prefix/",
+    "embedding_text": "Tries Trie Basics Longest Common Prefix"
+  },
+  {
+    "id": "GR-01",
+    "topic": "Graphs",
+    "section": "Graphs (Part 1)",
+    "question": "DFS : Depth First Search",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+    "embedding_text": "Graphs Graph Traversal DFS : Depth First Search"
+  },
+  {
+    "id": "GR-02",
+    "topic": "Graphs",
+    "section": "Graphs (Part 1)",
+    "question": "BFS : Breadth First Search",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "embedding_text": "Graphs Graph Traversal BFS : Breadth First Search"
+  },
+  {
+    "id": "GR-03",
+    "topic": "Graphs",
+    "section": "Graphs (Part 1)",
+    "question": "Detect Cycle in Undirected Graph using BFS",
+    "pattern": "CycleDetection",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
+    "embedding_text": "Graphs Cycle Detection Detect Cycle in Undirected Graph using BFS"
+  },
+  {
+    "id": "GR-04",
+    "topic": "Graphs",
+    "section": "Graphs (Part 1)",
+    "question": "Detect Cycle in Undirected Graph using DFS",
+    "pattern": "CycleDetection",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
+    "embedding_text": "Graphs Cycle Detection Detect Cycle in Undirected Graph using DFS"
+  },
+  {
+    "id": "GR-05",
+    "topic": "Graphs",
+    "section": "Graphs (Part 1)",
+    "question": "Detect Cycle in Directed Graph using DFS",
+    "pattern": "CycleDetection",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/course-schedule/",
+    "embedding_text": "Graphs Cycle Detection Detect Cycle in Directed Graph using DFS"
+  },
+  {
+    "id": "GR-06",
+    "topic": "Graphs",
+    "section": "Graphs (Part 1)",
+    "question": "Detect Cycle in Directed Graph using BFS",
+    "pattern": "TopologicalSort",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/course-schedule/",
+    "embedding_text": "Graphs Topological Sort Detect Cycle in Directed Graph using BFS"
+  },
+  {
+    "id": "GR-07",
+    "topic": "Graphs",
+    "section": "Graphs (Part 2)",
+    "question": "Topological Sorting (DFS)",
+    "pattern": "TopologicalSort",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/topological-sort/1",
+    "embedding_text": "Graphs Topological Sort Topological Sorting (DFS)"
+  },
+  {
+    "id": "GR-08",
+    "topic": "Graphs",
+    "section": "Graphs (Part 2)",
+    "question": "Flood Fill Algorithm",
+    "pattern": "DFS",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/flood-fill/",
+    "embedding_text": "Graphs Graph Traversal Flood Fill Algorithm"
+  },
+  {
+    "id": "GR-09",
+    "topic": "Graphs",
+    "section": "Graphs (Part 2)",
+    "question": "Topological Sorting (BFS)",
+    "pattern": "TopologicalSort",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/topological-sort/1",
+    "embedding_text": "Graphs Topological Sort Topological Sorting (BFS)"
+  },
+  {
+    "id": "GR-10",
+    "topic": "Graphs",
+    "section": "Graphs (Part 2)",
+    "question": "Course Schedule II",
+    "pattern": "TopologicalSort",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/course-schedule-ii/",
+    "embedding_text": "Graphs Topological Sort Course Schedule II"
+  },
+  {
+    "id": "GR-11",
+    "topic": "Graphs",
+    "section": "Graphs (Part 2)",
+    "question": "Cheapest Flights within K Stops",
+    "pattern": "ShortestPath",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+    "embedding_text": "Graphs Shortest Path Cheapest Flights within K Stops"
+  },
+  {
+    "id": "GR-12",
+    "topic": "Graphs",
+    "section": "Graphs (Part 2)",
+    "question": "Dijkstra's Algorithm",
+    "pattern": "ShortestPath",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/network-delay-time/",
+    "embedding_text": "Graphs Shortest Path Dijkstra's Algorithm"
+  },
+  {
+    "id": "GR-13",
+    "topic": "Graphs",
+    "section": "Graphs (Part 3)",
+    "question": "Kruskal's Algorithm (MST)",
+    "pattern": "MST",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1",
+    "embedding_text": "Graphs Minimum Spanning Tree Kruskal's Algorithm (MST)"
+  },
+  {
+    "id": "GR-14",
+    "topic": "Graphs",
+    "section": "Graphs (Part 3)",
+    "question": "Prim's Algorithm (MST)",
+    "pattern": "MST",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1",
+    "embedding_text": "Graphs Minimum Spanning Tree Prim's Algorithm (MST)"
+  },
+  {
+    "id": "GR-15",
+    "topic": "Graphs",
+    "section": "Graphs (Part 3)",
+    "question": "Rotting Oranges",
+    "pattern": "BFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/rotting-oranges/",
+    "embedding_text": "Graphs BFS on Grid Rotting Oranges"
+  },
+  {
+    "id": "GR-16",
+    "topic": "Graphs",
+    "section": "Graphs (Part 3)",
+    "question": "Clone a Graph",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/clone-graph/",
+    "embedding_text": "Graphs Graph Traversal Clone a Graph"
+  },
+  {
+    "id": "GR-17",
+    "topic": "Graphs",
+    "section": "Graphs (Part 3)",
+    "question": "Floyd Warshall Algorithm",
+    "pattern": "ShortestPath",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1",
+    "embedding_text": "Graphs All Pairs Shortest Path Floyd Warshall Algorithm"
+  },
+  {
+    "id": "GR-18",
+    "topic": "Graphs",
+    "section": "Graphs (Part 3)",
+    "question": "Bellman Ford Algorithm",
+    "pattern": "ShortestPath",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+    "embedding_text": "Graphs Single Source Shortest Path Bellman Ford Algorithm"
+  },
+  {
+    "id": "GR-19",
+    "topic": "Graphs",
+    "section": "Graphs (Part 3)",
+    "question": "01 Matrix",
+    "pattern": "BFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/01-matrix/",
+    "embedding_text": "Graphs Multi Source BFS 01 Matrix"
+  },
+  {
+    "id": "GR-20",
+    "topic": "Graphs",
+    "section": "Graphs (Part 4)",
+    "question": "Number of Islands",
+    "pattern": "BFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/number-of-islands/",
+    "embedding_text": "Graphs Grid Traversal Number of Islands"
+  },
+  {
+    "id": "GR-21",
+    "topic": "Graphs",
+    "section": "Graphs (Part 4)",
+    "question": "Is Graph Bipartite?",
+    "pattern": "GraphColoring",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/is-graph-bipartite/",
+    "embedding_text": "Graphs Graph Coloring Is Graph Bipartite?"
+  },
+  {
+    "id": "GR-22",
+    "topic": "Graphs",
+    "section": "Graphs (Part 4)",
+    "question": "Strongly Connected Components (Kosaraju's Algorithm)",
+    "pattern": "SCC",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1",
+    "embedding_text": "Graphs Strongly Connected Components Strongly Connected Components (Kosaraju's Algorithm)"
+  },
+  {
+    "id": "GR-23",
+    "topic": "Graphs",
+    "section": "Graphs (Part 4)",
+    "question": "Most Stones Removed",
+    "pattern": "DSU",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
+    "embedding_text": "Graphs Disjoint Set (DSU) Most Stones Removed"
+  },
+  {
+    "id": "GR-24",
+    "topic": "Graphs",
+    "section": "Graphs (Part 4)",
+    "question": "Number of Ways to Arrive at Destination",
+    "pattern": "ShortestPath",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/",
+    "embedding_text": "Graphs Shortest Path Number of Ways to Arrive at Destination"
+  },
+  {
+    "id": "GR-25",
+    "topic": "Graphs",
+    "section": "Graphs (Part 4)",
+    "question": "Number of Provinces",
+    "pattern": "DFS",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/number-of-provinces/",
+    "embedding_text": "Graphs Connected Components Number of Provinces"
+  },
+  {
+    "id": "GR-26",
+    "topic": "Graphs",
+    "section": "Graphs (Part 4)",
+    "question": "Alien Dictionary",
+    "pattern": "TopologicalSort",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/alien-dictionary/1",
+    "embedding_text": "Graphs Topological Sort Alien Dictionary"
+  },
+  {
+    "id": "DP-01",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 1)",
+    "question": "0-1 Knapsack",
+    "pattern": "Knapsack",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/ones-and-zeroes/",
+    "embedding_text": "Dynamic Programming Knapsack DP 0-1 Knapsack"
+  },
+  {
+    "id": "DP-02",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 1)",
+    "question": "Buy & Sell Stocks I",
+    "pattern": "StockDP",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "embedding_text": "Dynamic Programming Stock DP Buy & Sell Stocks I"
+  },
+  {
+    "id": "DP-03",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 1)",
+    "question": "Target Sum Subset",
+    "pattern": "SubsetDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/target-sum/",
+    "embedding_text": "Dynamic Programming Subset DP Target Sum Subset"
+  },
+  {
+    "id": "DP-04",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 1)",
+    "question": "Coin Change",
+    "pattern": "CoinChangeDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/coin-change/",
+    "embedding_text": "Dynamic Programming Coin Change DP Coin Change"
+  },
+  {
+    "id": "DP-05",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 1)",
+    "question": "Unbounded Knapsack",
+    "pattern": "Knapsack",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/coin-change/",
+    "embedding_text": "Dynamic Programming Knapsack DP Unbounded Knapsack"
+  },
+  {
+    "id": "DP-06",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 2)",
+    "question": "Longest Common Substring",
+    "pattern": "StringDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/longest-common-substring1452/1",
+    "embedding_text": "Dynamic Programming String DP Longest Common Substring"
+  },
+  {
+    "id": "DP-07",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 2)",
+    "question": "Longest Common Subsequence",
+    "pattern": "StringDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-common-subsequence/",
+    "embedding_text": "Dynamic Programming String DP Longest Common Subsequence"
+  },
+  {
+    "id": "DP-08",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 2)",
+    "question": "Longest Increasing Subsequence",
+    "pattern": "LIS",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "embedding_text": "Dynamic Programming Sequence DP Longest Increasing Subsequence"
+  },
+  {
+    "id": "DP-09",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 2)",
+    "question": "Edit Distance",
+    "pattern": "StringDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/edit-distance/",
+    "embedding_text": "Dynamic Programming String DP Edit Distance"
+  },
+  {
+    "id": "DP-10",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 2)",
+    "question": "Longest Palindromic Subsequence",
+    "pattern": "PalindromeDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/longest-palindromic-subsequence/",
+    "embedding_text": "Dynamic Programming Palindrome DP Longest Palindromic Subsequence"
+  },
+  {
+    "id": "DP-11",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 2)",
+    "question": "Buy & Sell Stocks II",
+    "pattern": "StockDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+    "embedding_text": "Dynamic Programming Stock DP Buy & Sell Stocks II"
+  },
+  {
+    "id": "DP-12",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 3)",
+    "question": "Nth Catalan Number",
+    "pattern": "CatalanDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/nth-catalan-number0817/1",
+    "embedding_text": "Dynamic Programming Catalan DP Nth Catalan Number"
+  },
+  {
+    "id": "DP-13",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 3)",
+    "question": "Unique BSTs",
+    "pattern": "CatalanDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/unique-binary-search-trees/",
+    "embedding_text": "Dynamic Programming Catalan DP Unique BSTs"
+  },
+  {
+    "id": "DP-14",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 3)",
+    "question": "Rod Cutting",
+    "pattern": "UnboundedKnapsack",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/rod-cutting0840/1",
+    "embedding_text": "Dynamic Programming Unbounded Knapsack Rod Cutting"
+  },
+  {
+    "id": "DP-15",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 3)",
+    "question": "Palindromic Partitioning",
+    "pattern": "PartitionDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/palindrome-partitioning-ii/",
+    "embedding_text": "Dynamic Programming Partition DP Palindromic Partitioning"
+  },
+  {
+    "id": "DP-16",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 3)",
+    "question": "Matrix Chain Multiplication (MCM)",
+    "pattern": "PartitionDP",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1",
+    "embedding_text": "Dynamic Programming Partition DP Matrix Chain Multiplication (MCM)"
+  },
+  {
+    "id": "DP-17",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 4)",
+    "question": "Minimum Partitioning",
+    "pattern": "PartitionDP",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/partition-equal-subset-sum/",
+    "embedding_text": "Dynamic Programming Partition DP Minimum Partitioning"
+  },
+  {
+    "id": "DP-18",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 4)",
+    "question": "Maximum Product Subarray",
+    "pattern": "ArrayDP",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/maximum-product-subarray/",
+    "embedding_text": "Dynamic Programming Array DP Maximum Product Subarray"
+  },
+  {
+    "id": "DP-19",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 4)",
+    "question": "Wildcard Pattern Matching",
+    "pattern": "StringDP",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/wildcard-matching/",
+    "embedding_text": "Dynamic Programming String DP Wildcard Pattern Matching"
+  },
+  {
+    "id": "DP-20",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 4)",
+    "question": "Longest Bitonic Subsequence",
+    "pattern": "LIS",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/longest-bitonic-subsequence0824/1",
+    "embedding_text": "Dynamic Programming LIS Variants Longest Bitonic Subsequence"
+  },
+  {
+    "id": "DP-21",
+    "topic": "Dynamic Programming",
+    "section": "DP (Part 4)",
+    "question": "Egg Dropping Problem",
+    "pattern": "DPOptimization",
+    "difficulty": "hard",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1",
+    "embedding_text": "Dynamic Programming DP on Optimization Egg Dropping Problem"
+  },
+  {
+    "id": "GREEDY-01",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Assign Cookies",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/assign-cookies/",
+    "embedding_text": "Greedy Greedy Basics Assign Cookies"
+  },
+  {
+    "id": "GREEDY-02",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Indian Coins",
+    "pattern": "Greedy",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/coin-piles/1",
+    "embedding_text": "Greedy Coin Change (Greedy) Indian Coins"
+  },
+  {
+    "id": "GREEDY-03",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Fractional Knapsack",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1",
+    "embedding_text": "Greedy Knapsack (Greedy) Fractional Knapsack"
+  },
+  {
+    "id": "GREEDY-04",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Job Scheduling",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1",
+    "embedding_text": "Greedy Scheduling Job Scheduling"
+  },
+  {
+    "id": "GREEDY-05",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Activity Selection",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/non-overlapping-intervals/",
+    "embedding_text": "Greedy Interval Scheduling Activity Selection"
+  },
+  {
+    "id": "GREEDY-06",
+    "topic": "Greedy",
+    "section": "Greedy",
+    "question": "Maximum Length of Pair Chain",
+    "pattern": "Greedy",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/maximum-length-of-pair-chain/",
+    "embedding_text": "Greedy Interval DP / Greedy Maximum Length of Pair Chain"
+  },
+  {
+    "id": "MISC-01",
+    "topic": "Miscellaneous",
+    "section": "Miscellaneous",
+    "question": "Power Set",
+    "pattern": "BitManipulation",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/subsets/",
+    "embedding_text": "Miscellaneous Bit Manipulation Power Set"
+  },
+  {
+    "id": "MISC-02",
+    "topic": "Miscellaneous",
+    "section": "Miscellaneous",
+    "question": "Max XOR of Two Numbers",
+    "pattern": "BitManipulation",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+    "embedding_text": "Miscellaneous Bit Manipulation + Trie Max XOR of Two Numbers"
+  },
+  {
+    "id": "MISC-03",
+    "topic": "Miscellaneous",
+    "section": "Miscellaneous",
+    "question": "Power of Two",
+    "pattern": "BitManipulation",
+    "difficulty": "easy",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/power-of-two/",
+    "embedding_text": "Miscellaneous Bit Manipulation Power of Two"
+  },
+  {
+    "id": "MISC-04",
+    "topic": "Miscellaneous",
+    "section": "Miscellaneous",
+    "question": "XOR Beauty of Array",
+    "pattern": "BitManipulation",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/xor-beauty-of-array/",
+    "embedding_text": "Miscellaneous Bit Manipulation XOR Beauty of Array"
+  },
+  {
+    "id": "MISC-05",
+    "topic": "Miscellaneous",
+    "section": "Miscellaneous",
+    "question": "Watering Plants II",
+    "pattern": "Simulation",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/watering-plants-ii/",
+    "embedding_text": "Miscellaneous Simulation Watering Plants II"
+  }
+]
