@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useAuth } from "@/context/AuthContext";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -11,13 +11,13 @@ import { motion } from "framer-motion";
 
 export default function SignupPage() {
   const { signup } = useAuth();
-  const navigate = useNavigate();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [submitted, setSubmitted] = useState(false); // 👈 new
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -25,16 +25,43 @@ export default function SignupPage() {
     if (!name || !email || !password || !confirmPassword) { setError("All fields are required."); return; }
     if (password.length < 6) { setError("Password must be at least 6 characters."); return; }
     if (password !== confirmPassword) { setError("Passwords do not match."); return; }
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!emailRegex.test(email)) { setError("Please enter a valid email address."); return; }
     try {
       setLoading(true);
       await signup(name, email, password);
-      navigate("/");
-    } catch {
-      setError("Signup failed. Please try again.");
+      setSubmitted(true); // 👈 navigate hataya, yeh daala
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Signup failed. Please try again.");
     } finally {
       setLoading(false);
     }
   };
+
+  // 👇 Signup hone ke baad yeh page dikhao
+  if (submitted) {
+    return (
+      <div className="flex min-h-screen flex-col">
+        <Header />
+        <main className="flex flex-1 items-center justify-center px-4 py-16 gradient-bg">
+          <motion.div
+            initial={{ opacity: 0, y: 20, scale: 0.98 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{ duration: 0.5 }}
+            className="w-full max-w-md rounded-2xl border border-border bg-card p-8 shadow-card-hover text-center"
+          >
+            <div className="text-6xl mb-4">📧</div>
+            <h1 className="text-2xl font-bold font-display mb-2">Check your email!</h1>
+            <p className="text-muted-foreground">We sent a verification link to</p>
+            <p className="font-semibold mt-1">{email}</p>
+            <p className="text-muted-foreground mt-3 text-sm">Click the link in your email to verify your account.</p>
+            <p className="text-muted-foreground mt-1 text-sm">(Check spam folder too 📁)</p>
+          </motion.div>
+        </main>
+        <Footer />
+      </div>
+    );
+  }
 
   return (
     <div className="flex min-h-screen flex-col">

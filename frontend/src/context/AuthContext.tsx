@@ -1,5 +1,7 @@
 import { createContext, useContext, useState, useCallback, ReactNode } from "react";
 
+const API_URL = "http://localhost:8000";
+
 export interface User {
   name: string;
   email: string;
@@ -20,22 +22,36 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     return stored ? JSON.parse(stored) : null;
   });
 
-  const login = useCallback(async (email: string, _password: string) => {
-    // Simulate API call
-    await new Promise(r => setTimeout(r, 600));
-    const u = { name: email.split("@")[0], email };
-    localStorage.setItem("dsa-user", JSON.stringify(u));
-    setUser(u);
+  const signup = useCallback(async (name: string, email: string, password: string) => {
+    const res = await fetch(`${API_URL}/auth/signup`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, email, password }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.detail || "Signup failed");
+
+    localStorage.setItem("dsa-token", data.token);
+    localStorage.setItem("dsa-user", JSON.stringify(data.user));
+    setUser(data.user);
   }, []);
 
-  const signup = useCallback(async (name: string, email: string, _password: string) => {
-    await new Promise(r => setTimeout(r, 600));
-    const u = { name, email };
-    localStorage.setItem("dsa-user", JSON.stringify(u));
-    setUser(u);
+  const login = useCallback(async (email: string, password: string) => {
+    const res = await fetch(`${API_URL}/auth/login`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, password }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.detail || "Login failed");
+
+    localStorage.setItem("dsa-token", data.token);
+    localStorage.setItem("dsa-user", JSON.stringify(data.user));
+    setUser(data.user);
   }, []);
 
   const logout = useCallback(() => {
+    localStorage.removeItem("dsa-token");
     localStorage.removeItem("dsa-user");
     setUser(null);
   }, []);
