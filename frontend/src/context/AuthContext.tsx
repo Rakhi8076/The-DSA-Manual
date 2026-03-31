@@ -18,9 +18,20 @@ const AuthContext = createContext<AuthContextType | null>(null);
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(() => {
+  try {
     const stored = localStorage.getItem("dsa-user");
-    return stored ? JSON.parse(stored) : null;
-  });
+
+    if (!stored || stored === "undefined") {
+      return null;
+    }
+
+    return JSON.parse(stored);
+  } catch (error) {
+    console.error("Invalid user data in localStorage");
+    localStorage.removeItem("dsa-user"); // cleanup
+    return null;
+  }
+});
 
   const signup = useCallback(async (name: string, email: string, password: string) => {
     const res = await fetch(`${API_URL}/auth/signup`, {
