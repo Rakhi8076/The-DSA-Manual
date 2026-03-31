@@ -1,12 +1,10 @@
-import { Moon, Sun, Code2, LogOut, User, Menu, X } from "lucide-react";
-import { useTheme } from "@/hooks/useTheme";
+import { Code2, LogOut, User, Menu, X } from "lucide-react";
 import { useAuth } from "@/context/AuthContext";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
 export function Header() {
-  const { isDark, toggle } = useTheme();
   const { user, logout } = useAuth();
   const { pathname } = useLocation();
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -61,20 +59,10 @@ export function Header() {
             </div>
           )}
 
-          <button
-            onClick={toggle}
-            className="ml-2 flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-card/50 transition-colors hover:bg-card"
-            aria-label="Toggle theme"
-          >
-            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
-          </button>
         </nav>
 
         {/* Mobile toggle */}
         <div className="flex items-center gap-2 md:hidden">
-          <button onClick={toggle} className="flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-card/50" aria-label="Toggle theme">
-            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
-          </button>
           <button onClick={() => setMobileOpen(o => !o)} className="flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-card/50">
             {mobileOpen ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
           </button>
