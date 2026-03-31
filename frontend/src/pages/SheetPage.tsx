@@ -35,7 +35,7 @@ export default function SheetPage() {
       <div className="flex min-h-screen flex-col">
         <Header />
         <div className="container flex flex-1 items-center justify-center">
-          <p className="text-gray-600">Sheet not found.</p>
+          <p className="text-muted-foreground">Sheet not found.</p>
         </div>
       </div>
     );
@@ -60,7 +60,7 @@ export default function SheetPage() {
   const statusFilters: StatusFilter[] = ["All", "Solved", "Unsolved"];
 
   const diffColors: Record<string, string> = {
-    All: "bg-gray-900 text-white",
+    All: "bg-accent text-accent-foreground",
     Easy: "bg-success/15 text-success border-success/30",
     Medium: "bg-warning/15 text-warning border-warning/30",
     Hard: "bg-destructive/15 text-destructive border-destructive/30",
@@ -74,16 +74,16 @@ export default function SheetPage() {
         <div className="container py-8 md:py-12">
           {/* Back link */}
           <motion.div initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }}>
-            <Link to="/" className="mb-6 inline-flex items-center gap-1.5 text-sm text-gray-700 hover:text-gray-900 transition-colors">
+            <Link to="/" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
               <ArrowLeft className="h-4 w-4" /> Back to Sheets
             </Link>
           </motion.div>
 
           {/* Sheet header */}
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="mb-8">
-            <h1 className="text-2xl md:text-3xl font-extrabold mb-1 text-gray-900" style={{ fontFamily: "var(--font-display)" }}>{sheet.name}</h1>
-            <p className="text-gray-600 text-sm mb-2" style={{ fontFamily: "var(--font-mono)" }}>{sheet.educator}</p>
-            <p className="text-gray-600 text-sm mb-6">{total} questions total</p>
+            <h1 className="text-2xl md:text-3xl font-extrabold mb-1 text-foreground" style={{ fontFamily: "var(--font-display)" }}>{sheet.name}</h1>
+            <p className="text-muted-foreground text-sm mb-2" style={{ fontFamily: "var(--font-mono)" }}>{sheet.educator}</p>
+            <p className="text-muted-foreground text-sm mb-6">{total} questions total</p>
 
             {/* Difficulty distribution */}
             <div className="flex flex-wrap gap-3 mb-6">
@@ -101,10 +101,10 @@ export default function SheetPage() {
             {/* Overall progress */}
             <div className="glass-card rounded-2xl p-6">
               <div className="flex items-center justify-between mb-3">
-                <span className="text-sm font-semibold text-gray-900" style={{ fontFamily: "var(--font-display)" }}>Overall Progress</span>
-                <span className="text-sm text-gray-600" style={{ fontFamily: "var(--font-mono)" }}>{solved}/{total} ({pct}%)</span>
+                <span className="text-sm font-semibold text-foreground" style={{ fontFamily: "var(--font-display)" }}>Overall Progress</span>
+                <span className="text-sm text-muted-foreground" style={{ fontFamily: "var(--font-mono)" }}>{solved}/{total} ({pct}%)</span>
               </div>
-              <div className="h-3 w-full overflow-hidden rounded-full bg-white/40 mb-5">
+              <div className="h-3 w-full overflow-hidden rounded-full bg-muted/40 mb-5">
                 <motion.div
                   className="h-full rounded-full progress-gradient"
                   initial={{ width: 0 }}
@@ -160,7 +160,7 @@ export default function SheetPage() {
                 placeholder="Search questions..."
                 value={search}
                 onChange={e => setSearch(e.target.value)}
-                className="w-full rounded-xl border border-white/30 bg-white/60 backdrop-blur-md py-2.5 pl-10 pr-4 text-sm text-gray-900 placeholder:text-gray-500 outline-none focus:ring-2 focus:ring-accent/30 transition-all"
+                className="w-full rounded-xl border border-border bg-card/60 backdrop-blur-md py-2.5 pl-10 pr-4 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:ring-2 focus:ring-accent/30 transition-all"
               />
             </div>
 
@@ -172,7 +172,7 @@ export default function SheetPage() {
                   className={`rounded-full border px-3.5 py-1.5 text-xs font-semibold transition-all ${
                     diffFilter === f
                       ? diffColors[f]
-                      : "border-white/30 bg-white/50 text-gray-800 hover:bg-white/70"
+                      : "border-border bg-card/50 text-foreground hover:bg-card/70"
                   }`}
                   style={{ fontFamily: "var(--font-mono)" }}
                 >
@@ -186,8 +186,8 @@ export default function SheetPage() {
                   onClick={() => setStatusFilter(f)}
                   className={`rounded-full border px-3.5 py-1.5 text-xs font-semibold transition-all ${
                     statusFilter === f
-                      ? "bg-gray-900 text-white border-gray-900"
-                      : "border-white/30 bg-white/50 text-gray-800 hover:bg-white/70"
+                      ? "bg-accent text-accent-foreground border-gray-900"
+                      : "border-border bg-card/50 text-foreground hover:bg-card/70"
                   }`}
                   style={{ fontFamily: "var(--font-mono)" }}
                 >
@@ -208,7 +208,7 @@ export default function SheetPage() {
                 />
               ))
             ) : (
-              <div className="glass-card rounded-2xl p-8 text-center text-gray-600 text-sm">
+              <div className="glass-card rounded-2xl p-8 text-center text-muted-foreground text-sm">
                 No questions match your filters.
               </div>
             )}
@@ -226,8 +226,8 @@ function DiffStat({ label, solved, total, colorClass, barClass }: { label: strin
   return (
     <div className="text-center">
       <span className={`text-xs font-semibold ${colorClass}`} style={{ fontFamily: "var(--font-mono)" }}>{label}</span>
-      <p className="text-lg font-bold text-gray-900" style={{ fontFamily: "var(--font-display)" }}>{solved}<span className="text-gray-500 font-normal text-sm">/{total}</span></p>
-      <div className="mt-1 h-2 w-full overflow-hidden rounded-full bg-white/40">
+      <p className="text-lg font-bold text-foreground" style={{ fontFamily: "var(--font-display)" }}>{solved}<span className="text-muted-foreground font-normal text-sm">/{total}</span></p>
+      <div className="mt-1 h-2 w-full overflow-hidden rounded-full bg-muted/40">
         <motion.div
           className={`h-full rounded-full ${barClass}`}
           initial={{ width: 0 }}

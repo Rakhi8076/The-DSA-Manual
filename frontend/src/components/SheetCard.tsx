@@ -31,7 +31,7 @@ export function SheetCard({ sheet, index }: SheetCardProps) {
     >
       <Link
         to={`/sheet/${sheet.id}`}
-        className="group block rounded-2xl border border-border bg-card p-6 shadow-card transition-all duration-300 hover:shadow-card-hover hover:-translate-y-1.5"
+        className="group block rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1.5 glass-card"
       >
         <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10">
           <Icon className="h-6 w-6 text-accent" />
