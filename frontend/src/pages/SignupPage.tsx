@@ -74,9 +74,9 @@ export default function SignupPage() {
           className="w-full max-w-md rounded-2xl glass-card p-8 text-center"
         >
           <div className="text-center mb-8">
-            <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary shadow-lg">
+            {/* <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary shadow-lg">
               <UserPlus className="h-7 w-7 text-primary-foreground" />
-            </div>
+            </div> */}
             <h1 className="text-2xl font-bold font-display">Create Account</h1>
             <p className="text-sm mt-1" style={{ color: "hsl(243 75% 55%)" }}>Start tracking your DSA progress today</p>
           </div>
