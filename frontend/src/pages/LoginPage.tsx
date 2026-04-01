@@ -80,7 +80,7 @@ export default function LoginPage() {
             </div>
 
             <Button type="submit" className="w-full h-11 rounded-full font-semibold shadow-lg" disabled={loading}>
-              {loading ? "Signing in…" : "Sign In"}
+              {loading ? "Logging in…" : "Login"}
             </Button>
 
             <p className="text-sm text-center text-foreground/70">
