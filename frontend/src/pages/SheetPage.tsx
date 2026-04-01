@@ -102,7 +102,7 @@ export default function SheetPage() {
             <div className="glass-card rounded-2xl p-6">
               <div className="flex items-center justify-between mb-3">
                 <span className="text-sm font-semibold text-foreground" style={{ fontFamily: "var(--font-display)" }}>Overall Progress</span>
-                <span className="text-sm text-muted-foreground" style={{ fontFamily: "var(--font-mono)" }}>{solved}/{total} ({pct}%)</span>
+                <span className="text-sm text-foreground/70" style={{ fontFamily: "var(--font-mono)" }}>{solved}/{total} ({pct}%)</span>
               </div>
               <div className="h-3 w-full overflow-hidden rounded-full bg-muted/40 mb-5">
                 <motion.div
@@ -129,11 +129,11 @@ export default function SheetPage() {
               transition={{ delay: 0.2 }}
               className="mb-6 glass-card rounded-2xl p-4 flex items-center gap-4"
             >
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent/15">
-                <Zap className="h-5 w-5 text-accent" />
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent/30">
+                <Zap className="h-5 w-5 text-foreground/80" />
               </div>
               <div className="flex-1 min-w-0">
-                <p className="text-xs text-accent font-semibold mb-0.5" style={{ fontFamily: "var(--font-mono)" }}>Continue Solving</p>
+                <p className="text-xs font-bold mb-0.5 text-foreground/90" style={{ fontFamily: "var(--font-mono)" }}>Continue Solving</p>
                 <p className="text-sm font-medium text-gray-900 truncate">{nextUnsolved.title}</p>
               </div>
               <a
@@ -225,8 +225,8 @@ function DiffStat({ label, solved, total, colorClass, barClass }: { label: strin
   const pct = total > 0 ? Math.round((solved / total) * 100) : 0;
   return (
     <div className="text-center">
-      <span className={`text-xs font-semibold ${colorClass}`} style={{ fontFamily: "var(--font-mono)" }}>{label}</span>
-      <p className="text-lg font-bold text-foreground" style={{ fontFamily: "var(--font-display)" }}>{solved}<span className="text-muted-foreground font-normal text-sm">/{total}</span></p>
+      <span className={`text-xs font-semibold ${colorClass} border border-black/40 rounded px-1.5 py-0.5`} style={{ fontFamily: "var(--font-mono)" }}>{label}</span>
+      <p className="text-lg font-bold text-white" style={{ fontFamily: "var(--font-display)" }}>{solved}<span className="text-foreground/60 font-normal text-sm">/{total}</span></p>
       <div className="mt-1 h-2 w-full overflow-hidden rounded-full bg-muted/40">
         <motion.div
           className={`h-full rounded-full ${barClass}`}
