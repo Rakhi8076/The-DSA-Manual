@@ -35,7 +35,7 @@ export function TopicProgressSection() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.2, duration: 0.5 }}
-      className="rounded-2xl border border-border bg-card p-6 shadow-card"
+      className="rounded-2xl glass-card p-6"
     >
       <h3 className="text-lg font-bold mb-5" style={{ fontFamily: "var(--font-display)" }}>
         Topic Progress (All Sheets)
@@ -49,13 +49,13 @@ export function TopicProgressSection() {
               <div className="flex items-center justify-between mb-1.5">
                 <div className="flex items-center gap-2">
                   <Icon className="h-4 w-4 text-accent" />
-                  <span className="text-sm font-medium">{topic}</span>
+                  <span className="text-sm font-medium text-foreground">{topic}</span>
                 </div>
-                <span className="text-xs text-muted-foreground" style={{ fontFamily: "var(--font-mono)" }}>
+                <span className="text-xs font-medium" style={{ color: "hsl(220 70% 50%)" }} style={{ fontFamily: "var(--font-mono)" }}>
                   {solved} / {total} solved
                 </span>
               </div>
-              <div className="h-2.5 w-full overflow-hidden rounded-full bg-secondary">
+              <div className="h-2.5 w-full overflow-hidden rounded-full bg-muted/40">
                 <motion.div
                   className="h-full rounded-full progress-gradient"
                   initial={{ width: 0 }}

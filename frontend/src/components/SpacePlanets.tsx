@@ -68,7 +68,7 @@ export function SpacePlanets() {
             boxShadow: "0 0 30px 10px rgba(253,224,71,0.2)",
           }}
         >
-          <span className="text-[10px] font-bold text-yellow-200 leading-tight">DSA Sheets Hub</span>
+          <span className="text-[10px] font-bold text-yellow-200 leading-tight">The DSA Manual</span>
           <span className="text-[8px] text-yellow-300/70 mt-0.5">Explore the Coding Galaxy</span>
         </div>
       </div>

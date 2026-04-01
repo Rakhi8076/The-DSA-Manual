@@ -52,10 +52,10 @@ export default function SignupPage() {
           >
             <div className="text-6xl mb-4">📧</div>
             <h1 className="text-2xl font-bold font-display mb-2">Check your email!</h1>
-            <p className="text-muted-foreground">We sent a verification link to</p>
+            <p className="text-foreground/70">We sent a verification link to</p>
             <p className="font-semibold mt-1">{email}</p>
-            <p className="text-muted-foreground mt-3 text-sm">Click the link in your email to verify your account.</p>
-            <p className="text-muted-foreground mt-1 text-sm">(Check spam folder too 📁)</p>
+            <p className="text-foreground/70 mt-3 text-sm">Click the link in your email to verify your account.</p>
+            <p className="text-foreground/70 mt-1 text-sm">(Check spam folder too 📁)</p>
           </motion.div>
         </main>
         <Footer />
@@ -71,17 +71,17 @@ export default function SignupPage() {
           initial={{ opacity: 0, y: 20, scale: 0.98 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="w-full max-w-md rounded-2xl border border-border bg-card p-8 shadow-card-hover"
+          className="w-full max-w-md rounded-2xl glass-card p-8 text-center"
         >
           <div className="text-center mb-8">
             <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary shadow-lg">
               <UserPlus className="h-7 w-7 text-primary-foreground" />
             </div>
             <h1 className="text-2xl font-bold font-display">Create Account</h1>
-            <p className="text-sm text-muted-foreground mt-1">Start tracking your DSA progress today</p>
+            <p className="text-sm mt-1" style={{ color: "hsl(243 75% 55%)" }}>Start tracking your DSA progress today</p>
           </div>
 
-          <form onSubmit={handleSubmit} className="space-y-4">
+          <form onSubmit={handleSubmit} className="space-y-4 text-left">
             {error && (
               <div className="rounded-lg bg-destructive/10 border border-destructive/20 px-4 py-3 text-sm text-destructive">
                 {error}
@@ -120,9 +120,9 @@ export default function SignupPage() {
               {loading ? "Creating account…" : "Sign Up"}
             </Button>
 
-            <p className="text-sm text-center text-muted-foreground">
+            <p className="text-sm text-center text-foreground/70">
               Already have an account?{" "}
-              <Link to="/login" className="text-accent font-medium hover:underline">Sign In</Link>
+              <Link to="/login" className="text-black font-medium hover:underline">Sign In</Link>
             </p>
           </form>
         </motion.div>

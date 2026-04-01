@@ -36,15 +36,15 @@ export function SheetCard({ sheet, index }: SheetCardProps) {
         <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10">
           <Icon className="h-6 w-6 text-accent" />
         </div>
-        <h3 className="mb-1 text-lg font-bold font-display">{sheet.name}</h3>
-        <p className="mb-1 text-xs font-medium text-accent font-mono">{sheet.educator}</p>
-        <p className="mb-4 text-sm text-muted-foreground leading-relaxed line-clamp-2">{sheet.description}</p>
+        <h3 className="mb-1 text-lg font-bold font-display text-white">{sheet.name}</h3>
+        <p className="mb-1 text-xs font-medium font-mono" style={{ color: "hsl(243 75% 55%)" }}>{sheet.educator}</p>
+        <p className="mb-4 text-sm text-foreground/80 leading-relaxed line-clamp-2">{sheet.description}</p>
 
-        <div className="mb-2 text-xs text-muted-foreground font-mono">{total} questions</div>
+        <div className="mb-2 text-xs text-foreground/70 font-mono">{total} questions</div>
         <div className="mb-4">
           <div className="mb-1.5 flex items-center justify-between text-xs text-muted-foreground">
-            <span>{solved} / {total} solved</span>
-            <span className="font-mono">{pct}%</span>
+            <span className="text-foreground/80">{solved} / {total} solved</span>
+            <span className="font-mono text-foreground/80">{pct}%</span>
           </div>
           <div className="h-2.5 w-full overflow-hidden rounded-full bg-secondary">
             <div
@@ -54,7 +54,7 @@ export function SheetCard({ sheet, index }: SheetCardProps) {
           </div>
         </div>
 
-        <div className="flex items-center gap-1.5 text-sm font-medium text-accent group-hover:gap-2.5 transition-all">
+        <div className="flex items-center gap-1.5 text-sm font-medium group-hover:gap-2.5 transition-all" style={{ color: "hsl(243 75% 55%)" }}>
           View Sheet <ArrowRight className="h-3.5 w-3.5" />
         </div>
       </Link>

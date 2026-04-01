@@ -1,4 +1,4 @@
-import { Code2, LogOut, User, Menu, X } from "lucide-react";
+import { Code2, LogOut, User, Menu, X, BookOpen } from "lucide-react";
 import { useAuth } from "@/context/AuthContext";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -15,13 +15,18 @@ export function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-transparent backdrop-blur-md border-b border-border/30">
-      <div className="container flex h-16 items-center justify-between">
+    <header className="sticky top-0 z-50 border-b border-border/20 bg-background/70 backdrop-blur-xl">
+      <div className="container flex h-20 items-center justify-between">
+
+        {/* Logo */}
         <Link to="/" className="flex items-center gap-2.5 group">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent shadow-lg shadow-accent/25">
-            <Code2 className="h-5 w-5 text-accent-foreground" />
+          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-accent shadow-lg shadow-accent/30 group-hover:shadow-accent/50 transition-all">
+            <Code2 className="h-5 w-5 text-white" />
           </div>
-          <span className="text-lg font-bold tracking-tight font-display">DSA Sheets Hub</span>
+          <div className="flex flex-col leading-none">
+            <span className="text-base font-bold tracking-tight font-display text-foreground">The DSA Manual</span>
+            <span className="text-[10px] text-foreground/40 font-mono tracking-widest uppercase">Master DSA</span>
+          </div>
         </Link>
 
         {/* Desktop nav */}
@@ -30,66 +35,96 @@ export function Header() {
             <Link
               key={l.to}
               to={l.to}
-              className={`px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-card/50 ${pathname === l.to ? "text-foreground" : "text-muted-foreground"}`}
+              className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                pathname === l.to
+                  ? "text-foreground bg-card/60"
+                  : "text-foreground/50 hover:text-foreground hover:bg-card/40"
+              }`}
             >
               {l.label}
             </Link>
           ))}
+        </nav>
 
+        {/* Right side */}
+        <div className="hidden md:flex items-center gap-3">
           {user ? (
-            <div className="flex items-center gap-2 ml-2">
-              <span className="flex items-center gap-1.5 text-sm font-medium">
-                <div className="flex h-7 w-7 items-center justify-center rounded-full bg-accent/10 text-accent">
-                  <User className="h-3.5 w-3.5" />
+            <div className="flex items-center gap-3">
+              <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-card/50 border border-border/30">
+                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-accent/20">
+                  <User className="h-3.5 w-3.5 text-accent" />
                 </div>
-                {user.name}
-              </span>
-              <Button variant="ghost" size="sm" onClick={logout}>
+                <span className="text-sm font-medium text-foreground">{user.name}</span>
+              </div>
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={logout}
+                className="text-foreground/50 hover:text-foreground hover:bg-card/40 gap-1.5"
+              >
                 <LogOut className="h-4 w-4" />
+                <span className="text-xs">Logout</span>
               </Button>
             </div>
           ) : (
-            <div className="flex items-center gap-2 ml-2">
-              <Button variant="ghost" size="sm" asChild>
+            <div className="flex items-center gap-2">
+              <Button variant="ghost" size="sm" asChild className="text-foreground/60 hover:text-foreground">
                 <Link to="/login">Login</Link>
               </Button>
-              <Button size="sm" className="rounded-full shadow-lg" asChild>
-                <Link to="/signup">Sign Up</Link>
+              <Button size="sm" asChild className="rounded-xl bg-accent hover:bg-accent/90 shadow-lg shadow-accent/25 font-semibold">
+                <Link to="/signup">Get Started</Link>
               </Button>
             </div>
           )}
-
-        </nav>
-
-        {/* Mobile toggle */}
-        <div className="flex items-center gap-2 md:hidden">
-          <button onClick={() => setMobileOpen(o => !o)} className="flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-card/50">
-            {mobileOpen ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
-          </button>
         </div>
+
+        {/* Mobile */}
+        <button
+          onClick={() => setMobileOpen(o => !o)}
+          className="flex md:hidden h-9 w-9 items-center justify-center rounded-lg border border-border/30 bg-card/50 text-foreground/60"
+        >
+          {mobileOpen ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
+        </button>
       </div>
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden border-t border-border/30 bg-card/95 backdrop-blur-xl px-4 py-3 space-y-2">
+        <div className="md:hidden border-t border-border/20 bg-background/95 backdrop-blur-xl px-4 py-4 space-y-2">
           {navLinks.map(l => (
-            <Link key={l.to} to={l.to} onClick={() => setMobileOpen(false)} className="block px-3 py-2 rounded-md text-sm font-medium text-muted-foreground hover:bg-secondary">
+            <Link
+              key={l.to}
+              to={l.to}
+              onClick={() => setMobileOpen(false)}
+              className="flex items-center gap-2 px-3 py-2.5 rounded-lg text-sm font-medium text-foreground/60 hover:text-foreground hover:bg-card/50 transition-all"
+            >
+              <BookOpen className="h-4 w-4" />
               {l.label}
             </Link>
           ))}
-          {user ? (
-            <div className="flex items-center justify-between px-3 py-2">
-              <span className="text-sm font-medium flex items-center gap-1.5"><User className="h-4 w-4" /> {user.name}</span>
-              <Button variant="ghost" size="sm" onClick={() => { logout(); setMobileOpen(false); }}>
-                <LogOut className="h-4 w-4" />
-              </Button>
-            </div>
-          ) : (
-            <div className="flex gap-2 px-3">
-              <Button variant="ghost" size="sm" asChild><Link to="/login" onClick={() => setMobileOpen(false)}>Login</Link></Button>
-              <Button size="sm" asChild><Link to="/signup" onClick={() => setMobileOpen(false)}>Sign Up</Link></Button>
-            </div>
-          )}
+          <div className="pt-2 border-t border-border/20">
+            {user ? (
+              <div className="flex items-center justify-between px-3 py-2">
+                <div className="flex items-center gap-2">
+                  <div className="flex h-7 w-7 items-center justify-center rounded-full bg-accent/20">
+                    <User className="h-3.5 w-3.5 text-accent" />
+                  </div>
+                  <span className="text-sm font-medium text-foreground">{user.name}</span>
+                </div>
+                <Button variant="ghost" size="sm" onClick={() => { logout(); setMobileOpen(false); }} className="text-foreground/50 gap-1">
+                  <LogOut className="h-4 w-4" />
+                </Button>
+              </div>
+            ) : (
+              <div className="flex gap-2 px-3 pt-1">
+                <Button variant="ghost" size="sm" asChild className="flex-1">
+                  <Link to="/login" onClick={() => setMobileOpen(false)}>Login</Link>
+                </Button>
+                <Button size="sm" asChild className="flex-1 bg-accent hover:bg-accent/90">
+                  <Link to="/signup" onClick={() => setMobileOpen(false)}>Get Started</Link>
+                </Button>
+              </div>
+            )}
+          </div>
         </div>
       )}
     </header>

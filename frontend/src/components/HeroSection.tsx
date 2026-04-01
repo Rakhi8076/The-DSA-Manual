@@ -174,13 +174,13 @@ export function HeroSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.15, duration: 0.5 }}
-                className="rounded-2xl border border-border bg-card p-8 shadow-card transition-all duration-300 hover:shadow-card-hover hover:-translate-y-1.5"
+                className="rounded-2xl glass-card p-8 transition-all duration-300 hover:-translate-y-1.5"
               >
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10">
                   <f.icon className="h-6 w-6 text-accent" />
                 </div>
                 <h3 className="text-lg font-bold mb-2" style={{ fontFamily: "var(--font-display)" }}>{f.title}</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">{f.description}</p>
+                <p className="text-xs font-medium" style={{ color: "hsl(243 75% 55%)", fontFamily: "var(--font-mono)" }}>{f.description}</p>
               </motion.div>
             ))}
           </div>

@@ -42,14 +42,14 @@ export default function LoginPage() {
           initial={{ opacity: 0, y: 20, scale: 0.98 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="w-full max-w-md rounded-2xl border border-border bg-card p-8 shadow-card-hover"
+          className="w-full max-w-md rounded-2xl glass-card p-8"
         >
           <div className="text-center mb-8">
             <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary shadow-lg">
               <LogIn className="h-7 w-7 text-primary-foreground" />
             </div>
-            <h1 className="text-2xl font-bold font-display">Welcome Back</h1>
-            <p className="text-sm text-muted-foreground mt-1">Sign in to continue tracking your progress</p>
+            <h1 className="text-2xl font-bold font-display text-white">Welcome Back</h1>
+            <p className="text-sm mt-1" style={{ color: "hsl(243 75% 55%)" }}>Sign in to continue tracking your progress</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-5">
@@ -83,9 +83,9 @@ export default function LoginPage() {
               {loading ? "Signing in…" : "Sign In"}
             </Button>
 
-            <p className="text-sm text-center text-muted-foreground">
+            <p className="text-sm text-center text-foreground/70">
               Don't have an account?{" "}
-              <Link to="/signup" className="text-accent font-medium hover:underline">Sign Up</Link>
+              <Link to="/signup" className="text-black font-medium hover:underline">Sign Up</Link>
             </p>
           </form>
         </motion.div>
