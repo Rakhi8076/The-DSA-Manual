@@ -51,7 +51,7 @@ export function TopicProgressSection() {
                   <Icon className="h-4 w-4 text-accent" />
                   <span className="text-sm font-medium text-foreground">{topic}</span>
                 </div>
-                <span className="text-xs font-medium" style={{ color: "hsl(220 70% 50%)" }} style={{ fontFamily: "var(--font-mono)" }}>
+                <span className="text-xs font-medium text-white" style={{ fontFamily: "var(--font-mono)" }}>
                   {solved} / {total} solved
                 </span>
               </div>
