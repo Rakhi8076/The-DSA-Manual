@@ -1,14 +1,23 @@
 [
   {
+    "id": "striver-1.1-1",
+    "topic": "Basics",
+    "section": "Things to know in C++/Java/Python or any language",
+    "question": "Input Output",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Basics Things to know in C++/Java/Python or any language Input Output"
+  },
+  {
     "id": "striver-1.1-2",
     "topic": "Basics",
     "section": "Things to know in C++/Java/Python or any language",
     "question": "Data Types",
     "pattern": "Basics",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://bit.ly/3Dqmgvx",
     "embedding_text": "Basics Things to know in C++/Java/Python or any language Data Types"
   },
@@ -19,9 +28,7 @@
     "question": "If Else Statements",
     "pattern": "Basics",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://practice.geeksforgeeks.org/problems/java-if-else-decision-making0924/0",
     "embedding_text": "Basics Things to know in C++/Java/Python or any language If Else Statements"
   },
@@ -32,11 +39,20 @@
     "question": "Switch Statement",
     "pattern": "Basics",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://practice.geeksforgeeks.org/problems/java-switch-case-statement3529/1",
     "embedding_text": "Basics Things to know in C++/Java/Python or any language Switch Statement"
+  },
+  {
+    "id": "striver-1.1-5",
+    "topic": "Basics",
+    "section": "Things to know in C++/Java/Python or any language",
+    "question": "Arrays and Strings",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Basics Things to know in C++/Java/Python or any language Arrays and Strings"
   },
   {
     "id": "striver-1.1-6",
@@ -45,11 +61,20 @@
     "question": "For loops",
     "pattern": "Basics",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://practice.geeksforgeeks.org/problems/for-loop-primecheck-java/1",
     "embedding_text": "Basics Things to know in C++/Java/Python or any language For loops"
+  },
+  {
+    "id": "striver-1.1-7",
+    "topic": "Basics",
+    "section": "Things to know in C++/Java/Python or any language",
+    "question": "While loops",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Basics Things to know in C++/Java/Python or any language While loops"
   },
   {
     "id": "striver-1.1-8",
@@ -58,11 +83,20 @@
     "question": "Functions (Pass by reference and value)",
     "pattern": "Basics",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://bit.ly/3DqE0ac",
-    "embedding_text": "Basics Things to know in C++/Java/Python or any language Functions (Pass by reference and value)"
+    "embedding_text": "Basics Things to know in C++/Java/Python or any language Functions Pass by reference and value"
+  },
+  {
+    "id": "striver-1.1-9",
+    "topic": "Basics",
+    "section": "Things to know in C++/Java/Python or any language",
+    "question": "Basic Theory with Examples",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Basics Things to know in C++/Java/Python or any language Theory with examples"
   },
   {
     "id": "striver-1.2-1",
@@ -71,11 +105,31 @@
     "question": "Patterns",
     "pattern": "Basics",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/",
     "embedding_text": "Basics Build up Logical Thinking Patterns"
+  },
+  {
+    "id": "striver-1.3-1",
+    "topic": "Basics",
+    "section": "Learn STL / Java Collections",
+    "question": "STL",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Basics Learn STL STL"
+  },
+  {
+    "id": "striver-1.3-2",
+    "topic": "Basics",
+    "section": "Learn STL / Java Collections",
+    "question": "Java Collections",
+    "pattern": "Basics",
+    "difficulty": "easy",
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Basics Learn STL Java Collections"
   },
   {
     "id": "striver-1.4-1",
@@ -120,7 +174,7 @@
     "id": "striver-1.4-4",
     "topic": "Basics",
     "section": "Know Basic Maths",
-    "question": "GCD or HCF",
+    "question": "GCD of Two numbers",
     "pattern": "Math",
     "difficulty": "easy",
     "sources": [
@@ -133,7 +187,7 @@
     "id": "striver-1.4-5",
     "topic": "Basics",
     "section": "Know Basic Maths",
-    "question": "Armstrong Numbers",
+    "question": "Check armstrong Numbers",
     "pattern": "Math",
     "difficulty": "easy",
     "sources": [
@@ -286,30 +340,37 @@
     "embedding_text": "Basics Learn Basic Recursion Fibonacci Number"
   },
   {
+    "id": "striver-1.6-1",
+    "topic": "Basics",
+    "section": "Learn Basic Hashing",
+    "question": "Basic Hashing",
+    "pattern": "Hashing",
+    "difficulty": "easy",
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Basics Learn Basic Hashing Basic Hashing"
+  },
+  {
     "id": "striver-1.6-2",
     "topic": "Basics",
     "section": "Learn Basic Hashing",
-    "question": "Counting frequencies of array elements",
+    "question": "Counting Frequencies of Array Elements",
     "pattern": "Hashing",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://practice.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/0",
-    "embedding_text": "Basics Learn Basic Hashing Counting frequencies of array elements"
+    "embedding_text": "Basics Learn Basic Hashing Counting Frequencies of Array Elements"
   },
   {
     "id": "striver-1.6-3",
     "topic": "Basics",
     "section": "Learn Basic Hashing",
-    "question": "Find the highest/lowest frequency element",
+    "question": "Highest Occurring Element in an Array",
     "pattern": "Hashing",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://practice.geeksforgeeks.org/problems/top-k-frequent-elements-in-array/1",
-    "embedding_text": "Basics Learn Basic Hashing Find the highest/lowest frequency element"
+    "embedding_text": "Basics Learn Basic Hashing Highest Occurring Element in an Array"
   },
   {
     "id": "striver-2.1-1",
@@ -409,9 +470,7 @@
     "question": "Largest Element in an Array",
     "pattern": "Basics",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://bit.ly/3Pld280",
     "embedding_text": "Arrays Easy Largest Element in an Array"
   },
@@ -419,79 +478,67 @@
     "id": "striver-3.1-2",
     "topic": "Arrays",
     "section": "Easy",
-    "question": "Second Largest Element in an Array without Sorting",
+    "question": "Second Largest Element in an Array",
     "pattern": "Basics",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://bit.ly/3pFvBcN",
-    "embedding_text": "Arrays Easy Second Largest Element in an Array without Sorting"
+    "embedding_text": "Arrays Easy Second Largest Element in an Array"
   },
   {
     "id": "striver-3.1-3",
     "topic": "Arrays",
     "section": "Easy",
-    "question": "Check if the array is sorted",
+    "question": "Check if the Array is Sorted II",
     "pattern": "Basics",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/",
-    "embedding_text": "Arrays Easy Check if the array is sorted"
+    "embedding_text": "Arrays Easy Check if the Array is Sorted II"
   },
   {
     "id": "striver-3.1-4",
     "topic": "Arrays",
     "section": "Easy",
-    "question": "Remove duplicates from the sorted array",
+    "question": "Remove duplicates from Sorted array",
     "pattern": "Basics",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
-    "embedding_text": "Arrays Easy Remove duplicates from the sorted array"
+    "embedding_text": "Arrays Easy Remove duplicates from Sorted array"
   },
   {
     "id": "striver-3.1-5",
     "topic": "Arrays",
     "section": "Easy",
-    "question": "Left Rotate an array by one place",
+    "question": "Left Rotate Array by One",
     "pattern": "Basics",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/rotate-array/",
-    "embedding_text": "Arrays Easy Left Rotate an array by one place"
+    "embedding_text": "Arrays Easy Left Rotate Array by One"
   },
   {
     "id": "striver-3.1-6",
     "topic": "Arrays",
     "section": "Easy",
-    "question": "Left Rotate an array by D places",
+    "question": "Left Rotate Array by K Places",
     "pattern": "Basics",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/rotate-array/",
-    "embedding_text": "Arrays Easy Left Rotate an array by D places"
+    "embedding_text": "Arrays Easy Left Rotate Array by K Places"
   },
   {
     "id": "striver-3.1-7",
     "topic": "Arrays",
     "section": "Easy",
-    "question": "Move Zeroes to end",
+    "question": "Move Zeroes to End",
     "pattern": "Basics",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/move-zeroes/",
-    "embedding_text": "Arrays Easy Move Zeroes to end"
+    "embedding_text": "Arrays Easy Move Zeroes to End"
   },
   {
     "id": "striver-3.1-8",
@@ -500,9 +547,7 @@
     "question": "Linear Search",
     "pattern": "Basics",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://bit.ly/3KcpHcB",
     "embedding_text": "Arrays Easy Linear Search"
   },
@@ -510,40 +555,34 @@
     "id": "striver-3.1-9",
     "topic": "Arrays",
     "section": "Easy",
-    "question": "Union and intersection of two sorted arrays",
+    "question": "Union of two sorted arrays",
     "pattern": "Basics",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://bit.ly/3Ap7Onp",
-    "embedding_text": "Arrays Easy Union and intersection of two sorted arrays"
+    "embedding_text": "Arrays Easy Union of two sorted arrays"
   },
   {
     "id": "striver-3.1-10",
     "topic": "Arrays",
     "section": "Easy",
-    "question": "Find missing number in an array",
+    "question": "Find missing number",
     "pattern": "Basics",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/missing-number/",
-    "embedding_text": "Arrays Easy Find missing number in an array"
+    "embedding_text": "Arrays Easy Find missing number"
   },
   {
     "id": "striver-3.1-11",
     "topic": "Arrays",
     "section": "Easy",
-    "question": "Maximum consecutive ones",
+    "question": "Maximum Consecutive Ones",
     "pattern": "Basics",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/max-consecutive-ones/",
-    "embedding_text": "Arrays Easy Maximum consecutive ones"
+    "embedding_text": "Arrays Easy Maximum Consecutive Ones"
   },
   {
     "id": "striver-3.1-12",
@@ -551,38 +590,44 @@
     "section": "Easy",
     "question": "Find the number that appears once, and other numbers twice",
     "pattern": "Basics",
-    "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "difficulty": "medium",
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/single-number/",
-    "embedding_text": "Arrays Easy Find the number that appears once, and other numbers twice"
+    "embedding_text": "Arrays Easy Single number"
   },
   {
-    "id": "striver-3.1-15",
+    "id": "striver-3.1-13",
     "topic": "Arrays",
     "section": "Easy",
-    "question": "Longest subarray with given sum (Positives and Negatives)",
+    "question": "Longest subarray with given sum K(positives)",
     "pattern": "Basics",
-    "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://bit.ly/3dyZdp3",
-    "embedding_text": "Arrays Easy Longest subarray with given sum (Positives and Negatives)"
+    "difficulty": "medium",
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Arrays Easy Longest subarray positives"
   },
+  {
+    "id": "striver-3.1-14",
+    "topic": "Arrays",
+    "section": "Easy",
+    "question": "Longest subarray with sum K",
+    "pattern": "Basics",
+    "difficulty": "medium",
+    "sources": ["striver"],
+    "leetcode": "https://bit.ly/3dyZdp3",
+    "embedding_text": "Arrays Easy Longest subarray K"
+  },
+
   {
     "id": "striver-3.2-1",
     "topic": "Arrays",
     "section": "Medium",
-    "question": "2 Sum Problem",
+    "question": "Two Sum",
     "pattern": "TwoPointer",
-    "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "difficulty": "easy",
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/two-sum/",
-    "embedding_text": "Arrays Medium 2 Sum Problem"
+    "embedding_text": "Arrays Medium Two Sum"
   },
   {
     "id": "striver-3.2-2",
@@ -591,37 +636,42 @@
     "question": "Sort an array of 0's 1's and 2's",
     "pattern": "TwoPointer",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/sort-colors/",
-    "embedding_text": "Arrays Medium Sort an array of 0's 1's and 2's"
+    "embedding_text": "Arrays Medium Sort 0 1 2"
   },
   {
     "id": "striver-3.2-3",
     "topic": "Arrays",
     "section": "Medium",
-    "question": "Majority Element (>n/2 times)",
+    "question": "Majority Element-I",
     "pattern": "TwoPointer",
-    "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "difficulty": "easy",
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/majority-element/",
-    "embedding_text": "Arrays Medium Majority Element (>n/2 times)"
+    "embedding_text": "Arrays Medium Majority Element"
   },
   {
     "id": "striver-3.2-4",
     "topic": "Arrays",
     "section": "Medium",
-    "question": "Kadanes Algorithm",
+    "question": "Kadane's Algorithm, maximum subarray sum",
     "pattern": "TwoPointer",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/maximum-subarray/",
-    "embedding_text": "Arrays Medium Kadanes Algorithm"
+    "embedding_text": "Arrays Medium Kadane"
+  },
+  {
+    "id": "striver-3.2-5",
+    "topic": "Arrays",
+    "section": "Medium",
+    "question": "Print subarray with maximum subarray sum (extended version of above problem)",
+    "pattern": "TwoPointer",
+    "difficulty": "medium",
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Arrays Medium Kadane print subarray"
   },
   {
     "id": "striver-3.2-6",
@@ -630,63 +680,53 @@
     "question": "Stock Buy and Sell",
     "pattern": "TwoPointer",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
-    "embedding_text": "Arrays Medium Stock Buy and Sell"
+    "embedding_text": "Arrays Medium Stock Buy Sell"
   },
   {
     "id": "striver-3.2-7",
     "topic": "Arrays",
     "section": "Medium",
-    "question": "Rearrange the array in alternating positive and negative items",
+    "question": "Rearrange array elements by sign",
     "pattern": "TwoPointer",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/rearrange-array-elements-by-sign/",
-    "embedding_text": "Arrays Medium Rearrange the array in alternating positive and negative items"
+    "embedding_text": "Arrays Medium Rearrange by sign"
   },
   {
     "id": "striver-3.2-8",
     "topic": "Arrays",
     "section": "Medium",
-    "question": "Next permutation",
+    "question": "Next Permutation",
     "pattern": "TwoPointer",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/next-permutation/",
-    "embedding_text": "Arrays Medium Next permutation"
+    "embedding_text": "Arrays Medium Next Permutation"
   },
   {
     "id": "striver-3.2-9",
     "topic": "Arrays",
     "section": "Medium",
-    "question": "Leaders in an array problem",
+    "question": "Leaders in an Array",
     "pattern": "TwoPointer",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://bit.ly/3bZqbGc",
-    "embedding_text": "Arrays Medium Leaders in an array problem"
+    "embedding_text": "Arrays Medium Leaders"
   },
   {
     "id": "striver-3.2-10",
     "topic": "Arrays",
     "section": "Medium",
-    "question": "Longest consecutive sequence in an array",
+    "question": "Longest Consecutive Sequence in an Array",
     "pattern": "TwoPointer",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/longest-consecutive-sequence/",
-    "embedding_text": "Arrays Medium Longest consecutive sequence in an array"
+    "embedding_text": "Arrays Medium Longest consecutive"
   },
   {
     "id": "striver-3.2-11",
@@ -695,9 +735,7 @@
     "question": "Set Matrix Zeroes",
     "pattern": "TwoPointer",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/set-matrix-zeroes/",
     "embedding_text": "Arrays Medium Set Matrix Zeroes"
   },
@@ -705,14 +743,12 @@
     "id": "striver-3.2-12",
     "topic": "Arrays",
     "section": "Medium",
-    "question": "Rotate Matrix by 90 degrees",
+    "question": "Rotate matrix by 90 degrees",
     "pattern": "TwoPointer",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/rotate-image/",
-    "embedding_text": "Arrays Medium Rotate Matrix by 90 degrees"
+    "embedding_text": "Arrays Medium Rotate Matrix"
   },
   {
     "id": "striver-3.2-13",
@@ -721,766 +757,676 @@
     "question": "Print the matrix in spiral manner",
     "pattern": "TwoPointer",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/spiral-matrix/",
-    "embedding_text": "Arrays Medium Print the matrix in spiral manner"
+    "embedding_text": "Arrays Medium Spiral Matrix"
   },
   {
     "id": "striver-3.2-14",
     "topic": "Arrays",
     "section": "Medium",
-    "question": "Find the number of subarrays with sum K",
+    "question": "Count subarrays with given sum",
     "pattern": "TwoPointer",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/subarray-sum-equals-k/",
-    "embedding_text": "Arrays Medium Find the number of subarrays with sum K"
+    "embedding_text": "Arrays Medium Count subarrays sum"
   },
+
   {
     "id": "striver-3.3-1",
     "topic": "Arrays",
     "section": "Hard",
-    "question": "Pascal's Triangle",
-    "pattern": "DPGeneral",
-    "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
+    "question": "Pascal's Triangle I",
+    "pattern": "Array",
+    "difficulty": "easy",
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/pascals-triangle/",
-    "embedding_text": "Arrays Hard Pascal's Triangle"
+    "embedding_text": "Arrays Hard Pascal"
   },
   {
     "id": "striver-3.3-2",
     "topic": "Arrays",
     "section": "Hard",
-    "question": "Majority Element (n/3 times)",
-    "pattern": "DPGeneral",
+    "question": "Majority Element-II",
+    "pattern": "Array",
     "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/majority-element-ii/",
-    "embedding_text": "Arrays Hard Majority Element (n/3 times)"
+    "embedding_text": "Arrays Hard Majority II"
   },
   {
     "id": "striver-3.3-3",
     "topic": "Arrays",
     "section": "Hard",
-    "question": "3 Sum Problem",
-    "pattern": "DPGeneral",
-    "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
+    "question": "3 Sum",
+    "pattern": "TwoPointer",
+    "difficulty": "medium",
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/3sum/",
-    "embedding_text": "Arrays Hard 3 Sum Problem"
+    "embedding_text": "Arrays Hard 3 Sum"
   },
   {
     "id": "striver-3.3-4",
     "topic": "Arrays",
     "section": "Hard",
-    "question": "4 Sum Problem",
-    "pattern": "DPGeneral",
-    "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
+    "question": "4 Sum",
+    "pattern": "TwoPointer",
+    "difficulty": "medium",
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/4sum/",
-    "embedding_text": "Arrays Hard 4 Sum Problem"
+    "embedding_text": "Arrays Hard 4 Sum"
   },
   {
     "id": "striver-3.3-5",
     "topic": "Arrays",
     "section": "Hard",
-    "question": "Count Number of subarrays with given Xor K",
-    "pattern": "DPGeneral",
-    "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://bit.ly/3PrvhZs",
-    "embedding_text": "Arrays Hard Count Number of subarrays with given Xor K"
+    "question": "Largest Subarray with Sum 0",
+    "pattern": "Hashing",
+    "difficulty": "medium",
+    "sources": ["striver"],
+    "leetcode": "https://bit.ly/3w5QZfX",
+    "embedding_text": "Arrays Hard Sum 0"
   },
   {
     "id": "striver-3.3-6",
     "topic": "Arrays",
     "section": "Hard",
-    "question": "Merge Overlapping Subintervals",
-    "pattern": "DPGeneral",
+    "question": "Count subarrays with given xor K",
+    "pattern": "Hashing",
     "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/merge-intervals/",
-    "embedding_text": "Arrays Hard Merge Overlapping Subintervals"
+    "sources": ["striver"],
+    "leetcode": "https://bit.ly/3PrvhZs",
+    "embedding_text": "Arrays Hard XOR"
   },
   {
     "id": "striver-3.3-7",
     "topic": "Arrays",
     "section": "Hard",
-    "question": "Merge two sorted arrays without extra space",
-    "pattern": "DPGeneral",
-    "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/merge-sorted-array/",
-    "embedding_text": "Arrays Hard Merge two sorted arrays without extra space"
+    "question": "Merge Overlapping Subintervals",
+    "pattern": "Intervals",
+    "difficulty": "medium",
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/merge-intervals/",
+    "embedding_text": "Arrays Hard Merge intervals"
   },
   {
     "id": "striver-3.3-8",
     "topic": "Arrays",
     "section": "Hard",
-    "question": "Find the repeating and missing number",
-    "pattern": "DPGeneral",
-    "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://bit.ly/3zWZoCs",
-    "embedding_text": "Arrays Hard Find the repeating and missing number"
+    "question": "Merge two sorted arrays without extra space",
+    "pattern": "Array",
+    "difficulty": "medium",
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/merge-sorted-array/",
+    "embedding_text": "Arrays Hard Merge arrays"
   },
   {
     "id": "striver-3.3-9",
     "topic": "Arrays",
     "section": "Hard",
-    "question": "Count Inversions",
-    "pattern": "DPGeneral",
+    "question": "Find the repeating and missing number",
+    "pattern": "Math",
     "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://bit.ly/3PtLWLM",
-    "embedding_text": "Arrays Hard Count Inversions"
+    "sources": ["striver"],
+    "leetcode": "https://bit.ly/3zWZoCs",
+    "embedding_text": "Arrays Hard Missing repeating"
   },
   {
     "id": "striver-3.3-10",
     "topic": "Arrays",
     "section": "Hard",
-    "question": "Reverse Pairs",
-    "pattern": "DPGeneral",
+    "question": "Count Inversions",
+    "pattern": "MergeSort",
     "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/reverse-pairs/",
-    "embedding_text": "Arrays Hard Reverse Pairs"
+    "sources": ["striver"],
+    "leetcode": "https://bit.ly/3PtLWLM",
+    "embedding_text": "Arrays Hard Inversions"
   },
   {
     "id": "striver-3.3-11",
     "topic": "Arrays",
     "section": "Hard",
-    "question": "Maximum Product subarray",
-    "pattern": "DPGeneral",
+    "question": "Reverse Pairs",
+    "pattern": "MergeSort",
     "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/reverse-pairs/",
+    "embedding_text": "Arrays Hard Reverse pairs"
+  },
+  {
+    "id": "striver-3.3-12",
+    "topic": "Arrays",
+    "section": "Hard",
+    "question": "Maximum Product Subarray in an Array",
+    "pattern": "Kadane",
+    "difficulty": "hard",
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/maximum-product-subarray/",
-    "embedding_text": "Arrays Hard Maximum Product subarray"
+    "embedding_text": "Arrays Hard Max product"
   },
   {
     "id": "striver-4.1-1",
     "topic": "Binary Search",
-    "section": "Learning BS on 1D Arrays",
-    "question": "Binary Search to find X in sorted array",
+    "section": "BS on 1D Arrays",
+    "question": "Search X in sorted array",
     "pattern": "BinarySearch",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/binary-search/",
-    "embedding_text": "Binary Search Learning BS on 1D Arrays Binary Search to find X in sorted array"
+    "embedding_text": "Binary Search 1D Search X"
   },
   {
     "id": "striver-4.1-2",
     "topic": "Binary Search",
-    "section": "Learning BS on 1D Arrays",
-    "question": "Implement lower bound",
+    "section": "BS on 1D Arrays",
+    "question": "Lower Bound",
     "pattern": "BinarySearch",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://bit.ly/3CgDDjE",
-    "embedding_text": "Binary Search Learning BS on 1D Arrays Implement lower bound"
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Binary Search Lower Bound"
   },
   {
     "id": "striver-4.1-3",
     "topic": "Binary Search",
-    "section": "Learning BS on 1D Arrays",
-    "question": "Implement upper bound",
+    "section": "BS on 1D Arrays",
+    "question": "Upper Bound",
     "pattern": "BinarySearch",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/search-insert-position/",
-    "embedding_text": "Binary Search Learning BS on 1D Arrays Implement upper bound"
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Binary Search Upper Bound"
   },
   {
     "id": "striver-4.1-4",
     "topic": "Binary Search",
-    "section": "Learning BS on 1D Arrays",
-    "question": "Search Insert Position",
+    "section": "BS on 1D Arrays",
+    "question": "Search insert position",
     "pattern": "BinarySearch",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/search-insert-position/",
-    "embedding_text": "Binary Search Learning BS on 1D Arrays Search Insert Position"
+    "embedding_text": "Binary Search Insert position"
+  },
+  {
+    "id": "striver-4.1-5",
+    "topic": "Binary Search",
+    "section": "BS on 1D Arrays",
+    "question": "Floor and Ceil in Sorted Array",
+    "pattern": "BinarySearch",
+    "difficulty": "easy",
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Binary Search Floor Ceil"
   },
   {
     "id": "striver-4.1-6",
     "topic": "Binary Search",
-    "section": "Learning BS on 1D Arrays",
-    "question": "Find the first or last occurrence of a given number in a sorted array",
+    "section": "BS on 1D Arrays",
+    "question": "First and last occurrence",
     "pattern": "BinarySearch",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
-    "embedding_text": "Binary Search Learning BS on 1D Arrays Find the first or last occurrence of a given number in a sorted array"
+    "embedding_text": "Binary Search first last"
   },
   {
     "id": "striver-4.1-7",
     "topic": "Binary Search",
-    "section": "Learning BS on 1D Arrays",
-    "question": "Count occurrences of a number in a sorted array with duplicates",
+    "section": "BS on 1D Arrays",
+    "question": "Count Occurrences in a Sorted Array",
     "pattern": "BinarySearch",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://bit.ly/3SVcOqW",
-    "embedding_text": "Binary Search Learning BS on 1D Arrays Count occurrences of a number in a sorted array with duplicates"
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Binary Search count occurrences"
   },
   {
     "id": "striver-4.1-8",
     "topic": "Binary Search",
-    "section": "Learning BS on 1D Arrays",
-    "question": "Find the peak element",
+    "section": "BS on 1D Arrays",
+    "question": "Search in rotated sorted array-I",
     "pattern": "BinarySearch",
-    "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/find-peak-element/",
-    "embedding_text": "Binary Search Learning BS on 1D Arrays Find the peak element"
+    "difficulty": "medium",
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "embedding_text": "Binary Search rotated 1"
   },
   {
     "id": "striver-4.1-9",
     "topic": "Binary Search",
-    "section": "Learning BS on 1D Arrays",
-    "question": "Search in rotated sorted array 1",
+    "section": "BS on 1D Arrays",
+    "question": "Search in rotated sorted array-II",
     "pattern": "BinarySearch",
-    "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
-    "embedding_text": "Binary Search Learning BS on 1D Arrays Search in rotated sorted array 1"
+    "difficulty": "medium",
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+    "embedding_text": "Binary Search rotated 2"
   },
   {
     "id": "striver-4.1-10",
     "topic": "Binary Search",
-    "section": "Learning BS on 1D Arrays",
-    "question": "Search in rotated sorted array 2",
+    "section": "BS on 1D Arrays",
+    "question": "Find minimum in Rotated Sorted Array",
     "pattern": "BinarySearch",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
-    "embedding_text": "Binary Search Learning BS on 1D Arrays Search in rotated sorted array 2"
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "embedding_text": "Binary Search min rotated"
   },
   {
     "id": "striver-4.1-11",
     "topic": "Binary Search",
-    "section": "Learning BS on 1D Arrays",
-    "question": "Find minimum in rotated sorted array",
+    "section": "BS on 1D Arrays",
+    "question": "Find out how many times the array is rotated",
     "pattern": "BinarySearch",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
-    "embedding_text": "Binary Search Learning BS on 1D Arrays Find minimum in rotated sorted array"
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Binary Search count rotation"
   },
   {
     "id": "striver-4.1-12",
     "topic": "Binary Search",
-    "section": "Learning BS on 1D Arrays",
-    "question": "Single Element in a sorted array",
+    "section": "BS on 1D Arrays",
+    "question": "Single element in a Sorted Array",
     "pattern": "BinarySearch",
-    "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "difficulty": "medium",
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/single-element-in-a-sorted-array/",
-    "embedding_text": "Binary Search Learning BS on 1D Arrays Single Element in a sorted array"
+    "embedding_text": "Binary Search single element"
   },
   {
     "id": "striver-4.1-13",
     "topic": "Binary Search",
-    "section": "Learning BS on 1D Arrays",
-    "question": "Find kth element of two sorted arrays",
+    "section": "BS on 1D Arrays",
+    "question": "Find peak element",
     "pattern": "BinarySearch",
-    "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://bit.ly/3Amcomr",
-    "embedding_text": "Binary Search Learning BS on 1D Arrays Find kth element of two sorted arrays"
+    "difficulty": "medium",
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/find-peak-element/",
+    "embedding_text": "Binary Search peak"
   },
-  {
-    "id": "striver-4.1-14",
-    "topic": "Binary Search",
-    "section": "Learning BS on 1D Arrays",
-    "question": "Find out how many times has an array been rotated",
-    "pattern": "BinarySearch",
-    "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://bit.ly/3dEvWJD",
-    "embedding_text": "Binary Search Learning BS on 1D Arrays Find out how many times has an array been rotated"
-  },
+
   {
     "id": "striver-4.2-1",
     "topic": "Binary Search",
-    "section": "Applying BS on 2D Arrays",
-    "question": "Find the row with maximum number of 1's",
+    "section": "BS on Answers",
+    "question": "Find square root of a number",
     "pattern": "BinarySearch",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://bit.ly/3QNDw2W",
-    "embedding_text": "Binary Search Applying BS on 2D Arrays Find the row with maximum number of 1's"
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Binary Search sqrt"
   },
   {
     "id": "striver-4.2-2",
     "topic": "Binary Search",
-    "section": "Applying BS on 2D Arrays",
-    "question": "Search in a 2D matrix",
+    "section": "BS on Answers",
+    "question": "Find Nth root of a number",
     "pattern": "BinarySearch",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/search-a-2d-matrix/",
-    "embedding_text": "Binary Search Applying BS on 2D Arrays Search in a 2D matrix"
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Binary Search nth root"
   },
   {
     "id": "striver-4.2-3",
     "topic": "Binary Search",
-    "section": "Applying BS on 2D Arrays",
-    "question": "Find Peak Element",
+    "section": "BS on Answers",
+    "question": "Koko eating bananas",
     "pattern": "BinarySearch",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/find-a-peak-element-ii/",
-    "embedding_text": "Binary Search Applying BS on 2D Arrays Find Peak Element"
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/koko-eating-bananas/",
+    "embedding_text": "Binary Search koko"
   },
   {
     "id": "striver-4.2-4",
     "topic": "Binary Search",
-    "section": "Applying BS on 2D Arrays",
-    "question": "Matrix Median",
+    "section": "BS on Answers",
+    "question": "Minimum days to make M bouquets",
     "pattern": "BinarySearch",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://bit.ly/3PvwuPk",
-    "embedding_text": "Binary Search Applying BS on 2D Arrays Matrix Median"
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+    "embedding_text": "Binary Search bouquets"
   },
+  {
+    "id": "striver-4.2-5",
+    "topic": "Binary Search",
+    "section": "BS on Answers",
+    "question": "Find the smallest divisor",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
+    "embedding_text": "Binary Search divisor"
+  },
+  {
+    "id": "striver-4.2-6",
+    "topic": "Binary Search",
+    "section": "BS on Answers",
+    "question": "Capacity to Ship Packages Within D Days",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
+    "embedding_text": "Binary Search ship"
+  },
+  {
+    "id": "striver-4.2-7",
+    "topic": "Binary Search",
+    "section": "BS on Answers",
+    "question": "Kth Missing Positive Number",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/kth-missing-positive-number/",
+    "embedding_text": "Binary Search kth missing"
+  },
+  {
+    "id": "striver-4.2-8",
+    "topic": "Binary Search",
+    "section": "BS on Answers",
+    "question": "Aggressive Cows",
+    "pattern": "BinarySearch",
+    "difficulty": "hard",
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Binary Search cows"
+  },
+  {
+    "id": "striver-4.2-9",
+    "topic": "Binary Search",
+    "section": "BS on Answers",
+    "question": "Book Allocation Problem",
+    "pattern": "BinarySearch",
+    "difficulty": "hard",
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Binary Search book"
+  },
+  {
+    "id": "striver-4.2-10",
+    "topic": "Binary Search",
+    "section": "BS on Answers",
+    "question": "Split array - largest sum",
+    "pattern": "BinarySearch",
+    "difficulty": "hard",
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/split-array-largest-sum/",
+    "embedding_text": "Binary Search split array"
+  },
+  {
+    "id": "striver-4.2-11",
+    "topic": "Binary Search",
+    "section": "BS on Answers",
+    "question": "Painter's Partition",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Binary Search painter"
+  },
+  {
+    "id": "striver-4.2-12",
+    "topic": "Binary Search",
+    "section": "BS on Answers",
+    "question": "Minimize Max Distance to Gas Station",
+    "pattern": "BinarySearch",
+    "difficulty": "hard",
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/minimize-max-distance-to-gas-station/",
+    "embedding_text": "Binary Search gas"
+  },
+  {
+    "id": "striver-4.2-13",
+    "topic": "Binary Search",
+    "section": "BS on Answers",
+    "question": "Median of 2 sorted arrays",
+    "pattern": "BinarySearch",
+    "difficulty": "hard",
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "embedding_text": "Binary Search median"
+  },
+  {
+    "id": "striver-4.2-14",
+    "topic": "Binary Search",
+    "section": "BS on Answers",
+    "question": "Kth element of 2 sorted arrays",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Binary Search kth element"
+  },
+
   {
     "id": "striver-4.3-1",
     "topic": "Binary Search",
-    "section": "Find Answers by BS in Search Space",
-    "question": "Find square root of a number in log n",
+    "section": "BS on 2D Arrays",
+    "question": "Find row with maximum 1's",
     "pattern": "BinarySearch",
-    "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://bit.ly/3JXtGcE",
-    "embedding_text": "Binary Search Find Answers by BS in Search Space Find square root of a number in log n"
+    "difficulty": "easy",
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Binary Search row max ones"
   },
   {
     "id": "striver-4.3-2",
     "topic": "Binary Search",
-    "section": "Find Answers by BS in Search Space",
-    "question": "Find the Nth root of a number using binary search",
+    "section": "BS on 2D Arrays",
+    "question": "Search in a 2D matrix",
     "pattern": "BinarySearch",
     "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://bit.ly/3zWNyrL",
-    "embedding_text": "Binary Search Find Answers by BS in Search Space Find the Nth root of a number using binary search"
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/search-a-2d-matrix/",
+    "embedding_text": "Binary Search matrix search"
   },
   {
     "id": "striver-4.3-3",
     "topic": "Binary Search",
-    "section": "Find Answers by BS in Search Space",
-    "question": "Koko Eating Bananas",
+    "section": "BS on 2D Arrays",
+    "question": "Search in 2D matrix - II",
     "pattern": "BinarySearch",
     "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/koko-eating-bananas/",
-    "embedding_text": "Binary Search Find Answers by BS in Search Space Koko Eating Bananas"
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+    "embedding_text": "Binary Search matrix 2"
   },
   {
     "id": "striver-4.3-4",
     "topic": "Binary Search",
-    "section": "Find Answers by BS in Search Space",
-    "question": "Minimum days to make M bouquets",
+    "section": "BS on 2D Arrays",
+    "question": "Find Peak Element - II",
     "pattern": "BinarySearch",
-    "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
-    "embedding_text": "Binary Search Find Answers by BS in Search Space Minimum days to make M bouquets"
+    "difficulty": "medium",
+    "sources": ["striver"],
+    "leetcode": "https://leetcode.com/problems/find-a-peak-element-ii/",
+    "embedding_text": "Binary Search peak 2d"
   },
   {
     "id": "striver-4.3-5",
     "topic": "Binary Search",
-    "section": "Find Answers by BS in Search Space",
-    "question": "Find the smallest Divisor",
+    "section": "BS on 2D Arrays",
+    "question": "Matrix Median",
     "pattern": "BinarySearch",
     "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
-    "embedding_text": "Binary Search Find Answers by BS in Search Space Find the smallest Divisor"
+    "sources": ["striver"],
+    "leetcode": "",
+    "embedding_text": "Binary Search matrix median"
   },
-  {
-    "id": "striver-4.3-6",
-    "topic": "Binary Search",
-    "section": "Find Answers by BS in Search Space",
-    "question": "Capacity to Ship Packages within D Days",
-    "pattern": "BinarySearch",
-    "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
-    "embedding_text": "Binary Search Find Answers by BS in Search Space Capacity to Ship Packages within D Days"
-  },
-  {
-    "id": "striver-4.3-7",
-    "topic": "Binary Search",
-    "section": "Find Answers by BS in Search Space",
-    "question": "Median of two sorted arrays",
-    "pattern": "BinarySearch",
-    "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
-    "embedding_text": "Binary Search Find Answers by BS in Search Space Median of two sorted arrays"
-  },
-  {
-    "id": "striver-4.3-8",
-    "topic": "Binary Search",
-    "section": "Find Answers by BS in Search Space",
-    "question": "Aggressive Cows",
-    "pattern": "BinarySearch",
-    "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://bit.ly/3rBuE5Z",
-    "embedding_text": "Binary Search Find Answers by BS in Search Space Aggressive Cows"
-  },
-  {
-    "id": "striver-4.3-9",
-    "topic": "Binary Search",
-    "section": "Find Answers by BS in Search Space",
-    "question": "Book Allocation Problem",
-    "pattern": "BinarySearch",
-    "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://bit.ly/3QMrMxP",
-    "embedding_text": "Binary Search Find Answers by BS in Search Space Book Allocation Problem"
-  },
-  {
-    "id": "striver-4.3-10",
-    "topic": "Binary Search",
-    "section": "Find Answers by BS in Search Space",
-    "question": "Split array - Largest Sum",
-    "pattern": "BinarySearch",
-    "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/split-array-largest-sum/",
-    "embedding_text": "Binary Search Find Answers by BS in Search Space Split array - Largest Sum"
-  },
-  {
-    "id": "striver-4.3-11",
-    "topic": "Binary Search",
-    "section": "Find Answers by BS in Search Space",
-    "question": "Kth Missing Positive Number",
-    "pattern": "BinarySearch",
-    "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/kth-missing-positive-number/",
-    "embedding_text": "Binary Search Find Answers by BS in Search Space Kth Missing Positive Number"
-  },
-  {
-    "id": "striver-4.3-12",
-    "topic": "Binary Search",
-    "section": "Find Answers by BS in Search Space",
-    "question": "Minimize Max Distance to Gas Station",
-    "pattern": "BinarySearch",
-    "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/minimize-max-distance-to-gas-station/",
-    "embedding_text": "Binary Search Find Answers by BS in Search Space Minimize Max Distance to Gas Station"
-  },
-  {
-    "id": "striver-4.3-13",
-    "topic": "Binary Search",
-    "section": "Find Answers by BS in Search Space",
-    "question": "Median of 2 sorted arrays",
-    "pattern": "BinarySearch",
-    "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
-    "embedding_text": "Binary Search Find Answers by BS in Search Space Median of 2 sorted arrays"
-  },
-  {
-    "id": "striver-4.3-14",
-    "topic": "Binary Search",
-    "section": "Find Answers by BS in Search Space",
-    "question": "Kth element of 2 sorted arrays",
-    "pattern": "BinarySearch",
-    "difficulty": "hard",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://bit.ly/3Amcomr",
-    "embedding_text": "Binary Search Find Answers by BS in Search Space Kth element of 2 sorted arrays"
-  },
+  
   {
     "id": "striver-5.1-1",
     "topic": "Strings",
-    "section": "Basic and Easy String problems",
-    "question": "Remove outermost Paranthesis",
+    "section": "Basic and Easy String Problems",
+    "question": "Remove Outermost Parentheses",
     "pattern": "StringManipulation",
-    "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "difficulty": "medium",
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/remove-outermost-parentheses/",
-    "embedding_text": "Strings Basic and Easy String problems Remove outermost Paranthesis"
+    "embedding_text": "Strings Remove Outermost Parentheses"
   },
   {
     "id": "striver-5.1-2",
     "topic": "Strings",
-    "section": "Basic and Easy String problems",
+    "section": "Basic and Easy String Problems",
     "question": "Reverse words in a given string / Palindrome Check",
     "pattern": "StringManipulation",
-    "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "difficulty": "medium",
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/reverse-words-in-a-string/",
-    "embedding_text": "Strings Basic and Easy String problems Reverse words in a given string / Palindrome Check"
+    "embedding_text": "Strings Reverse words palindrome"
   },
   {
     "id": "striver-5.1-3",
     "topic": "Strings",
-    "section": "Basic and Easy String problems",
-    "question": "Largest odd number in a string",
+    "section": "Basic and Easy String Problems",
+    "question": "Largest Odd Number in a String",
     "pattern": "StringManipulation",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/largest-odd-number-in-string/",
-    "embedding_text": "Strings Basic and Easy String problems Largest odd number in a string"
+    "embedding_text": "Strings Largest odd number"
   },
   {
     "id": "striver-5.1-4",
     "topic": "Strings",
-    "section": "Basic and Easy String problems",
+    "section": "Basic and Easy String Problems",
     "question": "Longest Common Prefix",
     "pattern": "StringManipulation",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/longest-common-prefix/",
-    "embedding_text": "Strings Basic and Easy String problems Longest Common Prefix"
+    "embedding_text": "Strings LCP"
   },
   {
     "id": "striver-5.1-5",
     "topic": "Strings",
-    "section": "Basic and Easy String problems",
+    "section": "Basic and Easy String Problems",
     "question": "Isomorphic String",
     "pattern": "StringManipulation",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/isomorphic-strings/",
-    "embedding_text": "Strings Basic and Easy String problems Isomorphic String"
+    "embedding_text": "Strings Isomorphic"
   },
   {
     "id": "striver-5.1-6",
     "topic": "Strings",
-    "section": "Basic and Easy String problems",
-    "question": "check whether one string is a rotation of another",
+    "section": "Basic and Easy String Problems",
+    "question": "Rotate String",
     "pattern": "StringManipulation",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/rotate-string/",
-    "embedding_text": "Strings Basic and Easy String problems check whether one string is a rotation of another"
+    "embedding_text": "Strings Rotate String"
   },
   {
     "id": "striver-5.1-7",
     "topic": "Strings",
-    "section": "Basic and Easy String problems",
+    "section": "Basic and Easy String Problems",
     "question": "Check if two strings are anagram of each other",
     "pattern": "StringManipulation",
     "difficulty": "easy",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/valid-anagram/",
-    "embedding_text": "Strings Basic and Easy String problems Check if two strings are anagram of each other"
+    "embedding_text": "Strings Anagram"
   },
+
   {
     "id": "striver-5.2-1",
     "topic": "Strings",
-    "section": "Medium String Problmes",
-    "question": "Sort Characters by frequency",
+    "section": "Medium String Problems",
+    "question": "Sort Characters by Frequency",
     "pattern": "StringManipulation",
-    "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "difficulty": "easy",
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/sort-characters-by-frequency/",
-    "embedding_text": "Strings Medium String Problmes Sort Characters by frequency"
+    "embedding_text": "Strings Sort by Frequency"
   },
   {
     "id": "striver-5.2-2",
     "topic": "Strings",
-    "section": "Medium String Problmes",
-    "question": "Maximum Nesting Depth of Paranthesis",
+    "section": "Medium String Problems",
+    "question": "Maximum Nesting Depth of the Parentheses",
     "pattern": "StringManipulation",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/",
-    "embedding_text": "Strings Medium String Problmes Maximum Nesting Depth of Paranthesis"
+    "embedding_text": "Strings Nesting Depth"
   },
   {
     "id": "striver-5.2-3",
     "topic": "Strings",
-    "section": "Medium String Problmes",
-    "question": "Roman Number to Integer and vice versa",
+    "section": "Medium String Problems",
+    "question": "Roman to Integer",
     "pattern": "StringManipulation",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/roman-to-integer/",
-    "embedding_text": "Strings Medium String Problmes Roman Number to Integer and vice versa"
+    "embedding_text": "Strings Roman"
   },
   {
     "id": "striver-5.2-4",
     "topic": "Strings",
-    "section": "Medium String Problmes",
-    "question": "Implement Atoi",
+    "section": "Medium String Problems",
+    "question": "String to Integer (atoi)",
     "pattern": "StringManipulation",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/string-to-integer-atoi/",
-    "embedding_text": "Strings Medium String Problmes Implement Atoi"
+    "embedding_text": "Strings Atoi"
   },
   {
     "id": "striver-5.2-5",
     "topic": "Strings",
-    "section": "Medium String Problmes",
+    "section": "Medium String Problems",
     "question": "Count Number of Substrings",
     "pattern": "StringManipulation",
-    "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "difficulty": "easy",
+    "sources": ["striver"],
     "leetcode": "https://bit.ly/3CfQfYi",
-    "embedding_text": "Strings Medium String Problmes Count Number of Substrings"
+    "embedding_text": "Strings Count Substrings"
   },
   {
     "id": "striver-5.2-6",
     "topic": "Strings",
-    "section": "Medium String Problmes",
+    "section": "Medium String Problems",
     "question": "Longest Palindromic Substring",
     "pattern": "StringManipulation",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/longest-palindromic-substring/",
-    "embedding_text": "Strings Medium String Problmes Longest Palindromic Substring"
+    "embedding_text": "Strings LPS"
   },
   {
     "id": "striver-5.2-7",
     "topic": "Strings",
-    "section": "Medium String Problmes",
-    "question": "Sum of Beauty of all substring",
+    "section": "Medium String Problems",
+    "question": "Sum of Beauty of All Substrings",
     "pattern": "StringManipulation",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/sum-of-beauty-of-all-substrings/",
-    "embedding_text": "Strings Medium String Problmes Sum of Beauty of all substring"
+    "embedding_text": "Strings Beauty Sum"
   },
   {
     "id": "striver-5.2-8",
     "topic": "Strings",
-    "section": "Medium String Problmes",
-    "question": "Reverse Every Word in A String",
+    "section": "Medium String Problems",
+    "question": "Reverse every word in a string",
     "pattern": "StringManipulation",
     "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
+    "sources": ["striver"],
     "leetcode": "https://leetcode.com/problems/reverse-words-in-a-string/",
-    "embedding_text": "Strings Medium String Problmes Reverse Every Word in A String"
+    "embedding_text": "Strings Reverse Words"
   },
+
   {
     "id": "striver-6.1-1",
     "topic": "Linked List",
@@ -2703,19 +2649,7 @@
     "leetcode": "https://leetcode.com/problems/sum-of-subarray-minimums/",
     "embedding_text": "Stacks & Queues Monotonic Stack/Queue Problems (VVV. Imp) Sum of subarray minimum"
   },
-  {
-    "id": "striver-9.3-7",
-    "topic": "Stacks & Queues",
-    "section": "Monotonic Stack/Queue Problems (VVV. Imp)",
-    "question": "Stock span problem",
-    "pattern": "MonotonicStack",
-    "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/online-stock-span/",
-    "embedding_text": "Stacks & Queues Monotonic Stack/Queue Problems (VVV. Imp) Stock span problem"
-  },
+  
   {
     "id": "striver-9.3-8",
     "topic": "Stacks & Queues",
@@ -2819,19 +2753,6 @@
     ],
     "leetcode": "https://leetcode.com/problems/find-the-celebrity/",
     "embedding_text": "Stacks & Queues Implementation Problems The Celebrity Problem"
-  },
-  {
-    "id": "striver-9.4-4",
-    "topic": "Stacks & Queues",
-    "section": "Implementation Problems",
-    "question": "Rotten Oranges",
-    "pattern": "Stack",
-    "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://leetcode.com/problems/rotting-oranges/",
-    "embedding_text": "Stacks & Queues Implementation Problems Rotten Oranges"
   },
   {
     "id": "striver-9.4-5",
@@ -4730,19 +4651,6 @@
     ],
     "leetcode": "https://bit.ly/3QSGvHz",
     "embedding_text": "Graphs Minimum Spanning Tree/Disjoint Set Disjoint Set Union by Size"
-  },
-  {
-    "id": "striver-15.5-5",
-    "topic": "Graphs",
-    "section": "Minimum Spanning Tree/Disjoint Set",
-    "question": "Kruskal's Algorithm",
-    "pattern": "MST",
-    "difficulty": "medium",
-    "sources": [
-      "striver"
-    ],
-    "leetcode": "https://bit.ly/3R2Xhn1",
-    "embedding_text": "Graphs Minimum Spanning Tree/Disjoint Set Kruskal's Algorithm"
   },
   {
     "id": "striver-15.5-6",
