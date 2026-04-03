@@ -37,93 +37,75 @@ function getPracticeLink(q: Question): { url: string; label: string } {
 
 // Section accordion inside topic
 function SectionAccordion({ section, questions }: { section: string; questions: Question[] }) {
-  const [open, setOpen] = useState(false);
   const { isSolved, toggleSolved } = useProgress();
 
   return (
     <div className="border-b border-border/20 last:border-b-0">
-      <button
-        onClick={() => setOpen(o => !o)}
-        className="flex w-full items-center justify-between px-5 py-3 text-left hover:bg-card/20 transition-colors"
-      >
-        <span className="text-xs font-bold uppercase tracking-widest text-foreground/70">{section}</span>
-        <div className="flex items-center gap-2">
-          <span className="text-xs text-muted-foreground font-mono">{questions.length} questions</span>
-          <ChevronDown className={`h-3.5 w-3.5 text-muted-foreground transition-transform duration-200 ${open ? "rotate-180" : ""}`} />
-        </div>
-      </button>
 
-      <AnimatePresence initial={false}>
-        {open && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            className="overflow-hidden"
+      {/* Table header */}
+      <div className="hidden sm:grid grid-cols-[40px_1fr_120px_100px_100px] gap-2 px-5 py-2 text-xs font-medium text-foreground/70 uppercase tracking-wider border-t border-border/20 bg-muted/20">
+        <span></span>
+        <span>Question</span>
+        <span>Difficulty</span>
+        <span>Practice</span>
+        <span>Status</span>
+      </div>
+
+      {questions.map(q => {
+        const qSolved = isSolved(q.id);
+        const link = getPracticeLink(q);
+
+        return (
+          <div
+            key={q.id}
+            className={`grid grid-cols-1 sm:grid-cols-[40px_1fr_120px_100px_100px] gap-2 items-center px-5 py-3.5 border-t border-border/10 text-sm transition-colors hover:bg-card/30 ${qSolved ? "bg-success/5" : ""}`}
           >
-            {/* Table header */}
-            <div className="hidden sm:grid grid-cols-[40px_1fr_120px_100px_100px] gap-2 px-5 py-2 text-xs font-medium text-foreground/70 uppercase tracking-wider border-t border-border/20 bg-muted/20">
-              <span></span>
-              <span>Question</span>
-              <span>Difficulty</span>
-              <span>Practice</span>
-              <span>Status</span>
-            </div>
+            {/* Checkbox */}
+            <button
+              onClick={() => toggleSolved(q.id)}
+              className={`flex h-5 w-5 items-center justify-center rounded border-2 transition-all ${
+                qSolved
+                  ? "border-success bg-success shadow-sm shadow-success/25"
+                  : "border-foreground/60 hover:border-accent"
+              }`}
+            >
+              {qSolved && <Check className="h-3 w-3 text-white" />}
+            </button>
 
-            {questions.map(q => {
-              const qSolved = isSolved(q.id);
-              const link = getPracticeLink(q);
-              return (
-                <div
-                  key={q.id}
-                  className={`grid grid-cols-1 sm:grid-cols-[40px_1fr_120px_100px_100px] gap-2 items-center px-5 py-3.5 border-t border-border/10 text-sm transition-colors hover:bg-card/30 ${qSolved ? "bg-success/5" : ""}`}
-                >
-                  <button
-                    onClick={() => toggleSolved(q.id)}
-                    className={`flex h-5 w-5 items-center justify-center rounded border-2 transition-all ${
-                      qSolved
-                        ? "border-success bg-success shadow-sm shadow-success/25"
-                        : "border-foreground/60 hover:border-accent"
-                    }`}
-                  >
-                    {qSolved && <Check className="h-3 w-3 text-white" />}
-                  </button>
+            {/* Title */}
+            <span className={`font-medium ${qSolved ? "line-through text-foreground/50" : "text-foreground"}`}>
+              {q.title}
+            </span>
 
-                  <span className={`font-medium ${qSolved ? "line-through text-foreground/50" : "text-foreground"}`}>
-                    {q.title}
-                  </span>
+            {/* Difficulty */}
+            <span
+              className={`inline-flex w-fit items-center rounded-md border px-2.5 py-0.5 text-xs font-bold ${difficultyStyles[q.difficulty]}`}
+              style={{ fontFamily: "var(--font-mono)" }}
+            >
+              {q.difficulty}
+            </span>
 
-                  <span
-                    className={`inline-flex w-fit items-center rounded-md border px-2.5 py-0.5 text-xs font-bold ${difficultyStyles[q.difficulty]}`}
-                    style={{ fontFamily: "var(--font-mono)" }}
-                  >
-                    {q.difficulty}
-                  </span>
+            {/* Practice */}
+            <a
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-xs font-semibold hover:underline"
+              style={{ color: "hsl(243 80% 88%)" }}
+            >
+              {link.label} <ExternalLink className="h-3 w-3" />
+            </a>
 
-                  
-                    <a
-                      href={link.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-xs font-semibold hover:underline"
-                      style={{ color: "hsl(243 80% 88%)" }}
-                    >
-                      {link.label} <ExternalLink className="h-3 w-3" />
-                    </a>
-
-                  <span
-                    className={`text-xs font-medium ${qSolved ? "text-success" : "text-foreground/80"}`}
-                    style={{ fontFamily: "var(--font-mono)" }}
-                  >
-                    {qSolved ? "Solved" : "Unsolved"}
-                  </span>
-                </div>
-              );
-            })}
-          </motion.div>
-        )}
-      </AnimatePresence>
+            {/* Status */}
+            <span
+              className={`text-xs font-medium ${qSolved ? "text-success" : "text-foreground/80"}`}
+              style={{ fontFamily: "var(--font-mono)" }}
+            >
+              {qSolved ? "Solved" : "Unsolved"}
+            </span>
+          </div>
+        );
+      })}
     </div>
   );
 }
