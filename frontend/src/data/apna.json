@@ -494,6 +494,19 @@
     "embedding_text": "Strings Rolling Hash Rabin Karp Algorithm"
   },
   {
+    "id": "STR-03",
+    "topic": "Strings",
+    "section": "Strings (Part 2)",
+    "question": "Reverse Words in String",
+    "pattern": "StringManipulation",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/reverse-words-in-a-string/",
+    "embedding_text": "Strings String Manipulation Reverse Words in String"
+  },
+  {
     "id": "BS-1",
     "topic": "Binary Search",
     "section": "Binary Search",
@@ -510,19 +523,6 @@
     "id": "BS-2",
     "topic": "Binary Search",
     "section": "Binary Search",
-    "question": "Single Element in Sorted Array",
-    "pattern": "BinarySearch",
-    "difficulty": "medium",
-    "sources": [
-      "apna"
-    ],
-    "leetcode": "https://leetcode.com/problems/single-element-in-a-sorted-array/",
-    "embedding_text": "Binary Search Binary Search Basics Single Element in Sorted Array"
-  },
-  {
-    "id": "BS-3",
-    "topic": "Binary Search",
-    "section": "Binary Search",
     "question": "Search in Rotated Sorted Array",
     "pattern": "BinarySearch",
     "difficulty": "medium",
@@ -531,6 +531,19 @@
     ],
     "leetcode": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
     "embedding_text": "Binary Search Rotated Sorted Array Search in Rotated Sorted Array"
+  },
+  {
+    "id": "BS-3",
+    "topic": "Binary Search",
+    "section": "Binary Search",
+    "question": "Single Element in Sorted Array",
+    "pattern": "BinarySearch",
+    "difficulty": "medium",
+    "sources": [
+      "apna"
+    ],
+    "leetcode": "https://leetcode.com/problems/single-element-in-a-sorted-array/",
+    "embedding_text": "Binary Search Binary Search Basics Single Element in Sorted Array"
   },
   {
     "id": "BS-4",
@@ -587,7 +600,7 @@
   {
     "id": "RB-1",
     "topic": "Recursion & Backtracking",
-    "section": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking (part 1)",
     "question": "Combination Sum I",
     "pattern": "Backtracking",
     "difficulty": "medium",
@@ -600,7 +613,7 @@
   {
     "id": "RB-2",
     "topic": "Recursion & Backtracking",
-    "section": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking (part 1)",
     "question": "Combination Sum II",
     "pattern": "Backtracking",
     "difficulty": "medium",
@@ -613,7 +626,7 @@
   {
     "id": "RB-3",
     "topic": "Recursion & Backtracking",
-    "section": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking (part 1)",
     "question": "Palindrome Partitioning",
     "pattern": "Backtracking",
     "difficulty": "medium",
@@ -626,7 +639,7 @@
   {
     "id": "RB-4",
     "topic": "Recursion & Backtracking",
-    "section": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking (part 1)",
     "question": "N Queens",
     "pattern": "Backtracking",
     "difficulty": "hard",
@@ -639,7 +652,7 @@
   {
     "id": "RB-5",
     "topic": "Recursion & Backtracking",
-    "section": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking (part 1)",
     "question": "Sudoku Solver",
     "pattern": "Backtracking",
     "difficulty": "hard",
@@ -652,7 +665,7 @@
   {
     "id": "RB-6",
     "topic": "Recursion & Backtracking",
-    "section": "Recursion & Backtracking",
+    "section": "Recursion & Backtracking (part 1)",
     "question": "M Coloring Problem",
     "pattern": "Backtracking",
     "difficulty": "medium",
@@ -665,7 +678,7 @@
   {
     "id": "RB-7",
     "topic": "Recursion & Backtracking",
-    "section": "Recursion & Backtracking (Day 10)",
+    "section": "Recursion & Backtracking (part 2)",
     "question": "Knight's Tour",
     "pattern": "Backtracking",
     "difficulty": "medium",
@@ -678,7 +691,7 @@
   {
     "id": "RB-8",
     "topic": "Recursion & Backtracking",
-    "section": "Recursion & Backtracking (Day 10)",
+    "section": "Recursion & Backtracking (part 2)",
     "question": "Subsets II",
     "pattern": "Backtracking",
     "difficulty": "medium",
@@ -691,7 +704,7 @@
   {
     "id": "RB-9",
     "topic": "Recursion & Backtracking",
-    "section": "Recursion & Backtracking (Day 10)",
+    "section": "Recursion & Backtracking (part 2)",
     "question": "Merge Sort",
     "pattern": "DivideConquer",
     "difficulty": "easy",
@@ -704,7 +717,7 @@
   {
     "id": "RB-10",
     "topic": "Recursion & Backtracking",
-    "section": "Recursion & Backtracking (Day 10)",
+    "section": "Recursion & Backtracking (part 2)",
     "question": "Rat in a Maze",
     "pattern": "Backtracking",
     "difficulty": "medium",
@@ -717,7 +730,7 @@
   {
     "id": "RB-11",
     "topic": "Recursion & Backtracking",
-    "section": "Recursion & Backtracking (Day 10)",
+    "section": "Recursion & Backtracking (part 2)",
     "question": "Count Inversions",
     "pattern": "DivideConquer",
     "difficulty": "hard",
