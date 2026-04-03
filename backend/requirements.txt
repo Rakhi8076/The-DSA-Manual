@@ -1,6 +1,7 @@
 fastapi
 uvicorn
 gunicorn
+sendgrid
 motor
 pymongo
 python-dotenv
