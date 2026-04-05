@@ -91,7 +91,7 @@ function SectionAccordion({ section, questions }: { section: string; questions: 
                   </button>
 
                   <span className={`font-medium ${qSolved ? "line-through text-foreground/50" : "text-foreground"}`}>
-                    {q.title}
+                    {q.title || (q as any).question}
                   </span>
 
                   <span
@@ -156,9 +156,7 @@ export function TopicAccordion({ topic, questions }: TopicAccordionProps) {
           <span className="text-sm font-semibold text-foreground truncate" style={{ fontFamily: "var(--font-display)" }}>
             {topic}
           </span>
-          <span className="shrink-0 rounded-md bg-muted/40 px-2 py-0.5 text-xs text-muted-foreground" style={{ fontFamily: "var(--font-mono)" }}>
-            {questions.length} problems
-          </span>
+          
         </div>
         <div className="flex items-center gap-3 shrink-0">
           <div className="hidden sm:flex items-center gap-2 w-36">

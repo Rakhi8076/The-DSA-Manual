@@ -11,6 +11,7 @@ import LoginPage from "./pages/LoginPage.tsx";
 import SignupPage from "./pages/SignupPage.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
+
 const queryClient = new QueryClient();
 
 const App = () => (

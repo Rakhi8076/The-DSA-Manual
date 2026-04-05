@@ -11,7 +11,7 @@ export const sheets: Sheet[] = [
   {
     id: "striver",
     name: "Striver's DSA Sheet",
-    educator: "Striver (Raj Vikramaditya)",
+    educator: "Striver",
     description: "A comprehensive DSA sheet covering all major topics for coding interviews.",
     icon: "🔥",
     questions: striverQuestions,
@@ -27,7 +27,7 @@ export const sheets: Sheet[] = [
   {
     id: "apnacollege",
     name: "Apna College DSA Sheet",
-    educator: "Apna College (Aman Dhattarwal)",
+    educator: "Apna College",
     description: "Beginner-friendly DSA sheet perfect for college students starting their coding journey.",
     icon: "🎓",
     questions: apnaQuestions,
