@@ -6,6 +6,7 @@ export interface Question {
   gfg: string;
   topic: string;
   section: string;
+  pattern: string;
 }
 
 export interface Sheet {
