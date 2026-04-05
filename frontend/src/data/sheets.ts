@@ -35,7 +35,7 @@ export const sheets: Sheet[] = [
   {
     id: "common",
     name: "The DSA Manual Sheet",
-    educator: "Combined — Striver + Love Babbar + Apna College",
+    educator: "Striver + Love Babbar + Apna College",
     description: "All questions from all three sheets merged and deduplicated into one master sheet.",
     icon: "📚",
     questions: mergedQuestions,

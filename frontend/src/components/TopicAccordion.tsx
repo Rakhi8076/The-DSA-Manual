@@ -31,8 +31,10 @@ const difficultyStyles: Record<string, string> = {
 };
 
 function getPracticeLink(q: Question): { url: string; label: string } {
+  if (q.link && q.link !== "") return { url: q.link, label: "Practice" }; // ✅ NEW
   if (q.leetcode && q.leetcode !== "") return { url: q.leetcode, label: "Practice" };
-  return { url: q.gfg, label: "Practice" };
+  if (q.gfg && q.gfg !== "") return { url: q.gfg, label: "Practice" };
+  return { url: "#", label: "No Link" }; // ✅ safety
 }
 
 // Section accordion inside topic
@@ -79,13 +81,13 @@ function SectionAccordion({ section, questions }: { section: string; questions: 
                   key={q.id}
                   className={`grid grid-cols-1 sm:grid-cols-[40px_1fr_120px_100px_100px] gap-2 items-center px-5 py-3.5 border-t border-border/10 text-sm transition-colors hover:bg-card/30 ${qSolved ? "bg-success/5" : ""}`}
                 >
+                  
                   <button
                     onClick={() => toggleSolved(q.id)}
-                    className={`flex h-5 w-5 items-center justify-center rounded border-2 transition-all ${
-                      qSolved
-                        ? "border-success bg-success shadow-sm shadow-success/25"
-                        : "border-foreground/60 hover:border-accent"
-                    }`}
+                    className={`flex h-5 w-5 items-center justify-center rounded border-2 transition-all ${qSolved
+                      ? "border-success bg-success shadow-sm shadow-success/25"
+                      : "border-foreground/60 hover:border-accent"
+                      }`}
                   >
                     {qSolved && <Check className="h-3 w-3 text-white" />}
                   </button>
@@ -101,16 +103,22 @@ function SectionAccordion({ section, questions }: { section: string; questions: 
                     {q.difficulty}
                   </span>
 
-                  
-                    <a
-                      href={link.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-xs font-semibold hover:underline"
-                      style={{ color: "hsl(243 80% 88%)" }}
-                    >
-                      {link.label} <ExternalLink className="h-3 w-3" />
-                    </a>
+
+                  <a
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => {
+                      if (!link.url || link.url === "#") {
+                        e.preventDefault();
+                        alert("Link not available");
+                      }
+                    }}
+                    className="inline-flex items-center gap-1 text-xs font-semibold hover:underline"
+                    style={{ color: "hsl(243 80% 88%)" }}
+                  >
+                    {link.label} <ExternalLink className="h-3 w-3" />
+                  </a>
 
                   <span
                     className={`text-xs font-medium ${qSolved ? "text-success" : "text-foreground/80"}`}
@@ -156,7 +164,7 @@ export function TopicAccordion({ topic, questions }: TopicAccordionProps) {
           <span className="text-sm font-semibold text-foreground truncate" style={{ fontFamily: "var(--font-display)" }}>
             {topic}
           </span>
-          
+
         </div>
         <div className="flex items-center gap-3 shrink-0">
           <div className="hidden sm:flex items-center gap-2 w-36">

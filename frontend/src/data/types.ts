@@ -4,6 +4,7 @@ export interface Question {
   difficulty: "Easy" | "Medium" | "Hard";
   leetcode: string;
   gfg: string;
+  link: string;
   topic: string;
   section: string;
   pattern: string;

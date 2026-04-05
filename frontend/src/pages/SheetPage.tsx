@@ -9,7 +9,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 type DiffFilter = "All" | "Easy" | "Medium" | "Hard";
-type StatusFilter = "All" | "Solved" | "Unsolved";
+type StatusFilter =  "Solved" | "Unsolved";
 
 export default function SheetPage() {
   const { sheetId } = useParams<{ sheetId: string }>();
@@ -17,18 +17,18 @@ export default function SheetPage() {
   const { getSolvedCount, isSolved } = useProgress();
   const [search, setSearch] = useState("");
   const [diffFilter, setDiffFilter] = useState<DiffFilter>("All");
-  const [statusFilter, setStatusFilter] = useState<StatusFilter>("All");
+  // const [statusFilter, setStatusFilter] = useState<StatusFilter>("Unsolved");
 
   const filteredQuestions = useMemo(() => {
     if (!sheet) return [];
     return sheet.questions.filter(q => {
       if (search && !q.title.toLowerCase().includes(search.toLowerCase())) return false;
       if (diffFilter !== "All" && q.difficulty !== diffFilter) return false;
-      if (statusFilter === "Solved" && !isSolved(q.id)) return false;
-      if (statusFilter === "Unsolved" && isSolved(q.id)) return false;
+      // if (statusFilter === "Solved" && !isSolved(q.id)) return false;
+      // if (statusFilter === "Unsolved" && isSolved(q.id)) return false;
       return true;
     });
-  }, [sheet, search, diffFilter, statusFilter, isSolved]);
+  }, [sheet, search, diffFilter,  isSolved]);
 
   if (!sheet) {
     return (
@@ -57,7 +57,7 @@ export default function SheetPage() {
   const nextUnsolved = sheet.questions.find(q => !isSolved(q.id));
 
   const diffFilters: DiffFilter[] = ["All", "Easy", "Medium", "Hard"];
-  const statusFilters: StatusFilter[] = ["All", "Solved", "Unsolved"];
+  const statusFilters: StatusFilter[] = ["Solved", "Unsolved"];
 
   const diffColors: Record<string, string> = {
     All: "bg-accent text-accent-foreground",
@@ -137,7 +137,7 @@ export default function SheetPage() {
                 <p className="text-sm font-medium text-gray-900 truncate">{nextUnsolved.title}</p>
               </div>
               <a
-                href={nextUnsolved.leetcode || nextUnsolved.gfg}
+                href={nextUnsolved.link || nextUnsolved.leetcode || nextUnsolved.gfg}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="shrink-0 rounded-lg bg-gray-900 px-4 py-2 text-xs font-semibold text-white shadow-sm hover:shadow-md transition-shadow"
@@ -180,7 +180,7 @@ export default function SheetPage() {
                 </button>
               ))}
               <div className="w-px bg-white/30 mx-1" />
-              {statusFilters.map(f => (
+              {/* {statusFilters.map(f => (
                 <button
                   key={f}
                   onClick={() => setStatusFilter(f)}
@@ -193,7 +193,7 @@ export default function SheetPage() {
                 >
                   {f}
                 </button>
-              ))}
+              ))} */}
             </div>
           </motion.div>
 

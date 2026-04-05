@@ -51,7 +51,7 @@ export default function LoginPage() {
             <h1 className="text-2xl font-bold font-display text-white tracking-tight drop-shadow-[0_2px_10px_rgba(255,255,255,0.2)]">
               Welcome Back
             </h1>
-            <p className="text-sm mt-1" style={{ color: "hsl(243 75% 55%)" }}>Sign in to continue tracking your progress</p>
+            <p className="text-sm mt-1" style={{ color: "hsl(243 75% 55%)" }}>Continue tracking your progress</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-5">

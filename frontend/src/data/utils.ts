@@ -12,8 +12,13 @@ export function convertQuestions(data: any[], prefix: string): Question[] {
     id: `${prefix}_${q.id}`,
     title: q.question,
     difficulty: capitalize(q.difficulty),
+
+    // 🔥 MOST IMPORTANT FIX
+    link: q.link || q.leetcode || q.gfg || "",
+
     leetcode: q.leetcode || "",
-    gfg: "",
+    gfg: q.gfg || "",
+
     topic: q.topic,
     section: q.section || q.topic,
     pattern: q.pattern || "General",
