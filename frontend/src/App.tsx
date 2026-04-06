@@ -10,7 +10,7 @@ import SheetPage from "./pages/SheetPage.tsx";
 import LoginPage from "./pages/LoginPage.tsx";
 import SignupPage from "./pages/SignupPage.tsx";
 import NotFound from "./pages/NotFound.tsx";
-
+import SheetsPage from "./pages/SheetsPage";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +27,7 @@ const App = () => (
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignupPage />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/sheets" element={<SheetsPage />} />
           </Routes>
         </AuthProvider>
       </BrowserRouter>

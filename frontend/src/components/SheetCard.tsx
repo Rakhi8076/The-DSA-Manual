@@ -14,13 +14,14 @@ const sheetIcons: Record<string, React.ElementType> = {
 interface SheetCardProps {
   sheet: Sheet;
   index: number;
+  isLoggedIn?: boolean;
 }
 
-export function SheetCard({ sheet, index }: SheetCardProps) {
+export function SheetCard({ sheet, index, isLoggedIn = false }: SheetCardProps) {
   const { getSolvedCount } = useProgress();
   const total = sheet.questions.length;
-  const solved = getSolvedCount(sheet.questions.map(q => q.id));
-  const pct = total > 0 ? Math.round((solved / total) * 100) : 0;
+  const solved = isLoggedIn ? getSolvedCount(sheet.questions.map(q => q.id)) : 0;
+  const pct = isLoggedIn && total > 0 ? Math.round((solved / total) * 100) : 0;
   const Icon = sheetIcons[sheet.id] || Brain;
 
   return (
@@ -41,21 +42,33 @@ export function SheetCard({ sheet, index }: SheetCardProps) {
         <p className="mb-4 text-sm text-foreground/80 leading-relaxed line-clamp-2">{sheet.description}</p>
 
         <div className="mb-2 text-xs text-foreground/70 font-mono">{total} questions</div>
-        <div className="mb-4">
-          <div className="mb-1.5 flex items-center justify-between text-xs text-muted-foreground">
-            <span className="text-foreground/80">{solved} / {total} solved</span>
-            <span className="font-mono text-foreground/80">{pct}%</span>
+        {isLoggedIn ? (
+          <div className="mb-4">
+            <div className="mb-1.5 flex items-center justify-between text-xs text-muted-foreground">
+              <span className="text-foreground/80">{solved} / {total} solved</span>
+              <span className="font-mono text-foreground/80">{pct}%</span>
+            </div>
+            <div className="h-2.5 w-full overflow-hidden rounded-full bg-secondary">
+              <div
+                className="h-full rounded-full progress-gradient transition-all duration-500"
+                style={{ width: `${pct}%` }}
+              />
+            </div>
           </div>
-          <div className="h-2.5 w-full overflow-hidden rounded-full bg-secondary">
-            <div
-              className="h-full rounded-full progress-gradient transition-all duration-500"
-              style={{ width: `${pct}%` }}
-            />
+        ) : (
+          <div className="mb-4 flex items-center gap-2 px-3 py-2.5 rounded-xl bg-secondary/50 border border-border/30">
+            <span className="text-xs text-muted-foreground">🔒 Login to track progress</span>
           </div>
-        </div>
+        )}
 
         <div className="flex items-center gap-1.5 text-sm font-medium group-hover:gap-2.5 transition-all" style={{ color: "hsl(243 75% 55%)" }}>
-          View Sheet <ArrowRight className="h-3.5 w-3.5" />
+          {isLoggedIn ? (
+            <>View Sheet <ArrowRight className="h-3.5 w-3.5" /></>
+          ) : (
+            <span className="text-muted-foreground">
+              Login to unlock →
+            </span>
+          )}
         </div>
       </Link>
     </motion.div>

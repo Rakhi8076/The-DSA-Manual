@@ -4,19 +4,20 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
+
 export function Header() {
   const { user, logout } = useAuth();
   const { pathname } = useLocation();
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  const navLinks = [
-    { to: "/", label: "Home" },
-    ...(user ? [{ to: "/#sheets", label: "Sheets" }] : []),
-  ];
+  // const navLinks = [
+  //   { to: "/", label: "Home" },
+  //   ...(user ? [{ to: "/#sheets", label: "Sheets" }] : []),
+  // ];
 
   return (
     <header className="sticky top-0 z-50 border-b border-border/20 bg-background/70 backdrop-blur-xl">
-      
+
       {/* 🔥 FIXED WIDTH */}
       <div className="w-full px-6 lg:px-10 flex h-20 items-center justify-between">
 
@@ -34,26 +35,31 @@ export function Header() {
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-1">
-          {navLinks.map((l) => (
-            <Link
-              key={l.to}
-              to={l.to}
-              className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-                pathname === l.to
-                  ? "text-foreground bg-card/60"
-                  : "text-foreground/50 hover:text-foreground hover:bg-card/40"
+          <Link
+            to="/"
+            className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${pathname === "/"
+              ? "bg-card/60 text-foreground shadow-md"
+              : "text-foreground/50 hover:text-foreground "
               }`}
-            >
-              {l.label}
-            </Link>
-          ))}
+          >
+            Home
+          </Link>
+          <Link
+            to="/sheets"
+            className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${pathname === "/sheets"
+                ? "bg-card/60 text-foreground shadow-md"
+                : "text-foreground/50 hover:text-foreground "
+              }`}
+          >
+            Sheets
+          </Link>
         </nav>
 
         {/* Right side */}
         <div className="hidden md:flex items-center gap-3">
           {user ? (
             <div className="flex items-center gap-3">
-              
+
               {/* User */}
               <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-card/50 border border-border/30">
                 <div className="flex h-6 w-6 items-center justify-center rounded-full bg-accent/20">
@@ -113,17 +119,23 @@ export function Header() {
       {/* Mobile menu */}
       {mobileOpen && (
         <div className="md:hidden border-t border-border/20 bg-background/95 backdrop-blur-xl px-4 py-4 space-y-2">
-          {navLinks.map((l) => (
-            <Link
-              key={l.to}
-              to={l.to}
-              onClick={() => setMobileOpen(false)}
-              className="flex items-center gap-2 px-3 py-2.5 rounded-lg text-sm font-medium text-foreground/60 hover:text-foreground hover:bg-card/50 transition-all"
-            >
-              <BookOpen className="h-4 w-4" />
-              {l.label}
-            </Link>
-          ))}
+          <Link
+            to="/"
+            onClick={() => setMobileOpen(false)}
+            className="flex items-center gap-2 px-3 py-2.5 rounded-lg text-sm font-medium text-foreground/60 hover:text-foreground hover:bg-card/50 transition-all"
+          >
+            <BookOpen className="h-4 w-4" />
+            Home
+          </Link>
+
+          <Link
+            to="/sheets"
+            onClick={() => setMobileOpen(false)}
+            className="flex items-center gap-2 px-3 py-2.5 rounded-lg text-sm font-medium text-foreground/60 hover:text-foreground hover:bg-card/50 transition-all"
+          >
+            <BookOpen className="h-4 w-4" />
+            Sheets
+          </Link>
 
           <div className="pt-2 border-t border-border/20">
             {user ? (
