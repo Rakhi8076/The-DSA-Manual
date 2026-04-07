@@ -9,6 +9,7 @@ import { Label } from "@/components/ui/label";
 import { UserPlus, User, Mail, Lock, ShieldCheck } from "lucide-react";
 import { motion } from "framer-motion";
 
+
 export default function SignupPage() {
   const { signup } = useAuth();
   const [name, setName] = useState("");
@@ -32,7 +33,10 @@ export default function SignupPage() {
       await signup(name, email, password);
       setSubmitted(true); // 👈 navigate hataya, yeh daala
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Signup failed. Please try again.");
+      console.log("Signup error:", err);
+
+      // ❗ FORCE success UI (email verification case ke liye)
+      setSubmitted(true);
     } finally {
       setLoading(false);
     }
@@ -82,11 +86,7 @@ export default function SignupPage() {
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-4 text-left">
-            {error && (
-              <div className="rounded-lg bg-destructive/10 border border-destructive/20 px-4 py-3 text-sm text-destructive">
-                {error}
-              </div>
-            )}
+
             <div className="space-y-2">
               <Label htmlFor="name" className="text-sm font-medium">Full Name</Label>
               <div className="relative">
@@ -122,7 +122,7 @@ export default function SignupPage() {
 
             <p className="text-sm text-center text-foreground/70">
               Already have an account?{" "}
-              <Link to="/login" className="text-black font-medium hover:underline">Sign In</Link>
+              <Link to="/login" className="text-black font-medium hover:underline">login</Link>
             </p>
           </form>
         </motion.div>
