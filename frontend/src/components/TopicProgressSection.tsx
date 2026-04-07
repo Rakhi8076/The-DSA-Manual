@@ -1,31 +1,75 @@
+import { useEffect } from "react";
 import { motion } from "framer-motion";
+import { Loader2 } from "lucide-react";
 import { sheets, getTopics, getQuestionsByTopic } from "@/data/sheets";
 import { getConfidenceScore, getConfidenceEmoji, getConfidenceLabel } from "@/data/utils";
 import { useProgress } from "@/hooks/useProgress";
+import { useAIInsight } from "@/hooks/useAIInsight";
 
 export function TopicProgressSection() {
   const { isSolved } = useProgress();
+  const { insights, loading, generateInsight } = useAIInsight();
 
-  const allQuestions = sheets.flatMap(s => s.questions);
-  const topics = getTopics(allQuestions);
+  const mergedSheet = sheets.find(s => s.id === "common");
+  const mergedQuestions = mergedSheet?.questions || [];
+  const topics = getTopics(mergedQuestions);
 
   const topicStats = topics.map(topic => {
-    const questionsInTopic = getQuestionsByTopic(allQuestions, topic);
-    const totalIds = questionsInTopic.map(q => q.id);
-    const solvedCount = totalIds.filter(id => isSolved(id)).length;
+    const questionsInTopic = getQuestionsByTopic(mergedQuestions, topic);
+    const solvedQuestions = questionsInTopic.filter(q => isSolved(q.id));
+    const solvedCount = solvedQuestions.length;
+    const total = questionsInTopic.length;
     const confidenceScore = getConfidenceScore(questionsInTopic, isSolved);
-    const emoji = getConfidenceEmoji(confidenceScore);
-    const label = getConfidenceLabel(confidenceScore);
+
+    // Difficulty breakdown
+    const solvedEasy = solvedQuestions.filter(q => q.difficulty === "Easy").length;
+    const totalEasy = questionsInTopic.filter(q => q.difficulty === "Easy").length;
+    const solvedMedium = solvedQuestions.filter(q => q.difficulty === "Medium").length;
+    const totalMedium = questionsInTopic.filter(q => q.difficulty === "Medium").length;
+    const solvedHard = solvedQuestions.filter(q => q.difficulty === "Hard").length;
+    const totalHard = questionsInTopic.filter(q => q.difficulty === "Hard").length;
+
+    //Pattern breakdown
+    const allPatterns = [...new Set(questionsInTopic.map(q => q.pattern))];
+    const solvedPatterns = [...new Set(solvedQuestions.map(q => q.pattern))];
+    const unsolvedPatterns = allPatterns.filter(p => !solvedPatterns.includes(p));
 
     return {
       topic,
       solved: solvedCount,
-      total: totalIds.length,
+      total,
       confidenceScore,
-      emoji,
-      label,
+      emoji: getConfidenceEmoji(confidenceScore),
+      label: getConfidenceLabel(confidenceScore),
+      solvedEasy, totalEasy,
+      solvedMedium, totalMedium,
+      solvedHard, totalHard,
+      solvedPatterns,
+      unsolvedPatterns,
+      hasSolved: solvedCount > 0,
     };
   });
+
+  // Auto-generate insights for topics where something is solved
+  const solvedKey = topicStats.map(s => `${s.topic}:${s.solved}`).join("|");
+
+useEffect(() => {
+  topicStats.forEach(stat => {
+    if (stat.hasSolved) {
+      generateInsight({
+        topic: stat.topic,
+        solvedEasy: stat.solvedEasy,
+        totalEasy: stat.totalEasy,
+        solvedMedium: stat.solvedMedium,
+        totalMedium: stat.totalMedium,
+        solvedHard: stat.solvedHard,
+        totalHard: stat.totalHard,
+        solvedPatterns: stat.solvedPatterns,
+        unsolvedPatterns: stat.unsolvedPatterns,
+      });
+    }
+  });
+}, [solvedKey]);
 
   return (
     <motion.div
@@ -35,15 +79,18 @@ export function TopicProgressSection() {
       className="rounded-2xl glass-card p-6"
     >
       <h3 className="text-lg font-bold mb-2 text-foreground" style={{ fontFamily: "var(--font-display)" }}>
-        Topic Progress (All Sheets)
+        Topic Progress 
       </h3>
       <p className="text-xs text-black mb-5" style={{ fontFamily: "var(--font-mono)" }}>
-        😰 Struggling &nbsp;·&nbsp; 😕 Learning &nbsp;·&nbsp; 😐 Getting There &nbsp;·&nbsp; 🙂 Confident &nbsp;·&nbsp; 😎 Expert
+        😰 Struggling · 😕 Learning · 😐 Getting There · 🙂 Confident · 😎 Expert
       </p>
 
-      <div className="space-y-4">
-        {topicStats.map(({ topic, solved, total, confidenceScore, emoji, label }) => {
+      <div className="space-y-5">
+        {topicStats.map(({ topic, solved, total, confidenceScore, emoji, label, hasSolved }) => {
           const pct = total > 0 ? Math.round((solved / total) * 100) : 0;
+          const insight = insights[topic];
+          const isLoading = loading[topic];
+
           return (
             <div key={topic}>
               <div className="flex items-center justify-between mb-1.5">
@@ -80,6 +127,29 @@ export function TopicProgressSection() {
                   animate={{ width: `${pct}%` }}
                   transition={{ duration: 0.8, ease: "easeOut" }}
                 />
+              </div>
+
+              {/* AI Insight line */}
+              <div className="mt-1.5 min-h-[18px]">
+                {isLoading ? (
+                  <div className="flex items-center gap-1.5">
+                    <Loader2 className="h-3 w-3 animate-spin text-muted-foreground" />
+                    <span className="text-[11px] text-muted-foreground italic">
+                      Analyzing your progress...
+                    </span>
+                  </div>
+                ) : insight ? (
+                  <p
+                    className="text-[11px] italic"
+                    style={{ color: "black" }}
+                  >
+                    💡 {insight}
+                  </p>
+                ) : !hasSolved ? (
+                  <p className="text-[11px] italic" style={{ color: "hsl(243 75% 55%)"}}>
+                    Solve some questions to get AI insights
+                  </p>
+                ) : null}
               </div>
 
               {/* Confidence score small text */}
