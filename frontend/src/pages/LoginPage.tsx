@@ -25,7 +25,12 @@ export default function LoginPage() {
     if (!email || !password) { setError("All fields are required."); return; }
     try {
       setLoading(true);
-      await login(email, password);
+      const res = await login(email, password);
+
+      // 🔥 IMPORTANT LINE (ADD THIS)
+      localStorage.setItem("userId", res.user._id);
+      console.log("LOGIN RESPONSE:", res);
+
       navigate("/");
     } catch (err) {
       setError(err instanceof Error ? err.message : "Login failed. Please try again.");
@@ -94,5 +99,6 @@ export default function LoginPage() {
       </main>
       <Footer />
     </div>
+    
   );
 }

@@ -113,10 +113,11 @@ async def login(user: LoginModel):
     token = create_token(user.email)
 
     return {
-        "message": "Login successful!",
-        "token": token,
-        "user": {
-            "name": existing["name"],
-            "email": existing["email"]
-        }
+    "message": "Login successful!",
+    "token": token,
+    "user": {
+        "_id": str(existing["_id"]),   # 🔥 ADD THIS
+        "name": existing["name"],
+        "email": existing["email"]
     }
+}

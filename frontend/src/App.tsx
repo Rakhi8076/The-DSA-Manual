@@ -11,6 +11,7 @@ import LoginPage from "./pages/LoginPage.tsx";
 import SignupPage from "./pages/SignupPage.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import SheetsPage from "./pages/SheetsPage";
+import DashboardPage from "./pages/DashboardPage";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,7 @@ const App = () => (
       <BrowserRouter>
         <AuthProvider>
           <Routes>
+            <Route path="/dashboard" element={<DashboardPage />} />
             <Route path="/" element={<Index />} />
             <Route path="/sheet/:sheetId" element={<ProtectedRoute><SheetPage /></ProtectedRoute>} />
             <Route path="/login" element={<LoginPage />} />

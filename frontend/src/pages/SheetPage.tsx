@@ -9,7 +9,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 type DiffFilter = "All" | "Easy" | "Medium" | "Hard";
-type StatusFilter =  "Solved" | "Unsolved";
+type StatusFilter = "Solved" | "Unsolved";
 
 export default function SheetPage() {
   const { sheetId } = useParams<{ sheetId: string }>();
@@ -28,7 +28,22 @@ export default function SheetPage() {
       // if (statusFilter === "Unsolved" && isSolved(q.id)) return false;
       return true;
     });
-  }, [sheet, search, diffFilter,  isSolved]);
+  }, [sheet, search, diffFilter, isSolved]);
+  const logActivity = async (question: any) => {
+    const userId = localStorage.getItem("userId");
+
+    await fetch("http://127.0.0.1:8000/save-activity", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        userId: userId,
+        problemsSolved: 1,
+        timeSpent: 10,
+      }),
+    });
+  };
 
   if (!sheet) {
     return (
@@ -122,30 +137,7 @@ export default function SheetPage() {
           </motion.div>
 
           {/* Continue Solving */}
-          {nextUnsolved && (
-            <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2 }}
-              className="mb-6 glass-card rounded-2xl p-4 flex items-center gap-4"
-            >
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent/30">
-                <Zap className="h-5 w-5 text-foreground/80" />
-              </div>
-              <div className="flex-1 min-w-0">
-                <p className="text-xs font-bold mb-0.5 text-foreground/90" style={{ fontFamily: "var(--font-mono)" }}>Continue Solving</p>
-                <p className="text-sm font-medium text-gray-900 truncate">{nextUnsolved.title}</p>
-              </div>
-              <a
-                href={nextUnsolved.link || nextUnsolved.leetcode || nextUnsolved.gfg}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="shrink-0 rounded-lg bg-gray-900 px-4 py-2 text-xs font-semibold text-white shadow-sm hover:shadow-md transition-shadow"
-              >
-                Solve Now
-              </a>
-            </motion.div>
-          )}
+
 
           {/* Search & Filters */}
           <motion.div
@@ -169,11 +161,10 @@ export default function SheetPage() {
                 <button
                   key={f}
                   onClick={() => setDiffFilter(f)}
-                  className={`rounded-full border px-3.5 py-1.5 text-xs font-semibold transition-all ${
-                    diffFilter === f
+                  className={`rounded-full border px-3.5 py-1.5 text-xs font-semibold transition-all ${diffFilter === f
                       ? diffColors[f]
                       : "border-border bg-card/50 text-foreground hover:bg-card/70"
-                  }`}
+                    }`}
                   style={{ fontFamily: "var(--font-mono)" }}
                 >
                   {f}
@@ -205,6 +196,8 @@ export default function SheetPage() {
                   key={topic}
                   topic={topic}
                   questions={getQuestionsByTopic(filteredQuestions, topic)}
+                  logActivity={logActivity}
+
                 />
               ))
             ) : (

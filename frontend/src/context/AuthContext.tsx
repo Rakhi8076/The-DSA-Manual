@@ -8,7 +8,7 @@ export interface User {
 
 interface AuthContextType {
   user: User | null;
-  login: (email: string, password: string) => Promise<void>;
+  login: (email: string, password: string) => Promise<any>;
   signup: (name: string, email: string, password: string) => Promise<void>;
   logout: () => void;
 }
@@ -44,6 +44,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     localStorage.setItem("dsa-token", data.token);
     localStorage.setItem("dsa-user", JSON.stringify(data.user));
     setUser(data.user);
+    return data; // 🔥🔥 ADD THIS
   }, []);
 
   // ✅ SIGNUP

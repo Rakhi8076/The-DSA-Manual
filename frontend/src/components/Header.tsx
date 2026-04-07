@@ -3,12 +3,16 @@ import { useAuth } from "@/context/AuthContext";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
+
 
 
 export function Header() {
   const { user, logout } = useAuth();
   const { pathname } = useLocation();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const navigate = useNavigate();
 
   // const navLinks = [
   //   { to: "/", label: "Home" },
@@ -47,8 +51,8 @@ export function Header() {
           <Link
             to="/sheets"
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${pathname === "/sheets"
-                ? "bg-card/60 text-foreground shadow-md"
-                : "text-foreground/50 hover:text-foreground "
+              ? "bg-card/60 text-foreground shadow-md"
+              : "text-foreground/50 hover:text-foreground "
               }`}
           >
             Sheets
@@ -61,7 +65,10 @@ export function Header() {
             <div className="flex items-center gap-3">
 
               {/* User */}
-              <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-card/50 border border-border/30">
+              <div
+                onClick={() => navigate("/dashboard")}
+                className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-card/50 border border-border/30 cursor-pointer hover:bg-card/70 transition"
+              >
                 <div className="flex h-6 w-6 items-center justify-center rounded-full bg-accent/20">
                   <User className="h-3.5 w-3.5 text-accent" />
                 </div>

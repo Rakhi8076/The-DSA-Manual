@@ -7,6 +7,8 @@ import { useProgress } from "@/hooks/useProgress";
 interface TopicAccordionProps {
   topic: string;
   questions: Question[];
+  logActivity: (q: Question) => void; 
+
 }
 
 const topicIcons: Record<string, React.ElementType> = {
@@ -38,7 +40,15 @@ function getPracticeLink(q: Question): { url: string; label: string } {
 }
 
 // Section accordion inside topic
-function SectionAccordion({ section, questions }: { section: string; questions: Question[] }) {
+function SectionAccordion({
+  section,
+  questions,
+  logActivity,
+}: {
+  section: string;
+  questions: Question[];
+  logActivity: (q: Question) => void;
+}) {
   const [open, setOpen] = useState(false);
   const { isSolved, toggleSolved } = useProgress();
 
@@ -81,9 +91,13 @@ function SectionAccordion({ section, questions }: { section: string; questions: 
                   key={q.id}
                   className={`grid grid-cols-1 sm:grid-cols-[40px_1fr_120px_100px_100px] gap-2 items-center px-5 py-3.5 border-t border-border/10 text-sm transition-colors hover:bg-card/30 ${qSolved ? "bg-success/5" : ""}`}
                 >
-                  
+
                   <button
-                    onClick={() => toggleSolved(q.id)}
+                    onClick={async () => {
+                      toggleSolved(q.id);
+                      // logActivity(q); 
+                      logActivity(q);
+                    }}
                     className={`flex h-5 w-5 items-center justify-center rounded border-2 transition-all ${qSolved
                       ? "border-success bg-success shadow-sm shadow-success/25"
                       : "border-foreground/60 hover:border-accent"
@@ -136,7 +150,7 @@ function SectionAccordion({ section, questions }: { section: string; questions: 
   );
 }
 
-export function TopicAccordion({ topic, questions }: TopicAccordionProps) {
+export function TopicAccordion({ topic, questions, logActivity  }: TopicAccordionProps) {
   const [open, setOpen] = useState(false);
   const { getSolvedCount } = useProgress();
   const solved = getSolvedCount(questions.map(q => q.id));
@@ -194,6 +208,7 @@ export function TopicAccordion({ topic, questions }: TopicAccordionProps) {
                 key={section}
                 section={section}
                 questions={questions.filter(q => q.section === section)}
+                logActivity={logActivity}
               />
             ))}
           </motion.div>

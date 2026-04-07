@@ -24,3 +24,8 @@ export const signupUser = async (data: any) => {
 };
 
 export default BASE_URL;
+
+export const getDailyDigest = async (userId: string) => {
+  const res = await fetch(`${BASE_URL}/daily-digest/${userId}`);
+  return res.json();
+};
