@@ -555,7 +555,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/dsa/assign-stalls-to-k-cows-to-maximize-the-minimum-distance-between-them/",
+    "leetcode": "https://www.geeksforgeeks.org/problems/aggressive-cows/1",
     "embedding_text": "Binary Search Binary Search on Answer Aggressive Cows"
   },
   {
@@ -568,7 +568,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1",
+    "leetcode": "https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/",
     "embedding_text": "Binary Search Binary Search on Answer Allocate Minimum Pages"
   },
   {
@@ -672,7 +672,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/m-coloring-problem-backtracking-5/",
+    "leetcode": "https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1",
     "embedding_text": "Recursion & Backtracking Graph Coloring / Backtracking M Coloring Problem"
   },
   {
@@ -685,7 +685,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/",
+    "leetcode": "https://leetcode.com/problems/check-knight-tour-configuration/",
     "embedding_text": "Recursion & Backtracking Backtracking Knight's Tour"
   },
   {
@@ -711,7 +711,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/merge-sort/",
+    "leetcode": "https://leetcode.com/problems/sort-an-array/",
     "embedding_text": "Recursion & Backtracking Divide and Conquer Merge Sort"
   },
   {
@@ -737,7 +737,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1",
+    "leetcode": "https://leetcode.com/problems/count-the-number-of-inversions/",
     "embedding_text": "Recursion & Backtracking Divide and Conquer Count Inversions"
   },
   {
@@ -971,7 +971,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/reverse-first-k-elements-queue/",
+    "leetcode": "https://www.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1",
     "embedding_text": "Stacks & Queues Queue Reverse First K Elements of Queue"
   },
   {
@@ -1023,7 +1023,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/next-smaller-element-1587115620/1",
+    "leetcode": "https://leetcode.com/problems/maximum-subarray-min-product/",
     "embedding_text": "Stacks & Queues Monotonic Stack Next Smaller Element"
   },
   {
@@ -1153,7 +1153,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/find-distance-between-two-nodes-of-a-binary-tree/",
+    "leetcode": "https://leetcode.com/problems/minimum-distance-between-bst-nodes/",
     "embedding_text": "Binary Trees Tree Distance Minimum Distance between Nodes"
   },
   {
@@ -1192,7 +1192,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/",
+    "leetcode": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
     "embedding_text": "Binary Trees Tree Traversals Morris Inorder Traversal"
   },
   {
@@ -1309,7 +1309,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/k-distance-from-root/1",
+    "leetcode": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
     "embedding_text": "Binary Trees Tree Levels Kth Level of Tree"
   },
   {
@@ -1335,7 +1335,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/transform-to-sum-tree/1",
+    "leetcode": "https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/",
     "embedding_text": "Binary Trees Tree Transformation Transform to Sum Tree"
   },
   {
@@ -1413,7 +1413,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/kth-ancestor-in-a-tree/1",
+    "leetcode": "https://leetcode.com/problems/kth-ancestor-of-a-tree-node/",
     "embedding_text": "Binary Trees Tree Queries Kth Ancestor"
   },
   {
@@ -1556,7 +1556,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/merge-two-bst-s/1",
+    "leetcode": "https://leetcode.com/problems/merge-bsts-to-create-single-bst/",
     "embedding_text": "BST BST Merging Merge 2 BSTs"
   },
   {
@@ -1582,7 +1582,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/inorder-predecessor-and-successor/1",
+    "leetcode": "https://www.geeksforgeeks.org/problems/predecessor-and-successor/1",
     "embedding_text": "BST BST Traversal Inorder Predecessor"
   },
   {
@@ -1608,7 +1608,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://leetcode.com/problems/inorder-successor-in-bst/",
+    "leetcode": "https://www.geeksforgeeks.org/problems/predecessor-and-successor/1",
     "embedding_text": "BST BST Traversal Inorder Successor"
   },
   {
@@ -1621,7 +1621,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "leetcode": "https://leetcode.com/problems/merge-sorted-array/description/",
     "embedding_text": "Heaps Heap Merging Merge K Sorted Arrays"
   },
   {
@@ -1673,7 +1673,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "leetcode": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/",
     "embedding_text": "Heaps Heap Selection Kth Smallest Element"
   },
   {
@@ -1686,7 +1686,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/heap-sort/1",
+    "leetcode": "https://leetcode.com/problems/sort-an-array/description/",
     "embedding_text": "Heaps Heap Sorting Heap Sort"
   },
   {
@@ -1725,7 +1725,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/longest-string-with-all-prefixes/1",
+    "leetcode": "https://www.geeksforgeeks.org/problems/longest-valid-word-with-all-prefixes/1",
     "embedding_text": "Tries Trie Prefix Problems Longest String with All Prefix"
   },
   {
@@ -1764,7 +1764,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+    "leetcode": "https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1",
     "embedding_text": "Graphs Graph Traversal DFS : Depth First Search"
   },
   {
@@ -1777,7 +1777,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "leetcode": "https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1",
     "embedding_text": "Graphs Graph Traversal BFS : Breadth First Search"
   },
   {
@@ -1790,7 +1790,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
+    "leetcode": "https://leetcode.com/problems/course-schedule/description/",
     "embedding_text": "Graphs Cycle Detection Detect Cycle in Undirected Graph using BFS"
   },
   {
@@ -1803,7 +1803,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
+    "leetcode": "https://leetcode.com/problems/course-schedule/description/",
     "embedding_text": "Graphs Cycle Detection Detect Cycle in Undirected Graph using DFS"
   },
   {
@@ -1816,7 +1816,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://leetcode.com/problems/course-schedule/",
+    "leetcode": "https://leetcode.com/problems/redundant-connection/description/",
     "embedding_text": "Graphs Cycle Detection Detect Cycle in Directed Graph using DFS"
   },
   {
@@ -1829,7 +1829,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://leetcode.com/problems/course-schedule/",
+    "leetcode": "https://leetcode.com/problems/redundant-connection/description/",
     "embedding_text": "Graphs Topological Sort Detect Cycle in Directed Graph using BFS"
   },
   {
@@ -1907,7 +1907,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://leetcode.com/problems/network-delay-time/",
+    "leetcode": "https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1",
     "embedding_text": "Graphs Shortest Path Dijkstra's Algorithm"
   },
   {
@@ -1920,7 +1920,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1",
+    "leetcode": "https://leetcode.com/problems/min-cost-to-connect-all-points/description/",
     "embedding_text": "Graphs Minimum Spanning Tree Kruskal's Algorithm (MST)"
   },
   {
@@ -1933,7 +1933,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1",
+    "leetcode": "https://leetcode.com/problems/min-cost-to-connect-all-points/description/",
     "embedding_text": "Graphs Minimum Spanning Tree Prim's Algorithm (MST)"
   },
   {
@@ -1972,7 +1972,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1",
+    "leetcode": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/description/",
     "embedding_text": "Graphs All Pairs Shortest Path Floyd Warshall Algorithm"
   },
   {
@@ -1985,7 +1985,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+    "leetcode": "https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/01",
     "embedding_text": "Graphs Single Source Shortest Path Bellman Ford Algorithm"
   },
   {
@@ -2102,7 +2102,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://leetcode.com/problems/ones-and-zeroes/",
+    "leetcode": "https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1",
     "embedding_text": "Dynamic Programming Knapsack DP 0-1 Knapsack"
   },
   {
@@ -2154,7 +2154,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://leetcode.com/problems/coin-change/",
+    "leetcode": "https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1",
     "embedding_text": "Dynamic Programming Knapsack DP Unbounded Knapsack"
   },
   {
@@ -2271,7 +2271,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/rod-cutting0840/1",
+    "leetcode": "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/",
     "embedding_text": "Dynamic Programming Unbounded Knapsack Rod Cutting"
   },
   {
@@ -2284,7 +2284,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://leetcode.com/problems/palindrome-partitioning-ii/",
+    "leetcode": "https://leetcode.com/problems/palindrome-partitioning/description/",
     "embedding_text": "Dynamic Programming Partition DP Palindromic Partitioning"
   },
   {
@@ -2310,7 +2310,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://leetcode.com/problems/partition-equal-subset-sum/",
+    "leetcode": "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/description/",
     "embedding_text": "Dynamic Programming Partition DP Minimum Partitioning"
   },
   {
@@ -2349,7 +2349,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/longest-bitonic-subsequence0824/1",
+    "leetcode": "https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/description/",
     "embedding_text": "Dynamic Programming LIS Variants Longest Bitonic Subsequence"
   },
   {
@@ -2362,7 +2362,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1",
+    "leetcode": "https://leetcode.com/problems/super-egg-drop/description/",
     "embedding_text": "Dynamic Programming DP on Optimization Egg Dropping Problem"
   },
   {
@@ -2388,7 +2388,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/coin-piles/1",
+    "leetcode": "https://www.geeksforgeeks.org/problems/-minimum-number-of-coins4426/1",
     "embedding_text": "Greedy Coin Change (Greedy) Indian Coins"
   },
   {
@@ -2414,7 +2414,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1",
+    "leetcode": "https://www.geeksforgeeks.org/problems/activity-selection-1587115620/1",
     "embedding_text": "Greedy Scheduling Job Scheduling"
   },
   {
@@ -2427,7 +2427,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://leetcode.com/problems/non-overlapping-intervals/",
+    "leetcode": "https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/description/",
     "embedding_text": "Greedy Interval Scheduling Activity Selection"
   },
   {
@@ -2492,7 +2492,7 @@
     "sources": [
       "apna"
     ],
-    "leetcode": "https://leetcode.com/problems/xor-beauty-of-array/",
+    "leetcode": "https://leetcode.com/problems/find-xor-beauty-of-array/description/",
     "embedding_text": "Miscellaneous Bit Manipulation XOR Beauty of Array"
   },
   {
