@@ -1,43 +1,54 @@
+from fastapi import APIRouter, HTTPException
+from database import get_today_activity, calculate_streak, activity_collection
 from ai import generate_digest
-from datetime import datetime, timedelta
-from database import db
-from fastapi import APIRouter
+from datetime import datetime
+from bson import ObjectId
 
 router = APIRouter()
+
 
 @router.get("/daily-digest/{user_id}")
 async def daily_digest(user_id: str):
 
-    today = datetime.utcnow().date()
+    # ✅ Validate user_id
+    if not user_id or user_id == "undefined":
+        raise HTTPException(status_code=400, detail="Invalid user_id")
 
-    start = datetime(today.year, today.month, today.day)
-    end = start + timedelta(days=1)
+    try:
+        ObjectId(user_id)
+    except Exception:
+        raise HTTPException(status_code=400, detail="Malformed user_id")
 
-    activities = await db.activities.find({
-        "user_id": user_id,
-        "created_at": {"$gte": start, "$lt": end}
-    }).to_list(100)
+    # ✅ Fetch real activity from correct collection
+    activity = await get_today_activity(user_id)
 
-    if not activities:
-        return {"message": "No activity today"}
+    # ✅ Calculate real streak
+    streak = await calculate_streak(user_id)
 
-    total = len(activities)
+    # ✅ Update streak in today's document if activity exists
+    today = datetime.utcnow().strftime("%Y-%m-%d")
+    await activity_collection.update_one(
+        {"userId": ObjectId(user_id), "date": today},
+        {"$set": {"streak": streak}},
+    )
 
-    # 🔥 simple stats
-    topics = list(set([a["topic"] for a in activities]))
-
-    # 🔥 AI ke liye data
-    data = {
-        "problemsSolved": total,
-        "timeSpent": total * 10,  # approx
-        "streak": 3  # abhi dummy, baad me calculate karenge
+    # ✅ Build data for AI with all fields
+    digest_data = {
+        "problemsSolved": activity["problemsSolved"],
+        "timeSpent":      activity["timeSpent"],
+        "streak":         streak,
+        "topics":         activity["topics"]
     }
 
-    # 🔥 AI CALL
-    summary = await generate_digest(data)
+    # ✅ AI digest
+    summary = await generate_digest(digest_data)
 
     return {
-        "total_questions": total,
-        "topics": topics,
-        "summary": summary
+        "userId":         user_id,
+        "date":           today,
+        "problemsSolved": activity["problemsSolved"],
+        "timeSpent":      activity["timeSpent"],
+        "streak":         streak,
+        "topics":         activity["topics"],
+        "digest":         summary
     }

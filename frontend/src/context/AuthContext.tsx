@@ -1,7 +1,14 @@
-import { createContext, useContext, useState, useCallback, ReactNode } from "react";
+import {
+  createContext,
+  useContext,
+  useState,
+  useCallback,
+  ReactNode,
+} from "react";
 import { loginUser, signupUser } from "@/lib/api";
 
 export interface User {
+  _id: string;
   name: string;
   email: string;
 }
@@ -16,51 +23,35 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | null>(null);
 
 export function AuthProvider({ children }: { children: ReactNode }) {
-
   const [user, setUser] = useState<User | null>(() => {
     try {
       const stored = localStorage.getItem("dsa-user");
-
-      if (!stored || stored === "undefined") {
-        return null;
-      }
-
+      if (!stored || stored === "undefined") return null;
       return JSON.parse(stored);
-    } catch (error) {
-      console.error("Invalid user data in localStorage");
+    } catch {
       localStorage.removeItem("dsa-user");
       return null;
     }
   });
 
-  // ✅ LOGIN
   const login = useCallback(async (email: string, password: string) => {
     const data = await loginUser({ email, password });
-
-    if (!data.token) {
-      throw new Error(data.detail || "Login failed");
-    }
-
+    // ✅ loginUser already throws if !res.ok via handleResponse
     localStorage.setItem("dsa-token", data.token);
     localStorage.setItem("dsa-user", JSON.stringify(data.user));
     setUser(data.user);
-    return data; // 🔥🔥 ADD THIS
+    return data;
   }, []);
 
-  // ✅ SIGNUP
-  const signup = useCallback(async (name: string, email: string, password: string) => {
-    const data = await signupUser({ name, email, password });
+  const signup = useCallback(
+    async (name: string, email: string, password: string) => {
+      // ✅ Signup just sends email — no token returned, no token check
+      await signupUser({ name, email, password });
+      // Don't setUser — user must verify email first
+    },
+    []
+  );
 
-    if (!data.token) {
-      throw new Error(data.detail || "Signup failed");
-    }
-
-    localStorage.setItem("dsa-token", data.token);
-    localStorage.setItem("dsa-user", JSON.stringify(data.user));
-    setUser(data.user);
-  }, []);
-
-  // ✅ LOGOUT
   const logout = useCallback(() => {
     localStorage.removeItem("dsa-token");
     localStorage.removeItem("dsa-user");
