@@ -39,7 +39,7 @@ export const signupUser = async (data: {
 
 export const saveActivity = async (data: {
   userId: string;
-  problems: number;
+  problemsSolved: number;
   timeSpent: number;
   topics: string[];
 }) => {
