@@ -19,7 +19,9 @@ export function convertQuestions(data: any[], prefix: string): Question[] {
     leetcode: q.leetcode || "",
     gfg: q.gfg || "",
 
-    topic: q.topic,
+    topic: q.topic && !["Easy", "Medium", "Hard"].includes(q.topic)
+      ? q.topic
+      : "General",
     section: q.section || q.topic,
     pattern: q.pattern || "General",
   }));

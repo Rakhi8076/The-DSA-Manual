@@ -3,25 +3,10 @@ import { useNavigate } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import merged from "@/data/merged.json";
-import { useEffect, useState } from "react";
-import { getDailyDigest } from "@/lib/api";
-
-// ✅ Type for digest response
-interface DigestData {
-  problemsSolved: number;
-  timeSpent: number;
-  streak: number;
-  topics: string[];
-  digest: string;
-}
 
 export default function DashboardPage() {
   const { user } = useAuth();
   const navigate = useNavigate();
-
-  const [digestData, setDigestData] = useState<DigestData | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState("");
 
   const total = merged.length;
   const easyCount = merged.filter((q) => q.difficulty === "Easy").length;
@@ -29,33 +14,6 @@ export default function DashboardPage() {
   const hardCount = merged.filter((q) => q.difficulty === "Hard").length;
   const solved = total;
   const circumference = 2 * Math.PI * 60;
-
-  useEffect(() => {
-    const fetchDigest = async () => {
-      if (!user?._id) return;
-
-      try {
-        setLoading(true);
-        const res = await getDailyDigest(user._id);
-
-        // ✅ Backend returns flat response — map directly, no res.stats nesting
-        setDigestData({
-          problemsSolved: res.problemsSolved ?? 0,
-          timeSpent:      res.timeSpent ?? 0,
-          streak:         res.streak ?? 0,
-          topics:         res.topics ?? [],
-          digest:         res.digest ?? "Aaj ka digest load nahi hua.",
-        });
-      } catch (err: any) {
-        console.error("Digest fetch error:", err);
-        setError("Digest load nahi hua. Thodi der baad try karo.");
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchDigest();
-  }, [user]);
 
   return (
     <div className="min-h-screen bg-[#0f172a] text-white flex flex-col">
@@ -124,65 +82,14 @@ export default function DashboardPage() {
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between">
                   <span className="text-gray-400">Current</span>
-                  {/* ✅ From real digest data */}
-                  <span className="font-semibold">
-                    {digestData?.streak ?? 0} days 🔥
-                  </span>
+                  <span className="font-semibold">0 days 🔥</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-400">Today's Problems</span>
-                  <span>{digestData?.problemsSolved ?? 0}</span>
+                  <span>0</span>
                 </div>
               </div>
             </div>
-          </div>
-
-          {/* Daily Digest */}
-          <div className="mb-6 rounded-2xl p-6 bg-white/10 shadow-lg">
-            <h2 className="text-lg font-semibold mb-3">Daily Digest</h2>
-
-            {loading ? (
-              <p className="text-sm text-gray-400">Loading digest...</p>
-            ) : error ? (
-              <p className="text-sm text-red-400">{error}</p>
-            ) : (
-              <>
-                <p className="text-sm text-gray-300 mb-4 leading-relaxed">
-                  {digestData?.digest}
-                </p>
-
-                {/* ✅ Stats row */}
-                <div className="flex flex-wrap gap-6 text-sm text-gray-300 mb-3">
-                  <div className="flex items-center gap-1.5">
-                    <span className="w-2 h-2 rounded-full bg-blue-400 inline-block" />
-                    <span>{digestData?.problemsSolved} problems</span>
-                  </div>
-                  <div className="flex items-center gap-1.5">
-                    <span className="text-gray-400">⏱</span>
-                    <span>{digestData?.timeSpent} mins</span>
-                  </div>
-                  <div className="flex items-center gap-1.5">
-                    <span>🔥</span>
-                    <span>{digestData?.streak} streak</span>
-                  </div>
-                </div>
-
-                {/* ✅ Topics */}
-                {digestData?.topics && digestData.topics.length > 0 && (
-                  <div className="flex flex-wrap gap-2 mt-2">
-                    {digestData.topics.map((t) => (
-                      <span
-                        key={t}
-                        className="px-3 py-1 bg-indigo-500/20 text-indigo-300
-                                   text-xs rounded-full border border-indigo-500/30"
-                      >
-                        {t}
-                      </span>
-                    ))}
-                  </div>
-                )}
-              </>
-            )}
           </div>
 
           {/* Progress */}
