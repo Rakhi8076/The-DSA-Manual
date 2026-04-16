@@ -31,7 +31,7 @@ export default function LoginPage() {
       localStorage.setItem("userId", res.user._id);
       console.log("LOGIN RESPONSE:", res);
 
-      navigate("/");
+      navigate("/sheets");
     } catch (err) {
       setError(err instanceof Error ? err.message : "Login failed. Please try again.");
     } finally {

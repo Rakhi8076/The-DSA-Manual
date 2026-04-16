@@ -16,7 +16,7 @@ export function convertQuestions(data: any[], prefix: string): Question[] {
     // 🔥 MOST IMPORTANT FIX
     link: q.link || q.leetcode || q.gfg || "",
 
-    leetcode: q.leetcode || "",
+    leetcode: q.leetcode || q.link || "",
     gfg: q.gfg || "",
 
     topic: q.topic && !["Easy", "Medium", "Hard"].includes(q.topic)
