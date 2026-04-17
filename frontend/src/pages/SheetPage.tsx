@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 import { useParams, Link } from "react-router-dom";
-import { ArrowLeft, Search, Zap } from "lucide-react";
+import { ChevronLeft, Search } from "lucide-react";
 import { motion } from "framer-motion";
 import { sheets, getTopics, getQuestionsByTopic } from "@/data/sheets";
 import { useProgress } from "@/hooks/useProgress";
@@ -88,11 +88,21 @@ export default function SheetPage() {
       <main className="flex-1 gradient-bg tech-grid-bg">
         <div className="container py-8 md:py-12">
           {/* Back link */}
-          <motion.div initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }}>
-            <Link to="/" className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
-              <ArrowLeft className="h-4 w-4" /> Back to Sheets
-            </Link>
-          </motion.div>
+          <Link
+            to="/sheets"
+            className="inline-flex items-center gap-1 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-200 hover:-translate-y-0.5"
+            style={{
+              transform: "translateY(-20px)",
+              background: "rgba(255,255,255,0.08)",
+              border: "1px solid rgba(255,255,255,0.15)",
+              color: "hsl(var(--foreground))",
+              backdropFilter: "blur(8px)",
+              boxShadow: "0 1px 12px rgba(0,0,0,0.2)",
+            }}
+          >
+            <ChevronLeft className="h-4 w-4" />
+            Back to Sheets
+          </Link>
 
           {/* Sheet header */}
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="mb-8">
