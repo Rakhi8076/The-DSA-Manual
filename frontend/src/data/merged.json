@@ -371,9 +371,8 @@
     "leetcode": "https://leetcode.com/problems/valid-palindrome/",
     "embedding_text": "Strings Basics Valid Palindrome"
   },
-  
   {
-    "id": "MER-STR-003",
+    "id": "MER-STR-002",
     "topic": "Strings",
     "section": "Strings",
     "question": "Reverse Words in String",
@@ -386,7 +385,7 @@
     "embedding_text": "Strings StringManipulation Reverse Words in String"
   },
   {
-    "id": "MER-STR-004",
+    "id": "MER-STR-003",
     "topic": "Strings",
     "section": "Strings",
     "question": "Remove All Occurrences of a Substring",
@@ -399,7 +398,7 @@
     "embedding_text": "Strings StringManipulation Remove All Occurrences of a Substring"
   },
   {
-    "id": "MER-STR-005",
+    "id": "MER-STR-004",
     "topic": "Strings",
     "section": "Strings",
     "question": "Permutation in String",
@@ -412,7 +411,7 @@
     "embedding_text": "Strings SlidingWindow Permutation in String"
   },
   {
-    "id": "MER-STR-006",
+    "id": "MER-STR-005",
     "topic": "Strings",
     "section": "Strings",
     "question": "String Compression",
@@ -424,9 +423,8 @@
     "leetcode": "https://leetcode.com/problems/string-compression/",
     "embedding_text": "Strings TwoPointer String Compression"
   },
-
   {
-    "id": "MER-STR-008",
+    "id": "MER-STR-006",
     "topic": "Strings",
     "section": "Strings",
     "question": "Group Anagrams",
@@ -439,7 +437,7 @@
     "embedding_text": "Strings Hashing Group Anagrams"
   },
   {
-    "id": "MER-STR-009",
+    "id": "MER-STR-007",
     "topic": "Strings",
     "section": "Strings",
     "question": "Minimum Window Substring",
@@ -451,7 +449,6 @@
     "leetcode": "https://leetcode.com/problems/minimum-window-substring/",
     "embedding_text": "Strings SlidingWindow Minimum Window Substring"
   },
-
   {
     "id": "MER-SS-001",
     "topic": "Searching & Sorting",
@@ -465,9 +462,8 @@
     "leetcode": "https://leetcode.com/problems/peak-index-in-a-mountain-array/",
     "embedding_text": "Searching & Sorting BinarySearch Peak Index in Mountain Array"
   },
- 
   {
-    "id": "MER-SS-003",
+    "id": "MER-SS-002",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Single Element in Sorted Array",
@@ -480,7 +476,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Single Element in Sorted Array"
   },
   {
-    "id": "MER-SS-004",
+    "id": "MER-SS-003",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Aggressive Cows",
@@ -494,7 +490,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Aggressive Cows"
   },
   {
-    "id": "MER-SS-005",
+    "id": "MER-SS-004",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Allocate Minimum Pages",
@@ -508,7 +504,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Allocate Minimum Pages"
   },
   {
-    "id": "MER-SS-006",
+    "id": "MER-SS-005",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Painter's Partition",
@@ -522,7 +518,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Painter's Partition"
   },
   {
-    "id": "MER-SS-007",
+    "id": "MER-SS-006",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Median of Two Sorted Arrays",
@@ -878,9 +874,8 @@
     "leetcode": "https://leetcode.com/problems/implement-queue-using-stacks/",
     "embedding_text": "Stacks & Queues Queue Implement Queue using Stack"
   },
- 
   {
-    "id": "MER-SQ-005",
+    "id": "MER-SQ-004",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "1st Non Repeating in Stream",
@@ -893,7 +888,7 @@
     "embedding_text": "Stacks & Queues Queue 1st Non Repeating in Stream"
   },
   {
-    "id": "MER-SQ-006",
+    "id": "MER-SQ-005",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Reverse First K Elements of Queue",
@@ -906,7 +901,7 @@
     "embedding_text": "Stacks & Queues Queue Reverse First K Elements of Queue"
   },
   {
-    "id": "MER-SQ-007",
+    "id": "MER-SQ-006",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Time Needed to Buy Tickets",
@@ -919,7 +914,7 @@
     "embedding_text": "Stacks & Queues Queue Time Needed to Buy Tickets"
   },
   {
-    "id": "MER-SQ-008",
+    "id": "MER-SQ-007",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "LRU Cache",
@@ -934,7 +929,7 @@
     "embedding_text": "Stacks & Queues Design LRU Cache"
   },
   {
-    "id": "MER-SQ-009",
+    "id": "MER-SQ-008",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Get Min Element from Stack",
@@ -947,7 +942,7 @@
     "embedding_text": "Stacks & Queues Stack Get Min Element from Stack"
   },
   {
-    "id": "MER-SQ-010",
+    "id": "MER-SQ-009",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Next Smaller Element",
@@ -962,7 +957,7 @@
     "embedding_text": "Stacks & Queues MonotonicStack Next Smaller Element"
   },
   {
-    "id": "MER-SQ-011",
+    "id": "MER-SQ-010",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Celebrity Problem",
@@ -975,7 +970,7 @@
     "embedding_text": "Stacks & Queues TwoPointer Celebrity Problem"
   },
   {
-    "id": "MER-SQ-012",
+    "id": "MER-SQ-011",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Rotten Oranges",
@@ -989,7 +984,7 @@
     "embedding_text": "Stacks & Queues BFS Rotten Oranges"
   },
   {
-    "id": "MER-SQ-013",
+    "id": "MER-SQ-012",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Sort a Stack",
@@ -1003,7 +998,7 @@
     "embedding_text": "Stacks & Queues Recursion Sort a Stack"
   },
   {
-    "id": "MER-SQ-014",
+    "id": "MER-SQ-013",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Stock Span",
@@ -1016,7 +1011,7 @@
     "embedding_text": "Stacks & Queues MonotonicStack Stock Span"
   },
   {
-    "id": "MER-SQ-015",
+    "id": "MER-SQ-014",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Circular Tour / Gas Station",
@@ -1028,7 +1023,6 @@
     "leetcode": "https://leetcode.com/problems/gas-station/",
     "embedding_text": "Stacks & Queues Greedy Circular Tour / Gas Station"
   },
- 
   {
     "id": "MER-BT-001",
     "topic": "Binary Trees",
@@ -1111,9 +1105,8 @@
     "leetcode": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
     "embedding_text": "Binary Trees DFS Postorder Traversal"
   },
-
   {
-    "id": "MER-BT-008",
+    "id": "MER-BT-007",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Diameter of a Tree",
@@ -1126,7 +1119,7 @@
     "embedding_text": "Binary Trees Recursion Diameter of a Tree"
   },
   {
-    "id": "MER-BT-009",
+    "id": "MER-BT-008",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Are 2 Trees Identical or Not",
@@ -1138,9 +1131,8 @@
     "leetcode": "https://leetcode.com/problems/same-tree/",
     "embedding_text": "Binary Trees Recursion Are 2 Trees Identical or Not"
   },
-
   {
-    "id": "MER-BT-011",
+    "id": "MER-BT-009",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Subtree of Another Tree",
@@ -1153,7 +1145,7 @@
     "embedding_text": "Binary Trees Recursion Subtree of Another Tree"
   },
   {
-    "id": "MER-BT-012",
+    "id": "MER-BT-010",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Is Tree Height Balanced",
@@ -1166,7 +1158,7 @@
     "embedding_text": "Binary Trees Recursion Is Tree Height Balanced"
   },
   {
-    "id": "MER-BT-013",
+    "id": "MER-BT-011",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Bottom View of a Tree",
@@ -1179,7 +1171,7 @@
     "embedding_text": "Binary Trees BFS Bottom View of a Tree"
   },
   {
-    "id": "MER-BT-014",
+    "id": "MER-BT-012",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Top View of a Tree",
@@ -1192,7 +1184,7 @@
     "embedding_text": "Binary Trees BFS Top View of a Tree"
   },
   {
-    "id": "MER-BT-015",
+    "id": "MER-BT-013",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Lowest Common Ancestor (LCA)",
@@ -1205,7 +1197,7 @@
     "embedding_text": "Binary Trees Recursion Lowest Common Ancestor (LCA)"
   },
   {
-    "id": "MER-BT-016",
+    "id": "MER-BT-014",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Kth Level of Tree",
@@ -1218,7 +1210,7 @@
     "embedding_text": "Binary Trees BFS Kth Level of Tree"
   },
   {
-    "id": "MER-BT-017",
+    "id": "MER-BT-015",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Construct BT from Inorder & Preorder",
@@ -1231,7 +1223,7 @@
     "embedding_text": "Binary Trees Recursion Construct BT from Inorder & Preorder"
   },
   {
-    "id": "MER-BT-018",
+    "id": "MER-BT-016",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Transform to Sum Tree",
@@ -1245,7 +1237,7 @@
     "embedding_text": "Binary Trees DFS Transform to Sum Tree"
   },
   {
-    "id": "MER-BT-019",
+    "id": "MER-BT-017",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Flatten BT to LL",
@@ -1258,7 +1250,7 @@
     "embedding_text": "Binary Trees DFS Flatten BT to LL"
   },
   {
-    "id": "MER-BT-020",
+    "id": "MER-BT-018",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Max Path Sum",
@@ -1271,7 +1263,7 @@
     "embedding_text": "Binary Trees TreeDP Max Path Sum"
   },
   {
-    "id": "MER-BT-021",
+    "id": "MER-BT-019",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Max Width of BT",
@@ -1284,7 +1276,7 @@
     "embedding_text": "Binary Trees Recursion Max Width of BT"
   },
   {
-    "id": "MER-BT-022",
+    "id": "MER-BT-020",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Construct BT from Inorder & Postorder",
@@ -1297,7 +1289,7 @@
     "embedding_text": "Binary Trees Recursion Construct BT from Inorder & Postorder"
   },
   {
-    "id": "MER-BT-023",
+    "id": "MER-BT-021",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Zig Zag Traversal of BT",
@@ -1310,7 +1302,7 @@
     "embedding_text": "Binary Trees DFS Zig Zag Traversal of BT"
   },
   {
-    "id": "MER-BT-024",
+    "id": "MER-BT-022",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Kth Ancestor",
@@ -1545,9 +1537,8 @@
     "leetcode": "https://leetcode.com/problems/top-k-frequent-elements/",
     "embedding_text": "Heaps Heap K Most Frequent Elements"
   },
-
   {
-    "id": "MER-HP-004",
+    "id": "MER-HP-003",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Smallest Range in K Sorted List",
@@ -1560,7 +1551,7 @@
     "embedding_text": "Heaps Heap Smallest Range in K Sorted List"
   },
   {
-    "id": "MER-HP-005",
+    "id": "MER-HP-004",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Kth Smallest Element",
@@ -1573,7 +1564,7 @@
     "embedding_text": "Heaps Heap Kth Smallest Element"
   },
   {
-    "id": "MER-HP-006",
+    "id": "MER-HP-005",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Heap Sort",
@@ -1690,9 +1681,8 @@
     "leetcode": "https://leetcode.com/problems/course-schedule/description/",
     "embedding_text": "Graphs CycleDetection Detect Cycle in Undirected Graph using BFS"
   },
-  
   {
-    "id": "MER-GR-005",
+    "id": "MER-GR-004",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Detect Cycle in Directed Graph using DFS",
@@ -1704,9 +1694,8 @@
     "leetcode": "https://leetcode.com/problems/redundant-connection/description/",
     "embedding_text": "Graphs CycleDetection Detect Cycle in Directed Graph using DFS"
   },
-  
   {
-    "id": "MER-GR-007",
+    "id": "MER-GR-005",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Topological Sorting (DFS)",
@@ -1719,7 +1708,7 @@
     "embedding_text": "Graphs TopologicalSort Topological Sorting (DFS)"
   },
   {
-    "id": "MER-GR-008",
+    "id": "MER-GR-006",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Flood Fill Algorithm",
@@ -1731,9 +1720,8 @@
     "leetcode": "https://leetcode.com/problems/flood-fill/",
     "embedding_text": "Graphs DFS Flood Fill Algorithm"
   },
- 
   {
-    "id": "MER-GR-010",
+    "id": "MER-GR-007",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Course Schedule II",
@@ -1747,7 +1735,7 @@
     "embedding_text": "Graphs TopologicalSort Course Schedule II"
   },
   {
-    "id": "MER-GR-011",
+    "id": "MER-GR-008",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Cheapest Flights within K Stops",
@@ -1762,7 +1750,7 @@
     "embedding_text": "Graphs ShortestPath Cheapest Flights within K Stops"
   },
   {
-    "id": "MER-GR-012",
+    "id": "MER-GR-009",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Dijkstra's Algorithm",
@@ -1776,7 +1764,7 @@
     "embedding_text": "Graphs ShortestPath Dijkstra's Algorithm"
   },
   {
-    "id": "MER-GR-013",
+    "id": "MER-GR-010",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Kruskal's Algorithm (MST)",
@@ -1788,9 +1776,8 @@
     "leetcode": "https://leetcode.com/problems/min-cost-to-connect-all-points/description/",
     "embedding_text": "Graphs MST Kruskal's Algorithm (MST)"
   },
-
   {
-    "id": "MER-GR-016",
+    "id": "MER-GR-011",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Clone a Graph",
@@ -1803,7 +1790,7 @@
     "embedding_text": "Graphs DFS Clone a Graph"
   },
   {
-    "id": "MER-GR-017",
+    "id": "MER-GR-012",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Floyd Warshall Algorithm",
@@ -1816,7 +1803,7 @@
     "embedding_text": "Graphs ShortestPath Floyd Warshall Algorithm"
   },
   {
-    "id": "MER-GR-018",
+    "id": "MER-GR-013",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Bellman Ford Algorithm",
@@ -1830,7 +1817,7 @@
     "embedding_text": "Graphs ShortestPath Bellman Ford Algorithm"
   },
   {
-    "id": "MER-GR-019",
+    "id": "MER-GR-014",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "01 Matrix",
@@ -1843,7 +1830,7 @@
     "embedding_text": "Graphs BFS 01 Matrix"
   },
   {
-    "id": "MER-GR-020",
+    "id": "MER-GR-015",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Number of Islands",
@@ -1856,7 +1843,7 @@
     "embedding_text": "Graphs BFS Number of Islands"
   },
   {
-    "id": "MER-GR-021",
+    "id": "MER-GR-016",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Is Graph Bipartite?",
@@ -1869,7 +1856,7 @@
     "embedding_text": "Graphs GraphColoring Is Graph Bipartite?"
   },
   {
-    "id": "MER-GR-022",
+    "id": "MER-GR-017",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Strongly Connected Components (Kosaraju's Algorithm)",
@@ -1882,7 +1869,7 @@
     "embedding_text": "Graphs SCC Strongly Connected Components (Kosaraju's Algorithm)"
   },
   {
-    "id": "MER-GR-023",
+    "id": "MER-GR-018",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Most Stones Removed",
@@ -1895,7 +1882,7 @@
     "embedding_text": "Graphs DSU Most Stones Removed"
   },
   {
-    "id": "MER-GR-024",
+    "id": "MER-GR-019",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Number of Ways to Arrive at Destination",
@@ -1909,7 +1896,7 @@
     "embedding_text": "Graphs ShortestPath Number of Ways to Arrive at Destination"
   },
   {
-    "id": "MER-GR-025",
+    "id": "MER-GR-020",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Number of Provinces",
@@ -1923,7 +1910,7 @@
     "embedding_text": "Graphs DFS Number of Provinces"
   },
   {
-    "id": "MER-GR-026",
+    "id": "MER-GR-021",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Alien Dictionary",
@@ -1950,9 +1937,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1",
     "embedding_text": "Dynamic Programming Knapsack 0-1 Knapsack"
   },
- 
   {
-    "id": "MER-DP-003",
+    "id": "MER-DP-002",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Target Sum Subset",
@@ -1965,7 +1951,7 @@
     "embedding_text": "Dynamic Programming SubsetDP Target Sum Subset"
   },
   {
-    "id": "MER-DP-004",
+    "id": "MER-DP-003",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Coin Change",
@@ -1978,7 +1964,7 @@
     "embedding_text": "Dynamic Programming CoinChangeDP Coin Change"
   },
   {
-    "id": "MER-DP-005",
+    "id": "MER-DP-004",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Unbounded Knapsack",
@@ -1991,7 +1977,7 @@
     "embedding_text": "Dynamic Programming Knapsack Unbounded Knapsack"
   },
   {
-    "id": "MER-DP-006",
+    "id": "MER-DP-005",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Longest Common Substring",
@@ -2004,9 +1990,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/longest-common-substring1452/1",
     "embedding_text": "Dynamic Programming StringDP Longest Common Substring"
   },
- 
   {
-    "id": "MER-DP-008",
+    "id": "MER-DP-006",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Longest Increasing Subsequence",
@@ -2020,7 +2005,7 @@
     "embedding_text": "Dynamic Programming LIS Longest Increasing Subsequence"
   },
   {
-    "id": "MER-DP-009",
+    "id": "MER-DP-007",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Edit Distance",
@@ -2034,7 +2019,7 @@
     "embedding_text": "Dynamic Programming StringDP Edit Distance"
   },
   {
-    "id": "MER-DP-010",
+    "id": "MER-DP-008",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Longest Palindromic Subsequence",
@@ -2047,7 +2032,7 @@
     "embedding_text": "Dynamic Programming PalindromeDP Longest Palindromic Subsequence"
   },
   {
-    "id": "MER-DP-011",
+    "id": "MER-DP-009",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Buy & Sell Stocks II",
@@ -2060,7 +2045,7 @@
     "embedding_text": "Dynamic Programming StockDP Buy & Sell Stocks II"
   },
   {
-    "id": "MER-DP-012",
+    "id": "MER-DP-010",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Nth Catalan Number",
@@ -2073,7 +2058,7 @@
     "embedding_text": "Dynamic Programming CatalanDP Nth Catalan Number"
   },
   {
-    "id": "MER-DP-013",
+    "id": "MER-DP-011",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Unique BSTs",
@@ -2086,7 +2071,7 @@
     "embedding_text": "Dynamic Programming CatalanDP Unique BSTs"
   },
   {
-    "id": "MER-DP-014",
+    "id": "MER-DP-012",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Rod Cutting",
@@ -2099,7 +2084,7 @@
     "embedding_text": "Dynamic Programming UnboundedKnapsack Rod Cutting"
   },
   {
-    "id": "MER-DP-015",
+    "id": "MER-DP-013",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Palindromic Partitioning",
@@ -2113,7 +2098,7 @@
     "embedding_text": "Dynamic Programming PartitionDP Palindromic Partitioning"
   },
   {
-    "id": "MER-DP-016",
+    "id": "MER-DP-014",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Matrix Chain Multiplication (MCM)",
@@ -2125,9 +2110,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1",
     "embedding_text": "Dynamic Programming PartitionDP Matrix Chain Multiplication (MCM)"
   },
-  
   {
-    "id": "MER-DP-018",
+    "id": "MER-DP-015",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Maximum Product Subarray",
@@ -2140,7 +2124,7 @@
     "embedding_text": "Dynamic Programming ArrayDP Maximum Product Subarray"
   },
   {
-    "id": "MER-DP-019",
+    "id": "MER-DP-016",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Wildcard Pattern Matching",
@@ -2153,7 +2137,7 @@
     "embedding_text": "Dynamic Programming StringDP Wildcard Pattern Matching"
   },
   {
-    "id": "MER-DP-020",
+    "id": "MER-DP-017",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Longest Bitonic Subsequence",
@@ -2166,7 +2150,7 @@
     "embedding_text": "Dynamic Programming LIS Longest Bitonic Subsequence"
   },
   {
-    "id": "MER-DP-021",
+    "id": "MER-DP-018",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Egg Dropping Problem",
@@ -2362,9 +2346,8 @@
     "leetcode": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
     "embedding_text": "Arrays Sorting Kth Smallest Element"
   },
- 
   {
-    "id": "MER-ARR-032",
+    "id": "MER-ARR-031",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Move Negative Numbers to Beginning and Positive to End with Constant Extra Space",
@@ -2377,7 +2360,7 @@
     "embedding_text": "Arrays TwoPointer Move Negative Numbers to Beginning and Positive to End with Constant Extra Space"
   },
   {
-    "id": "MER-ARR-033",
+    "id": "MER-ARR-032",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Union of Arrays with Duplicates",
@@ -2390,7 +2373,7 @@
     "embedding_text": "Arrays Hashing Union of Arrays with Duplicates"
   },
   {
-    "id": "MER-ARR-034",
+    "id": "MER-ARR-033",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Rotate Array by One",
@@ -2403,7 +2386,7 @@
     "embedding_text": "Arrays Basics Rotate Array by One"
   },
   {
-    "id": "MER-ARR-035",
+    "id": "MER-ARR-034",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Minimize the Heights II",
@@ -2416,7 +2399,7 @@
     "embedding_text": "Arrays Greedy Minimize the Heights II"
   },
   {
-    "id": "MER-ARR-036",
+    "id": "MER-ARR-035",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Minimum Number of Jumps",
@@ -2428,9 +2411,8 @@
     "leetcode": "https://leetcode.com/problems/jump-game-ii/",
     "embedding_text": "Arrays Greedy Minimum Number of Jumps"
   },
-
   {
-    "id": "MER-ARR-041",
+    "id": "MER-ARR-036",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Two Sum - Pairs with 0 Sum",
@@ -2443,7 +2425,7 @@
     "embedding_text": "Arrays Hashing Two Sum - Pairs with 0 Sum"
   },
   {
-    "id": "MER-ARR-042",
+    "id": "MER-ARR-037",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Common in 3 Sorted Arrays",
@@ -2456,7 +2438,7 @@
     "embedding_text": "Arrays TwoPointer Common in 3 Sorted Arrays"
   },
   {
-    "id": "MER-ARR-043",
+    "id": "MER-ARR-038",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Rearrange Array Alternating Positive and Negative Items O(1) Extra Space",
@@ -2468,9 +2450,8 @@
     "leetcode": "https://leetcode.com/problems/rearrange-array-elements-by-sign/description/",
     "embedding_text": "Arrays Basics Rearrange Array Alternating Positive and Negative Items O(1) Extra Space"
   },
- 
   {
-    "id": "MER-ARR-045",
+    "id": "MER-ARR-039",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Factorials of Large Numbers",
@@ -2483,7 +2464,7 @@
     "embedding_text": "Arrays Math Factorials of Large Numbers"
   },
   {
-    "id": "MER-ARR-046",
+    "id": "MER-ARR-040",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Maximum Product Subarray",
@@ -2496,7 +2477,7 @@
     "embedding_text": "Arrays ArrayDP Maximum Product Subarray"
   },
   {
-    "id": "MER-ARR-047",
+    "id": "MER-ARR-041",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Longest Consecutive Subsequence",
@@ -2508,9 +2489,8 @@
     "leetcode": "https://leetcode.com/problems/longest-consecutive-sequence/",
     "embedding_text": "Arrays Hashing Longest Consecutive Subsequence"
   },
- 
   {
-    "id": "MER-ARR-049",
+    "id": "MER-ARR-042",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Maximum Profit by Buying and Selling a Share at Most Twice",
@@ -2523,7 +2503,7 @@
     "embedding_text": "Arrays StockDP Maximum Profit by Buying and Selling a Share at Most Twice"
   },
   {
-    "id": "MER-ARR-050",
+    "id": "MER-ARR-043",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Array Subset of Another Array",
@@ -2535,9 +2515,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/array-subset-of-another-array2317/1",
     "embedding_text": "Arrays Hashing Array Subset of Another Array"
   },
- 
   {
-    "id": "MER-ARR-052",
+    "id": "MER-ARR-044",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Chocolate Distribution Problem",
@@ -2550,7 +2529,7 @@
     "embedding_text": "Arrays Sorting Chocolate Distribution Problem"
   },
   {
-    "id": "MER-ARR-053",
+    "id": "MER-ARR-045",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Smallest Subarray with Sum Greater than X",
@@ -2563,7 +2542,7 @@
     "embedding_text": "Arrays SlidingWindow Smallest Subarray with Sum Greater than X"
   },
   {
-    "id": "MER-ARR-054",
+    "id": "MER-ARR-046",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Three Way Partitioning",
@@ -2576,7 +2555,7 @@
     "embedding_text": "Arrays Basics Three Way Partitioning"
   },
   {
-    "id": "MER-ARR-055",
+    "id": "MER-ARR-047",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Minimum Swaps Required to Bring All Elements Less Than or Equal to K Together",
@@ -2589,7 +2568,7 @@
     "embedding_text": "Arrays SlidingWindow Minimum Swaps Required to Bring All Elements Less Than or Equal to K Together"
   },
   {
-    "id": "MER-ARR-056",
+    "id": "MER-ARR-048",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Palindromic Array",
@@ -2602,7 +2581,7 @@
     "embedding_text": "Arrays Basics Palindromic Array"
   },
   {
-    "id": "MER-ARR-057",
+    "id": "MER-ARR-049",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Median of an Array",
@@ -2615,7 +2594,7 @@
     "embedding_text": "Arrays Math Median of an Array"
   },
   {
-    "id": "MER-ARR-058",
+    "id": "MER-ARR-050",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Median of Two Sorted Arrays of Different Sizes",
@@ -2640,9 +2619,8 @@
     "leetcode": "https://leetcode.com/problems/spiral-matrix/",
     "embedding_text": "Matrix Traversal Spirally Traversing a Matrix"
   },
-
   {
-    "id": "MER-MTX-003",
+    "id": "MER-MTX-002",
     "topic": "Matrix",
     "section": "Matrix",
     "question": "Median in a Row-wise Sorted Matrix",
@@ -2655,7 +2633,7 @@
     "embedding_text": "Matrix BinarySearch Median in a Row-wise Sorted Matrix"
   },
   {
-    "id": "MER-MTX-004",
+    "id": "MER-MTX-003",
     "topic": "Matrix",
     "section": "Matrix",
     "question": "Row with Maximum 1s",
@@ -2668,7 +2646,7 @@
     "embedding_text": "Matrix Basics Row with Maximum 1s"
   },
   {
-    "id": "MER-MTX-005",
+    "id": "MER-MTX-004",
     "topic": "Matrix",
     "section": "Matrix",
     "question": "Sorted Matrix",
@@ -2681,7 +2659,7 @@
     "embedding_text": "Matrix Sorting Sorted Matrix"
   },
   {
-    "id": "MER-MTX-006",
+    "id": "MER-MTX-005",
     "topic": "Matrix",
     "section": "Matrix",
     "question": "Max Rectangle",
@@ -2694,7 +2672,7 @@
     "embedding_text": "Matrix Stack Max Rectangle"
   },
   {
-    "id": "MER-MTX-007",
+    "id": "MER-MTX-006",
     "topic": "Matrix",
     "section": "Matrix",
     "question": "Find a Specific Pair in Matrix",
@@ -2707,7 +2685,7 @@
     "embedding_text": "Matrix Math Find a Specific Pair in Matrix"
   },
   {
-    "id": "MER-MTX-008",
+    "id": "MER-MTX-007",
     "topic": "Matrix",
     "section": "Matrix",
     "question": "Rotate a Matrix by 90 Degree in Clockwise Direction Without Using Any Extra Space",
@@ -2720,7 +2698,7 @@
     "embedding_text": "Matrix Matrix Rotate a Matrix by 90 Degree in Clockwise Direction Without Using Any Extra Space"
   },
   {
-    "id": "MER-MTX-009",
+    "id": "MER-MTX-008",
     "topic": "Matrix",
     "section": "Matrix",
     "question": "Kth Smallest Element in a Matrix",
@@ -2733,7 +2711,7 @@
     "embedding_text": "Matrix Heap Kth Smallest Element in a Matrix"
   },
   {
-    "id": "MER-MTX-010",
+    "id": "MER-MTX-009",
     "topic": "Matrix",
     "section": "Matrix",
     "question": "Common Elements in All Rows of a Given Matrix",
@@ -2746,7 +2724,7 @@
     "embedding_text": "Matrix Hashing Common Elements in All Rows of a Given Matrix"
   },
   {
-    "id": "MER-STR-012",
+    "id": "MER-STR-008",
     "topic": "Strings",
     "section": "Strings",
     "question": "Reverse String",
@@ -2759,7 +2737,7 @@
     "embedding_text": "Strings TwoPointer Reverse String"
   },
   {
-    "id": "MER-STR-013",
+    "id": "MER-STR-009",
     "topic": "Strings",
     "section": "Strings",
     "question": "Palindrome String",
@@ -2771,9 +2749,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/palindrome-string0817/1",
     "embedding_text": "Strings StringManipulation Palindrome String"
   },
- 
   {
-    "id": "MER-STR-016",
+    "id": "MER-STR-010",
     "topic": "Strings",
     "section": "Strings",
     "question": "Count and Say",
@@ -2787,7 +2764,7 @@
     "embedding_text": "Strings Simulation Count and Say"
   },
   {
-    "id": "MER-STR-017",
+    "id": "MER-STR-011",
     "topic": "Strings",
     "section": "Strings",
     "question": "Longest Palindrome in a String",
@@ -2800,7 +2777,7 @@
     "embedding_text": "Strings DPGeneral Longest Palindrome in a String"
   },
   {
-    "id": "MER-STR-018",
+    "id": "MER-STR-012",
     "topic": "Strings",
     "section": "Strings",
     "question": "Longest Repeating Subsequence",
@@ -2813,7 +2790,7 @@
     "embedding_text": "Strings DPGeneral Longest Repeating Subsequence"
   },
   {
-    "id": "MER-STR-019",
+    "id": "MER-STR-013",
     "topic": "Strings",
     "section": "Strings",
     "question": "Print Subsequences String",
@@ -2826,7 +2803,7 @@
     "embedding_text": "Strings Recursion Print Subsequences String"
   },
   {
-    "id": "MER-STR-020",
+    "id": "MER-STR-014",
     "topic": "Strings",
     "section": "Strings",
     "question": "Permutations of a String",
@@ -2839,7 +2816,7 @@
     "embedding_text": "Strings Backtracking Permutations of a String"
   },
   {
-    "id": "MER-STR-021",
+    "id": "MER-STR-015",
     "topic": "Strings",
     "section": "Strings",
     "question": "Split the binary string into substrings with equal number of 0s and 1s",
@@ -2852,7 +2829,7 @@
     "embedding_text": "Strings StringManipulation Split the binary string into substrings with equal number of 0s and 1s"
   },
   {
-    "id": "MER-STR-022",
+    "id": "MER-STR-016",
     "topic": "Strings",
     "section": "Strings",
     "question": "Word Wrap",
@@ -2864,9 +2841,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/word-wrap1646/1",
     "embedding_text": "Strings DPGeneral Word Wrap"
   },
-  
   {
-    "id": "MER-STR-025",
+    "id": "MER-STR-017",
     "topic": "Strings",
     "section": "Strings",
     "question": "Parenthesis Checker",
@@ -2879,7 +2855,7 @@
     "embedding_text": "Strings Stack Parenthesis Checker"
   },
   {
-    "id": "MER-STR-026",
+    "id": "MER-STR-018",
     "topic": "Strings",
     "section": "Strings",
     "question": "Word Break",
@@ -2892,7 +2868,7 @@
     "embedding_text": "Strings DPGeneral Word Break"
   },
   {
-    "id": "MER-STR-027",
+    "id": "MER-STR-019",
     "topic": "Strings",
     "section": "Strings",
     "question": "Rabin Karp Algorithm For Pattern Searching",
@@ -2905,7 +2881,7 @@
     "embedding_text": "Strings StringManipulation Rabin Karp Algorithm For Pattern Searching"
   },
   {
-    "id": "MER-STR-028",
+    "id": "MER-STR-020",
     "topic": "Strings",
     "section": "Strings",
     "question": "Longest Prefix Suffix",
@@ -2918,7 +2894,7 @@
     "embedding_text": "Strings StringManipulation Longest Prefix Suffix"
   },
   {
-    "id": "MER-STR-029",
+    "id": "MER-STR-021",
     "topic": "Strings",
     "section": "Strings",
     "question": "Convert Sentence Equivalent Mobile Numeric Keypad Sequence",
@@ -2931,7 +2907,7 @@
     "embedding_text": "Strings StringManipulation Convert Sentence Equivalent Mobile Numeric Keypad Sequence"
   },
   {
-    "id": "MER-STR-030",
+    "id": "MER-STR-022",
     "topic": "Strings",
     "section": "Strings",
     "question": "Count the Reversals",
@@ -2944,7 +2920,7 @@
     "embedding_text": "Strings Stack Count the Reversals"
   },
   {
-    "id": "MER-STR-031",
+    "id": "MER-STR-023",
     "topic": "Strings",
     "section": "Strings",
     "question": "Count Palindromic Subsequences",
@@ -2957,7 +2933,7 @@
     "embedding_text": "Strings DPGeneral Count Palindromic Subsequences"
   },
   {
-    "id": "MER-STR-032",
+    "id": "MER-STR-024",
     "topic": "Strings",
     "section": "Strings",
     "question": "Find Count Number Given String Present 2d Character Array",
@@ -2970,7 +2946,7 @@
     "embedding_text": "Strings StringManipulation Find Count Number Given String Present 2d Character Array"
   },
   {
-    "id": "MER-STR-033",
+    "id": "MER-STR-025",
     "topic": "Strings",
     "section": "Strings",
     "question": "Find the string in grid",
@@ -2983,7 +2959,7 @@
     "embedding_text": "Strings DFS Find the string in grid"
   },
   {
-    "id": "MER-STR-034",
+    "id": "MER-STR-026",
     "topic": "Strings",
     "section": "Strings",
     "question": "Boyer Moore Algorithm For Pattern Searching",
@@ -2996,7 +2972,7 @@
     "embedding_text": "Strings StringManipulation Boyer Moore Algorithm For Pattern Searching"
   },
   {
-    "id": "MER-STR-035",
+    "id": "MER-STR-027",
     "topic": "Strings",
     "section": "Strings",
     "question": "Roman to Integer",
@@ -3010,7 +2986,7 @@
     "embedding_text": "Strings StringManipulation Roman to Integer"
   },
   {
-    "id": "MER-STR-036",
+    "id": "MER-STR-028",
     "topic": "Strings",
     "section": "Strings",
     "question": "Min Number of Flips",
@@ -3023,7 +2999,7 @@
     "embedding_text": "Strings StringManipulation Min Number of Flips"
   },
   {
-    "id": "MER-STR-037",
+    "id": "MER-STR-029",
     "topic": "Strings",
     "section": "Strings",
     "question": "Second most repeated string in a sequence",
@@ -3036,7 +3012,7 @@
     "embedding_text": "Strings Hashing Second most repeated string in a sequence"
   },
   {
-    "id": "MER-STR-038",
+    "id": "MER-STR-030",
     "topic": "Strings",
     "section": "Strings",
     "question": "Minimum Swaps for Bracket Balancing",
@@ -3049,7 +3025,7 @@
     "embedding_text": "Strings Greedy Minimum Swaps for Bracket Balancing"
   },
   {
-    "id": "MER-STR-039",
+    "id": "MER-STR-031",
     "topic": "Strings",
     "section": "Strings",
     "question": "Longest Common Subsequence",
@@ -3062,7 +3038,7 @@
     "embedding_text": "Strings DPGeneral Longest Common Subsequence"
   },
   {
-    "id": "MER-STR-040",
+    "id": "MER-STR-032",
     "topic": "Strings",
     "section": "Strings",
     "question": "Program Generate Possible Valid Ip Addresses Given String",
@@ -3075,7 +3051,7 @@
     "embedding_text": "Strings Backtracking Program Generate Possible Valid Ip Addresses Given String"
   },
   {
-    "id": "MER-STR-041",
+    "id": "MER-STR-033",
     "topic": "Strings",
     "section": "Strings",
     "question": "Smallest distinct window",
@@ -3088,7 +3064,7 @@
     "embedding_text": "Strings Basics Smallest distinct window"
   },
   {
-    "id": "MER-STR-042",
+    "id": "MER-STR-034",
     "topic": "Strings",
     "section": "Strings",
     "question": "Rearrange characters",
@@ -3101,7 +3077,7 @@
     "embedding_text": "Strings Heap Rearrange characters"
   },
   {
-    "id": "MER-STR-043",
+    "id": "MER-STR-035",
     "topic": "Strings",
     "section": "Strings",
     "question": "Minimum Characters Added Front Make String Palindrome",
@@ -3113,9 +3089,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/minimum-characters-to-be-added-at-front-to-make-string-palindrome/1",
     "embedding_text": "Strings StringManipulation Minimum Characters Added Front Make String Palindrome"
   },
-
   {
-    "id": "MER-STR-046",
+    "id": "MER-STR-036",
     "topic": "Strings",
     "section": "Strings",
     "question": "Remove Consecutive Characters",
@@ -3128,7 +3103,7 @@
     "embedding_text": "Strings StringManipulation Remove Consecutive Characters"
   },
   {
-    "id": "MER-STR-047",
+    "id": "MER-STR-037",
     "topic": "Strings",
     "section": "Strings",
     "question": "Wildcard string matching",
@@ -3141,7 +3116,7 @@
     "embedding_text": "Strings StringManipulation Wildcard string matching"
   },
   {
-    "id": "MER-STR-048",
+    "id": "MER-STR-038",
     "topic": "Strings",
     "section": "Strings",
     "question": "Function To Find Number Of Customers Who Could Not Get A Computer",
@@ -3154,7 +3129,7 @@
     "embedding_text": "Strings Greedy Function To Find Number Of Customers Who Could Not Get A Computer"
   },
   {
-    "id": "MER-STR-049",
+    "id": "MER-STR-039",
     "topic": "Strings",
     "section": "Strings",
     "question": "Transform One String To Another Using Minimum Number Of Given Operation",
@@ -3167,7 +3142,7 @@
     "embedding_text": "Strings Greedy Transform One String To Another Using Minimum Number Of Given Operation"
   },
   {
-    "id": "MER-STR-050",
+    "id": "MER-STR-040",
     "topic": "Strings",
     "section": "Strings",
     "question": "Isomorphic Strings",
@@ -3180,7 +3155,7 @@
     "embedding_text": "Strings Hashing Isomorphic Strings"
   },
   {
-    "id": "MER-STR-051",
+    "id": "MER-STR-041",
     "topic": "Strings",
     "section": "Strings",
     "question": "Recursively print all sentences that can be formed from list of word lists",
@@ -3193,7 +3168,7 @@
     "embedding_text": "Strings Recursion Recursively print all sentences that can be formed from list of word lists"
   },
   {
-    "id": "MER-SS-008",
+    "id": "MER-SS-007",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "First and Last Occurrences",
@@ -3206,7 +3181,7 @@
     "embedding_text": "Searching & Sorting BinarySearch First and Last Occurrences"
   },
   {
-    "id": "MER-SS-009",
+    "id": "MER-SS-008",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Value equal to index value",
@@ -3219,7 +3194,7 @@
     "embedding_text": "Searching & Sorting Basics Value equal to index value"
   },
   {
-    "id": "MER-SS-010",
+    "id": "MER-SS-009",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Count Squares",
@@ -3232,7 +3207,7 @@
     "embedding_text": "Searching & Sorting Math Count Squares"
   },
   {
-    "id": "MER-SS-011",
+    "id": "MER-SS-010",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Middle of Three",
@@ -3245,7 +3220,7 @@
     "embedding_text": "Searching & Sorting Math Middle of Three"
   },
   {
-    "id": "MER-SS-012",
+    "id": "MER-SS-011",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Optimum Location Point Minimize Total Distance",
@@ -3258,7 +3233,7 @@
     "embedding_text": "Searching & Sorting Math Optimum Location Point Minimize Total Distance"
   },
   {
-    "id": "MER-SS-013",
+    "id": "MER-SS-012",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Missing And Repeating",
@@ -3270,9 +3245,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/find-missing-and-repeating2512/1",
     "embedding_text": "Searching & Sorting Basics Missing And Repeating"
   },
- 
   {
-    "id": "MER-SS-015",
+    "id": "MER-SS-013",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Searching Array Adjacent Differ K",
@@ -3284,9 +3258,8 @@
     "leetcode": "https://leetcode.com/problems/k-diff-pairs-in-an-array/description/",
     "embedding_text": "Searching & Sorting BinarySearch Searching Array Adjacent Differ K"
   },
- 
   {
-    "id": "MER-SS-017",
+    "id": "MER-SS-014",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "4 Sum - All Quadruples",
@@ -3299,7 +3272,7 @@
     "embedding_text": "Searching & Sorting Hashing 4 Sum - All Quadruples"
   },
   {
-    "id": "MER-SS-018",
+    "id": "MER-SS-015",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Stickler Thief",
@@ -3312,7 +3285,7 @@
     "embedding_text": "Searching & Sorting DPGeneral Stickler Thief"
   },
   {
-    "id": "MER-SS-019",
+    "id": "MER-SS-016",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Triplets with Smaller Sum",
@@ -3325,7 +3298,7 @@
     "embedding_text": "Searching & Sorting TwoPointer Triplets with Smaller Sum"
   },
   {
-    "id": "MER-SS-020",
+    "id": "MER-SS-017",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Merge Without Extra Space",
@@ -3338,7 +3311,7 @@
     "embedding_text": "Searching & Sorting Sorting Merge Without Extra Space"
   },
   {
-    "id": "MER-SS-021",
+    "id": "MER-SS-018",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Zero Sum Subarrays",
@@ -3351,7 +3324,7 @@
     "embedding_text": "Searching & Sorting Hashing Zero Sum Subarrays"
   },
   {
-    "id": "MER-SS-022",
+    "id": "MER-SS-019",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Product array puzzle",
@@ -3364,7 +3337,7 @@
     "embedding_text": "Searching & Sorting Basics Product array puzzle"
   },
   {
-    "id": "MER-SS-023",
+    "id": "MER-SS-020",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Sort by Set Bit Count",
@@ -3377,7 +3350,7 @@
     "embedding_text": "Searching & Sorting Sorting Sort by Set Bit Count"
   },
   {
-    "id": "MER-SS-024",
+    "id": "MER-SS-021",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Minimum Swaps to Sort",
@@ -3390,7 +3363,7 @@
     "embedding_text": "Searching & Sorting Sorting Minimum Swaps to Sort"
   },
   {
-    "id": "MER-SS-025",
+    "id": "MER-SS-022",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "rasta and kheshtak",
@@ -3403,7 +3376,7 @@
     "embedding_text": "Searching & Sorting Math rasta and kheshtak"
   },
   {
-    "id": "MER-SS-026",
+    "id": "MER-SS-023",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "kth smallest number again 2",
@@ -3416,7 +3389,7 @@
     "embedding_text": "Searching & Sorting Heap kth smallest number again 2"
   },
   {
-    "id": "MER-SS-027",
+    "id": "MER-SS-024",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Find Pivot Index",
@@ -3429,7 +3402,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Find Pivot Index"
   },
   {
-    "id": "MER-SS-028",
+    "id": "MER-SS-025",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "K-th element of two Arrays",
@@ -3441,9 +3414,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1",
     "embedding_text": "Searching & Sorting BinarySearch K-th element of two Arrays"
   },
-
   {
-    "id": "MER-SS-030",
+    "id": "MER-SS-026",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "EKO",
@@ -3456,7 +3428,7 @@
     "embedding_text": "Searching & Sorting BinarySearch EKO"
   },
   {
-    "id": "MER-SS-031",
+    "id": "MER-SS-027",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Weighted Job Scheduling Log N Time",
@@ -3469,7 +3441,7 @@
     "embedding_text": "Searching & Sorting Greedy Weighted Job Scheduling Log N Time"
   },
   {
-    "id": "MER-SS-032",
+    "id": "MER-SS-028",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Arithmetic Number",
@@ -3482,7 +3454,7 @@
     "embedding_text": "Searching & Sorting Math Arithmetic Number"
   },
   {
-    "id": "MER-SS-033",
+    "id": "MER-SS-029",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Smallest number with at least n trailing zeroes in factorial",
@@ -3495,7 +3467,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Smallest number with at least n trailing zeroes in factorial"
   },
   {
-    "id": "MER-SS-034",
+    "id": "MER-SS-030",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "PRATA",
@@ -3508,7 +3480,7 @@
     "embedding_text": "Searching & Sorting BinarySearch PRATA"
   },
   {
-    "id": "MER-SS-035",
+    "id": "MER-SS-031",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "ANARC05B",
@@ -3521,7 +3493,7 @@
     "embedding_text": "Searching & Sorting BinarySearch ANARC05B"
   },
   {
-    "id": "MER-SS-036",
+    "id": "MER-SS-032",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "SUBSUMS",
@@ -3534,7 +3506,7 @@
     "embedding_text": "Searching & Sorting BinarySearch SUBSUMS"
   },
   {
-    "id": "MER-SS-037",
+    "id": "MER-SS-033",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Count Inversions",
@@ -3547,7 +3519,7 @@
     "embedding_text": "Searching & Sorting Sorting Count Inversions"
   },
   {
-    "id": "MER-SS-038",
+    "id": "MER-SS-034",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "In Place Merge Sort",
@@ -3560,7 +3532,7 @@
     "embedding_text": "Searching & Sorting Sorting In Place Merge Sort"
   },
   {
-    "id": "MER-SS-039",
+    "id": "MER-SS-035",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Partitioning and Sorting Arrays with Many Repeated Entries",
@@ -3572,9 +3544,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/three-way-partitioning/1",
     "embedding_text": "Searching & Sorting Sorting Partitioning and Sorting Arrays with Many Repeated Entries"
   },
-
   {
-    "id": "MER-LL-018",
+    "id": "MER-LL-013",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Remove Duplicates from a Sorted Linked List",
@@ -3587,7 +3558,7 @@
     "embedding_text": "Linked List LinkedList Remove Duplicates from a Sorted Linked List"
   },
   {
-    "id": "MER-LL-019",
+    "id": "MER-LL-014",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Remove duplicates from a linked list",
@@ -3600,7 +3571,7 @@
     "embedding_text": "Linked List LinkedList Remove duplicates from a linked list"
   },
   {
-    "id": "MER-LL-020",
+    "id": "MER-LL-015",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Move Last Element To Front Of A Given Linked List",
@@ -3613,7 +3584,7 @@
     "embedding_text": "Linked List LinkedList Move Last Element To Front Of A Given Linked List"
   },
   {
-    "id": "MER-LL-021",
+    "id": "MER-LL-016",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Add 1 to a Linked List Number",
@@ -3625,9 +3596,8 @@
     "leetcode": "https://leetcode.com/problems/plus-one-linked-list/",
     "embedding_text": "Linked List LinkedList Add 1 to a Linked List Number"
   },
-
   {
-    "id": "MER-LL-023",
+    "id": "MER-LL-017",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Intersection Sorted Linked Lists",
@@ -3640,7 +3610,7 @@
     "embedding_text": "Linked List LinkedList Intersection Sorted Linked Lists"
   },
   {
-    "id": "MER-LL-024",
+    "id": "MER-LL-018",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Intersection in Y Shaped Lists",
@@ -3653,7 +3623,7 @@
     "embedding_text": "Linked List LinkedList Intersection in Y Shaped Lists"
   },
   {
-    "id": "MER-LL-025",
+    "id": "MER-LL-019",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Merge Sort for Linked List",
@@ -3666,7 +3636,7 @@
     "embedding_text": "Linked List Sorting Merge Sort for Linked List"
   },
   {
-    "id": "MER-LL-026",
+    "id": "MER-LL-020",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Quick Sort on Linked List",
@@ -3678,9 +3648,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/quick-sort-on-linked-list/1",
     "embedding_text": "Linked List Sorting Quick Sort on Linked List"
   },
-
   {
-    "id": "MER-LL-028",
+    "id": "MER-LL-021",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Check If Circular Linked List",
@@ -3693,7 +3662,7 @@
     "embedding_text": "Linked List LinkedList Check If Circular Linked List"
   },
   {
-    "id": "MER-LL-029",
+    "id": "MER-LL-022",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Split a Linked List into two halves",
@@ -3705,9 +3674,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/split-a-circular-linked-list-into-two-halves/1",
     "embedding_text": "Linked List LinkedList Split a Linked List into two halves"
   },
-
   {
-    "id": "MER-LL-031",
+    "id": "MER-LL-023",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Deletion Circular Linked List",
@@ -3720,7 +3688,7 @@
     "embedding_text": "Linked List LinkedList Deletion Circular Linked List"
   },
   {
-    "id": "MER-LL-032",
+    "id": "MER-LL-024",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Reverse a Doubly Linked List",
@@ -3733,7 +3701,7 @@
     "embedding_text": "Linked List DoublyLinkedList Reverse a Doubly Linked List"
   },
   {
-    "id": "MER-LL-033",
+    "id": "MER-LL-025",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Find Pairs Given Sum Doubly Linked List",
@@ -3746,7 +3714,7 @@
     "embedding_text": "Linked List DoublyLinkedList Find Pairs Given Sum Doubly Linked List"
   },
   {
-    "id": "MER-LL-034",
+    "id": "MER-LL-026",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Count Triplets Sorted Doubly Linked List Whose Sum Equal Given Value X",
@@ -3759,7 +3727,7 @@
     "embedding_text": "Linked List DoublyLinkedList Count Triplets Sorted Doubly Linked List Whose Sum Equal Given Value X"
   },
   {
-    "id": "MER-LL-035",
+    "id": "MER-LL-027",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Sort K Sorted Doubly Linked List",
@@ -3772,7 +3740,7 @@
     "embedding_text": "Linked List DoublyLinkedList Sort K Sorted Doubly Linked List"
   },
   {
-    "id": "MER-LL-036",
+    "id": "MER-LL-028",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Rotate Doubly Linked List N Nodes",
@@ -3785,7 +3753,7 @@
     "embedding_text": "Linked List DoublyLinkedList Rotate Doubly Linked List N Nodes"
   },
   {
-    "id": "MER-LL-037",
+    "id": "MER-LL-029",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Reverse Doubly Linked List Groups Given Size",
@@ -3797,9 +3765,8 @@
     "leetcode": "https://www.naukri.com/code360/problems/reverse-dll-nodes-in-groups_920399",
     "embedding_text": "Linked List DoublyLinkedList Reverse Doubly Linked List Groups Given Size"
   },
-
   {
-    "id": "MER-LL-039",
+    "id": "MER-LL-030",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Sort a linked list of 0s, 1s and 2s",
@@ -3811,9 +3778,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1",
     "embedding_text": "Linked List LinkedList Sort a linked list of 0s, 1s and 2s"
   },
- 
   {
-    "id": "MER-LL-041",
+    "id": "MER-LL-031",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Merge K sorted linked lists",
@@ -3826,7 +3792,7 @@
     "embedding_text": "Linked List Heap Merge K sorted linked lists"
   },
   {
-    "id": "MER-LL-042",
+    "id": "MER-LL-032",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Multiply two linked lists",
@@ -3839,7 +3805,7 @@
     "embedding_text": "Linked List LinkedList Multiply two linked lists"
   },
   {
-    "id": "MER-LL-043",
+    "id": "MER-LL-033",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Delete nodes having greater value on right",
@@ -3852,7 +3818,7 @@
     "embedding_text": "Linked List LinkedList Delete nodes having greater value on right"
   },
   {
-    "id": "MER-LL-044",
+    "id": "MER-LL-034",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Segregate Evens and Odds in a Linked List",
@@ -3865,7 +3831,7 @@
     "embedding_text": "Linked List LinkedList Segregate Evens and Odds in a Linked List"
   },
   {
-    "id": "MER-LL-045",
+    "id": "MER-LL-035",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Kth from End of Linked List",
@@ -3878,7 +3844,7 @@
     "embedding_text": "Linked List LinkedList Kth from End of Linked List"
   },
   {
-    "id": "MER-LL-046",
+    "id": "MER-LL-036",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Stream First Non-repeating",
@@ -3890,9 +3856,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream/1",
     "embedding_text": "Linked List QueueHashing Stream First Non-repeating"
   },
-  
   {
-    "id": "MER-BT-026",
+    "id": "MER-BT-023",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Height of Binary Tree",
@@ -3904,9 +3869,8 @@
     "leetcode": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
     "embedding_text": "Binary Trees DFS Height of Binary Tree"
   },
- 
   {
-    "id": "MER-BT-028",
+    "id": "MER-BT-024",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Create A Mirror Tree From The Given Binary Tree",
@@ -3919,7 +3883,7 @@
     "embedding_text": "Binary Trees DFS Create A Mirror Tree From The Given Binary Tree"
   },
   {
-    "id": "MER-BT-029",
+    "id": "MER-BT-025",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Left View of Binary Tree",
@@ -3932,7 +3896,7 @@
     "embedding_text": "Binary Trees DFS Left View of Binary Tree"
   },
   {
-    "id": "MER-BT-030",
+    "id": "MER-BT-026",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Right View of Binary Tree",
@@ -3944,9 +3908,8 @@
     "leetcode": "https://leetcode.com/problems/binary-tree-right-side-view/",
     "embedding_text": "Binary Trees DFS Right View of Binary Tree"
   },
-
   {
-    "id": "MER-BT-035",
+    "id": "MER-BT-027",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Diagonal Tree Traversal",
@@ -3959,7 +3922,7 @@
     "embedding_text": "Binary Trees DFS Diagonal Tree Traversal"
   },
   {
-    "id": "MER-BT-036",
+    "id": "MER-BT-028",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Tree Boundary Traversal",
@@ -3972,7 +3935,7 @@
     "embedding_text": "Binary Trees DFS Tree Boundary Traversal"
   },
   {
-    "id": "MER-BT-037",
+    "id": "MER-BT-029",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Construct Binary Tree String Bracket Representation",
@@ -3985,7 +3948,7 @@
     "embedding_text": "Binary Trees DFS Construct Binary Tree String Bracket Representation"
   },
   {
-    "id": "MER-BT-038",
+    "id": "MER-BT-030",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Binary Tree to DLL",
@@ -3997,9 +3960,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/binary-tree-to-dll/1",
     "embedding_text": "Binary Trees DFS Binary Tree to DLL"
   },
-
   {
-    "id": "MER-BT-040",
+    "id": "MER-BT-031",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Minimum Swap Required Convert Binary Tree Binary Search Tree",
@@ -4011,9 +3973,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/minimum-swap-required-to-convert-binary-tree-to-binary-search-tree/1",
     "embedding_text": "Binary Trees DFS Minimum Swap Required Convert Binary Tree Binary Search Tree"
   },
-
   {
-    "id": "MER-BT-042",
+    "id": "MER-BT-032",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Leaves at Same Level or Not",
@@ -4026,7 +3987,7 @@
     "embedding_text": "Binary Trees DFS Leaves at Same Level or Not"
   },
   {
-    "id": "MER-BT-043",
+    "id": "MER-BT-033",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Duplicate Subtree",
@@ -4039,7 +4000,7 @@
     "embedding_text": "Binary Trees DFS Duplicate Subtree"
   },
   {
-    "id": "MER-BT-044",
+    "id": "MER-BT-034",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Check Mirror in N-ary tree",
@@ -4052,7 +4013,7 @@
     "embedding_text": "Binary Trees DFS Check Mirror in N-ary tree"
   },
   {
-    "id": "MER-BT-045",
+    "id": "MER-BT-035",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Sum of nodes on the longest path",
@@ -4065,7 +4026,7 @@
     "embedding_text": "Binary Trees DFS Sum of nodes on the longest path"
   },
   {
-    "id": "MER-BT-046",
+    "id": "MER-BT-036",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Check Given Graph Tree",
@@ -4078,7 +4039,7 @@
     "embedding_text": "Binary Trees DFS Check Given Graph Tree"
   },
   {
-    "id": "MER-BT-047",
+    "id": "MER-BT-037",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Find Largest Subtree Sum Tree",
@@ -4091,7 +4052,7 @@
     "embedding_text": "Binary Trees DFS Find Largest Subtree Sum Tree"
   },
   {
-    "id": "MER-BT-048",
+    "id": "MER-BT-038",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Maximum Sum Nodes Binary Tree No Two Adjacent",
@@ -4104,7 +4065,7 @@
     "embedding_text": "Binary Trees DFS Maximum Sum Nodes Binary Tree No Two Adjacent"
   },
   {
-    "id": "MER-BT-049",
+    "id": "MER-BT-039",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Print K Sum Paths Binary Tree",
@@ -4116,9 +4077,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/k-sum-paths/1",
     "embedding_text": "Binary Trees DFS Print K Sum Paths Binary Tree"
   },
-
   {
-    "id": "MER-BT-051",
+    "id": "MER-BT-040",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Min distance between two given nodes of a Binary Tree",
@@ -4131,7 +4091,7 @@
     "embedding_text": "Binary Trees DFS Min distance between two given nodes of a Binary Tree"
   },
   {
-    "id": "MER-BT-052",
+    "id": "MER-BT-041",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Kth Ancestor Node Binary Tree Set 2",
@@ -4143,9 +4103,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/kth-ancestor-in-a-tree/1",
     "embedding_text": "Binary Trees DFS Kth Ancestor Node Binary Tree Set 2"
   },
- 
   {
-    "id": "MER-BT-054",
+    "id": "MER-BT-042",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Isomorphic Trees",
@@ -4326,9 +4285,8 @@
     "leetcode": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
     "embedding_text": "BST BSTTraversal k-th Smallest in BST"
   },
-
   {
-    "id": "MER-BST-030",
+    "id": "MER-BST-029",
     "topic": "BST",
     "section": "BST",
     "question": "Find Median Bst Time O1 Space",
@@ -4341,7 +4299,7 @@
     "embedding_text": "BST BSTTraversal Find Median Bst Time O1 Space"
   },
   {
-    "id": "MER-BST-031",
+    "id": "MER-BST-030",
     "topic": "BST",
     "section": "BST",
     "question": "Count BST nodes that lie in a given range",
@@ -4354,7 +4312,7 @@
     "embedding_text": "BST BSTTraversal Count BST nodes that lie in a given range"
   },
   {
-    "id": "MER-BST-032",
+    "id": "MER-BST-031",
     "topic": "BST",
     "section": "BST",
     "question": "Replace every element with the least greater element on its right",
@@ -4367,7 +4325,7 @@
     "embedding_text": "BST Basics Replace every element with the least greater element on its right"
   },
   {
-    "id": "MER-BST-033",
+    "id": "MER-BST-032",
     "topic": "BST",
     "section": "BST",
     "question": "Given N Appointments Find Conflicting Appointments",
@@ -4380,7 +4338,7 @@
     "embedding_text": "BST Intervals Given N Appointments Find Conflicting Appointments"
   },
   {
-    "id": "MER-BST-034",
+    "id": "MER-BST-033",
     "topic": "BST",
     "section": "BST",
     "question": "Preorder to BST",
@@ -4393,7 +4351,7 @@
     "embedding_text": "BST BSTConstruction Preorder to BST"
   },
   {
-    "id": "MER-BST-035",
+    "id": "MER-BST-034",
     "topic": "BST",
     "section": "BST",
     "question": "BST with Dead End",
@@ -4406,7 +4364,7 @@
     "embedding_text": "BST BSTValidation BST with Dead End"
   },
   {
-    "id": "MER-BST-036",
+    "id": "MER-BST-035",
     "topic": "BST",
     "section": "BST",
     "question": "Largest BST",
@@ -4419,7 +4377,7 @@
     "embedding_text": "BST BSTValidation Largest BST"
   },
   {
-    "id": "MER-BST-037",
+    "id": "MER-BST-036",
     "topic": "BST",
     "section": "BST",
     "question": "Flatten Bst To Sorted List Increasing Order",
@@ -4589,9 +4547,8 @@
     "leetcode": "https://www.naukri.com/code360/problems/check-if-possible-to-survive_1170052",
     "embedding_text": "Greedy Greedy Survival"
   },
- 
   {
-    "id": "MER-GDY-020",
+    "id": "MER-GDY-019",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Maximum Product Subset Array",
@@ -4604,7 +4561,7 @@
     "embedding_text": "Greedy Greedy Maximum Product Subset Array"
   },
   {
-    "id": "MER-GDY-021",
+    "id": "MER-GDY-020",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Maximize sum after K negations",
@@ -4616,9 +4573,8 @@
     "leetcode": "https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/",
     "embedding_text": "Greedy Greedy Maximize sum after K negations"
   },
- 
   {
-    "id": "MER-GDY-023",
+    "id": "MER-GDY-021",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Maximum Sum Absolute Difference Array",
@@ -4631,7 +4587,7 @@
     "embedding_text": "Greedy Greedy Maximum Sum Absolute Difference Array"
   },
   {
-    "id": "MER-GDY-024",
+    "id": "MER-GDY-022",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Swap and Maximize",
@@ -4644,7 +4600,7 @@
     "embedding_text": "Greedy Greedy Swap and Maximize"
   },
   {
-    "id": "MER-GDY-025",
+    "id": "MER-GDY-023",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Minimum Sum Absolute Difference Pairs Two Arrays",
@@ -4657,7 +4613,7 @@
     "embedding_text": "Greedy Greedy Minimum Sum Absolute Difference Pairs Two Arrays"
   },
   {
-    "id": "MER-GDY-026",
+    "id": "MER-GDY-024",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Program For Shortest Job First Or Sjf Cpu Scheduling Set 1 Non Preemptive",
@@ -4670,7 +4626,7 @@
     "embedding_text": "Greedy Greedy Program For Shortest Job First Or Sjf Cpu Scheduling Set 1 Non Preemptive"
   },
   {
-    "id": "MER-GDY-027",
+    "id": "MER-GDY-025",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Page Faults in LRU",
@@ -4683,7 +4639,7 @@
     "embedding_text": "Greedy Greedy Page Faults in LRU"
   },
   {
-    "id": "MER-GDY-028",
+    "id": "MER-GDY-026",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Smallest Subset Sum Greater Elements",
@@ -4696,7 +4652,7 @@
     "embedding_text": "Greedy Greedy Smallest Subset Sum Greater Elements"
   },
   {
-    "id": "MER-GDY-029",
+    "id": "MER-GDY-027",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Chocolate Distribution Problem",
@@ -4709,7 +4665,7 @@
     "embedding_text": "Greedy Greedy Chocolate Distribution Problem"
   },
   {
-    "id": "MER-GDY-030",
+    "id": "MER-GDY-028",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "DEFKIN",
@@ -4722,7 +4678,7 @@
     "embedding_text": "Greedy Greedy DEFKIN"
   },
   {
-    "id": "MER-GDY-031",
+    "id": "MER-GDY-029",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "DIEHARD",
@@ -4735,7 +4691,7 @@
     "embedding_text": "Greedy Greedy DIEHARD"
   },
   {
-    "id": "MER-GDY-032",
+    "id": "MER-GDY-030",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "GERGOVIA",
@@ -4748,7 +4704,7 @@
     "embedding_text": "Greedy Greedy GERGOVIA"
   },
   {
-    "id": "MER-GDY-033",
+    "id": "MER-GDY-031",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "GCJ101BB",
@@ -4761,7 +4717,7 @@
     "embedding_text": "Greedy Greedy GCJ101BB"
   },
   {
-    "id": "MER-GDY-034",
+    "id": "MER-GDY-032",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "CHOCOLA",
@@ -4774,7 +4730,7 @@
     "embedding_text": "Greedy Greedy CHOCOLA"
   },
   {
-    "id": "MER-GDY-035",
+    "id": "MER-GDY-033",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "ARRANGE",
@@ -4787,7 +4743,7 @@
     "embedding_text": "Greedy Greedy ARRANGE"
   },
   {
-    "id": "MER-GDY-036",
+    "id": "MER-GDY-034",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "K Centers Problem Set 1 Greedy Approximate Algorithm",
@@ -4800,7 +4756,7 @@
     "embedding_text": "Greedy Greedy K Centers Problem Set 1 Greedy Approximate Algorithm"
   },
   {
-    "id": "MER-GDY-037",
+    "id": "MER-GDY-035",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Minimum Cost of ropes",
@@ -4813,7 +4769,7 @@
     "embedding_text": "Greedy Greedy Minimum Cost of ropes"
   },
   {
-    "id": "MER-GDY-038",
+    "id": "MER-GDY-036",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Smallest number",
@@ -4826,7 +4782,7 @@
     "embedding_text": "Greedy Greedy Smallest number"
   },
   {
-    "id": "MER-GDY-039",
+    "id": "MER-GDY-037",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Rearrange characters",
@@ -4839,7 +4795,7 @@
     "embedding_text": "Greedy Greedy Rearrange characters"
   },
   {
-    "id": "MER-GDY-040",
+    "id": "MER-GDY-038",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Find Maximum Sum Possible Equal Sum Three Stacks",
@@ -4851,9 +4807,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/find-maximum-equal-sum-of-three-stacks/1",
     "embedding_text": "Greedy Greedy Find Maximum Sum Possible Equal Sum Three Stacks"
   },
-
   {
-    "id": "MER-RB-013",
+    "id": "MER-RB-012",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Word Break - 2",
@@ -4866,7 +4821,7 @@
     "embedding_text": "Recursion & Backtracking Backtracking Word Break - 2"
   },
   {
-    "id": "MER-RB-014",
+    "id": "MER-RB-013",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Remove Invalid Parentheses",
@@ -4878,9 +4833,8 @@
     "leetcode": "https://leetcode.com/problems/remove-invalid-parentheses/",
     "embedding_text": "Recursion & Backtracking Backtracking Remove Invalid Parentheses"
   },
-
   {
-    "id": "MER-RB-018",
+    "id": "MER-RB-014",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Partition Equal Subset Sum",
@@ -4893,7 +4847,7 @@
     "embedding_text": "Recursion & Backtracking DPGeneral Partition Equal Subset Sum"
   },
   {
-    "id": "MER-RB-019",
+    "id": "MER-RB-015",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "The Knights Tour Problem Backtracking 1",
@@ -4906,7 +4860,7 @@
     "embedding_text": "Recursion & Backtracking Backtracking The Knights Tour Problem Backtracking 1"
   },
   {
-    "id": "MER-RB-020",
+    "id": "MER-RB-016",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Tug Of War",
@@ -4919,7 +4873,7 @@
     "embedding_text": "Recursion & Backtracking Backtracking Tug Of War"
   },
   {
-    "id": "MER-RB-021",
+    "id": "MER-RB-017",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Find Shortest Safe Route In A Path With Landmines",
@@ -4931,9 +4885,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/find-shortest-safe-route-in-a-matrix/1",
     "embedding_text": "Recursion & Backtracking Backtracking Find Shortest Safe Route In A Path With Landmines"
   },
-  
   {
-    "id": "MER-RB-023",
+    "id": "MER-RB-018",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Largest number in K swaps",
@@ -4946,7 +4899,7 @@
     "embedding_text": "Recursion & Backtracking Backtracking Largest number in K swaps"
   },
   {
-    "id": "MER-RB-024",
+    "id": "MER-RB-019",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Permutations of a String",
@@ -4959,7 +4912,7 @@
     "embedding_text": "Recursion & Backtracking Backtracking Permutations of a String"
   },
   {
-    "id": "MER-RB-025",
+    "id": "MER-RB-020",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Find If There Is A Path Of More Than K Length From A Source",
@@ -4972,7 +4925,7 @@
     "embedding_text": "Recursion & Backtracking Backtracking Find If There Is A Path Of More Than K Length From A Source"
   },
   {
-    "id": "MER-RB-026",
+    "id": "MER-RB-021",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Longest Possible Route in a Matrix with Hurdles",
@@ -4985,7 +4938,7 @@
     "embedding_text": "Recursion & Backtracking Backtracking Longest Possible Route in a Matrix with Hurdles"
   },
   {
-    "id": "MER-RB-027",
+    "id": "MER-RB-022",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Print All Possible Paths From Top Left To Bottom Right Of A Mxn Matrix",
@@ -4998,7 +4951,7 @@
     "embedding_text": "Recursion & Backtracking Backtracking Print All Possible Paths From Top Left To Bottom Right Of A Mxn Matrix"
   },
   {
-    "id": "MER-RB-028",
+    "id": "MER-RB-023",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Partition array to k subsets",
@@ -5011,7 +4964,7 @@
     "embedding_text": "Recursion & Backtracking Backtracking Partition array to k subsets"
   },
   {
-    "id": "MER-RB-029",
+    "id": "MER-RB-024",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Find The K Th Permutation Sequence Of First N Natural Numbers",
@@ -5023,9 +4976,8 @@
     "leetcode": "https://leetcode.com/problems/permutation-sequence/",
     "embedding_text": "Recursion & Backtracking Backtracking Find The K Th Permutation Sequence Of First N Natural Numbers"
   },
- 
   {
-    "id": "MER-SQ-018",
+    "id": "MER-SQ-015",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Queue Set 1introduction And Array Implementation",
@@ -5038,7 +4990,7 @@
     "embedding_text": "Stacks & Queues Stack Queue Set 1introduction And Array Implementation"
   },
   {
-    "id": "MER-SQ-019",
+    "id": "MER-SQ-016",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Two Stacks in an Array",
@@ -5051,7 +5003,7 @@
     "embedding_text": "Stacks & Queues Stack Two Stacks in an Array"
   },
   {
-    "id": "MER-SQ-020",
+    "id": "MER-SQ-017",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Design A Stack With Find Middle Operation",
@@ -5064,7 +5016,7 @@
     "embedding_text": "Stacks & Queues Stack Design A Stack With Find Middle Operation"
   },
   {
-    "id": "MER-SQ-021",
+    "id": "MER-SQ-018",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Efficiently Implement K Stacks Single Array",
@@ -5077,7 +5029,7 @@
     "embedding_text": "Stacks & Queues Stack Efficiently Implement K Stacks Single Array"
   },
   {
-    "id": "MER-SQ-022",
+    "id": "MER-SQ-019",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Parenthesis Checker",
@@ -5090,7 +5042,7 @@
     "embedding_text": "Stacks & Queues Stack Parenthesis Checker"
   },
   {
-    "id": "MER-SQ-023",
+    "id": "MER-SQ-020",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Reverse Using Stack",
@@ -5103,7 +5055,7 @@
     "embedding_text": "Stacks & Queues Stack Reverse Using Stack"
   },
   {
-    "id": "MER-SQ-024",
+    "id": "MER-SQ-021",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Special Stack",
@@ -5116,7 +5068,7 @@
     "embedding_text": "Stacks & Queues Stack Special Stack"
   },
   {
-    "id": "MER-SQ-025",
+    "id": "MER-SQ-022",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Next Greater Element",
@@ -5129,9 +5081,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1",
     "embedding_text": "Stacks & Queues Stack Next Greater Element"
   },
- 
   {
-    "id": "MER-SQ-028",
+    "id": "MER-SQ-023",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Postfix Evaluation",
@@ -5144,7 +5095,7 @@
     "embedding_text": "Stacks & Queues Stack Postfix Evaluation"
   },
   {
-    "id": "MER-SQ-029",
+    "id": "MER-SQ-024",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Insert an Element at the Bottom of a Stack",
@@ -5157,7 +5108,7 @@
     "embedding_text": "Stacks & Queues Stack Insert an Element at the Bottom of a Stack"
   },
   {
-    "id": "MER-SQ-030",
+    "id": "MER-SQ-025",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Reverse A Stack Using Recursion",
@@ -5170,7 +5121,7 @@
     "embedding_text": "Stacks & Queues Stack Reverse A Stack Using Recursion"
   },
   {
-    "id": "MER-SQ-031",
+    "id": "MER-SQ-026",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Overlapping Intervals",
@@ -5183,7 +5134,7 @@
     "embedding_text": "Stacks & Queues Stack Overlapping Intervals"
   },
   {
-    "id": "MER-SQ-032",
+    "id": "MER-SQ-027",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Histogram Max Rectangular Area",
@@ -5196,7 +5147,7 @@
     "embedding_text": "Stacks & Queues Stack Histogram Max Rectangular Area"
   },
   {
-    "id": "MER-SQ-033",
+    "id": "MER-SQ-028",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Valid Substring",
@@ -5209,7 +5160,7 @@
     "embedding_text": "Stacks & Queues Stack Valid Substring"
   },
   {
-    "id": "MER-SQ-034",
+    "id": "MER-SQ-029",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Expression Contains Redundant Bracket Not",
@@ -5222,7 +5173,7 @@
     "embedding_text": "Stacks & Queues Stack Expression Contains Redundant Bracket Not"
   },
   {
-    "id": "MER-SQ-035",
+    "id": "MER-SQ-030",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Stack using Queue",
@@ -5235,7 +5186,7 @@
     "embedding_text": "Stacks & Queues Stack Stack using Queue"
   },
   {
-    "id": "MER-SQ-036",
+    "id": "MER-SQ-031",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Implement Stack Queue Using Deque",
@@ -5248,7 +5199,7 @@
     "embedding_text": "Stacks & Queues Stack Implement Stack Queue Using Deque"
   },
   {
-    "id": "MER-SQ-037",
+    "id": "MER-SQ-032",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Stack Permutations Check If An Array Is Stack Permutation Of Other",
@@ -5261,7 +5212,7 @@
     "embedding_text": "Stacks & Queues Stack Stack Permutations Check If An Array Is Stack Permutation Of Other"
   },
   {
-    "id": "MER-SQ-038",
+    "id": "MER-SQ-033",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Queue using two Stacks",
@@ -5274,7 +5225,7 @@
     "embedding_text": "Stacks & Queues Stack Queue using two Stacks"
   },
   {
-    "id": "MER-SQ-039",
+    "id": "MER-SQ-034",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Efficiently Implement K Queues Single Array",
@@ -5287,7 +5238,7 @@
     "embedding_text": "Stacks & Queues Stack Efficiently Implement K Queues Single Array"
   },
   {
-    "id": "MER-SQ-040",
+    "id": "MER-SQ-035",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Circular Queue Set 1 Introduction Array Implementation",
@@ -5300,7 +5251,7 @@
     "embedding_text": "Stacks & Queues Stack Circular Queue Set 1 Introduction Array Implementation"
   },
   {
-    "id": "MER-SQ-041",
+    "id": "MER-SQ-036",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Queue Reversal",
@@ -5312,9 +5263,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/queue-reversal/1",
     "embedding_text": "Stacks & Queues Stack Queue Reversal"
   },
-
   {
-    "id": "MER-SQ-043",
+    "id": "MER-SQ-037",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Interleave First Half Queue Second Half",
@@ -5327,7 +5277,7 @@
     "embedding_text": "Stacks & Queues Stack Interleave First Half Queue Second Half"
   },
   {
-    "id": "MER-SQ-044",
+    "id": "MER-SQ-038",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Gas Station",
@@ -5340,7 +5290,7 @@
     "embedding_text": "Stacks & Queues Stack Gas Station"
   },
   {
-    "id": "MER-SQ-045",
+    "id": "MER-SQ-039",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Distance of nearest cell having 1",
@@ -5353,7 +5303,7 @@
     "embedding_text": "Stacks & Queues Stack Distance of nearest cell having 1"
   },
   {
-    "id": "MER-SQ-046",
+    "id": "MER-SQ-040",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "First negative in every window of size k",
@@ -5366,7 +5316,7 @@
     "embedding_text": "Stacks & Queues Stack First negative in every window of size k"
   },
   {
-    "id": "MER-SQ-047",
+    "id": "MER-SQ-041",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Check if all levels of two trees are anagrams or not",
@@ -5379,7 +5329,7 @@
     "embedding_text": "Stacks & Queues Stack Check if all levels of two trees are anagrams or not"
   },
   {
-    "id": "MER-SQ-048",
+    "id": "MER-SQ-042",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Sum Minimum Maximum Elements Subarrays Size K",
@@ -5392,7 +5342,7 @@
     "embedding_text": "Stacks & Queues Stack Sum Minimum Maximum Elements Subarrays Size K"
   },
   {
-    "id": "MER-SQ-049",
+    "id": "MER-SQ-043",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Game with String",
@@ -5405,7 +5355,7 @@
     "embedding_text": "Stacks & Queues Stack Game with String"
   },
   {
-    "id": "MER-SQ-050",
+    "id": "MER-SQ-044",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Stream First Non-repeating",
@@ -5418,7 +5368,7 @@
     "embedding_text": "Stacks & Queues Stack Stream First Non-repeating"
   },
   {
-    "id": "MER-HP-007",
+    "id": "MER-HP-006",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Building Heap From Array",
@@ -5431,7 +5381,7 @@
     "embedding_text": "Heaps Heap Building Heap From Array"
   },
   {
-    "id": "MER-HP-008",
+    "id": "MER-HP-007",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Sliding Window Maximum Maximum Of All Subarrays Of Size K",
@@ -5444,7 +5394,7 @@
     "embedding_text": "Heaps SlidingWindow Sliding Window Maximum Maximum Of All Subarrays Of Size K"
   },
   {
-    "id": "MER-HP-009",
+    "id": "MER-HP-008",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "k largest elements",
@@ -5457,7 +5407,7 @@
     "embedding_text": "Heaps Heap k largest elements"
   },
   {
-    "id": "MER-HP-010",
+    "id": "MER-HP-009",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Kth Smallestlargest Element Unsorted Array",
@@ -5470,7 +5420,7 @@
     "embedding_text": "Heaps Heap Kth Smallestlargest Element Unsorted Array"
   },
   {
-    "id": "MER-HP-011",
+    "id": "MER-HP-010",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Merge two binary Max heaps",
@@ -5483,7 +5433,7 @@
     "embedding_text": "Heaps Heap Merge two binary Max heaps"
   },
   {
-    "id": "MER-HP-012",
+    "id": "MER-HP-011",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "K-th Largest Sum Contiguous Subarray",
@@ -5496,7 +5446,7 @@
     "embedding_text": "Heaps Heap K-th Largest Sum Contiguous Subarray"
   },
   {
-    "id": "MER-HP-013",
+    "id": "MER-HP-012",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Reorganize String",
@@ -5509,7 +5459,7 @@
     "embedding_text": "Heaps Heap Reorganize String"
   },
   {
-    "id": "MER-HP-014",
+    "id": "MER-HP-013",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Merge K sorted linked lists",
@@ -5522,7 +5472,7 @@
     "embedding_text": "Heaps Heap Merge K sorted linked lists"
   },
   {
-    "id": "MER-HP-015",
+    "id": "MER-HP-014",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Smallest range in K lists",
@@ -5535,7 +5485,7 @@
     "embedding_text": "Heaps Heap Smallest range in K lists"
   },
   {
-    "id": "MER-HP-016",
+    "id": "MER-HP-015",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Find median in a stream",
@@ -5548,7 +5498,7 @@
     "embedding_text": "Heaps Heap Find median in a stream"
   },
   {
-    "id": "MER-HP-017",
+    "id": "MER-HP-016",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Is Binary Tree Heap",
@@ -5561,7 +5511,7 @@
     "embedding_text": "Heaps Heap Is Binary Tree Heap"
   },
   {
-    "id": "MER-HP-018",
+    "id": "MER-HP-017",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Minimum Cost of ropes",
@@ -5574,7 +5524,7 @@
     "embedding_text": "Heaps Heap Minimum Cost of ropes"
   },
   {
-    "id": "MER-HP-019",
+    "id": "MER-HP-018",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Convert Bst Min Heap",
@@ -5587,7 +5537,7 @@
     "embedding_text": "Heaps Heap Convert Bst Min Heap"
   },
   {
-    "id": "MER-HP-020",
+    "id": "MER-HP-019",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Convert Min Heap To Max Heap",
@@ -5600,9 +5550,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/convert-min-heap-to-max-heap-1666385109/1",
     "embedding_text": "Heaps Heap Convert Min Heap To Max Heap"
   },
-
   {
-    "id": "MER-HP-022",
+    "id": "MER-HP-020",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Minimum sum",
@@ -5615,7 +5564,7 @@
     "embedding_text": "Heaps Heap Minimum sum"
   },
   {
-    "id": "MER-GR-027",
+    "id": "MER-GR-022",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Create A Graph And Print It",
@@ -5627,9 +5576,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/print-adjacency-list-1587115620/1",
     "embedding_text": "Graphs DFS Create A Graph And Print It"
   },
-
   {
-    "id": "MER-GR-030",
+    "id": "MER-GR-023",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Detect Cycle In A Graph",
@@ -5642,7 +5590,7 @@
     "embedding_text": "Graphs DFS Detect Cycle In A Graph"
   },
   {
-    "id": "MER-GR-031",
+    "id": "MER-GR-024",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Undirected Graph Cycle",
@@ -5655,7 +5603,7 @@
     "embedding_text": "Graphs DFS Undirected Graph Cycle"
   },
   {
-    "id": "MER-GR-032",
+    "id": "MER-GR-025",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Rat in a Maze",
@@ -5668,7 +5616,7 @@
     "embedding_text": "Graphs DFS Rat in a Maze"
   },
   {
-    "id": "MER-GR-033",
+    "id": "MER-GR-026",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Steps by Knight",
@@ -5680,9 +5628,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/steps-by-knight5927/1",
     "embedding_text": "Graphs BFS Steps by Knight"
   },
-
   {
-    "id": "MER-GR-036",
+    "id": "MER-GR-027",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Number of Operations to Make Network Connected",
@@ -5696,7 +5643,7 @@
     "embedding_text": "Graphs DFS Number of Operations to Make Network Connected"
   },
   {
-    "id": "MER-GR-037",
+    "id": "MER-GR-028",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Word Ladder",
@@ -5708,9 +5655,8 @@
     "leetcode": "https://leetcode.com/problems/word-ladder/",
     "embedding_text": "Graphs BFS Word Ladder"
   },
-
   {
-    "id": "MER-GR-040",
+    "id": "MER-GR-029",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Minimum time taken by each job to be completed given by a Directed Acyclic Graph",
@@ -5722,9 +5668,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/minimum-time/1",
     "embedding_text": "Graphs DFS Minimum time taken by each job to be completed given by a Directed Acyclic Graph"
   },
- 
   {
-    "id": "MER-GR-042",
+    "id": "MER-GR-030",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Find the number of islands",
@@ -5737,7 +5682,7 @@
     "embedding_text": "Graphs DFS Find the number of islands"
   },
   {
-    "id": "MER-GR-043",
+    "id": "MER-GR-031",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Kruskals Minimum Spanning Tree Algorithm Greedy Algo 2",
@@ -5749,9 +5694,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1",
     "embedding_text": "Graphs DFS Kruskals Minimum Spanning Tree Algorithm Greedy Algo 2"
   },
-
   {
-    "id": "MER-GR-046",
+    "id": "MER-GR-032",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Negative weight cycle",
@@ -5764,7 +5708,7 @@
     "embedding_text": "Graphs DFS Negative weight cycle"
   },
   {
-    "id": "MER-GR-047",
+    "id": "MER-GR-033",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Floyd Warshall",
@@ -5777,7 +5721,7 @@
     "embedding_text": "Graphs DFS Floyd Warshall"
   },
   {
-    "id": "MER-GR-048",
+    "id": "MER-GR-034",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Travelling Salesman Problem Set 1",
@@ -5789,9 +5733,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/travelling-salesman-problem2732/1",
     "embedding_text": "Graphs DFS Travelling Salesman Problem Set 1"
   },
- 
   {
-    "id": "MER-GR-050",
+    "id": "MER-GR-035",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Snakes and Ladders",
@@ -5804,7 +5747,7 @@
     "embedding_text": "Graphs BFS Snakes and Ladders"
   },
   {
-    "id": "MER-GR-051",
+    "id": "MER-GR-036",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Bridge In A Graph",
@@ -5817,7 +5760,7 @@
     "embedding_text": "Graphs DFS Bridge In A Graph"
   },
   {
-    "id": "MER-GR-052",
+    "id": "MER-GR-037",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Strongly Connected",
@@ -5830,7 +5773,7 @@
     "embedding_text": "Graphs DFS Strongly Connected"
   },
   {
-    "id": "MER-GR-053",
+    "id": "MER-GR-038",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Bipartite Graph",
@@ -5843,9 +5786,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/bipartite-graph/1",
     "embedding_text": "Graphs DFS Bipartite Graph"
   },
-
   {
-    "id": "MER-GR-055",
+    "id": "MER-GR-039",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Find Longest Path Directed Acyclic Graph",
@@ -5858,7 +5800,7 @@
     "embedding_text": "Graphs DFS Find Longest Path Directed Acyclic Graph"
   },
   {
-    "id": "MER-GR-056",
+    "id": "MER-GR-040",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "journey to the moon",
@@ -5871,7 +5813,7 @@
     "embedding_text": "Graphs DFS journey to the moon"
   },
   {
-    "id": "MER-GR-057",
+    "id": "MER-GR-041",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "oliver and the game 3",
@@ -5884,7 +5826,7 @@
     "embedding_text": "Graphs DFS oliver and the game 3"
   },
   {
-    "id": "MER-GR-058",
+    "id": "MER-GR-042",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Water Jug Problem Using Bfs",
@@ -5897,7 +5839,7 @@
     "embedding_text": "Graphs BFS Water Jug Problem Using Bfs"
   },
   {
-    "id": "MER-GR-059",
+    "id": "MER-GR-043",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Find If There Is A Path Of More Than K Length From A Source",
@@ -5910,7 +5852,7 @@
     "embedding_text": "Graphs DFS Find If There Is A Path Of More Than K Length From A Source"
   },
   {
-    "id": "MER-GR-060",
+    "id": "MER-GR-044",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "M-Coloring Problem",
@@ -5923,7 +5865,7 @@
     "embedding_text": "Graphs DFS M-Coloring Problem"
   },
   {
-    "id": "MER-GR-061",
+    "id": "MER-GR-045",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Minimum Edges Reverse Make Path Source Destination",
@@ -5936,7 +5878,7 @@
     "embedding_text": "Graphs DFS Minimum Edges Reverse Make Path Source Destination"
   },
   {
-    "id": "MER-GR-062",
+    "id": "MER-GR-046",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Paths Travel Nodes Using Edgeseven Bridges Konigsberg",
@@ -5949,7 +5891,7 @@
     "embedding_text": "Graphs DFS Paths Travel Nodes Using Edgeseven Bridges Konigsberg"
   },
   {
-    "id": "MER-GR-063",
+    "id": "MER-GR-047",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Vertex Cover Problem Set 1 Introduction Approximate Algorithm 2",
@@ -5962,7 +5904,7 @@
     "embedding_text": "Graphs DFS Vertex Cover Problem Set 1 Introduction Approximate Algorithm 2"
   },
   {
-    "id": "MER-GR-064",
+    "id": "MER-GR-048",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Chinese Postman Route Inspection Set 1 Introduction",
@@ -5975,7 +5917,7 @@
     "embedding_text": "Graphs DFS Chinese Postman Route Inspection Set 1 Introduction"
   },
   {
-    "id": "MER-GR-065",
+    "id": "MER-GR-049",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Number Of Triangles In Directed And Undirected Graphs",
@@ -5988,7 +5930,7 @@
     "embedding_text": "Graphs DFS Number Of Triangles In Directed And Undirected Graphs"
   },
   {
-    "id": "MER-GR-066",
+    "id": "MER-GR-050",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Minimize Cash Flow Among Given Set Friends Borrowed Money",
@@ -6001,7 +5943,7 @@
     "embedding_text": "Graphs DFS Minimize Cash Flow Among Given Set Friends Borrowed Money"
   },
   {
-    "id": "MER-GR-067",
+    "id": "MER-GR-051",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Two Clique Problem Check Graph Can Divided Two Cliques",
@@ -6039,9 +5981,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/shortest-unique-prefix-for-every-word/1",
     "embedding_text": "Tries Trie Find All Shortest Unique Prefixes To Represent Each Word In A Given List"
   },
-
   {
-    "id": "MER-TR-009",
+    "id": "MER-TR-008",
     "topic": "Tries",
     "section": "Tries",
     "question": "Print Anagrams Together",
@@ -6053,9 +5994,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/print-anagrams-together/1",
     "embedding_text": "Tries Trie Print Anagrams Together"
   },
- 
   {
-    "id": "MER-TR-011",
+    "id": "MER-TR-009",
     "topic": "Tries",
     "section": "Tries",
     "question": "Unique rows in boolean matrix",
@@ -6067,10 +6007,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/unique-rows-in-boolean-matrix/1",
     "embedding_text": "Tries Trie Unique rows in boolean matrix"
   },
-
- 
   {
-    "id": "MER-DP-024",
+    "id": "MER-DP-019",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "nCr",
@@ -6083,7 +6021,7 @@
     "embedding_text": "Dynamic Programming DPGeneral nCr"
   },
   {
-    "id": "MER-DP-025",
+    "id": "MER-DP-020",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Permutation Coefficient",
@@ -6095,9 +6033,8 @@
     "leetcode": "https://www.naukri.com/code360/problems/permutationcoefficient_1214975",
     "embedding_text": "Dynamic Programming DPGeneral Permutation Coefficient"
   },
-
   {
-    "id": "MER-DP-028",
+    "id": "MER-DP-021",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Partition Equal Subset Sum",
@@ -6110,7 +6047,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Partition Equal Subset Sum"
   },
   {
-    "id": "MER-DP-029",
+    "id": "MER-DP-022",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Friends Pairing Problem",
@@ -6123,7 +6060,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Friends Pairing Problem"
   },
   {
-    "id": "MER-DP-030",
+    "id": "MER-DP-023",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Gold Mine Problem",
@@ -6136,7 +6073,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Gold Mine Problem"
   },
   {
-    "id": "MER-DP-031",
+    "id": "MER-DP-024",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Assembly Line Scheduling",
@@ -6149,7 +6086,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Assembly Line Scheduling Dp 34"
   },
   {
-    "id": "MER-DP-032",
+    "id": "MER-DP-025",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Painting the Fence",
@@ -6162,7 +6099,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Painting the Fence"
   },
   {
-    "id": "MER-DP-033",
+    "id": "MER-DP-026",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Maximize The Cut Segments",
@@ -6175,7 +6112,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Maximize The Cut Segments"
   },
   {
-    "id": "MER-DP-034",
+    "id": "MER-DP-027",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Longest Repeating Subsequence",
@@ -6188,7 +6125,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Longest Repeating Subsequence"
   },
   {
-    "id": "MER-DP-035",
+    "id": "MER-DP-028",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Space Optimized Solution Lcs",
@@ -6201,7 +6138,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Space Optimized Solution Lcs"
   },
   {
-    "id": "MER-DP-036",
+    "id": "MER-DP-029",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "LCS of three strings",
@@ -6214,7 +6151,7 @@
     "embedding_text": "Dynamic Programming DPGeneral LCS of three strings"
   },
   {
-    "id": "MER-DP-037",
+    "id": "MER-DP-030",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Max Sum Increasing Subsequence",
@@ -6227,7 +6164,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Max Sum Increasing Subsequence"
   },
   {
-    "id": "MER-DP-038",
+    "id": "MER-DP-031",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Count Subsequences Product Less K",
@@ -6240,7 +6177,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Count Subsequences Product Less K"
   },
   {
-    "id": "MER-DP-039",
+    "id": "MER-DP-032",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Longest subsequence-1",
@@ -6253,7 +6190,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Longest subsequence-1"
   },
   {
-    "id": "MER-DP-040",
+    "id": "MER-DP-033",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Maximum Subsequence Sum Such That No Three Are Consecutive",
@@ -6266,7 +6203,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Maximum Subsequence Sum Such That No Three Are Consecutive"
   },
   {
-    "id": "MER-DP-041",
+    "id": "MER-DP-034",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Egg Dropping Puzzle",
@@ -6279,7 +6216,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Egg Dropping Puzzle"
   },
   {
-    "id": "MER-DP-042",
+    "id": "MER-DP-035",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Sum Except First and Last",
@@ -6292,7 +6229,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Sum Except First and Last"
   },
   {
-    "id": "MER-DP-043",
+    "id": "MER-DP-036",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Largest square formed in a matrix",
@@ -6305,7 +6242,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Largest square formed in a matrix"
   },
   {
-    "id": "MER-DP-044",
+    "id": "MER-DP-037",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Pairs with certain difference",
@@ -6318,7 +6255,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Pairs with certain difference"
   },
   {
-    "id": "MER-DP-045",
+    "id": "MER-DP-038",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Maximum path sum in matrix",
@@ -6331,7 +6268,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Maximum path sum in matrix"
   },
   {
-    "id": "MER-DP-046",
+    "id": "MER-DP-039",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Maximum difference of zeros and ones in binary string",
@@ -6344,7 +6281,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Maximum difference of zeros and ones in binary string"
   },
   {
-    "id": "MER-DP-047",
+    "id": "MER-DP-040",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Minimum Jumps",
@@ -6357,7 +6294,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Minimum Jumps"
   },
   {
-    "id": "MER-DP-048",
+    "id": "MER-DP-041",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Minimum cost to fill given weight in a bag",
@@ -6370,7 +6307,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Minimum cost to fill given weight in a bag"
   },
   {
-    "id": "MER-DP-049",
+    "id": "MER-DP-042",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Minimum Removals Array Make Max Min K",
@@ -6383,7 +6320,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Minimum Removals Array Make Max Min K"
   },
   {
-    "id": "MER-DP-050",
+    "id": "MER-DP-043",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Reach a given score",
@@ -6396,7 +6333,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Reach a given score"
   },
   {
-    "id": "MER-DP-051",
+    "id": "MER-DP-044",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "BBT counter",
@@ -6409,7 +6346,7 @@
     "embedding_text": "Dynamic Programming DPGeneral BBT counter"
   },
   {
-    "id": "MER-DP-052",
+    "id": "MER-DP-045",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Kadane's Algorithm",
@@ -6422,7 +6359,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Kadane's Algorithm"
   },
   {
-    "id": "MER-DP-053",
+    "id": "MER-DP-046",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Smallest sum contiguous subarray",
@@ -6434,9 +6371,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/smallest-sum-contiguous-subarray/1",
     "embedding_text": "Dynamic Programming DPGeneral Smallest sum contiguous subarray"
   },
- 
   {
-    "id": "MER-DP-055",
+    "id": "MER-DP-047",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Word Break",
@@ -6449,7 +6385,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Word Break"
   },
   {
-    "id": "MER-DP-056",
+    "id": "MER-DP-048",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Largest Independent Set Problem Dp 26",
@@ -6461,9 +6397,8 @@
     "leetcode": "https://www.geeksforgeeks.org/dsa/largest-independent-set-problem-using-dynamic-programming/",
     "embedding_text": "Dynamic Programming DPGeneral Largest Independent Set Problem Dp 26"
   },
- 
   {
-    "id": "MER-DP-058",
+    "id": "MER-DP-049",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Count Palindromic Subsequences",
@@ -6476,7 +6411,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Count Palindromic Subsequences"
   },
   {
-    "id": "MER-DP-059",
+    "id": "MER-DP-050",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Longest Palindromic Substring",
@@ -6489,7 +6424,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Longest Palindromic Substring"
   },
   {
-    "id": "MER-DP-060",
+    "id": "MER-DP-051",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Longest alternating subsequence",
@@ -6502,7 +6437,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Longest alternating subsequence"
   },
   {
-    "id": "MER-DP-061",
+    "id": "MER-DP-052",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Weighted Job Scheduling",
@@ -6515,7 +6450,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Weighted Job Scheduling"
   },
   {
-    "id": "MER-DP-062",
+    "id": "MER-DP-053",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Coin Game Winner Every Player Three Choices",
@@ -6528,7 +6463,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Coin Game Winner Every Player Three Choices"
   },
   {
-    "id": "MER-DP-063",
+    "id": "MER-DP-054",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Count Derangements Permutation Such That No Element Appears In Its Original Position",
@@ -6540,9 +6475,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/dearrangement-of-balls0918/1",
     "embedding_text": "Dynamic Programming DPGeneral Count Derangements Permutation Such That No Element Appears In Its Original Position"
   },
- 
   {
-    "id": "MER-DP-065",
+    "id": "MER-DP-055",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Optimal Strategy For A Game",
@@ -6555,7 +6489,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Optimal Strategy For A Game"
   },
   {
-    "id": "MER-DP-066",
+    "id": "MER-DP-056",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Optimal Binary Search Tree",
@@ -6568,7 +6502,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Optimal Binary Search Tree Dp 24"
   },
   {
-    "id": "MER-DP-067",
+    "id": "MER-DP-057",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Word Wrap",
@@ -6581,7 +6515,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Word Wrap"
   },
   {
-    "id": "MER-DP-068",
+    "id": "MER-DP-058",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Mobile numeric keypad",
@@ -6594,7 +6528,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Mobile numeric keypad"
   },
   {
-    "id": "MER-DP-069",
+    "id": "MER-DP-059",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Boolean Parenthesization",
@@ -6607,7 +6541,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Boolean Parenthesization"
   },
   {
-    "id": "MER-DP-070",
+    "id": "MER-DP-060",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Largest Rectangular Sub Matrix Whose Sum 0",
@@ -6619,9 +6553,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/largest-rectangular-sub-matrix-whose-sum-is-0/1",
     "embedding_text": "Dynamic Programming DPGeneral Largest Rectangular Sub Matrix Whose Sum 0"
   },
-  
   {
-    "id": "MER-DP-072",
+    "id": "MER-DP-061",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Maximum sum Rectangle",
@@ -6634,20 +6567,20 @@
     "embedding_text": "Dynamic Programming DPGeneral Maximum sum Rectangle"
   },
   {
-    "id": "MER-DP-073",
+    "id": "MER-DP-062",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
-    "question": "Stock Buy and Sell – Max K Transactions Allowed",
+    "question": "Stock Buy and Sell \u2013 Max K Transactions Allowed",
     "pattern": "DPGeneral",
     "difficulty": "hard",
     "sources": [
       "babbar"
     ],
     "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
-    "embedding_text": "Dynamic Programming DPGeneral Stock Buy and Sell – Max K Transactions Allowed"
+    "embedding_text": "Dynamic Programming DPGeneral Stock Buy and Sell \u2013 Max K Transactions Allowed"
   },
   {
-    "id": "MER-DP-074",
+    "id": "MER-DP-063",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Interleaved Strings",
@@ -6660,7 +6593,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Interleaved Strings"
   },
   {
-    "id": "MER-DP-075",
+    "id": "MER-DP-064",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Maximum Length of Pair Chain",
@@ -6907,9 +6840,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/pass-by-reference-and-value/1",
     "embedding_text": "Basics Basics Functions (Pass by reference and value)"
   },
-
   {
-    "id": "MER-BAS-010",
+    "id": "MER-BAS-009",
     "topic": "Basics",
     "section": "Basics",
     "question": "Patterns",
@@ -6921,9 +6853,8 @@
     "leetcode": "https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/",
     "embedding_text": "Basics Basics Patterns"
   },
- 
   {
-    "id": "MER-BAS-013",
+    "id": "MER-BAS-010",
     "topic": "Basics",
     "section": "Basics",
     "question": "Count Digits",
@@ -6936,7 +6867,7 @@
     "embedding_text": "Basics Math Count Digits"
   },
   {
-    "id": "MER-BAS-014",
+    "id": "MER-BAS-011",
     "topic": "Basics",
     "section": "Basics",
     "question": "Reverse a Number",
@@ -6949,7 +6880,7 @@
     "embedding_text": "Basics Math Reverse a Number"
   },
   {
-    "id": "MER-BAS-015",
+    "id": "MER-BAS-012",
     "topic": "Basics",
     "section": "Basics",
     "question": "Check Palindrome",
@@ -6962,7 +6893,7 @@
     "embedding_text": "Basics Math Check Palindrome"
   },
   {
-    "id": "MER-BAS-016",
+    "id": "MER-BAS-013",
     "topic": "Basics",
     "section": "Basics",
     "question": "GCD of Two numbers",
@@ -6975,7 +6906,7 @@
     "embedding_text": "Basics Math GCD of Two numbers"
   },
   {
-    "id": "MER-BAS-017",
+    "id": "MER-BAS-014",
     "topic": "Basics",
     "section": "Basics",
     "question": "Check armstrong Numbers",
@@ -6988,7 +6919,7 @@
     "embedding_text": "Basics Math Check armstrong Numbers"
   },
   {
-    "id": "MER-BAS-018",
+    "id": "MER-BAS-015",
     "topic": "Basics",
     "section": "Basics",
     "question": "Print all Divisors",
@@ -7001,7 +6932,7 @@
     "embedding_text": "Basics Math Print all Divisors"
   },
   {
-    "id": "MER-BAS-019",
+    "id": "MER-BAS-016",
     "topic": "Basics",
     "section": "Basics",
     "question": "Check for Prime",
@@ -7014,7 +6945,7 @@
     "embedding_text": "Basics Math Check for Prime"
   },
   {
-    "id": "MER-BAS-020",
+    "id": "MER-BAS-017",
     "topic": "Basics",
     "section": "Basics",
     "question": "Print something N times",
@@ -7027,7 +6958,7 @@
     "embedding_text": "Basics Recursion Print something N times"
   },
   {
-    "id": "MER-BAS-021",
+    "id": "MER-BAS-018",
     "topic": "Basics",
     "section": "Basics",
     "question": "Print name N times using recursion",
@@ -7040,7 +6971,7 @@
     "embedding_text": "Basics Recursion Print name N times using recursion"
   },
   {
-    "id": "MER-BAS-022",
+    "id": "MER-BAS-019",
     "topic": "Basics",
     "section": "Basics",
     "question": "Print 1 to N using recursion",
@@ -7053,7 +6984,7 @@
     "embedding_text": "Basics Recursion Print 1 to N using recursion"
   },
   {
-    "id": "MER-BAS-023",
+    "id": "MER-BAS-020",
     "topic": "Basics",
     "section": "Basics",
     "question": "Print N to 1 using recursion",
@@ -7066,7 +6997,7 @@
     "embedding_text": "Basics Recursion Print N to 1 using recursion"
   },
   {
-    "id": "MER-BAS-024",
+    "id": "MER-BAS-021",
     "topic": "Basics",
     "section": "Basics",
     "question": "Sum of first N numbers",
@@ -7079,7 +7010,7 @@
     "embedding_text": "Basics Recursion Sum of first N numbers"
   },
   {
-    "id": "MER-BAS-025",
+    "id": "MER-BAS-022",
     "topic": "Basics",
     "section": "Basics",
     "question": "Factorial of N numbers",
@@ -7092,7 +7023,7 @@
     "embedding_text": "Basics Recursion Factorial of N numbers"
   },
   {
-    "id": "MER-BAS-026",
+    "id": "MER-BAS-023",
     "topic": "Basics",
     "section": "Basics",
     "question": "Reverse an array",
@@ -7104,9 +7035,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/reverse-an-array/1",
     "embedding_text": "Basics Recursion Reverse an array"
   },
- 
   {
-    "id": "MER-BAS-028",
+    "id": "MER-BAS-024",
     "topic": "Basics",
     "section": "Basics",
     "question": "Fibonacci Number",
@@ -7118,9 +7048,8 @@
     "leetcode": "https://leetcode.com/problems/fibonacci-number/",
     "embedding_text": "Basics Recursion Fibonacci Number"
   },
-
   {
-    "id": "MER-BAS-030",
+    "id": "MER-BAS-025",
     "topic": "Basics",
     "section": "Basics",
     "question": "Counting Frequencies of Array Elements",
@@ -7133,7 +7062,7 @@
     "embedding_text": "Basics Hashing Counting Frequencies of Array Elements"
   },
   {
-    "id": "MER-BAS-031",
+    "id": "MER-BAS-026",
     "topic": "Basics",
     "section": "Basics",
     "question": "Highest Occurring Element in an Array",
@@ -7146,7 +7075,7 @@
     "embedding_text": "Basics Hashing Highest Occurring Element in an Array"
   },
   {
-    "id": "MER-SS-040",
+    "id": "MER-SS-036",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Selection Sort",
@@ -7159,7 +7088,7 @@
     "embedding_text": "Searching & Sorting Sorting Selection Sort"
   },
   {
-    "id": "MER-SS-041",
+    "id": "MER-SS-037",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Bubble Sort",
@@ -7172,7 +7101,7 @@
     "embedding_text": "Searching & Sorting Sorting Bubble Sort"
   },
   {
-    "id": "MER-SS-042",
+    "id": "MER-SS-038",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Insertion Sort",
@@ -7185,7 +7114,7 @@
     "embedding_text": "Searching & Sorting Sorting Insertion Sort"
   },
   {
-    "id": "MER-SS-043",
+    "id": "MER-SS-039",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Merge Sort",
@@ -7197,9 +7126,8 @@
     "leetcode": "https://leetcode.com/problems/merge-sorted-array/description/",
     "embedding_text": "Searching & Sorting Sorting Merge Sort"
   },
- 
   {
-    "id": "MER-SS-046",
+    "id": "MER-SS-040",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Quick Sort",
@@ -7212,7 +7140,7 @@
     "embedding_text": "Searching & Sorting Sorting Quick Sort"
   },
   {
-    "id": "MER-ARR-059",
+    "id": "MER-ARR-051",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Largest Element in an Array",
@@ -7225,7 +7153,7 @@
     "embedding_text": "Arrays Basics Largest Element in an Array"
   },
   {
-    "id": "MER-ARR-060",
+    "id": "MER-ARR-052",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Second Largest Element in an Array",
@@ -7238,7 +7166,7 @@
     "embedding_text": "Arrays Basics Second Largest Element in an Array"
   },
   {
-    "id": "MER-ARR-061",
+    "id": "MER-ARR-053",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Check if the Array is Sorted II",
@@ -7251,7 +7179,7 @@
     "embedding_text": "Arrays Basics Check if the Array is Sorted II"
   },
   {
-    "id": "MER-ARR-062",
+    "id": "MER-ARR-054",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Remove duplicates from Sorted array",
@@ -7263,9 +7191,8 @@
     "leetcode": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
     "embedding_text": "Arrays Basics Remove duplicates from Sorted array"
   },
- 
   {
-    "id": "MER-ARR-064",
+    "id": "MER-ARR-055",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Left Rotate Array by K Places",
@@ -7278,7 +7205,7 @@
     "embedding_text": "Arrays Basics Left Rotate Array by K Places"
   },
   {
-    "id": "MER-ARR-065",
+    "id": "MER-ARR-056",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Move Zeroes to End",
@@ -7291,7 +7218,7 @@
     "embedding_text": "Arrays Basics Move Zeroes to End"
   },
   {
-    "id": "MER-ARR-066",
+    "id": "MER-ARR-057",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Linear Search",
@@ -7304,7 +7231,7 @@
     "embedding_text": "Arrays Basics Linear Search"
   },
   {
-    "id": "MER-ARR-067",
+    "id": "MER-ARR-058",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Union of two sorted arrays",
@@ -7317,7 +7244,7 @@
     "embedding_text": "Arrays Basics Union of two sorted arrays"
   },
   {
-    "id": "MER-ARR-068",
+    "id": "MER-ARR-059",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Find missing number",
@@ -7330,7 +7257,7 @@
     "embedding_text": "Arrays Basics Find missing number"
   },
   {
-    "id": "MER-ARR-069",
+    "id": "MER-ARR-060",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Maximum Consecutive Ones",
@@ -7342,9 +7269,8 @@
     "leetcode": "https://leetcode.com/problems/max-consecutive-ones/",
     "embedding_text": "Arrays Basics Maximum Consecutive Ones"
   },
-
   {
-    "id": "MER-ARR-072",
+    "id": "MER-ARR-061",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Longest subarray with sum K",
@@ -7356,9 +7282,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1",
     "embedding_text": "Arrays Basics Longest subarray with sum K"
   },
-  
   {
-    "id": "MER-ARR-080",
+    "id": "MER-ARR-062",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Leaders in an Array",
@@ -7370,9 +7295,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1",
     "embedding_text": "Arrays TwoPointer Leaders in an Array"
   },
-
   {
-    "id": "MER-ARR-085",
+    "id": "MER-ARR-063",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Pascal's Triangle I",
@@ -7385,7 +7309,7 @@
     "embedding_text": "Arrays Array Pascal's Triangle I"
   },
   {
-    "id": "MER-ARR-086",
+    "id": "MER-ARR-064",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Majority Element-II",
@@ -7398,7 +7322,7 @@
     "embedding_text": "Arrays Array Majority Element-II"
   },
   {
-    "id": "MER-ARR-089",
+    "id": "MER-ARR-065",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Largest Subarray with Sum 0",
@@ -7411,7 +7335,7 @@
     "embedding_text": "Arrays Hashing Largest Subarray with Sum 0"
   },
   {
-    "id": "MER-ARR-090",
+    "id": "MER-ARR-066",
     "topic": "Arrays",
     "section": "Arrays",
     "question": "Count subarrays with given xor K",
@@ -7423,9 +7347,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/count-subarray-with-given-xor/1",
     "embedding_text": "Arrays Hashing Count subarrays with given xor K"
   },
-
   {
-    "id": "MER-SS-047",
+    "id": "MER-SS-041",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Search X in sorted array",
@@ -7438,7 +7361,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Search X in sorted array"
   },
   {
-    "id": "MER-SS-048",
+    "id": "MER-SS-042",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Lower Bound",
@@ -7451,7 +7374,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Lower Bound"
   },
   {
-    "id": "MER-SS-049",
+    "id": "MER-SS-043",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Upper Bound",
@@ -7464,7 +7387,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Upper Bound"
   },
   {
-    "id": "MER-SS-050",
+    "id": "MER-SS-044",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Search insert position",
@@ -7477,7 +7400,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Search insert position"
   },
   {
-    "id": "MER-SS-051",
+    "id": "MER-SS-045",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Floor and Ceil in Sorted Array",
@@ -7490,7 +7413,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Floor and Ceil in Sorted Array"
   },
   {
-    "id": "MER-SS-052",
+    "id": "MER-SS-046",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "First and last occurrence",
@@ -7503,7 +7426,7 @@
     "embedding_text": "Searching & Sorting BinarySearch First and last occurrence"
   },
   {
-    "id": "MER-SS-053",
+    "id": "MER-SS-047",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Count Occurrences in a Sorted Array",
@@ -7516,7 +7439,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Count Occurrences in a Sorted Array"
   },
   {
-    "id": "MER-SS-054",
+    "id": "MER-SS-048",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Search in rotated sorted array-I",
@@ -7529,7 +7452,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Search in rotated sorted array-I"
   },
   {
-    "id": "MER-SS-055",
+    "id": "MER-SS-049",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Search in rotated sorted array-II",
@@ -7542,7 +7465,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Search in rotated sorted array-II"
   },
   {
-    "id": "MER-SS-056",
+    "id": "MER-SS-050",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Find minimum in Rotated Sorted Array",
@@ -7555,7 +7478,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Find minimum in Rotated Sorted Array"
   },
   {
-    "id": "MER-SS-057",
+    "id": "MER-SS-051",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Find out how many times the array is rotated",
@@ -7567,9 +7490,8 @@
     "leetcode": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/",
     "embedding_text": "Searching & Sorting BinarySearch Find out how many times the array is rotated"
   },
- 
   {
-    "id": "MER-SS-059",
+    "id": "MER-SS-052",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Find peak element",
@@ -7582,7 +7504,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Find peak element"
   },
   {
-    "id": "MER-SS-060",
+    "id": "MER-SS-053",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Find square root of a number",
@@ -7595,7 +7517,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Find square root of a number"
   },
   {
-    "id": "MER-SS-061",
+    "id": "MER-SS-054",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Find Nth root of a number",
@@ -7608,7 +7530,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Find Nth root of a number"
   },
   {
-    "id": "MER-SS-062",
+    "id": "MER-SS-055",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Koko eating bananas",
@@ -7621,7 +7543,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Koko eating bananas"
   },
   {
-    "id": "MER-SS-063",
+    "id": "MER-SS-056",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Minimum days to make M bouquets",
@@ -7634,7 +7556,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Minimum days to make M bouquets"
   },
   {
-    "id": "MER-SS-064",
+    "id": "MER-SS-057",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Find the smallest divisor",
@@ -7647,7 +7569,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Find the smallest divisor"
   },
   {
-    "id": "MER-SS-065",
+    "id": "MER-SS-058",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Capacity to Ship Packages Within D Days",
@@ -7660,7 +7582,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Capacity to Ship Packages Within D Days"
   },
   {
-    "id": "MER-SS-066",
+    "id": "MER-SS-059",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Kth Missing Positive Number",
@@ -7673,7 +7595,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Kth Missing Positive Number"
   },
   {
-    "id": "MER-SS-067",
+    "id": "MER-SS-060",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Book Allocation Problem",
@@ -7686,7 +7608,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Book Allocation Problem"
   },
   {
-    "id": "MER-SS-068",
+    "id": "MER-SS-061",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Split array - largest sum",
@@ -7699,7 +7621,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Split array - largest sum"
   },
   {
-    "id": "MER-SS-069",
+    "id": "MER-SS-062",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Minimize Max Distance to Gas Station",
@@ -7711,9 +7633,8 @@
     "leetcode": "https://leetcode.com/problems/minimize-max-distance-to-gas-station/",
     "embedding_text": "Searching & Sorting BinarySearch Minimize Max Distance to Gas Station"
   },
-
   {
-    "id": "MER-SS-072",
+    "id": "MER-SS-063",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Find row with maximum 1's",
@@ -7725,9 +7646,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/row-with-max-1s0023/1",
     "embedding_text": "Searching & Sorting BinarySearch Find row with maximum 1's"
   },
-
   {
-    "id": "MER-SS-075",
+    "id": "MER-SS-064",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Find Peak Element - II",
@@ -7740,7 +7660,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Find Peak Element - II"
   },
   {
-    "id": "MER-SS-076",
+    "id": "MER-SS-065",
     "topic": "Searching & Sorting",
     "section": "Searching & Sorting",
     "question": "Matrix Median",
@@ -7753,7 +7673,7 @@
     "embedding_text": "Searching & Sorting BinarySearch Matrix Median"
   },
   {
-    "id": "MER-STR-052",
+    "id": "MER-STR-042",
     "topic": "Strings",
     "section": "Strings",
     "question": "Remove Outermost Parentheses",
@@ -7765,9 +7685,8 @@
     "leetcode": "https://leetcode.com/problems/remove-outermost-parentheses/",
     "embedding_text": "Strings StringManipulation Remove Outermost Parentheses"
   },
-  
   {
-    "id": "MER-STR-054",
+    "id": "MER-STR-043",
     "topic": "Strings",
     "section": "Strings",
     "question": "Largest Odd Number in a String",
@@ -7779,9 +7698,8 @@
     "leetcode": "https://leetcode.com/problems/largest-odd-number-in-string/",
     "embedding_text": "Strings StringManipulation Largest Odd Number in a String"
   },
-
   {
-    "id": "MER-STR-056",
+    "id": "MER-STR-044",
     "topic": "Strings",
     "section": "Strings",
     "question": "Rotate String",
@@ -7794,7 +7712,7 @@
     "embedding_text": "Strings StringManipulation Rotate String"
   },
   {
-    "id": "MER-STR-057",
+    "id": "MER-STR-045",
     "topic": "Strings",
     "section": "Strings",
     "question": "Check if two strings are anagram of each other",
@@ -7807,7 +7725,7 @@
     "embedding_text": "Strings StringManipulation Check if two strings are anagram of each other"
   },
   {
-    "id": "MER-STR-058",
+    "id": "MER-STR-046",
     "topic": "Strings",
     "section": "Strings",
     "question": "Sort Characters by Frequency",
@@ -7820,7 +7738,7 @@
     "embedding_text": "Strings StringManipulation Sort Characters by Frequency"
   },
   {
-    "id": "MER-STR-059",
+    "id": "MER-STR-047",
     "topic": "Strings",
     "section": "Strings",
     "question": "Maximum Nesting Depth of the Parentheses",
@@ -7833,7 +7751,7 @@
     "embedding_text": "Strings StringManipulation Maximum Nesting Depth of the Parentheses"
   },
   {
-    "id": "MER-STR-060",
+    "id": "MER-STR-048",
     "topic": "Strings",
     "section": "Strings",
     "question": "String to Integer (atoi)",
@@ -7846,7 +7764,7 @@
     "embedding_text": "Strings StringManipulation String to Integer (atoi)"
   },
   {
-    "id": "MER-STR-061",
+    "id": "MER-STR-049",
     "topic": "Strings",
     "section": "Strings",
     "question": "Count Number of Substrings",
@@ -7858,9 +7776,8 @@
     "leetcode": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/",
     "embedding_text": "Strings StringManipulation Count Number of Substrings"
   },
- 
   {
-    "id": "MER-STR-063",
+    "id": "MER-STR-050",
     "topic": "Strings",
     "section": "Strings",
     "question": "Sum of Beauty of All Substrings",
@@ -7872,9 +7789,8 @@
     "leetcode": "https://leetcode.com/problems/sum-of-beauty-of-all-substrings/",
     "embedding_text": "Strings StringManipulation Sum of Beauty of All Substrings"
   },
-
   {
-    "id": "MER-LL-047",
+    "id": "MER-LL-037",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Introduction to LinkedList",
@@ -7887,7 +7803,7 @@
     "embedding_text": "Linked List LinkedList Introduction to LinkedList"
   },
   {
-    "id": "MER-LL-048",
+    "id": "MER-LL-038",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Inserting a node in LinkedList",
@@ -7900,7 +7816,7 @@
     "embedding_text": "Linked List LinkedList Inserting a node in LinkedList"
   },
   {
-    "id": "MER-LL-049",
+    "id": "MER-LL-039",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Deleting a node in LinkedList",
@@ -7913,7 +7829,7 @@
     "embedding_text": "Linked List LinkedList Deleting a node in LinkedList"
   },
   {
-    "id": "MER-LL-050",
+    "id": "MER-LL-040",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Find the length of the linkedlist",
@@ -7926,7 +7842,7 @@
     "embedding_text": "Linked List LinkedList Find the length of the linkedlist"
   },
   {
-    "id": "MER-LL-051",
+    "id": "MER-LL-041",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Search an element in the LL",
@@ -7938,9 +7854,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1",
     "embedding_text": "Linked List LinkedList Search an element in the LL"
   },
-
   {
-    "id": "MER-LL-053",
+    "id": "MER-LL-042",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Insert a node in DLL",
@@ -7953,7 +7868,7 @@
     "embedding_text": "Linked List DoublyLinkedList Insert a node in DLL"
   },
   {
-    "id": "MER-LL-054",
+    "id": "MER-LL-043",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Delete a node in DLL",
@@ -7965,9 +7880,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/delete-head-of-doubly-linked-list/1",
     "embedding_text": "Linked List DoublyLinkedList Delete a node in DLL"
   },
-
   {
-    "id": "MER-LL-061",
+    "id": "MER-LL-044",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Length of Loop in LL",
@@ -7979,9 +7893,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/find-length-of-loop/1",
     "embedding_text": "Linked List LinkedList Length of Loop in LL"
   },
-
   {
-    "id": "MER-LL-063",
+    "id": "MER-LL-045",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Segrregate odd and even nodes in LL",
@@ -7993,9 +7906,8 @@
     "leetcode": "https://leetcode.com/problems/odd-even-linked-list/",
     "embedding_text": "Linked List LinkedList Segrregate odd and even nodes in LL"
   },
-
   {
-    "id": "MER-LL-065",
+    "id": "MER-LL-046",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Delete the middle node of LL",
@@ -8007,9 +7919,8 @@
     "leetcode": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/",
     "embedding_text": "Linked List LinkedList Delete the middle node of LL"
   },
-
   {
-    "id": "MER-LL-069",
+    "id": "MER-LL-047",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Add 1 to a number represented by LL",
@@ -8021,9 +7932,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1",
     "embedding_text": "Linked List LinkedList Add 1 to a number represented by LL"
   },
-
   {
-    "id": "MER-LL-071",
+    "id": "MER-LL-048",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Delete all occurrences of a key in DLL",
@@ -8036,7 +7946,7 @@
     "embedding_text": "Linked List DoublyLinkedList Delete all occurrences of a key in DLL"
   },
   {
-    "id": "MER-LL-073",
+    "id": "MER-LL-049",
     "topic": "Linked List",
     "section": "Linked List",
     "question": "Remove duplicates from sorted DLL",
@@ -8048,9 +7958,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/remove-duplicates-from-a-sorted-doubly-linked-list/1",
     "embedding_text": "Linked List DoublyLinkedList Remove duplicates from sorted DLL"
   },
-
   {
-    "id": "MER-RB-030",
+    "id": "MER-RB-025",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Recursive Implementation of atoi()",
@@ -8063,7 +7972,7 @@
     "embedding_text": "Recursion & Backtracking Recursion Recursive Implementation of atoi()"
   },
   {
-    "id": "MER-RB-031",
+    "id": "MER-RB-026",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Pow(x, n)",
@@ -8076,7 +7985,7 @@
     "embedding_text": "Recursion & Backtracking Recursion Pow(x, n)"
   },
   {
-    "id": "MER-RB-032",
+    "id": "MER-RB-027",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Count Good numbers",
@@ -8089,7 +7998,7 @@
     "embedding_text": "Recursion & Backtracking Recursion Count Good numbers"
   },
   {
-    "id": "MER-RB-033",
+    "id": "MER-RB-028",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Sort a stack using recursion",
@@ -8102,7 +8011,7 @@
     "embedding_text": "Recursion & Backtracking Recursion Sort a stack using recursion"
   },
   {
-    "id": "MER-RB-034",
+    "id": "MER-RB-029",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Reverse a stack using recursion",
@@ -8115,7 +8024,7 @@
     "embedding_text": "Recursion & Backtracking Recursion Reverse a stack using recursion"
   },
   {
-    "id": "MER-RB-035",
+    "id": "MER-RB-030",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Generate all binary strings",
@@ -8128,7 +8037,7 @@
     "embedding_text": "Recursion & Backtracking Backtracking Generate all binary strings"
   },
   {
-    "id": "MER-RB-036",
+    "id": "MER-RB-031",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Generate Paranthesis",
@@ -8141,7 +8050,7 @@
     "embedding_text": "Recursion & Backtracking Backtracking Generate Paranthesis"
   },
   {
-    "id": "MER-RB-037",
+    "id": "MER-RB-032",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Print all subsequences/Power Set",
@@ -8153,9 +8062,8 @@
     "leetcode": "https://leetcode.com/problems/subsets/",
     "embedding_text": "Recursion & Backtracking Backtracking Print all subsequences/Power Set"
   },
- 
   {
-    "id": "MER-RB-039",
+    "id": "MER-RB-033",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Count all subsequences with sum K",
@@ -8168,7 +8076,7 @@
     "embedding_text": "Recursion & Backtracking Backtracking Count all subsequences with sum K"
   },
   {
-    "id": "MER-RB-040",
+    "id": "MER-RB-034",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Check if there exists a subsequence with sum K",
@@ -8180,9 +8088,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/check-if-there-exists-a-subsequence-with-sum-k/1",
     "embedding_text": "Recursion & Backtracking Backtracking Check if there exists a subsequence with sum K"
   },
-
   {
-    "id": "MER-RB-043",
+    "id": "MER-RB-035",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Subset Sum-I",
@@ -8194,9 +8101,8 @@
     "leetcode": "https://leetcode.com/problems/subsets/description/",
     "embedding_text": "Recursion & Backtracking Backtracking Subset Sum-I"
   },
-  
   {
-    "id": "MER-RB-045",
+    "id": "MER-RB-036",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Combination Sum - III",
@@ -8209,7 +8115,7 @@
     "embedding_text": "Recursion & Backtracking Backtracking Combination Sum - III"
   },
   {
-    "id": "MER-RB-046",
+    "id": "MER-RB-037",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Letter Combinations of a Phone number",
@@ -8222,7 +8128,7 @@
     "embedding_text": "Recursion & Backtracking Backtracking Letter Combinations of a Phone number"
   },
   {
-    "id": "MER-RB-047",
+    "id": "MER-RB-038",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Word Search",
@@ -8234,9 +8140,8 @@
     "leetcode": "https://leetcode.com/problems/word-search/",
     "embedding_text": "Recursion & Backtracking Backtracking Word Search"
   },
-
   {
-    "id": "MER-RB-051",
+    "id": "MER-RB-039",
     "topic": "Recursion & Backtracking",
     "section": "Recursion & Backtracking",
     "question": "Expression Add Operators",
@@ -8248,9 +8153,8 @@
     "leetcode": "https://leetcode.com/problems/expression-add-operators/",
     "embedding_text": "Recursion & Backtracking Backtracking Expression Add Operators"
   },
-
   {
-    "id": "MER-BM-013",
+    "id": "MER-BM-011",
     "topic": "Bit Manipulation",
     "section": "Bit Manipulation",
     "question": "Check if a number is odd or not",
@@ -8263,7 +8167,7 @@
     "embedding_text": "Bit Manipulation BitManipulation Check if a number is odd or not"
   },
   {
-    "id": "MER-BM-016",
+    "id": "MER-BM-012",
     "topic": "Bit Manipulation",
     "section": "Bit Manipulation",
     "question": "Set/Unset the rightmost unset bit",
@@ -8276,7 +8180,7 @@
     "embedding_text": "Bit Manipulation BitManipulation Set/Unset the rightmost unset bit"
   },
   {
-    "id": "MER-BM-017",
+    "id": "MER-BM-013",
     "topic": "Bit Manipulation",
     "section": "Bit Manipulation",
     "question": "Swap two numbers",
@@ -8288,9 +8192,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/swap-two-numbers3844/1",
     "embedding_text": "Bit Manipulation BitManipulation Swap two numbers"
   },
-
   {
-    "id": "MER-BM-019",
+    "id": "MER-BM-014",
     "topic": "Bit Manipulation",
     "section": "Bit Manipulation",
     "question": "Count number of bits to be flipped to convert A to B",
@@ -8303,7 +8206,7 @@
     "embedding_text": "Bit Manipulation BitManipulation Count number of bits to be flipped to convert A to B"
   },
   {
-    "id": "MER-BM-020",
+    "id": "MER-BM-015",
     "topic": "Bit Manipulation",
     "section": "Bit Manipulation",
     "question": "Find the number that appears odd number of times",
@@ -8316,7 +8219,7 @@
     "embedding_text": "Bit Manipulation BitManipulation Find the number that appears odd number of times"
   },
   {
-    "id": "MER-BM-021",
+    "id": "MER-BM-016",
     "topic": "Bit Manipulation",
     "section": "Bit Manipulation",
     "question": "Find xor of numbers from L to R",
@@ -8329,7 +8232,7 @@
     "embedding_text": "Bit Manipulation BitManipulation Find xor of numbers from L to R"
   },
   {
-    "id": "MER-BM-022",
+    "id": "MER-BM-017",
     "topic": "Bit Manipulation",
     "section": "Bit Manipulation",
     "question": "Single Number III",
@@ -8342,7 +8245,7 @@
     "embedding_text": "Bit Manipulation BitManipulation Single Number III"
   },
   {
-    "id": "MER-BM-023",
+    "id": "MER-BM-018",
     "topic": "Bit Manipulation",
     "section": "Bit Manipulation",
     "question": "Print Prime Factors of a Number",
@@ -8355,7 +8258,7 @@
     "embedding_text": "Bit Manipulation Math Print Prime Factors of a Number"
   },
   {
-    "id": "MER-BM-024",
+    "id": "MER-BM-019",
     "topic": "Bit Manipulation",
     "section": "Bit Manipulation",
     "question": "All Divisors of a Number",
@@ -8368,7 +8271,7 @@
     "embedding_text": "Bit Manipulation Math All Divisors of a Number"
   },
   {
-    "id": "MER-BM-025",
+    "id": "MER-BM-020",
     "topic": "Bit Manipulation",
     "section": "Bit Manipulation",
     "question": "Sieve of Eratosthenes",
@@ -8381,7 +8284,7 @@
     "embedding_text": "Bit Manipulation Math Sieve of Eratosthenes"
   },
   {
-    "id": "MER-BM-026",
+    "id": "MER-BM-021",
     "topic": "Bit Manipulation",
     "section": "Bit Manipulation",
     "question": "Find Prime Factorisation of a Number using Sieve",
@@ -8394,7 +8297,7 @@
     "embedding_text": "Bit Manipulation Math Find Prime Factorisation of a Number using Sieve"
   },
   {
-    "id": "MER-BM-027",
+    "id": "MER-BM-022",
     "topic": "Bit Manipulation",
     "section": "Bit Manipulation",
     "question": "Power(n, x)",
@@ -8407,7 +8310,7 @@
     "embedding_text": "Bit Manipulation Math Power(n, x)"
   },
   {
-    "id": "MER-SQ-051",
+    "id": "MER-SQ-045",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Implement Stack using Arrays",
@@ -8419,9 +8322,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/implement-stack-using-array/1",
     "embedding_text": "Stacks & Queues Basics Implement Stack using Arrays"
   },
-  
   {
-    "id": "MER-SQ-053",
+    "id": "MER-SQ-046",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Implement stack using Linkedlist",
@@ -8434,7 +8336,7 @@
     "embedding_text": "Stacks & Queues Basics Implement stack using Linkedlist"
   },
   {
-    "id": "MER-SQ-054",
+    "id": "MER-SQ-047",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Implement queue using Linkedlist",
@@ -8447,7 +8349,7 @@
     "embedding_text": "Stacks & Queues Basics Implement queue using Linkedlist"
   },
   {
-    "id": "MER-SQ-055",
+    "id": "MER-SQ-048",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Check for balanced paranthesis",
@@ -8459,9 +8361,8 @@
     "leetcode": "https://leetcode.com/problems/valid-parentheses/",
     "embedding_text": "Stacks & Queues Basics Check for balanced paranthesis"
   },
-
   {
-    "id": "MER-SQ-057",
+    "id": "MER-SQ-049",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Infix to Postfix Conversion using Stack",
@@ -8474,7 +8375,7 @@
     "embedding_text": "Stacks & Queues Stack Infix to Postfix Conversion using Stack"
   },
   {
-    "id": "MER-SQ-058",
+    "id": "MER-SQ-050",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Prefix to Infix Conversion",
@@ -8487,7 +8388,7 @@
     "embedding_text": "Stacks & Queues Stack Prefix to Infix Conversion"
   },
   {
-    "id": "MER-SQ-059",
+    "id": "MER-SQ-051",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Prefix to Postfix Conversion",
@@ -8500,7 +8401,7 @@
     "embedding_text": "Stacks & Queues Stack Prefix to Postfix Conversion"
   },
   {
-    "id": "MER-SQ-060",
+    "id": "MER-SQ-052",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Postfix to Prefix Conversion",
@@ -8513,7 +8414,7 @@
     "embedding_text": "Stacks & Queues Stack Postfix to Prefix Conversion"
   },
   {
-    "id": "MER-SQ-061",
+    "id": "MER-SQ-053",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Postfix to Infix",
@@ -8526,7 +8427,7 @@
     "embedding_text": "Stacks & Queues Stack Postfix to Infix"
   },
   {
-    "id": "MER-SQ-062",
+    "id": "MER-SQ-054",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Convert Infix To Prefix Notation",
@@ -8539,7 +8440,7 @@
     "embedding_text": "Stacks & Queues Stack Convert Infix To Prefix Notation"
   },
   {
-    "id": "MER-SQ-063",
+    "id": "MER-SQ-055",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Next Greater Element 2",
@@ -8552,7 +8453,7 @@
     "embedding_text": "Stacks & Queues MonotonicStack Next Greater Element 2"
   },
   {
-    "id": "MER-SQ-064",
+    "id": "MER-SQ-056",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Number of NGEs to the right",
@@ -8565,7 +8466,7 @@
     "embedding_text": "Stacks & Queues MonotonicStack Number of NGEs to the right"
   },
   {
-    "id": "MER-SQ-065",
+    "id": "MER-SQ-057",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Trapping Rainwater",
@@ -8578,7 +8479,7 @@
     "embedding_text": "Stacks & Queues MonotonicStack Trapping Rainwater"
   },
   {
-    "id": "MER-SQ-066",
+    "id": "MER-SQ-058",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Sum of subarray minimum",
@@ -8591,7 +8492,7 @@
     "embedding_text": "Stacks & Queues MonotonicStack Sum of subarray minimum"
   },
   {
-    "id": "MER-SQ-067",
+    "id": "MER-SQ-059",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Asteroid Collision",
@@ -8604,7 +8505,7 @@
     "embedding_text": "Stacks & Queues MonotonicStack Asteroid Collision"
   },
   {
-    "id": "MER-SQ-068",
+    "id": "MER-SQ-060",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Sum of subarray ranges",
@@ -8617,7 +8518,7 @@
     "embedding_text": "Stacks & Queues MonotonicStack Sum of subarray ranges"
   },
   {
-    "id": "MER-SQ-069",
+    "id": "MER-SQ-061",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Remove k Digits",
@@ -8629,9 +8530,8 @@
     "leetcode": "https://leetcode.com/problems/remove-k-digits/",
     "embedding_text": "Stacks & Queues MonotonicStack Remove k Digits"
   },
- 
   {
-    "id": "MER-SQ-071",
+    "id": "MER-SQ-062",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Maximal Rectangles",
@@ -8644,7 +8544,7 @@
     "embedding_text": "Stacks & Queues MonotonicStack Maximal Rectangles"
   },
   {
-    "id": "MER-SQ-072",
+    "id": "MER-SQ-063",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "Sliding Window maximum",
@@ -8656,9 +8556,8 @@
     "leetcode": "https://leetcode.com/problems/sliding-window-maximum/",
     "embedding_text": "Stacks & Queues Stack Sliding Window maximum"
   },
-
   {
-    "id": "MER-SQ-074",
+    "id": "MER-SQ-064",
     "topic": "Stacks & Queues",
     "section": "Stacks & Queues",
     "question": "LFU cache",
@@ -8826,9 +8725,8 @@
     "leetcode": "https://leetcode.com/problems/minimum-window-subsequence/",
     "embedding_text": "Sliding Window SlidingWindow Minimum Window Subsequence"
   },
-
   {
-    "id": "MER-HP-024",
+    "id": "MER-HP-021",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Min Heap and Max Heap Implementation",
@@ -8841,7 +8739,7 @@
     "embedding_text": "Heaps Basics Min Heap and Max Heap Implementation"
   },
   {
-    "id": "MER-HP-025",
+    "id": "MER-HP-022",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Check if an array represents a min-heap or not",
@@ -8853,9 +8751,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/does-array-represent-heap4345/1",
     "embedding_text": "Heaps Basics Check if an array represents a min-heap or not"
   },
- 
   {
-    "id": "MER-HP-027",
+    "id": "MER-HP-023",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Kth smallest element in an array",
@@ -8868,7 +8765,7 @@
     "embedding_text": "Heaps SlidingWindow Kth smallest element in an array"
   },
   {
-    "id": "MER-HP-028",
+    "id": "MER-HP-024",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Sort K sorted array",
@@ -8881,7 +8778,7 @@
     "embedding_text": "Heaps SlidingWindow Sort K sorted array"
   },
   {
-    "id": "MER-HP-029",
+    "id": "MER-HP-025",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Merge M sorted Lists",
@@ -8894,7 +8791,7 @@
     "embedding_text": "Heaps SlidingWindow Merge M sorted Lists"
   },
   {
-    "id": "MER-HP-030",
+    "id": "MER-HP-026",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Replace each array element by its corresponding rank",
@@ -8907,7 +8804,7 @@
     "embedding_text": "Heaps SlidingWindow Replace each array element by its corresponding rank"
   },
   {
-    "id": "MER-HP-031",
+    "id": "MER-HP-027",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Task Scheduler",
@@ -8920,7 +8817,7 @@
     "embedding_text": "Heaps SlidingWindow Task Scheduler"
   },
   {
-    "id": "MER-HP-032",
+    "id": "MER-HP-028",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Hands of Straights",
@@ -8933,7 +8830,7 @@
     "embedding_text": "Heaps SlidingWindow Hands of Straights"
   },
   {
-    "id": "MER-HP-033",
+    "id": "MER-HP-029",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Design twitter",
@@ -8945,9 +8842,8 @@
     "leetcode": "https://leetcode.com/problems/design-twitter/",
     "embedding_text": "Heaps SlidingWindow Design twitter"
   },
-  
   {
-    "id": "MER-HP-035",
+    "id": "MER-HP-030",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Kth largest element in a stream of running integers",
@@ -8960,7 +8856,7 @@
     "embedding_text": "Heaps SlidingWindow Kth largest element in a stream of running integers"
   },
   {
-    "id": "MER-HP-036",
+    "id": "MER-HP-031",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Maximum Sum Combination",
@@ -8973,7 +8869,7 @@
     "embedding_text": "Heaps SlidingWindow Maximum Sum Combination"
   },
   {
-    "id": "MER-HP-037",
+    "id": "MER-HP-032",
     "topic": "Heaps",
     "section": "Heaps",
     "question": "Find Median from Data Stream",
@@ -8985,9 +8881,8 @@
     "leetcode": "https://leetcode.com/problems/find-median-from-data-stream/",
     "embedding_text": "Heaps SlidingWindow Find Median from Data Stream"
   },
- 
   {
-    "id": "MER-GDY-043",
+    "id": "MER-GDY-039",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Lemonade Change",
@@ -9000,7 +8895,7 @@
     "embedding_text": "Greedy Easy Problems Lemonade Change"
   },
   {
-    "id": "MER-GDY-044",
+    "id": "MER-GDY-040",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Valid Paranthesis Checker",
@@ -9013,7 +8908,7 @@
     "embedding_text": "Greedy Easy Problems Valid Paranthesis Checker"
   },
   {
-    "id": "MER-GDY-045",
+    "id": "MER-GDY-041",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Jump Game",
@@ -9026,7 +8921,7 @@
     "embedding_text": "Greedy Medium/Hard Jump Game"
   },
   {
-    "id": "MER-GDY-046",
+    "id": "MER-GDY-042",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Jump Game 2",
@@ -9038,9 +8933,8 @@
     "leetcode": "https://leetcode.com/problems/jump-game-ii/",
     "embedding_text": "Greedy Medium/Hard Jump Game 2"
   },
-
   {
-    "id": "MER-GDY-048",
+    "id": "MER-GDY-043",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Candy",
@@ -9053,7 +8947,7 @@
     "embedding_text": "Greedy Medium/Hard Candy"
   },
   {
-    "id": "MER-GDY-049",
+    "id": "MER-GDY-044",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Program for Shortest Job First CPU Scheduling",
@@ -9065,9 +8959,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/shortest-job-first/1",
     "embedding_text": "Greedy Medium/Hard Program for Shortest Job First CPU Scheduling"
   },
-  
   {
-    "id": "MER-GDY-051",
+    "id": "MER-GDY-045",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Insert Interval",
@@ -9080,7 +8973,7 @@
     "embedding_text": "Greedy Medium/Hard Insert Interval"
   },
   {
-    "id": "MER-GDY-052",
+    "id": "MER-GDY-046",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Merge Intervals",
@@ -9093,7 +8986,7 @@
     "embedding_text": "Greedy Medium/Hard Merge Intervals"
   },
   {
-    "id": "MER-GDY-053",
+    "id": "MER-GDY-047",
     "topic": "Greedy",
     "section": "Greedy",
     "question": "Non-overlapping Intervals",
@@ -9106,7 +8999,7 @@
     "embedding_text": "Greedy Medium/Hard Non-overlapping Intervals"
   },
   {
-    "id": "MER-BT-055",
+    "id": "MER-BT-043",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Introduction to Trees",
@@ -9119,7 +9012,7 @@
     "embedding_text": "Binary Trees TreeTraversal Introduction to Trees"
   },
   {
-    "id": "MER-BT-056",
+    "id": "MER-BT-044",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Binary Tree Representation in C++",
@@ -9132,7 +9025,7 @@
     "embedding_text": "Binary Trees TreeTraversal Binary Tree Representation in C++"
   },
   {
-    "id": "MER-BT-057",
+    "id": "MER-BT-045",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Binary Tree Representation in Java",
@@ -9145,7 +9038,7 @@
     "embedding_text": "Binary Trees TreeTraversal Binary Tree Representation in Java"
   },
   {
-    "id": "MER-BT-058",
+    "id": "MER-BT-046",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Binary Tree Traversals in Binary Tree",
@@ -9157,9 +9050,8 @@
     "leetcode": "https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/",
     "embedding_text": "Binary Trees TreeTraversal Binary Tree Traversals in Binary Tree"
   },
-
   {
-    "id": "MER-BT-067",
+    "id": "MER-BT-047",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Preorder Inorder and Postorder Traversal in one Traversal",
@@ -9171,9 +9063,8 @@
     "leetcode": "https://www.geeksforgeeks.org/inorder-preorder-postorder-traversals-single-stack/",
     "embedding_text": "Binary Trees TreeTraversal Preorder Inorder and Postorder Traversal in one Traversal"
   },
-
   {
-    "id": "MER-BT-074",
+    "id": "MER-BT-048",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Boundary Traversal of Binary Tree",
@@ -9186,7 +9077,7 @@
     "embedding_text": "Binary Trees SlidingWindow Boundary Traversal of Binary Tree"
   },
   {
-    "id": "MER-BT-075",
+    "id": "MER-BT-049",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Vertical Order Traversal of Binary Tree",
@@ -9198,9 +9089,8 @@
     "leetcode": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
     "embedding_text": "Binary Trees SlidingWindow Vertical Order Traversal of Binary Tree"
   },
- 
   {
-    "id": "MER-BT-078",
+    "id": "MER-BT-050",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Root to Node Path in Binary Tree",
@@ -9212,9 +9102,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/root-to-leaf-paths/1",
     "embedding_text": "Binary Trees SlidingWindow Root to Node Path in Binary Tree"
   },
-  
   {
-    "id": "MER-BT-080",
+    "id": "MER-BT-051",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Check for Children Sum Property",
@@ -9227,7 +9116,7 @@
     "embedding_text": "Binary Trees SlidingWindow Check for Children Sum Property"
   },
   {
-    "id": "MER-BT-081",
+    "id": "MER-BT-052",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Print all the Nodes at a distance of K in a Binary Tree",
@@ -9240,7 +9129,7 @@
     "embedding_text": "Binary Trees SlidingWindow Print all the Nodes at a distance of K in a Binary Tree"
   },
   {
-    "id": "MER-BT-082",
+    "id": "MER-BT-053",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Minimum time taken to BURN the Binary Tree from a Node",
@@ -9253,7 +9142,7 @@
     "embedding_text": "Binary Trees SlidingWindow Minimum time taken to BURN the Binary Tree from a Node"
   },
   {
-    "id": "MER-BT-083",
+    "id": "MER-BT-054",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Count total Nodes in a COMPLETE Binary Tree",
@@ -9266,7 +9155,7 @@
     "embedding_text": "Binary Trees SlidingWindow Count total Nodes in a COMPLETE Binary Tree"
   },
   {
-    "id": "MER-BT-084",
+    "id": "MER-BT-055",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Requirements needed to construct a Unique Binary Tree",
@@ -9278,9 +9167,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/unique-binary-tree-requirements/1",
     "embedding_text": "Binary Trees SlidingWindow Requirements needed to construct a Unique Binary Tree"
   },
-
   {
-    "id": "MER-BT-087",
+    "id": "MER-BT-056",
     "topic": "Binary Trees",
     "section": "Binary Trees",
     "question": "Serialize and deserialize Binary Tree",
@@ -9292,9 +9180,8 @@
     "leetcode": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
     "embedding_text": "Binary Trees SlidingWindow Serialize and deserialize Binary Tree"
   },
-
   {
-    "id": "MER-BST-038",
+    "id": "MER-BST-037",
     "topic": "BST",
     "section": "BST",
     "question": "Introduction to Binary Search Tree",
@@ -9307,7 +9194,7 @@
     "embedding_text": "BST BSTTraversal Introduction to Binary Search Tree"
   },
   {
-    "id": "MER-BST-039",
+    "id": "MER-BST-038",
     "topic": "BST",
     "section": "BST",
     "question": "Search in a Binary Search Tree",
@@ -9320,7 +9207,7 @@
     "embedding_text": "BST BSTTraversal Search in a Binary Search Tree"
   },
   {
-    "id": "MER-BST-040",
+    "id": "MER-BST-039",
     "topic": "BST",
     "section": "BST",
     "question": "Find Min/Max in BST",
@@ -9333,7 +9220,7 @@
     "embedding_text": "BST BSTTraversal Find Min/Max in BST"
   },
   {
-    "id": "MER-BST-041",
+    "id": "MER-BST-040",
     "topic": "BST",
     "section": "BST",
     "question": "Ceil in a Binary Search Tree",
@@ -9346,7 +9233,7 @@
     "embedding_text": "BST BSTTraversal Ceil in a Binary Search Tree"
   },
   {
-    "id": "MER-BST-042",
+    "id": "MER-BST-041",
     "topic": "BST",
     "section": "BST",
     "question": "Floor in a Binary Search Tree",
@@ -9359,7 +9246,7 @@
     "embedding_text": "BST BSTTraversal Floor in a Binary Search Tree"
   },
   {
-    "id": "MER-BST-043",
+    "id": "MER-BST-042",
     "topic": "BST",
     "section": "BST",
     "question": "Insert a given Node in Binary Search Tree",
@@ -9372,7 +9259,7 @@
     "embedding_text": "BST BSTTraversal Insert a given Node in Binary Search Tree"
   },
   {
-    "id": "MER-BST-044",
+    "id": "MER-BST-043",
     "topic": "BST",
     "section": "BST",
     "question": "Delete a Node in Binary Search Tree",
@@ -9385,7 +9272,7 @@
     "embedding_text": "BST BSTTraversal Delete a Node in Binary Search Tree"
   },
   {
-    "id": "MER-BST-045",
+    "id": "MER-BST-044",
     "topic": "BST",
     "section": "BST",
     "question": "Find K-th smallest/largest element in BST",
@@ -9398,7 +9285,7 @@
     "embedding_text": "BST BSTTraversal Find K-th smallest/largest element in BST"
   },
   {
-    "id": "MER-BST-046",
+    "id": "MER-BST-045",
     "topic": "BST",
     "section": "BST",
     "question": "Check if a tree is a BST or BT",
@@ -9411,7 +9298,7 @@
     "embedding_text": "BST BSTTraversal Check if a tree is a BST or BT"
   },
   {
-    "id": "MER-BST-047",
+    "id": "MER-BST-046",
     "topic": "BST",
     "section": "BST",
     "question": "LCA in Binary Search Tree",
@@ -9424,7 +9311,7 @@
     "embedding_text": "BST BSTTraversal LCA in Binary Search Tree"
   },
   {
-    "id": "MER-BST-048",
+    "id": "MER-BST-047",
     "topic": "BST",
     "section": "BST",
     "question": "Construct a BST from a preorder traversal",
@@ -9437,7 +9324,7 @@
     "embedding_text": "BST BSTTraversal Construct a BST from a preorder traversal"
   },
   {
-    "id": "MER-BST-049",
+    "id": "MER-BST-048",
     "topic": "BST",
     "section": "BST",
     "question": "Inorder Successor/Predecessor in BST",
@@ -9450,7 +9337,7 @@
     "embedding_text": "BST BSTTraversal Inorder Successor/Predecessor in BST"
   },
   {
-    "id": "MER-BST-050",
+    "id": "MER-BST-049",
     "topic": "BST",
     "section": "BST",
     "question": "Merge 2 BST's",
@@ -9463,7 +9350,7 @@
     "embedding_text": "BST BSTTraversal Merge 2 BST's"
   },
   {
-    "id": "MER-BST-051",
+    "id": "MER-BST-050",
     "topic": "BST",
     "section": "BST",
     "question": "Two Sum In BST",
@@ -9476,7 +9363,7 @@
     "embedding_text": "BST BSTTraversal Two Sum In BST"
   },
   {
-    "id": "MER-BST-052",
+    "id": "MER-BST-051",
     "topic": "BST",
     "section": "BST",
     "question": "Recover BST | Correct BST with two nodes swapped",
@@ -9489,7 +9376,7 @@
     "embedding_text": "BST BSTTraversal Recover BST | Correct BST with two nodes swapped"
   },
   {
-    "id": "MER-BST-053",
+    "id": "MER-BST-052",
     "topic": "BST",
     "section": "BST",
     "question": "Largest BST in Binary Tree",
@@ -9502,7 +9389,7 @@
     "embedding_text": "BST BSTTraversal Largest BST in Binary Tree"
   },
   {
-    "id": "MER-GR-068",
+    "id": "MER-GR-052",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Graph and Types",
@@ -9514,9 +9401,8 @@
     "leetcode": "https://www.geeksforgeeks.org/graph-and-its-representations/",
     "embedding_text": "Graphs Basics Graph and Types"
   },
-
   {
-    "id": "MER-GR-070",
+    "id": "MER-GR-053",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Graph Representation",
@@ -9529,7 +9415,7 @@
     "embedding_text": "Graphs Basics Graph Representation Java"
   },
   {
-    "id": "MER-GR-071",
+    "id": "MER-GR-054",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Connected Components Logic Explanation",
@@ -9541,9 +9427,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/connected-components-in-an-undirected-graph/1",
     "embedding_text": "Graphs Basics Connected Components Logic Explanation"
   },
-
   {
-    "id": "MER-GR-075",
+    "id": "MER-GR-055",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Rotten Oranges",
@@ -9555,9 +9440,8 @@
     "leetcode": "https://leetcode.com/problems/rotting-oranges/",
     "embedding_text": "Graphs BFS Rotten Oranges"
   },
-
   {
-    "id": "MER-GR-079",
+    "id": "MER-GR-056",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Surrounded Regions",
@@ -9570,7 +9454,7 @@
     "embedding_text": "Graphs BFS Surrounded Regions"
   },
   {
-    "id": "MER-GR-080",
+    "id": "MER-GR-057",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Number of Enclaves",
@@ -9582,9 +9466,8 @@
     "leetcode": "https://leetcode.com/problems/number-of-enclaves/",
     "embedding_text": "Graphs BFS Number of Enclaves"
   },
-
   {
-    "id": "MER-GR-082",
+    "id": "MER-GR-058",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Word ladder 2",
@@ -9597,7 +9480,7 @@
     "embedding_text": "Graphs BFS Word ladder 2"
   },
   {
-    "id": "MER-GR-083",
+    "id": "MER-GR-059",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Number of Distinct Islands",
@@ -9609,9 +9492,8 @@
     "leetcode": "https://leetcode.com/problems/number-of-distinct-islands-ii/",
     "embedding_text": "Graphs BFS Number of Distinct Islands"
   },
-
   {
-    "id": "MER-GR-089",
+    "id": "MER-GR-060",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Find eventual safe states",
@@ -9624,7 +9506,7 @@
     "embedding_text": "Graphs TopologicalSort Find eventual safe states"
   },
   {
-    "id": "MER-GR-090",
+    "id": "MER-GR-061",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Shortest Path in UG with unit weights",
@@ -9637,7 +9519,7 @@
     "embedding_text": "Graphs ShortestPath Shortest Path in UG with unit weights"
   },
   {
-    "id": "MER-GR-091",
+    "id": "MER-GR-062",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Shortest Path in DAG",
@@ -9650,7 +9532,7 @@
     "embedding_text": "Graphs ShortestPath Shortest Path in DAG"
   },
   {
-    "id": "MER-GR-092",
+    "id": "MER-GR-063",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Why priority Queue is used in Dijkstra's Algorithm",
@@ -9663,7 +9545,7 @@
     "embedding_text": "Graphs ShortestPath Why priority Queue is used in Dijkstra's Algorithm"
   },
   {
-    "id": "MER-GR-093",
+    "id": "MER-GR-064",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Shortest path in a binary maze",
@@ -9676,7 +9558,7 @@
     "embedding_text": "Graphs ShortestPath Shortest path in a binary maze"
   },
   {
-    "id": "MER-GR-094",
+    "id": "MER-GR-065",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Path with minimum effort",
@@ -9689,7 +9571,7 @@
     "embedding_text": "Graphs ShortestPath Path with minimum effort"
   },
   {
-    "id": "MER-GR-095",
+    "id": "MER-GR-066",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Network Delay time",
@@ -9702,7 +9584,7 @@
     "embedding_text": "Graphs ShortestPath Network Delay time"
   },
   {
-    "id": "MER-GR-096",
+    "id": "MER-GR-067",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Minimum steps to reach end from start by multiplication and mod",
@@ -9714,9 +9596,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/minimum-multiplications-to-reach-end/1",
     "embedding_text": "Graphs ShortestPath Minimum steps to reach end from start by multiplication and mod"
   },
-
   {
-    "id": "MER-GR-101",
+    "id": "MER-GR-068",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Disjoint Set Union by Rank",
@@ -9728,9 +9609,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/disjoint-set-union-find/1",
     "embedding_text": "Graphs MST Disjoint Set Union by Rank"
   },
-
   {
-    "id": "MER-GR-104",
+    "id": "MER-GR-069",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Accounts merge",
@@ -9743,7 +9623,7 @@
     "embedding_text": "Graphs MST Accounts merge"
   },
   {
-    "id": "MER-GR-105",
+    "id": "MER-GR-070",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Number of island II",
@@ -9756,7 +9636,7 @@
     "embedding_text": "Graphs MST Number of island II"
   },
   {
-    "id": "MER-GR-106",
+    "id": "MER-GR-071",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Making a Large Island",
@@ -9769,7 +9649,7 @@
     "embedding_text": "Graphs MST Making a Large Island"
   },
   {
-    "id": "MER-GR-107",
+    "id": "MER-GR-072",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Swim in rising water",
@@ -9781,9 +9661,8 @@
     "leetcode": "https://leetcode.com/problems/swim-in-rising-water/",
     "embedding_text": "Graphs MST Swim in rising water"
   },
-
   {
-    "id": "MER-GR-109",
+    "id": "MER-GR-073",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Articulation Point",
@@ -9796,7 +9675,7 @@
     "embedding_text": "Graphs Graphs Articulation Point"
   },
   {
-    "id": "MER-GR-110",
+    "id": "MER-GR-074",
     "topic": "Graphs",
     "section": "Graphs",
     "question": "Kosaraju's Algorithm",
@@ -9808,9 +9687,8 @@
     "leetcode": "https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/description/",
     "embedding_text": "Graphs Graphs Kosaraju's Algorithm"
   },
-  
   {
-    "id": "MER-DP-077",
+    "id": "MER-DP-065",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Climbing Stars",
@@ -9823,7 +9701,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Climbing Stars"
   },
   {
-    "id": "MER-DP-078",
+    "id": "MER-DP-066",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Frog Jump",
@@ -9836,7 +9714,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Frog Jump (DP-3)"
   },
   {
-    "id": "MER-DP-079",
+    "id": "MER-DP-067",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Frog Jump with k distances",
@@ -9849,7 +9727,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Frog Jump with k distances (DP-4)"
   },
   {
-    "id": "MER-DP-080",
+    "id": "MER-DP-068",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Maximum sum of non-adjacent elements",
@@ -9862,7 +9740,7 @@
     "embedding_text": "Dynamic Programming DPGeneral Maximum sum of non-adjacent elements (DP 5)"
   },
   {
-    "id": "MER-DP-081",
+    "id": "MER-DP-069",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "House Robber",
@@ -9875,7 +9753,7 @@
     "embedding_text": "Dynamic Programming DPGeneral House Robber (DP 6)"
   },
   {
-    "id": "MER-DP-082",
+    "id": "MER-DP-070",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Ninja's Training",
@@ -9888,7 +9766,7 @@
     "embedding_text": "Dynamic Programming GridDP Ninja's Training (DP 7)"
   },
   {
-    "id": "MER-DP-083",
+    "id": "MER-DP-071",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Grid Unique Paths",
@@ -9901,7 +9779,7 @@
     "embedding_text": "Dynamic Programming GridDP Grid Unique Paths (DP8)"
   },
   {
-    "id": "MER-DP-084",
+    "id": "MER-DP-072",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Grid Unique Paths 2",
@@ -9914,7 +9792,7 @@
     "embedding_text": "Dynamic Programming GridDP Grid Unique Paths 2 (DP 9)"
   },
   {
-    "id": "MER-DP-085",
+    "id": "MER-DP-073",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Minimum path sum in Grid",
@@ -9927,7 +9805,7 @@
     "embedding_text": "Dynamic Programming GridDP Minimum path sum in Grid (DP 10)"
   },
   {
-    "id": "MER-DP-086",
+    "id": "MER-DP-074",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Minimum path sum in Triangular Grid",
@@ -9940,7 +9818,7 @@
     "embedding_text": "Dynamic Programming GridDP Minimum path sum in Triangular Grid (DP 11)"
   },
   {
-    "id": "MER-DP-087",
+    "id": "MER-DP-075",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Minimum/Maximum Falling Path Sum",
@@ -9953,7 +9831,7 @@
     "embedding_text": "Dynamic Programming GridDP Minimum/Maximum Falling Path Sum (DP-12)"
   },
   {
-    "id": "MER-DP-088",
+    "id": "MER-DP-076",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "3-d DP Ninja and his friends",
@@ -9966,7 +9844,7 @@
     "embedding_text": "Dynamic Programming GridDP 3-d DP Ninja and his friends (DP-13)"
   },
   {
-    "id": "MER-DP-089",
+    "id": "MER-DP-077",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Subset sum equal to target",
@@ -9978,9 +9856,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1",
     "embedding_text": "Dynamic Programming SubsetDP Subset sum equal to target (DP-14)"
   },
-  
   {
-    "id": "MER-DP-091",
+    "id": "MER-DP-078",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Partition Set Into 2 Subsets With Min Absolute Sum Diff",
@@ -9993,7 +9870,7 @@
     "embedding_text": "Dynamic Programming SubsetDP Partition Set Into 2 Subsets With Min Absolute Sum Diff (DP-16)"
   },
   {
-    "id": "MER-DP-092",
+    "id": "MER-DP-079",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Count Subsets with Sum K",
@@ -10006,7 +9883,7 @@
     "embedding_text": "Dynamic Programming SubsetDP Count Subsets with Sum K (DP-17)"
   },
   {
-    "id": "MER-DP-093",
+    "id": "MER-DP-080",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Count Partitions with Given Difference",
@@ -10019,7 +9896,7 @@
     "embedding_text": "Dynamic Programming SubsetDP Count Partitions with Given Difference (DP-18)"
   },
   {
-    "id": "MER-DP-094",
+    "id": "MER-DP-081",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Assign Cookies",
@@ -10031,9 +9908,8 @@
     "leetcode": "https://leetcode.com/problems/assign-cookies/description/",
     "embedding_text": "Dynamic Programming SubsetDP Assign Cookies"
   },
-
   {
-    "id": "MER-DP-097",
+    "id": "MER-DP-082",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Coin Change 2",
@@ -10045,9 +9921,8 @@
     "leetcode": "https://leetcode.com/problems/coin-change-2/",
     "embedding_text": "Dynamic Programming SubsetDP Coin Change 2 (DP-22)"
   },
-
   {
-    "id": "MER-DP-099",
+    "id": "MER-DP-083",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Rod Cutting Problem",
@@ -10059,9 +9934,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/rod-cutting0840/1",
     "embedding_text": "Dynamic Programming SubsetDP Rod Cutting Problem (DP-24)"
   },
- 
   {
-    "id": "MER-DP-101",
+    "id": "MER-DP-084",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Print Longest Common Subsequence",
@@ -10073,9 +9947,8 @@
     "leetcode": "https://www.geeksforgeeks.org/problems/print-all-lcs-sequences3413/1",
     "embedding_text": "Dynamic Programming DPStrings Print Longest Common Subsequence (DP-26)"
   },
-
   {
-    "id": "MER-DP-104",
+    "id": "MER-DP-085",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Minimum insertions to make string palindrome",
@@ -10088,7 +9961,7 @@
     "embedding_text": "Dynamic Programming DPStrings Minimum insertions to make string palindrome (DP-29)"
   },
   {
-    "id": "MER-DP-105",
+    "id": "MER-DP-086",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Minimum Insertions/Deletions to Convert String",
@@ -10101,7 +9974,7 @@
     "embedding_text": "Dynamic Programming DPStrings Minimum Insertions/Deletions to Convert String (DP-30)"
   },
   {
-    "id": "MER-DP-106",
+    "id": "MER-DP-087",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Shortest Common Supersequence",
@@ -10114,7 +9987,7 @@
     "embedding_text": "Dynamic Programming DPStrings Shortest Common Supersequence (DP-31)"
   },
   {
-    "id": "MER-DP-107",
+    "id": "MER-DP-088",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Distinct Subsequences",
@@ -10126,9 +9999,8 @@
     "leetcode": "https://leetcode.com/problems/distinct-subsequences/",
     "embedding_text": "Dynamic Programming DPStrings Distinct Subsequences (DP-32)"
   },
-
   {
-    "id": "MER-DP-114",
+    "id": "MER-DP-089",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Buy and Sell Stocks With Cooldown",
@@ -10141,7 +10013,7 @@
     "embedding_text": "Dynamic Programming StockDP Buy and Sell Stocks With Cooldown (DP-39)"
   },
   {
-    "id": "MER-DP-115",
+    "id": "MER-DP-090",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Buy and Sell Stocks With Transaction Fee",
@@ -10153,9 +10025,8 @@
     "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/",
     "embedding_text": "Dynamic Programming StockDP Buy and Sell Stocks With Transaction Fee (DP-40)"
   },
-
   {
-    "id": "MER-DP-119",
+    "id": "MER-DP-091",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Largest Divisible Subset",
@@ -10168,7 +10039,7 @@
     "embedding_text": "Dynamic Programming LIS Largest Divisible Subset (DP-44)"
   },
   {
-    "id": "MER-DP-120",
+    "id": "MER-DP-092",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Longest String Chain",
@@ -10181,7 +10052,7 @@
     "embedding_text": "Dynamic Programming LIS Longest String Chain (DP-45)"
   },
   {
-    "id": "MER-DP-121",
+    "id": "MER-DP-093",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Longest Bitonic Subsequence",
@@ -10194,7 +10065,7 @@
     "embedding_text": "Dynamic Programming LIS Longest Bitonic Subsequence (DP-46)"
   },
   {
-    "id": "MER-DP-122",
+    "id": "MER-DP-094",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Number of Longest Increasing Subsequences",
@@ -10206,10 +10077,8 @@
     "leetcode": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/",
     "embedding_text": "Dynamic Programming LIS Number of Longest Increasing Subsequences (DP-47)"
   },
- 
-
   {
-    "id": "MER-DP-126",
+    "id": "MER-DP-095",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Burst Balloons",
@@ -10222,7 +10091,7 @@
     "embedding_text": "Dynamic Programming PartitionDP Burst Balloons (DP-51)"
   },
   {
-    "id": "MER-DP-127",
+    "id": "MER-DP-096",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Evaluate Boolean Expression to True",
@@ -10235,7 +10104,7 @@
     "embedding_text": "Dynamic Programming PartitionDP Evaluate Boolean Expression to True (DP-52)"
   },
   {
-    "id": "MER-DP-128",
+    "id": "MER-DP-097",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Palindrome Partitioning II",
@@ -10248,7 +10117,7 @@
     "embedding_text": "Dynamic Programming PartitionDP Palindrome Partitioning II (DP-53)"
   },
   {
-    "id": "MER-DP-129",
+    "id": "MER-DP-098",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Partition Array for Maximum Sum",
@@ -10261,7 +10130,7 @@
     "embedding_text": "Dynamic Programming PartitionDP Partition Array for Maximum Sum (DP-54)"
   },
   {
-    "id": "MER-DP-130",
+    "id": "MER-DP-099",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Maximum Rectangle Area with all 1s",
@@ -10274,7 +10143,7 @@
     "embedding_text": "Dynamic Programming GridDP Maximum Rectangle Area with all 1s (DP-55)"
   },
   {
-    "id": "MER-DP-131",
+    "id": "MER-DP-100",
     "topic": "Dynamic Programming",
     "section": "Dynamic Programming",
     "question": "Count Square Submatrices with All Ones",
@@ -10286,9 +10155,8 @@
     "leetcode": "https://leetcode.com/problems/count-square-submatrices-with-all-ones/",
     "embedding_text": "Dynamic Programming GridDP Count Square Submatrices with All Ones (DP-56)"
   },
-
   {
-    "id": "MER-TR-015",
+    "id": "MER-TR-010",
     "topic": "Tries",
     "section": "Tries",
     "question": "Number of Distinct Substrings in a String",
@@ -10301,7 +10169,7 @@
     "embedding_text": "Tries Trie Number of Distinct Substrings in a String"
   },
   {
-    "id": "MER-TR-016",
+    "id": "MER-TR-011",
     "topic": "Tries",
     "section": "Tries",
     "question": "Bit PreRequisites for TRIE Problems",
@@ -10314,7 +10182,7 @@
     "embedding_text": "Tries Trie Bit PreRequisites for TRIE Problems"
   },
   {
-    "id": "MER-TR-017",
+    "id": "MER-TR-012",
     "topic": "Tries",
     "section": "Tries",
     "question": "Maximum XOR of two numbers in an array",
@@ -10327,7 +10195,7 @@
     "embedding_text": "Tries Trie Maximum XOR of two numbers in an array"
   },
   {
-    "id": "MER-TR-018",
+    "id": "MER-TR-013",
     "topic": "Tries",
     "section": "Tries",
     "question": "Maximum XOR With an Element From Array",
@@ -10340,7 +10208,7 @@
     "embedding_text": "Tries Trie Maximum XOR With an Element From Array"
   },
   {
-    "id": "MER-STR-065",
+    "id": "MER-STR-051",
     "topic": "Strings",
     "section": "Strings",
     "question": "Minimum number of bracket reversals needed to make an expression balanced",
@@ -10352,9 +10220,8 @@
     "leetcode": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/",
     "embedding_text": "Strings SlidingWindow Minimum number of bracket reversals needed to make an expression balanced"
   },
- 
   {
-    "id": "MER-STR-067",
+    "id": "MER-STR-052",
     "topic": "Strings",
     "section": "Strings",
     "question": "Rabin Karp",
@@ -10367,7 +10234,7 @@
     "embedding_text": "Strings SlidingWindow Rabin Karp"
   },
   {
-    "id": "MER-STR-068",
+    "id": "MER-STR-053",
     "topic": "Strings",
     "section": "Strings",
     "question": "Z-Function",
@@ -10380,7 +10247,7 @@
     "embedding_text": "Strings SlidingWindow Z-Function"
   },
   {
-    "id": "MER-STR-069",
+    "id": "MER-STR-054",
     "topic": "Strings",
     "section": "Strings",
     "question": "KMP algo / LPS(pi) array",
@@ -10393,7 +10260,7 @@
     "embedding_text": "Strings SlidingWindow KMP algo / LPS(pi) array"
   },
   {
-    "id": "MER-STR-070",
+    "id": "MER-STR-055",
     "topic": "Strings",
     "section": "Strings",
     "question": "Shortest Palindrome",
@@ -10406,7 +10273,7 @@
     "embedding_text": "Strings SlidingWindow Shortest Palindrome"
   },
   {
-    "id": "MER-STR-071",
+    "id": "MER-STR-056",
     "topic": "Strings",
     "section": "Strings",
     "question": "Longest happy prefix",
