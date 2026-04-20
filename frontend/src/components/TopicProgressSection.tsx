@@ -12,7 +12,35 @@ export function TopicProgressSection() {
 
   const mergedSheet = sheets.find(s => s.id === "common");
   const mergedQuestions = mergedSheet?.questions || [];
-  const topics = getTopics(mergedQuestions);
+  const TOPIC_ORDER = [
+  "Basics",
+  "Arrays",
+  "Matrix",
+  "Strings",
+  "Sliding Window",
+  "Searching & Sorting",
+  "Recursion & Backtracking",
+  "Linked List",
+  "Stacks & Queues",
+  "Binary Trees",
+  "BST",
+  "Heaps",
+  "Graphs",
+  "Dynamic Programming",
+  "Greedy",
+  "Tries",
+  "Bit Manipulation",
+  "Recursion",
+  "Miscellaneous",
+];
+
+const topics = getTopics(mergedQuestions).sort((a, b) => {
+  const ai = TOPIC_ORDER.indexOf(a);
+  const bi = TOPIC_ORDER.indexOf(b);
+  if (ai === -1) return 1;
+  if (bi === -1) return -1;
+  return ai - bi;
+});
 
   const topicStats = topics.map(topic => {
     const questionsInTopic = getQuestionsByTopic(mergedQuestions, topic);
