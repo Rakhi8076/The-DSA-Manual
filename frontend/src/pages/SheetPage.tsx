@@ -101,27 +101,15 @@ export default function SheetPage() {
             }}
           >
             <ChevronLeft className="h-4 w-4" />
-            Back to Sheets
+            Back
           </Link>
 
           {/* Sheet header */}
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="mb-8">
             <h1 className="text-2xl md:text-3xl font-extrabold mb-1 text-foreground" style={{ fontFamily: "var(--font-display)" }}>{sheet.name}</h1>
-            <p className="text-muted-foreground text-sm mb-2" style={{ fontFamily: "var(--font-mono)" }}>{sheet.educator}</p>
-            <p className="text-muted-foreground text-sm mb-6">{total} questions total</p>
+            {/* <p className="text-muted-foreground text-sm mb-2" style={{ fontFamily: "var(--font-mono)" }}>{sheet.educator}</p> */}
+            {/* <p className="text-muted-foreground text-sm mb-6">{total} questions total</p> */}
 
-            {/* Difficulty distribution */}
-            <div className="flex flex-wrap gap-3 mb-6">
-              <span className="inline-flex items-center gap-1.5 rounded-lg border border-success/20 bg-success/10 px-3 py-1.5 text-sm font-medium text-success">
-                Easy <span className="font-bold" style={{ fontFamily: "var(--font-mono)" }}>{easy.length}</span>
-              </span>
-              <span className="inline-flex items-center gap-1.5 rounded-lg border border-warning/20 bg-warning/10 px-3 py-1.5 text-sm font-medium text-warning">
-                Medium <span className="font-bold" style={{ fontFamily: "var(--font-mono)" }}>{medium.length}</span>
-              </span>
-              <span className="inline-flex items-center gap-1.5 rounded-lg border border-destructive/20 bg-destructive/10 px-3 py-1.5 text-sm font-medium text-destructive">
-                Hard <span className="font-bold" style={{ fontFamily: "var(--font-mono)" }}>{hard.length}</span>
-              </span>
-            </div>
 
             {/* Overall progress */}
             <div className="glass-card rounded-2xl p-6">

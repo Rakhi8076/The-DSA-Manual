@@ -10,7 +10,7 @@ import { mergedQuestions } from "./mergedSheet";
 export const sheets: Sheet[] = [
   {
     id: "striver",
-    name: "Striver's DSA Sheet",
+    name: "TUF AtoZ",
     educator: "Striver",
     description: "A comprehensive DSA sheet covering all major topics for coding interviews.",
     icon: "🔥",
@@ -18,7 +18,7 @@ export const sheets: Sheet[] = [
   },
   {
     id: "lovebabbar",
-    name: "Love Babbar DSA Sheet",
+    name: "Love Babbar",
     educator: "Love Babbar",
     description: "450 DSA questions curated for cracking top product-based company interviews.",
     icon: "💛",
@@ -26,15 +26,15 @@ export const sheets: Sheet[] = [
   },
   {
     id: "apnacollege",
-    name: "Apna College DSA Sheet",
-    educator: "Apna College",
+    name: "Apna College",
+    educator: "Shradha Sharma",
     description: "Beginner-friendly DSA sheet perfect for college students starting their coding journey.",
     icon: "🎓",
     questions: apnaQuestions,
   },
   {
     id: "common",
-    name: "The DSA Manual Sheet",
+    name: "The DSA Manual",
     educator: "Striver + Love Babbar + Apna College",
     description: "All questions from all three sheets merged and deduplicated into one master sheet.",
     icon: "📚",
