@@ -1,66 +1,51 @@
-import { useState, useCallback } from "react";
-import { sheets } from "@/data/sheets";
+import { useState, useCallback, useEffect } from "react";
+import { getUserProgress, toggleProgress } from "@/lib/api";
 
-const STORAGE_KEY = "dsa-sheets-progress";
+function getSheetId(questionId: string): string {
+  if (questionId.startsWith("striver")) return "striver";
+  if (questionId.startsWith("babbar"))  return "babbar";
+  if (questionId.startsWith("MER"))     return "merged";
+  return "apna";
+}
 
-function loadProgress(): Record<string, boolean> {
+function getUserId(): string | null {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    return raw ? JSON.parse(raw) : {};
+    const raw = localStorage.getItem("dsa-user");
+    return raw ? JSON.parse(raw)?._id : null;
   } catch {
-    return {};
+    return null;
   }
-}
-
-function saveProgress(progress: Record<string, boolean>) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
-}
-
-function getLinkedQuestionIds(questionId: string): string[] {
-  // Find the URL for the given question ID
-  let targetUrl = "";
-  for (const sheet of sheets) {
-    const found = sheet.questions.find(q => q.id === questionId);
-    if (found) {
-      targetUrl = found.leetcode?.trim().toLowerCase();
-      break;
-    }
-  }
-
-  if (!targetUrl) return [questionId];
-
-  // Find same URL questions in all sheets
-  const linkedIds: string[] = [];
-  for (const sheet of sheets) {
-    for (const q of sheet.questions) {
-      if (q.leetcode?.trim().toLowerCase() === targetUrl) {
-        linkedIds.push(q.id);
-      }
-    }
-  }
-
-  return linkedIds.length > 0 ? linkedIds : [questionId];
 }
 
 export function useProgress() {
-  const [progress, setProgress] = useState<Record<string, boolean>>(loadProgress);
+  const [progress, setProgress] = useState<Record<string, boolean>>({});
 
-   const toggleSolved = useCallback((questionId: string) => {
-    setProgress(prev => {
-      const newState = !prev[questionId];
+  useEffect(() => {
+    const loadFromDB = async () => {
+      const userId = getUserId();
+      if (!userId) return;
+      try {
+        const solvedIds = await getUserProgress(userId);
+        const map: Record<string, boolean> = {};
+        solvedIds.forEach(id => { map[id] = true; });
+        setProgress(map);
+      } catch (err) {
+        console.error("Progress load failed:", err);
+      }
+    };
+    loadFromDB();
+  }, []);
 
-      // all ques ids with same URL (including itself)
-      const linkedIds = getLinkedQuestionIds(questionId);
-
-      // Mark all as solved/unsolved
-      const next = { ...prev };
-      linkedIds.forEach(id => {
-        next[id] = newState;
-      });
-
-      saveProgress(next);
-      return next;
-    });
+  const toggleSolved = useCallback(async (questionId: string) => {
+    const userId = getUserId();
+    if (!userId) return;
+    const sheetId = getSheetId(questionId);
+    try {
+      const isSolvedNow = await toggleProgress({ userId, questionId, sheetId });
+      setProgress(prev => ({ ...prev, [questionId]: isSolvedNow }));
+    } catch (err) {
+      console.error("Toggle failed:", err);
+    }
   }, []);
 
   const isSolved = useCallback((questionId: string) => {

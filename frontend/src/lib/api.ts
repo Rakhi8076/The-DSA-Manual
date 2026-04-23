@@ -35,4 +35,28 @@ export const signupUser = async (data: {
   return handleResponse(res);
 };
 
+// ✅ SheetPage load hone pe — user ki saari solved IDs lao DB se
+export const getUserProgress = async (userId: string): Promise<string[]> => {
+  const res = await fetch(`${BASE_URL}/progress/${userId}`, {
+    headers: authHeaders(),
+  });
+  const data = await handleResponse(res);
+  return data.solvedIds; // ✅ ["striver-1.1-3", "MER-ARR-001", ...]
+};
+
+// ✅ User ne tick/untick kiya — DB mein save/delete karo
+export const toggleProgress = async (data: {
+  userId: string;
+  questionId: string;
+  sheetId: string;
+}): Promise<boolean> => {
+  const res = await fetch(`${BASE_URL}/progress/toggle`, {
+    method: "POST",
+    headers: authHeaders(),
+    body: JSON.stringify(data),
+  });
+  const result = await handleResponse(res);
+  return result.solved; // ✅ true ya false
+};
+
 export default BASE_URL;
