@@ -71,3 +71,28 @@ async def toggle_question(user_id: str, question_id: str, sheet_id: str) -> bool
             "solvedAt":   datetime.utcnow().strftime("%Y-%m-%d")
         })
         return True
+    
+async def set_question(user_id: str, question_id: str, sheet_id: str, solved: bool):
+    """Toggle nahi — directly set karo solved ya unsolved"""
+    try:
+        user_object_id = ObjectId(user_id)
+    except Exception:
+        raise HTTPException(status_code=400, detail="Invalid user_id")
+
+    existing = await progress_collection.find_one({
+        "userId":     user_object_id,
+        "questionId": question_id,
+        "sheetId":    sheet_id
+    })
+
+    if solved and not existing:
+        # ✅ Solved karna hai aur exist nahi karta — insert karo
+        await progress_collection.insert_one({
+            "userId":     user_object_id,
+            "sheetId":    sheet_id,
+            "questionId": question_id,
+            "solvedAt":   datetime.utcnow().strftime("%Y-%m-%d")
+        })
+    elif not solved and existing:
+        # ✅ Unsolved karna hai aur exist karta hai — delete karo
+        await progress_collection.delete_one({"_id": existing["_id"]})

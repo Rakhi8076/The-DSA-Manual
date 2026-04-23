@@ -59,4 +59,18 @@ export const toggleProgress = async (data: {
   return result.solved; // ✅ true ya false
 };
 
+// ✅ Toggle nahi — directly set karo
+export const setProgress = async (data: {
+  userId: string;
+  questionId: string;
+  sheetId: string;
+  solved: boolean;
+}): Promise<void> => {
+  const res = await fetch(`${BASE_URL}/progress/set`, {
+    method: "POST",
+    headers: authHeaders(),
+    body: JSON.stringify(data),
+  });
+  await handleResponse(res);
+};
 export default BASE_URL;

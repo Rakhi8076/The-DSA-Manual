@@ -1,5 +1,6 @@
 import { useState, useCallback, useEffect } from "react";
-import { getUserProgress, toggleProgress } from "@/lib/api";
+import { getUserProgress, setProgress as setProgressAPI } from "@/lib/api";
+import { sheets } from "@/data/sheets";
 
 function getSheetId(questionId: string): string {
   if (questionId.startsWith("striver")) return "striver";
@@ -15,6 +16,30 @@ function getUserId(): string | null {
   } catch {
     return null;
   }
+}
+
+function getLinkedQuestionIds(questionId: string): string[] {
+  let targetUrl = "";
+  for (const sheet of sheets) {
+    const found = sheet.questions.find(q => q.id === questionId);
+    if (found?.leetcode) {
+      targetUrl = found.leetcode.trim().toLowerCase();
+      break;
+    }
+  }
+
+  if (!targetUrl) return [questionId];
+
+  const linkedIds: string[] = [];
+  for (const sheet of sheets) {
+    for (const q of sheet.questions) {
+      if (q.leetcode?.trim().toLowerCase() === targetUrl) {
+        linkedIds.push(q.id);
+      }
+    }
+  }
+
+  return linkedIds.length > 0 ? linkedIds : [questionId];
 }
 
 export function useProgress() {
@@ -39,14 +64,34 @@ export function useProgress() {
   const toggleSolved = useCallback(async (questionId: string) => {
     const userId = getUserId();
     if (!userId) return;
-    const sheetId = getSheetId(questionId);
+
+    const linkedIds = getLinkedQuestionIds(questionId);
+    const newState = !progress[questionId];
+
     try {
-      const isSolvedNow = await toggleProgress({ userId, questionId, sheetId });
-      setProgress(prev => ({ ...prev, [questionId]: isSolvedNow }));
+      // ✅ Saare linked questions directly set karo — toggle nahi
+      await Promise.all(
+        linkedIds.map(id =>
+          setProgressAPI({
+            userId,
+            questionId: id,
+            sheetId: getSheetId(id),
+            solved: newState,
+          })
+        )
+      );
+
+      // ✅ UI ek saath update
+      setProgress(prev => {
+        const next = { ...prev };
+        linkedIds.forEach(id => { next[id] = newState; });
+        return next;
+      });
+
     } catch (err) {
       console.error("Toggle failed:", err);
     }
-  }, []);
+  }, [progress]);
 
   const isSolved = useCallback((questionId: string) => {
     return !!progress[questionId];

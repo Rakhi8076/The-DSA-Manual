@@ -6,6 +6,7 @@ from auth import router as auth_router
 from database import get_user_progress, toggle_question
 import os
 from dotenv import load_dotenv
+from database import get_user_progress, toggle_question, set_question  # ✅ set_question add
 
 load_dotenv()
 
@@ -77,6 +78,41 @@ async def toggle_progress(data: ToggleInput):
 
     return {
         "solved":     is_solved,       # ✅ true ya false
+        "questionId": data.questionId,
+        "sheetId":    data.sheetId
+    }
+
+
+class SetProgressInput(BaseModel):
+    userId:     str
+    questionId: str
+    sheetId:    str
+    solved:     bool  # ✅ directly batao solved hai ya nahi
+
+@app.post("/progress/set")
+async def set_progress(data: SetProgressInput):
+    """
+    Seedha set karo — toggle nahi
+    solved: true  → DB mein save
+    solved: false → DB se delete
+    """
+    if not data.userId or data.userId == "undefined":
+        raise HTTPException(status_code=400, detail="Invalid userId")
+
+    try:
+        ObjectId(data.userId)
+    except Exception:
+        raise HTTPException(status_code=400, detail="Malformed userId")
+
+    await set_question(
+        user_id=data.userId,
+        question_id=data.questionId,
+        sheet_id=data.sheetId,
+        solved=data.solved
+    )
+
+    return {
+        "solved":     data.solved,
         "questionId": data.questionId,
         "sheetId":    data.sheetId
     }
