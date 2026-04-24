@@ -2,7 +2,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from fastapi import HTTPException
 from dotenv import load_dotenv
 from bson import ObjectId
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import os
 
 load_dotenv()
@@ -11,16 +11,17 @@ MONGO_URL = os.getenv("MONGO_URL")
 client = AsyncIOMotorClient(MONGO_URL)
 db = client["dsa_manual"]
 
+# ✅ IST timezone
+IST = timezone(timedelta(hours=5, minutes=30))
+
+def get_today() -> str:
+    return datetime.now(IST).strftime("%Y-%m-%d")
+
 users_collection = db["users"]
-progress_collection = db["user_progress"]  # ✅ naya collection
+progress_collection = db["user_progress"]
 
 
 async def get_user_progress(user_id: str) -> list[str]:
-    """
-    User ki saari solved questionIds lao — charo sheets ki
-    Return: ["striver-1.1-3", "babbar-ARR-01", "MER-ARR-001", ...]
-    Frontend inhe ek Set mein rakhega aur isSolved check karega
-    """
     try:
         user_object_id = ObjectId(user_id)
     except Exception:
@@ -34,19 +35,6 @@ async def get_user_progress(user_id: str) -> list[str]:
 
 
 async def toggle_question(user_id: str, question_id: str, sheet_id: str) -> bool:
-    """
-    Question tick karo → DB mein save
-    Question untick karo → DB se delete
-    Return: True agar ab solved, False agar unsolve
-    
-    DB mein document:
-    {
-      userId:     ObjectId,
-      sheetId:    "striver",
-      questionId: "striver-1.1-3",
-      solvedAt:   "2024-04-18"
-    }
-    """
     try:
         user_object_id = ObjectId(user_id)
     except Exception:
@@ -59,21 +47,19 @@ async def toggle_question(user_id: str, question_id: str, sheet_id: str) -> bool
     })
 
     if existing:
-        # ✅ Pehle se tick tha — untick karo, delete karo
         await progress_collection.delete_one({"_id": existing["_id"]})
         return False
     else:
-        # ✅ Pehli baar tick — save karo
         await progress_collection.insert_one({
             "userId":     user_object_id,
             "sheetId":    sheet_id,
             "questionId": question_id,
-            "solvedAt":   datetime.utcnow().strftime("%Y-%m-%d")
+            "solvedAt":   get_today()  # ✅ IST date
         })
         return True
-    
+
+
 async def set_question(user_id: str, question_id: str, sheet_id: str, solved: bool):
-    """Toggle nahi — directly set karo solved ya unsolved"""
     try:
         user_object_id = ObjectId(user_id)
     except Exception:
@@ -86,13 +72,11 @@ async def set_question(user_id: str, question_id: str, sheet_id: str, solved: bo
     })
 
     if solved and not existing:
-        # ✅ Solved karna hai aur exist nahi karta — insert karo
         await progress_collection.insert_one({
             "userId":     user_object_id,
             "sheetId":    sheet_id,
             "questionId": question_id,
-            "solvedAt":   datetime.utcnow().strftime("%Y-%m-%d")
+            "solvedAt":   get_today()  # ✅ IST date
         })
     elif not solved and existing:
-        # ✅ Unsolved karna hai aur exist karta hai — delete karo
         await progress_collection.delete_one({"_id": existing["_id"]})

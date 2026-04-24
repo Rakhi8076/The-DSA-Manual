@@ -4,9 +4,10 @@ import { sheets } from "@/data/sheets";
 
 function getSheetId(questionId: string): string {
   if (questionId.startsWith("striver")) return "striver";
-  if (questionId.startsWith("babbar"))  return "babbar";
-  if (questionId.startsWith("MER"))     return "merged";
-  return "apna";
+  if (questionId.startsWith("lb_"))     return "lovebabbar";
+  if (questionId.startsWith("MER"))     return "common";
+  if (questionId.startsWith("ac_"))     return "apnacollege";
+  return "apnacollege";
 }
 
 function getUserId(): string | null {
