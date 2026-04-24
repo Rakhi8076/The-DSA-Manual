@@ -35,16 +35,14 @@ export const signupUser = async (data: {
   return handleResponse(res);
 };
 
-// ✅ SheetPage load hone pe — user ki saari solved IDs lao DB se
 export const getUserProgress = async (userId: string): Promise<string[]> => {
   const res = await fetch(`${BASE_URL}/progress/${userId}`, {
     headers: authHeaders(),
   });
   const data = await handleResponse(res);
-  return data.solvedIds; // ✅ ["striver-1.1-3", "MER-ARR-001", ...]
+  return data.solvedIds;
 };
 
-// ✅ User ne tick/untick kiya — DB mein save/delete karo
 export const toggleProgress = async (data: {
   userId: string;
   questionId: string;
@@ -56,10 +54,9 @@ export const toggleProgress = async (data: {
     body: JSON.stringify(data),
   });
   const result = await handleResponse(res);
-  return result.solved; // ✅ true ya false
+  return result.solved;
 };
 
-// ✅ Toggle nahi — directly set karo
 export const setProgress = async (data: {
   userId: string;
   questionId: string;
@@ -73,4 +70,19 @@ export const setProgress = async (data: {
   });
   await handleResponse(res);
 };
+
+// ✅ Chatbot API call
+export const sendChatMessage = async (
+  message: string,
+  history: { role: string; content: string }[]
+): Promise<string> => {
+  const res = await fetch(`${BASE_URL}/chat`, {
+    method: "POST",
+    headers: authHeaders(),
+    body: JSON.stringify({ message, history }),
+  });
+  const data = await handleResponse(res);
+  return data.reply;
+};
+
 export default BASE_URL;
