@@ -13,7 +13,7 @@ export function convertQuestions(data: any[], prefix: string): Question[] {
     title: q.question,
     difficulty: capitalize(q.difficulty),
 
-    // 🔥 MOST IMPORTANT FIX
+    // MOST IMPORTANT FIX
     link: q.link || q.leetcode || q.gfg || "",
 
     leetcode: q.leetcode || q.link || "",

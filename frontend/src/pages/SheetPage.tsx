@@ -68,7 +68,38 @@ export default function SheetPage() {
   const medSolved = getSolvedCount(medium.map(q => q.id));
   const hardSolved = getSolvedCount(hard.map(q => q.id));
 
-  const filteredTopics = getTopics(filteredQuestions);
+  const TOPIC_ORDER = [
+  "Basics",
+  "Arrays",
+  "Matrix",
+  "Strings",
+  "Sliding Window",
+  "Searching & Sorting",
+  "Recursion & Backtracking",
+  "Linked List",
+  "Stacks & Queues",
+  "Binary Trees",
+  "BST",
+  "Heaps",
+  "Graphs",
+  "Dynamic Programming",
+  "Greedy",
+  "Tries",
+  "Bit Manipulation",
+  "Recursion",
+  "Miscellaneous",
+];
+
+const filteredTopics = getTopics(filteredQuestions).sort((a, b) => {
+  if (sheet.id !== "common") return 0; 
+  const ai = TOPIC_ORDER.indexOf(a);
+  const bi = TOPIC_ORDER.indexOf(b);
+  if (ai === -1) return 1;
+  if (bi === -1) return -1;
+  return ai - bi;
+});
+
+
   const nextUnsolved = sheet.questions.find(q => !isSolved(q.id));
 
   const diffFilters: DiffFilter[] = ["All", "Easy", "Medium", "Hard"];
