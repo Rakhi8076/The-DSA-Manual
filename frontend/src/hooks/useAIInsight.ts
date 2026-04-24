@@ -49,7 +49,7 @@ Give exactly 1 short actionable line (max 12 words) telling what they should foc
           temperature: 0.5,
         }),
       });
-      console.log("API KEY:", import.meta.env.VITE_GROQ_API_KEY);
+      
 
       const json = await response.json();
       const insight = json.choices?.[0]?.message?.content?.trim() || "";
