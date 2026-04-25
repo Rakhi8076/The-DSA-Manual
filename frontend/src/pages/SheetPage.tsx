@@ -29,21 +29,7 @@ export default function SheetPage() {
       return true;
     });
   }, [sheet, search, diffFilter, isSolved]);
-  const logActivity = async (question: any) => {
-    const userId = localStorage.getItem("userId");
 
-    await fetch("http://127.0.0.1:8000/save-activity", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        userId: userId,
-        problemsSolved: 1,
-        timeSpent: 10,
-      }),
-    });
-  };
 
   if (!sheet) {
     return (
@@ -225,8 +211,6 @@ const filteredTopics = getTopics(filteredQuestions).sort((a, b) => {
                   key={topic}
                   topic={topic}
                   questions={getQuestionsByTopic(filteredQuestions, topic)}
-                  logActivity={logActivity}
-
                 />
               ))
             ) : (

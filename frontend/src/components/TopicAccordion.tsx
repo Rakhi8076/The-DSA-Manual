@@ -7,7 +7,6 @@ import { useProgress } from "@/hooks/useProgress";
 interface TopicAccordionProps {
   topic: string;
   questions: Question[];
-  logActivity: (q: Question) => void; 
 
 }
 
@@ -43,11 +42,9 @@ function getPracticeLink(q: Question): { url: string; label: string } {
 function SectionAccordion({
   section,
   questions,
-  logActivity,
 }: {
   section: string;
   questions: Question[];
-  logActivity: (q: Question) => void;
 }) {
   const [open, setOpen] = useState(false);
   const { isSolved, toggleSolved } = useProgress();
@@ -93,11 +90,7 @@ function SectionAccordion({
                 >
 
                   <button
-                    onClick={async () => {
-                      toggleSolved(q.id);
-                      // logActivity(q); 
-                      logActivity(q);
-                    }}
+                    onClick={() => toggleSolved(q.id)}
                     className={`flex h-5 w-5 items-center justify-center rounded border-2 transition-all ${qSolved
                       ? "border-success bg-success shadow-sm shadow-success/25"
                       : "border-foreground/60 hover:border-accent"
@@ -150,7 +143,7 @@ function SectionAccordion({
   );
 }
 
-export function TopicAccordion({ topic, questions, logActivity  }: TopicAccordionProps) {
+export function TopicAccordion({ topic, questions }: TopicAccordionProps) {
   const [open, setOpen] = useState(false);
   const { getSolvedCount } = useProgress();
   const solved = getSolvedCount(questions.map(q => q.id));
@@ -208,7 +201,7 @@ export function TopicAccordion({ topic, questions, logActivity  }: TopicAccordio
                 key={section}
                 section={section}
                 questions={questions.filter(q => q.section === section)}
-                logActivity={logActivity}
+          
               />
             ))}
           </motion.div>

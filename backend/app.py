@@ -38,7 +38,7 @@ class SetProgressInput(BaseModel):
     solved:     bool
 
 
-# ✅ Chatbot ke liye model
+#  Chatbot ke liye model
 class ChatInput(BaseModel):
     message: str
     history: list[dict] = []  # [{role: "user", content: "..."}, ...]
@@ -97,7 +97,7 @@ async def set_progress(data: SetProgressInput):
     return {"solved": data.solved, "questionId": data.questionId, "sheetId": data.sheetId}
 
 
-# ✅ Chatbot route
+#  Chatbot route
 @app.post("/chat")
 async def chat(data: ChatInput):
     if not data.message.strip():
@@ -123,7 +123,7 @@ Follow these rules strictly:
 5. Do NOT hallucinate fake LeetCode numbers
 6. Keep answers short, clear, and structured"""
 
-    # ✅ History ke saath messages banao
+    #  History ke saath messages banao
     messages = [{"role": "system", "content": system_prompt}]
     messages += data.history
     messages.append({"role": "user", "content": data.message})
@@ -142,3 +142,42 @@ Follow these rules strictly:
 
     except Exception as e:
         raise HTTPException(status_code=500, detail="AI service unavailable")
+    
+
+#  AI Insight route
+class InsightInput(BaseModel):
+    topic: str
+    solvedEasy: int
+    totalEasy: int
+    solvedMedium: int
+    totalMedium: int
+    solvedHard: int
+    totalHard: int
+    solvedPatterns: list[str] = []
+    unsolvedPatterns: list[str] = []
+
+@app.post("/ai-insight")
+async def ai_insight(data: InsightInput):
+    prompt = f"""You are a DSA coach. A student is practicing {data.topic}.
+Their progress:
+- Easy: {data.solvedEasy}/{data.totalEasy} solved
+- Medium: {data.solvedMedium}/{data.totalMedium} solved
+- Hard: {data.solvedHard}/{data.totalHard} solved
+- Patterns they have solved: {', '.join(data.solvedPatterns) or 'none'}
+- Patterns not yet attempted: {', '.join(data.unsolvedPatterns) or 'none'}
+
+Give exactly 1 short actionable line (max 12 words) telling what they should focus on next. Be specific about patterns or difficulty. No fluff."""
+
+    try:
+        import asyncio
+        response = await asyncio.to_thread(
+            groq_client.chat.completions.create,
+            model="llama-3.1-8b-instant",
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=50,
+            temperature=0.5,
+        )
+        insight = response.choices[0].message.content.strip()
+        return {"insight": insight}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail="AI insight unavailable")
