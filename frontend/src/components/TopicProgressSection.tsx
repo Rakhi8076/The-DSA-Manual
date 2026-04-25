@@ -104,12 +104,12 @@ useEffect(() => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.2, duration: 0.5 }}
-      className="rounded-2xl glass-card p-6"
+      className="rounded-2xl bg-white/10 p-6"
     >
       <h3 className="text-lg font-bold mb-2 text-foreground" style={{ fontFamily: "var(--font-display)" }}>
         Topic Progress 
       </h3>
-      <p className="text-xs text-black mb-5" style={{ fontFamily: "var(--font-mono)" }}>
+      <p className="text-xs text-gray-400 mb-5" style={{ fontFamily: "var(--font-mono)" }}>
         😰 Struggling · 😕 Learning · 😐 Getting There · 🙂 Confident · 😎 Expert
       </p>
 
@@ -141,7 +141,7 @@ useEffect(() => {
                 </div>
                 <span
                   className="text-xs font-medium"
-                  style={{ color: "black", fontFamily: "var(--font-mono)" }}
+                  style={{ fontFamily: "var(--font-mono)" }}
                 >
                   {solved} / {total} solved
                 </span>
@@ -169,12 +169,12 @@ useEffect(() => {
                 ) : insight ? (
                   <p
                     className="text-[11px] italic"
-                    style={{ color: "black" }}
+                    style={{ color: "hsl(243 80% 75%)" }}
                   >
                     💡 {insight}
                   </p>
                 ) : !hasSolved ? (
-                  <p className="text-[11px] italic" style={{ color: "hsl(243 75% 55%)"}}>
+                  <p className="text-[11px] italic" style={{ color: "lightblue"}}>
                     Solve some questions to get AI insights
                   </p>
                 ) : null}

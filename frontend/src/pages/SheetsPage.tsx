@@ -4,7 +4,7 @@ import { SheetCard } from "@/components/SheetCard";
 import { sheets } from "@/data/sheets";
 import { Link } from "react-router-dom";
 import { useAuth } from "@/context/AuthContext";
-import { TopicProgressSection } from "@/components/TopicProgressSection";
+
 
 export default function SheetsPage() {
     const { user } = useAuth();
@@ -41,7 +41,7 @@ export default function SheetsPage() {
                         )}
                     </div>
                 </section>
-                {isLoggedIn && <TopicProgressSection />}
+                
             </main>
 
             <Footer />

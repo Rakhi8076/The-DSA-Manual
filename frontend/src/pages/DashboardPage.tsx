@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import merged from "@/data/merged.json";
+import { TopicProgressSection } from "@/components/TopicProgressSection";
 
 export default function DashboardPage() {
   const { user } = useAuth();
@@ -94,7 +95,7 @@ export default function DashboardPage() {
 
           {/* Progress */}
           <div className="bg-white/10 p-8 rounded-2xl shadow-lg shadow-black/30">
-            <h2 className="text-lg font-semibold mb-6 text-center">Progress</h2>
+            <h2 className="text-lg font-semibold mb-6">Progress</h2>
             <div className="flex items-center justify-center gap-12">
               <div className="relative w-40 h-40 shrink-0">
                 <svg
@@ -143,6 +144,11 @@ export default function DashboardPage() {
                 </div>
               </div>
             </div>
+          </div>
+
+          {/* Topic Progress */}
+          <div className="mt-6">
+            <TopicProgressSection />
           </div>
 
         </div>
