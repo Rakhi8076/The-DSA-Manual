@@ -34,14 +34,12 @@ export function SheetCard({ sheet, index, isLoggedIn = false }: SheetCardProps) 
         to={`/sheet/${sheet.id}`}
         className="group block rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1.5 glass-card"
       >
-        <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10">
-          <Icon className="h-6 w-6 text-accent" />
-        </div>
+    
         <h3 className="mb-1 text-lg font-bold font-display text-white">{sheet.name}</h3>
         <p className="mb-1 text-xs font-medium font-mono" style={{ color: "hsl(243 75% 55%)" }}>{sheet.educator}</p>
         <p className="mb-4 text-sm text-foreground/80 leading-relaxed line-clamp-2">{sheet.description}</p>
 
-        <div className="mb-2 text-xs text-foreground/70 font-mono">{total} questions</div>
+      
         {isLoggedIn ? (
           <div className="mb-4">
             <div className="mb-1.5 flex items-center justify-between text-xs text-muted-foreground">

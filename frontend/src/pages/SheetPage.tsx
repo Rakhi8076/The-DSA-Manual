@@ -10,7 +10,6 @@ import { Footer } from "@/components/Footer";
 import { useAuth } from "@/context/AuthContext";
 
 type DiffFilter = "All" | "Easy" | "Medium" | "Hard";
-type StatusFilter = "Solved" | "Unsolved";
 
 export default function SheetPage() {
   const { sheetId } = useParams<{ sheetId: string }>();
@@ -19,19 +18,15 @@ export default function SheetPage() {
   const { getSolvedCount, isSolved } = useProgress();
   const [search, setSearch] = useState("");
   const [diffFilter, setDiffFilter] = useState<DiffFilter>("All");
-  // const [statusFilter, setStatusFilter] = useState<StatusFilter>("Unsolved");
 
   const filteredQuestions = useMemo(() => {
     if (!sheet) return [];
     return sheet.questions.filter(q => {
       if (search && !q.title.toLowerCase().includes(search.toLowerCase())) return false;
       if (diffFilter !== "All" && q.difficulty !== diffFilter) return false;
-      // if (statusFilter === "Solved" && !isSolved(q.id)) return false;
-      // if (statusFilter === "Unsolved" && isSolved(q.id)) return false;
       return true;
     });
   }, [sheet, search, diffFilter, isSolved]);
-
 
   if (!sheet) {
     return (
@@ -57,41 +52,23 @@ export default function SheetPage() {
   const hardSolved = getSolvedCount(hard.map(q => q.id));
 
   const TOPIC_ORDER = [
-  "Basics",
-  "Arrays",
-  "Matrix",
-  "Strings",
-  "Sliding Window",
-  "Searching & Sorting",
-  "Recursion & Backtracking",
-  "Linked List",
-  "Stacks & Queues",
-  "Binary Trees",
-  "BST",
-  "Heaps",
-  "Graphs",
-  "Dynamic Programming",
-  "Greedy",
-  "Tries",
-  "Bit Manipulation",
-  "Recursion",
-  "Miscellaneous",
-];
+    "Basics", "Arrays", "Matrix", "Strings", "Sliding Window",
+    "Searching & Sorting", "Recursion & Backtracking", "Linked List",
+    "Stacks & Queues", "Binary Trees", "BST", "Heaps", "Graphs",
+    "Dynamic Programming", "Greedy", "Tries", "Bit Manipulation",
+    "Recursion", "Miscellaneous",
+  ];
 
-const filteredTopics = getTopics(filteredQuestions).sort((a, b) => {
-  if (sheet.id !== "common") return 0; 
-  const ai = TOPIC_ORDER.indexOf(a);
-  const bi = TOPIC_ORDER.indexOf(b);
-  if (ai === -1) return 1;
-  if (bi === -1) return -1;
-  return ai - bi;
-});
-
-
-  const nextUnsolved = sheet.questions.find(q => !isSolved(q.id));
+  const filteredTopics = getTopics(filteredQuestions).sort((a, b) => {
+    if (sheet.id !== "common") return 0;
+    const ai = TOPIC_ORDER.indexOf(a);
+    const bi = TOPIC_ORDER.indexOf(b);
+    if (ai === -1) return 1;
+    if (bi === -1) return -1;
+    return ai - bi;
+  });
 
   const diffFilters: DiffFilter[] = ["All", "Easy", "Medium", "Hard"];
-  const statusFilters: StatusFilter[] = ["Solved", "Unsolved"];
 
   const diffColors: Record<string, string> = {
     All: "bg-accent text-accent-foreground",
@@ -106,7 +83,7 @@ const filteredTopics = getTopics(filteredQuestions).sort((a, b) => {
 
       <main className="flex-1 gradient-bg tech-grid-bg">
         <div className="container py-8 md:py-12">
-          {/* Back link */}
+
           <Link
             to="/sheets"
             className="inline-flex items-center gap-1 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-200 hover:-translate-y-0.5"
@@ -123,28 +100,28 @@ const filteredTopics = getTopics(filteredQuestions).sort((a, b) => {
             Back
           </Link>
 
-          {/* Guest banner */}
           {!user && <LoginPromptBanner />}
 
-          {/* Sheet header */}
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="mb-8">
-            <h1 className="text-2xl md:text-3xl font-extrabold mb-1 text-foreground" style={{ fontFamily: "var(--font-display)" }}>{sheet.name}</h1>
-            {/* <p className="text-muted-foreground text-sm mb-2" style={{ fontFamily: "var(--font-mono)" }}>{sheet.educator}</p> */}
-            {/* <p className="text-muted-foreground text-sm mb-6">{total} questions total</p> */}
+            <h1 className="text-2xl md:text-3xl font-extrabold mb-1 text-foreground" style={{ fontFamily: "var(--font-display)" }}>
+              {sheet.name}
+            </h1>
 
-
-            {/* Overall progress */}
             <div className="glass-card rounded-2xl p-6">
               <div className="flex items-center justify-between mb-3">
-                <span className="text-sm font-semibold text-foreground" style={{ fontFamily: "var(--font-display)" }}>Overall Progress</span>
-                <span className="text-sm text-foreground/70" style={{ fontFamily: "var(--font-mono)" }}>{solved}/{total} ({pct}%)</span>
+                <span className="text-sm font-semibold text-foreground" style={{ fontFamily: "var(--font-display)" }}>
+                  Overall Progress
+                </span>
+                <span className="text-sm text-foreground/70" style={{ fontFamily: "var(--font-mono)" }}>
+                  {solved}/{total} ({pct}%)
+                </span>
               </div>
+
+              {/* ✅ CSS transition — motion nahi */}
               <div className="h-3 w-full overflow-hidden rounded-full bg-muted/40 mb-5">
-                <motion.div
-                  className="h-full rounded-full progress-gradient"
-                  initial={{ width: 0 }}
-                  animate={{ width: `${pct}%` }}
-                  transition={{ duration: 0.8, ease: "easeOut" }}
+                <div
+                  className="h-full rounded-full progress-gradient transition-all duration-500 ease-out"
+                  style={{ width: `${pct}%` }}
                 />
               </div>
 
@@ -156,10 +133,6 @@ const filteredTopics = getTopics(filteredQuestions).sort((a, b) => {
             </div>
           </motion.div>
 
-          {/* Continue Solving */}
-
-
-          {/* Search & Filters */}
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -181,34 +154,17 @@ const filteredTopics = getTopics(filteredQuestions).sort((a, b) => {
                 <button
                   key={f}
                   onClick={() => setDiffFilter(f)}
-                  className={`rounded-full border px-3.5 py-1.5 text-xs font-semibold transition-all ${diffFilter === f
-                      ? diffColors[f]
-                      : "border-border bg-card/50 text-foreground hover:bg-card/70"
-                    }`}
-                  style={{ fontFamily: "var(--font-mono)" }}
-                >
-                  {f}
-                </button>
-              ))}
-              <div className="w-px bg-white/30 mx-1" />
-              {/* {statusFilters.map(f => (
-                <button
-                  key={f}
-                  onClick={() => setStatusFilter(f)}
                   className={`rounded-full border px-3.5 py-1.5 text-xs font-semibold transition-all ${
-                    statusFilter === f
-                      ? "bg-accent text-accent-foreground border-gray-900"
-                      : "border-border bg-card/50 text-foreground hover:bg-card/70"
+                    diffFilter === f ? diffColors[f] : "border-border bg-card/50 text-foreground hover:bg-card/70"
                   }`}
                   style={{ fontFamily: "var(--font-mono)" }}
                 >
                   {f}
                 </button>
-              ))} */}
+              ))}
             </div>
           </motion.div>
 
-          {/* Topic accordions */}
           <div className="space-y-3">
             {filteredTopics.length > 0 ? (
               filteredTopics.map(topic => (
@@ -266,18 +222,24 @@ function LoginPromptBanner() {
   );
 }
 
-function DiffStat({ label, solved, total, colorClass, barClass }: { label: string; solved: number; total: number; colorClass: string; barClass: string }) {
+function DiffStat({ label, solved, total, colorClass, barClass }: {
+  label: string; solved: number; total: number; colorClass: string; barClass: string;
+}) {
   const pct = total > 0 ? Math.round((solved / total) * 100) : 0;
   return (
     <div className="text-center">
-      <span className={`text-xs font-semibold ${colorClass} border border-black/40 rounded px-1.5 py-0.5`} style={{ fontFamily: "var(--font-mono)" }}>{label}</span>
-      <p className="text-lg font-bold text-white" style={{ fontFamily: "var(--font-display)" }}>{solved}<span className="text-foreground/60 font-normal text-sm">/{total}</span></p>
+      <span className={`text-xs font-semibold ${colorClass} border border-black/40 rounded px-1.5 py-0.5`}
+        style={{ fontFamily: "var(--font-mono)" }}>
+        {label}
+      </span>
+      <p className="text-lg font-bold text-white" style={{ fontFamily: "var(--font-display)" }}>
+        {solved}<span className="text-foreground/60 font-normal text-sm">/{total}</span>
+      </p>
+      {/* ✅ CSS transition */}
       <div className="mt-1 h-2 w-full overflow-hidden rounded-full bg-muted/40">
-        <motion.div
-          className={`h-full rounded-full ${barClass}`}
-          initial={{ width: 0 }}
-          animate={{ width: `${pct}%` }}
-          transition={{ duration: 0.8, delay: 0.3 }}
+        <div
+          className={`h-full rounded-full ${barClass} transition-all duration-500 ease-out`}
+          style={{ width: `${pct}%` }}
         />
       </div>
     </div>

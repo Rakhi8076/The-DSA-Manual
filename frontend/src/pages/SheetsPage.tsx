@@ -24,10 +24,10 @@ export default function SheetsPage() {
           <div className="container py-16">
             <div className="text-center mb-10">
               <h2 className="text-2xl md:text-3xl font-extrabold mb-3">
-                Choose Your DSA Sheet
+                Start Your DSA Practice
               </h2>
               <p className="text-muted-foreground text-sm max-w-md mx-auto">
-                Browse popular DSA sheets. Login to track your progress.
+                Choose a sheet and track your progress as you learn.
               </p>
             </div>
 
@@ -94,12 +94,7 @@ function BonusBanner({ sheet, isLoggedIn }: { sheet: any; isLoggedIn: boolean })
         <div className="flex flex-col md:flex-row md:items-center gap-6">
           {/* Left — Icon + Text */}
           <div className="flex items-start gap-4 flex-1">
-            <div
-              className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl"
-              style={{ background: "rgba(139,92,246,0.2)", border: "1px solid rgba(139,92,246,0.3)" }}
-            >
-              <Brain className="h-7 w-7" style={{ color: "#a78bfa" }} />
-            </div>
+
 
             <div>
               {/* Badge */}
@@ -115,7 +110,7 @@ function BonusBanner({ sheet, isLoggedIn }: { sheet: any; isLoggedIn: boolean })
                   <Sparkles className="h-3 w-3" />
                   BONUS SHEET
                 </span>
-                <span className="text-[11px] text-muted-foreground font-mono">{total} questions</span>
+
               </div>
 
               <h3 className="text-xl font-bold text-white mb-1">{sheet.name}</h3>

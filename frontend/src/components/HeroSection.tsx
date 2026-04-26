@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { StarField } from "./StarField";
 import { SpacePlanets } from "./SpacePlanets";
 import { useTheme } from "@/hooks/useTheme";
+import { BookOpen, CheckCircle2, Trophy } from "lucide-react";
 
 const floatingCards = [
   {
@@ -65,7 +66,7 @@ export function HeroSection() {
     <>
       {/* Hero */}
       <section className="relative overflow-hidden gradient-bg min-h-[90vh] flex items-center tech-grid-bg">
-        <StarField count={150} />
+        <StarField count={200} />
         <div className="container relative pt-16 pb-8 md:pt-24 md:pb-12">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -73,21 +74,17 @@ export function HeroSection() {
             transition={{ duration: 0.7, ease: "easeOut" }}
             className="flex flex-col items-center text-center"
           >
-            <h1 className="mb-5 max-w-3xl text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl leading-[1.1] text-foreground" style={{ fontFamily: "var(--font-display)" }}>
-              Master Data Structures
-              <br />
-              & Algorithms
+            <h1 className="mb-5 max-w-3xl text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl leading-[1.1] text-foreground">
+              Start Your DSA Journey
               <br />
               <span className="text-foreground/70 text-3xl sm:text-4xl lg:text-5xl font-bold">
-                with Curated Coding Sheets
+                All Questions in One Place
               </span>
             </h1>
 
             <p className="mb-8 max-w-lg text-base text-foreground/60 leading-relaxed">
-              Follow structured DSA sheets created by top educators
-              and track your coding progress in one place.
+              Practice DSA with structured sheets and improve step by step.
             </p>
-
             <div className="flex items-center gap-3">
               <motion.button
                 whileHover={{ scale: 1.04, y: -2 }}
@@ -96,16 +93,8 @@ export function HeroSection() {
                 className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-semibold text-primary-foreground shadow-lg transition-shadow hover:shadow-xl"
               >
                 Start Practicing
-                <ArrowRight className="h-4 w-4" />
               </motion.button>
-              <motion.button
-                whileHover={{ scale: 1.04, y: -2 }}
-                whileTap={{ scale: 0.97 }}
-                onClick={() => navigate("/signup")}
-                className="inline-flex items-center gap-2 rounded-full border border-foreground/20 bg-card/80 backdrop-blur-sm px-7 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-card"
-              >
-                Create Free Account
-              </motion.button>
+
             </div>
           </motion.div>
 
@@ -148,8 +137,83 @@ export function HeroSection() {
         </div>
       </section>
 
-      {/* Features */}
+      {/* How It Works */}
       <section className="py-20 bg-background">
+        <div className="container">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-3xl md:text-4xl font-extrabold mb-4" style={{ fontFamily: "var(--font-display)" }}>
+              How it works
+            </h2>
+            <p className="text-muted-foreground max-w-lg mx-auto">
+              Three simple steps to go from zero to interview-ready.
+            </p>
+          </motion.div>
+
+          <div className="relative">
+            {/* Connecting line */}
+            <div className="hidden md:block absolute top-8 left-1/2 -translate-x-1/2 w-[60%] h-px bg-gradient-to-r from-transparent via-accent/40 to-transparent" />
+
+            <div className="grid gap-10 md:grid-cols-3">
+              {[
+                {
+                  step: "01",
+                  title: "Pick a Sheet",
+                  description: "Choose from curated DSA sheets built by top educators — Striver, Love Babbar, Neetcode and more.",
+                  icon: BookOpen,
+                },
+                {
+                  step: "02",
+                  title: "Solve & Track",
+                  description: "Mark problems as solved, revisit tricky ones, and watch your progress bar grow day by day.",
+                  icon: CheckCircle2,
+                },
+                {
+                  step: "03",
+                  title: "Ace the Interview",
+                  description: "Go into your interview confident — you've solved exactly what top companies actually ask.",
+                  icon: Trophy,
+                },
+              ].map((item, i) => (
+                <motion.div
+                  key={item.step}
+                  initial={{ opacity: 0, y: 28 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.18, duration: 0.5 }}
+                  className="flex flex-col items-center text-center"
+                >
+                  <div className="relative mb-6">
+                    <div className="flex h-16 w-16 items-center justify-center rounded-2xl glass-card">
+                      <item.icon className="h-7 w-7 text-accent" />
+                    </div>
+                    <span
+                      className="absolute -top-2 -right-3 text-xs font-bold"
+                      style={{ color: "hsl(243 75% 55%)", fontFamily: "var(--font-mono)" }}
+                    >
+                      {item.step}
+                    </span>
+                  </div>
+                  <h3 className="text-lg font-bold mb-2" style={{ fontFamily: "var(--font-display)" }}>
+                    {item.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed max-w-xs">
+                    {item.description}
+                  </p>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* DSA Topic Categories */}
+      <section className="py-20 gradient-bg tech-grid-bg">
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -158,58 +222,69 @@ export function HeroSection() {
             transition={{ duration: 0.6 }}
             className="text-center mb-14"
           >
-            <h2 className="text-3xl md:text-4xl font-extrabold mb-4" style={{ fontFamily: "var(--font-display)" }}>
-              Practice smarter, not harder
+            <h2 className="text-3xl md:text-4xl font-extrabold mb-4 text-foreground" style={{ fontFamily: "var(--font-display)" }}>
+              Topics covered
             </h2>
-            <p className="text-muted-foreground max-w-lg mx-auto">
-              Instead of random problems, follow structured sheets designed for interviews.
+            <p className="text-foreground/60 max-w-md mx-auto">
+              Every major DSA topic you need — all in one place.
             </p>
           </motion.div>
 
-          <div className="grid gap-6 sm:grid-cols-3">
-            {features.map((f, i) => (
-              <motion.div
-                key={f.title}
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.15, duration: 0.5 }}
-                className="rounded-2xl glass-card p-8 transition-all duration-300 hover:-translate-y-1.5"
-              >
-                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10">
-                  <f.icon className="h-6 w-6 text-accent" />
-                </div>
-                <h3 className="text-lg font-bold mb-2" style={{ fontFamily: "var(--font-display)" }}>{f.title}</h3>
-                <p className="text-xs font-medium" style={{ color: "hsl(243 75% 55%)", fontFamily: "var(--font-mono)" }}>{f.description}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="py-20 gradient-bg tech-grid-bg">
-        <div className="container">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center"
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="flex flex-wrap justify-center gap-3"
           >
-            <h2 className="text-3xl md:text-4xl font-extrabold mb-4 text-foreground" style={{ fontFamily: "var(--font-display)" }}>
-              Start Your DSA Journey Today
-            </h2>
-            <p className="text-foreground/60 max-w-md mx-auto mb-8">
-              Create your account and begin solving curated coding problems.
-            </p>
+            {[
+              { label: "Arrays", icon: "▦" },
+              { label: "Strings", icon: "Aa" },
+              { label: "Linked Lists", icon: "⬡" },
+              { label: "Stacks & Queues", icon: "⇅" },
+              { label: "Trees", icon: "⌥" },
+              { label: "Graphs", icon: "◎" },
+              { label: "Dynamic Programming", icon: "◈" },
+              { label: "Recursion", icon: "↺" },
+              { label: "Binary Search", icon: "⌕" },
+              { label: "Sliding Window", icon: "▭" },
+              { label: "Heaps", icon: "△" },
+              { label: "Tries", icon: "✦" },
+              { label: "Backtracking", icon: "⤺" },
+              { label: "Bit Manipulation", icon: "⊕" },
+              { label: "Greedy", icon: "⚡" },
+              { label: "Math & Number Theory", icon: "∑" },
+            ].map((topic, i) => (
+              <motion.span
+                key={topic.label}
+                initial={{ opacity: 0, scale: 0.88 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.04, duration: 0.35 }}
+                whileHover={{ scale: 1.06, y: -2 }}
+                className="glass-card inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium cursor-default transition-all duration-200"
+                style={{ fontFamily: "var(--font-mono)" }}
+              >
+                <span className="text-accent text-xs">{topic.icon}</span>
+                <span className="text-foreground/80">{topic.label}</span>
+              </motion.span>
+            ))}
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.7 }}
+            className="text-center mt-12"
+          >
             <motion.button
               whileHover={{ scale: 1.04, y: -2 }}
               whileTap={{ scale: 0.97 }}
               onClick={() => navigate("/signup")}
               className="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-3.5 text-sm font-semibold text-primary-foreground shadow-lg transition-shadow hover:shadow-xl"
             >
-              Get Started
+              Start Practicing
               <ArrowRight className="h-4 w-4" />
             </motion.button>
           </motion.div>

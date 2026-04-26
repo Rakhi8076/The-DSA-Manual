@@ -22,7 +22,6 @@ function getUserId(): string | null {
 }
 
 function getLinkedQuestionIds(questionId: string): string[] {
-  // ✅ Pehle is question ka URL aur topic dhundo
   let targetUrl = "";
   let targetTopic = "";
 
@@ -37,13 +36,12 @@ function getLinkedQuestionIds(questionId: string): string[] {
 
   if (!targetUrl) return [questionId];
 
-  // ✅ Same URL + Same topic dono match hone chahiye
   const linkedIds: string[] = [];
   for (const sheet of sheets) {
     for (const q of sheet.questions) {
       if (
         q.leetcode?.trim().toLowerCase() === targetUrl &&
-        (q.topic || "").trim().toLowerCase() === targetTopic  // ✅ topic bhi same
+        (q.topic || "").trim().toLowerCase() === targetTopic
       ) {
         linkedIds.push(q.id);
       }
@@ -84,8 +82,15 @@ export function useProgress() {
 
   const toggleSolved = useCallback(async (questionId: string) => {
     const userId = getUserId();
-    const linkedIds = getLinkedQuestionIds(questionId); // ✅ URL + topic match
+    const linkedIds = getLinkedQuestionIds(questionId);
     const newState = !progress[questionId];
+
+    // ✅ PEHLE UI update karo — DB ka wait mat karo
+    setProgress(prev => {
+      const next = { ...prev };
+      linkedIds.forEach(id => { next[id] = newState; });
+      return next;
+    });
 
     if (userId) {
       try {
@@ -99,15 +104,17 @@ export function useProgress() {
             })
           )
         );
+      } catch (err) {
+        // ✅ Error pe rollback karo
+        console.error("Toggle failed — rolling back:", err);
         setProgress(prev => {
           const next = { ...prev };
-          linkedIds.forEach(id => { next[id] = newState; });
+          linkedIds.forEach(id => { next[id] = !newState; });
           return next;
         });
-      } catch (err) {
-        console.error("Toggle failed:", err);
       }
     } else {
+      // Guest — localStorage mein save karo
       setProgress(prev => {
         const next = { ...prev };
         linkedIds.forEach(id => { next[id] = newState; });
