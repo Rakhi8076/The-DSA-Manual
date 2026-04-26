@@ -4,7 +4,6 @@ const planets = [
   {
     name: "Striver DSA Sheet",
     creator: "Striver",
-    questions: "191 Questions",
     gradient: "from-violet-400 via-purple-500 to-blue-500",
     glow: "rgba(139, 92, 246, 0.6)",
     orbitRadius: 180,
@@ -15,7 +14,6 @@ const planets = [
   {
     name: "Love Babbar DSA Sheet",
     creator: "Love Babbar",
-    questions: "450 Questions",
     gradient: "from-rose-400 via-pink-500 to-orange-400",
     glow: "rgba(244, 63, 94, 0.6)",
     orbitRadius: 240,
@@ -26,7 +24,6 @@ const planets = [
   {
     name: "Apna College DSA Sheet",
     creator: "Apna College",
-    questions: "375 Questions",
     gradient: "from-teal-300 via-cyan-400 to-emerald-400",
     glow: "rgba(34, 211, 238, 0.6)",
     orbitRadius: 300,
@@ -68,14 +65,14 @@ export function SpacePlanets() {
               i === 0
                 ? "rgba(139,92,246,0.35)"
                 : i === 1
-                ? "rgba(244,63,94,0.3)"
-                : "rgba(34,211,238,0.28)",
+                  ? "rgba(244,63,94,0.3)"
+                  : "rgba(34,211,238,0.28)",
             boxShadow:
               i === 0
                 ? "0 0 18px 1px rgba(139,92,246,0.08) inset"
                 : i === 1
-                ? "0 0 18px 1px rgba(244,63,94,0.07) inset"
-                : "0 0 18px 1px rgba(34,211,238,0.07) inset",
+                  ? "0 0 18px 1px rgba(244,63,94,0.07) inset"
+                  : "0 0 18px 1px rgba(34,211,238,0.07) inset",
           }}
         />
       ))}
@@ -104,10 +101,10 @@ export function SpacePlanets() {
             border: "1px solid rgba(253,224,71,0.3)",
           }}
         >
-          <span className="text-[10px] font-bold text-yellow-100 leading-tight drop-shadow">
+          <span className="text-[10px] font-bold text-white leading-tight drop-shadow">
             The DSA Manual
           </span>
-          <span className="text-[8px] text-yellow-200/80 mt-0.5">
+          <span className="text-[8px] text-white/80 mt-0.5">
             Explore the Coding Galaxy
           </span>
         </div>

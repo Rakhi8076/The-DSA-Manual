@@ -113,7 +113,7 @@ export function HeroSection() {
       </section>
 
       {/* How It Works */}
-      <section className="py-20 bg-background">
+      <section className="py-10 bg-background">
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -187,7 +187,7 @@ export function HeroSection() {
       </section>
 
       {/* Features Section — Topics ki jagah */}
-      <section className="py-20 gradient-bg tech-grid-bg">
+      <section className="py-10 gradient-bg tech-grid-bg">
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -259,15 +259,6 @@ export function HeroSection() {
             transition={{ duration: 0.5, delay: 0.7 }}
             className="text-center mt-12"
           >
-            <motion.button
-              whileHover={{ scale: 1.04, y: -2 }}
-              whileTap={{ scale: 0.97 }}
-              onClick={() => navigate("/signup")}
-              className="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-3.5 text-sm font-semibold text-primary-foreground shadow-lg transition-shadow hover:shadow-xl"
-            >
-              Start Practicing
-              <ArrowRight className="h-4 w-4" />
-            </motion.button>
           </motion.div>
         </div>
       </section>
