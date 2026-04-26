@@ -1,17 +1,16 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Code2, Heart, GraduationCap, FolderOpen, BarChart3, Layers } from "lucide-react";
+import { ArrowRight, Code2, Heart, GraduationCap, FolderOpen, BarChart3, Layers, BookOpen, CheckCircle2, Trophy, Bot, Link2, Save } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { StarField } from "./StarField";
 import { SpacePlanets } from "./SpacePlanets";
 import { useTheme } from "@/hooks/useTheme";
-import { BookOpen, CheckCircle2, Trophy } from "lucide-react";
 
 const floatingCards = [
   {
     icon: Code2,
     name: "Striver DSA Sheet",
     creator: "Striver",
-    questions: "191 Questions",
+    questions: "454 Questions",
     rotate: "-8deg",
     translateY: "20px",
     zIndex: 1,
@@ -21,7 +20,7 @@ const floatingCards = [
     icon: Heart,
     name: "Love Babbar DSA Sheet",
     creator: "Love Babbar",
-    questions: "450 Questions",
+    questions: "444 Questions",
     rotate: "0deg",
     translateY: "0px",
     zIndex: 10,
@@ -32,29 +31,11 @@ const floatingCards = [
     icon: GraduationCap,
     name: "Apna College DSA Sheet",
     creator: "Apna College",
-    questions: "375 Questions",
+    questions: "193 Questions",
     rotate: "8deg",
     translateY: "20px",
     zIndex: 1,
     delay: 0.6,
-  },
-];
-
-const features = [
-  {
-    icon: FolderOpen,
-    title: "Curated Problem Sets",
-    description: "Solve questions from trusted DSA sheets created by top coding educators.",
-  },
-  {
-    icon: BarChart3,
-    title: "Track Your Progress",
-    description: "Mark questions solved and monitor your improvement.",
-  },
-  {
-    icon: Layers,
-    title: "Topic-Based Practice",
-    description: "Practice problems organized by Arrays, Trees, Graphs, Dynamic Programming and more.",
   },
 ];
 
@@ -83,7 +64,7 @@ export function HeroSection() {
             </h1>
 
             <p className="mb-8 max-w-lg text-base text-foreground/60 leading-relaxed">
-              Practice DSA with structured sheets and improve step by step.
+              Practice DSA with structured sheets from top educators and improve step by step.
             </p>
             <div className="flex items-center gap-3">
               <motion.button
@@ -94,7 +75,6 @@ export function HeroSection() {
               >
                 Start Practicing
               </motion.button>
-
             </div>
           </motion.div>
 
@@ -105,11 +85,7 @@ export function HeroSection() {
                 <motion.div
                   key={card.name}
                   initial={{ opacity: 0, y: 60, rotate: 0 }}
-                  animate={{
-                    opacity: 1,
-                    y: 0,
-                    rotate: card.rotate,
-                  }}
+                  animate={{ opacity: 1, y: 0, rotate: card.rotate }}
                   transition={{ delay: card.delay, duration: 0.6, ease: "easeOut" }}
                   whileHover={{ y: -12, rotate: "0deg", scale: 1.05 }}
                   className={`relative w-52 md:w-64 rounded-2xl bg-card p-6 cursor-default transition-shadow border border-border ${card.featured ? "z-10 md:w-72 shadow-xl" : "shadow-lg"}`}
@@ -132,7 +108,6 @@ export function HeroSection() {
             </div>
           )}
 
-          {/* Space planets — dark mode only */}
           <SpacePlanets />
         </div>
       </section>
@@ -156,27 +131,26 @@ export function HeroSection() {
           </motion.div>
 
           <div className="relative">
-            {/* Connecting line */}
             <div className="hidden md:block absolute top-8 left-1/2 -translate-x-1/2 w-[60%] h-px bg-gradient-to-r from-transparent via-accent/40 to-transparent" />
 
             <div className="grid gap-10 md:grid-cols-3">
               {[
                 {
                   step: "01",
-                  title: "Pick a Sheet",
-                  description: "Choose from curated DSA sheets built by top educators — Striver, Love Babbar, Neetcode and more.",
+                  title: "Choose Your Sheet",
+                  description: "Pick from Striver, Love Babbar, or Apna College — or use The DSA Manual with all problems in one place.",
                   icon: BookOpen,
                 },
                 {
                   step: "02",
                   title: "Solve & Track",
-                  description: "Mark problems as solved, revisit tricky ones, and watch your progress bar grow day by day.",
+                  description: "Tick problems as you solve them. Your progress saves automatically — even after logout.",
                   icon: CheckCircle2,
                 },
                 {
                   step: "03",
-                  title: "Ace the Interview",
-                  description: "Go into your interview confident — you've solved exactly what top companies actually ask.",
+                  title: "Get AI Help",
+                  description: "Chat with AlgoShee — your personal DSA buddy who knows your progress and guides you.",
                   icon: Trophy,
                 },
               ].map((item, i) => (
@@ -212,7 +186,7 @@ export function HeroSection() {
         </div>
       </section>
 
-      {/* DSA Topic Categories */}
+      {/* Features Section — Topics ki jagah */}
       <section className="py-20 gradient-bg tech-grid-bg">
         <div className="container">
           <motion.div
@@ -223,53 +197,60 @@ export function HeroSection() {
             className="text-center mb-14"
           >
             <h2 className="text-3xl md:text-4xl font-extrabold mb-4 text-foreground" style={{ fontFamily: "var(--font-display)" }}>
-              Topics covered
+              Everything you need
             </h2>
             <p className="text-foreground/60 max-w-md mx-auto">
-              Every major DSA topic you need — all in one place.
+              Built for serious DSA prep — not just another problem list.
             </p>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.1 }}
-            className="flex flex-wrap justify-center gap-3"
-          >
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              { label: "Arrays", icon: "▦" },
-              { label: "Strings", icon: "Aa" },
-              { label: "Linked Lists", icon: "⬡" },
-              { label: "Stacks & Queues", icon: "⇅" },
-              { label: "Trees", icon: "⌥" },
-              { label: "Graphs", icon: "◎" },
-              { label: "Dynamic Programming", icon: "◈" },
-              { label: "Recursion", icon: "↺" },
-              { label: "Binary Search", icon: "⌕" },
-              { label: "Sliding Window", icon: "▭" },
-              { label: "Heaps", icon: "△" },
-              { label: "Tries", icon: "✦" },
-              { label: "Backtracking", icon: "⤺" },
-              { label: "Bit Manipulation", icon: "⊕" },
-              { label: "Greedy", icon: "⚡" },
-              { label: "Math & Number Theory", icon: "∑" },
-            ].map((topic, i) => (
-              <motion.span
-                key={topic.label}
-                initial={{ opacity: 0, scale: 0.88 }}
-                whileInView={{ opacity: 1, scale: 1 }}
+               {
+                title: "Curated Sheets",
+                description: "TUF AtoZ, Love Babbar, Apna College, and The DSA Manual — all in one place, all for free.",
+              },
+              
+              {
+                title: "AI Assistant — AlgoShee",
+                description: "Ask AlgoShee about any DSA problem. Get similar LeetCode problems with direct links and approaches.",
+              },
+              {
+                title: "Topic-wise Insights",
+                description: "See your confidence level per topic — from Struggling to Expert. Get AI tips on what to focus next.",
+              },
+              {
+                title: "Smart Cross-Sheet Sync",
+                description: "Solve a problem in one sheet — it auto-ticks in other sheets where the same topic appears.",
+              },
+              {
+                title: "Persistent Progress",
+                description: "Login once and your progress is saved forever. Switch devices anytime — your data stays.",
+              },
+              {
+                title: "Progress Tracking",
+                description: "Track Easy, Medium, Hard problems across all 4 sheets. Watch your progress bar grow in real time.",
+              },
+             
+            ].map((feature, i) => (
+              <motion.div
+                key={feature.title}
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: i * 0.04, duration: 0.35 }}
-                whileHover={{ scale: 1.06, y: -2 }}
-                className="glass-card inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium cursor-default transition-all duration-200"
-                style={{ fontFamily: "var(--font-mono)" }}
+                transition={{ delay: i * 0.1, duration: 0.5 }}
+                className="glass-card rounded-2xl p-6"
               >
-                <span className="text-accent text-xs">{topic.icon}</span>
-                <span className="text-foreground/80">{topic.label}</span>
-              </motion.span>
+                
+                <h3 className="text-base font-bold mb-2 text-foreground" style={{ fontFamily: "var(--font-display)" }}>
+                  {feature.title}
+                </h3>
+                <p className="text-sm text-foreground/60 leading-relaxed">
+                  {feature.description}
+                </p>
+              </motion.div>
             ))}
-          </motion.div>
+          </div>
 
           <motion.div
             initial={{ opacity: 0, y: 16 }}
