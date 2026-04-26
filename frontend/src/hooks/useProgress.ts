@@ -22,21 +22,29 @@ function getUserId(): string | null {
 }
 
 function getLinkedQuestionIds(questionId: string): string[] {
+  // ✅ Pehle is question ka URL aur topic dhundo
   let targetUrl = "";
+  let targetTopic = "";
+
   for (const sheet of sheets) {
     const found = sheet.questions.find(q => q.id === questionId);
     if (found?.leetcode) {
       targetUrl = found.leetcode.trim().toLowerCase();
+      targetTopic = (found.topic || "").trim().toLowerCase();
       break;
     }
   }
 
   if (!targetUrl) return [questionId];
 
+  // ✅ Same URL + Same topic dono match hone chahiye
   const linkedIds: string[] = [];
   for (const sheet of sheets) {
     for (const q of sheet.questions) {
-      if (q.leetcode?.trim().toLowerCase() === targetUrl) {
+      if (
+        q.leetcode?.trim().toLowerCase() === targetUrl &&
+        (q.topic || "").trim().toLowerCase() === targetTopic  // ✅ topic bhi same
+      ) {
         linkedIds.push(q.id);
       }
     }
@@ -45,7 +53,6 @@ function getLinkedQuestionIds(questionId: string): string[] {
   return linkedIds.length > 0 ? linkedIds : [questionId];
 }
 
-// Guest: localStorage helpers
 function loadLocalProgress(): Record<string, boolean> {
   try {
     const raw = localStorage.getItem(LOCAL_KEY);
@@ -62,9 +69,7 @@ export function useProgress() {
 
   useEffect(() => {
     const userId = getUserId();
-
     if (userId) {
-      // Logged in — load from DB
       getUserProgress(userId)
         .then(solvedIds => {
           const map: Record<string, boolean> = {};
@@ -73,18 +78,16 @@ export function useProgress() {
         })
         .catch(err => console.error("Progress load failed:", err));
     } else {
-      // Guest — load from localStorage
       setProgress(loadLocalProgress());
     }
   }, []);
 
   const toggleSolved = useCallback(async (questionId: string) => {
     const userId = getUserId();
-    const linkedIds = getLinkedQuestionIds(questionId);
+    const linkedIds = getLinkedQuestionIds(questionId); // ✅ URL + topic match
     const newState = !progress[questionId];
 
     if (userId) {
-      // Logged in — save to DB
       try {
         await Promise.all(
           linkedIds.map(id =>
@@ -105,7 +108,6 @@ export function useProgress() {
         console.error("Toggle failed:", err);
       }
     } else {
-      // Guest — save to localStorage
       setProgress(prev => {
         const next = { ...prev };
         linkedIds.forEach(id => { next[id] = newState; });
@@ -118,7 +120,6 @@ export function useProgress() {
   const isSolved = useCallback((questionId: string) => {
     return !!progress[questionId];
   }, [progress]);
-
 
   const getSolvedCount = useCallback((questionIds: string[]) => {
     return questionIds.filter(id => !!progress[id]).length;
