@@ -35,7 +35,7 @@ export default function SignupPage() {
     } catch (err: any) {
       const msg = err?.message || "";
       if (msg.includes("already registered")) {
-        setError("This email is already registered. Please login instead.");
+        setError("This email is already registered.");
       } else {
         setSubmitted(true);
       }
@@ -132,6 +132,11 @@ export default function SignupPage() {
                 />
               </div>
             </div>
+            {error && (
+              <div className="rounded-lg bg-red-500/10 border border-red-500/30 px-4 py-3 text-sm text-red-400 text-center">
+                {error}
+              </div>
+            )}
 
             <Button type="submit" className="w-full h-11 rounded-full font-semibold shadow-lg" disabled={loading}>
               {loading ? "Creating account…" : "Sign Up"}
