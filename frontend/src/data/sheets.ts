@@ -27,7 +27,7 @@ export const sheets: Sheet[] = [
   {
     id: "apnacollege",
     name: "Apna College",
-    educator: "Shradha Sharma",
+    educator: "Shradha Khapra",
     description: "Beginner-friendly DSA sheet perfect for college students starting their coding journey.",
     icon: "🎓",
     questions: apnaQuestions,
