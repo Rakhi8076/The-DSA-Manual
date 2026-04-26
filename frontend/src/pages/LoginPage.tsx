@@ -28,7 +28,7 @@ export default function LoginPage() {
       setLoading(true);
       const res = await login(email, password);
       localStorage.setItem("userId", res.user._id);
-      console.log("LOGIN RESPONSE:", res);
+      
       navigate("/sheets");
     } catch (err) {
       setError(err instanceof Error ? err.message : "Login failed. Please try again.");
