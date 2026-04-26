@@ -2,18 +2,30 @@ import { useAuth } from "@/context/AuthContext";
 import { useNavigate } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import merged from "@/data/merged.json";
+import { sheets } from "@/data/sheets";
+import { useProgress } from "@/hooks/useProgress";
 import { TopicProgressSection } from "@/components/TopicProgressSection";
 
 export default function DashboardPage() {
   const { user } = useAuth();
   const navigate = useNavigate();
+  const { getSolvedCount, isSolved } = useProgress();
 
-  const total = merged.length;
-  const easyCount = merged.filter((q) => q.difficulty === "Easy").length;
-  const mediumCount = merged.filter((q) => q.difficulty === "Medium").length;
-  const hardCount = merged.filter((q) => q.difficulty === "Hard").length;
-  const solved = total;
+  // Merged sheet questions
+  const mergedSheet = sheets.find(s => s.id === "common");
+  const allQuestions = mergedSheet?.questions || [];
+
+  const total = allQuestions.length;
+
+  const easy   = allQuestions.filter(q => q.difficulty === "Easy");
+  const medium = allQuestions.filter(q => q.difficulty === "Medium");
+  const hard   = allQuestions.filter(q => q.difficulty === "Hard");
+
+  const solved      = getSolvedCount(allQuestions.map(q => q.id));
+  const easyCount   = getSolvedCount(easy.map(q => q.id));
+  const mediumCount = getSolvedCount(medium.map(q => q.id));
+  const hardCount   = getSolvedCount(hard.map(q => q.id));
+
   const circumference = 2 * Math.PI * 60;
 
   return (
@@ -60,7 +72,7 @@ export default function DashboardPage() {
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between">
                   <span className="text-gray-400">Total Solved</span>
-                  <span className="font-semibold">{solved}</span>
+                  <span className="font-semibold">{solved} / {total}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-green-400">Easy</span>
