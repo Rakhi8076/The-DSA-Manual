@@ -91,7 +91,7 @@ export default function SignupPage() {
               <Label htmlFor="name" className="text-sm font-medium">Full Name</Label>
               <div className="relative">
                 <User className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-                <Input id="name" placeholder="John Doe" value={name} onChange={e => setName(e.target.value)} className="pl-10" />
+                <Input id="name" placeholder="Enter Name" value={name} onChange={e => setName(e.target.value)} className="pl-10" />
               </div>
             </div>
             <div className="space-y-2">
@@ -105,14 +105,29 @@ export default function SignupPage() {
               <Label htmlFor="password" className="text-sm font-medium">Password</Label>
               <div className="relative">
                 <Lock className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-                <Input id="password" type="password" placeholder="••••••••" value={password} onChange={e => setPassword(e.target.value)} className="pl-10" />
+                <Input
+                  id="password"
+                  type="password"
+                  placeholder="Enter your password"
+                  value={password}
+                  onChange={e => setPassword(e.target.value)}
+                  className="pl-10"
+                />
               </div>
             </div>
+
             <div className="space-y-2">
               <Label htmlFor="confirmPassword" className="text-sm font-medium">Confirm Password</Label>
               <div className="relative">
                 <ShieldCheck className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-                <Input id="confirmPassword" type="password" placeholder="••••••••" value={confirmPassword} onChange={e => setConfirmPassword(e.target.value)} className="pl-10" />
+                <Input
+                  id="confirmPassword"
+                  type="password"
+                  placeholder="Re-Enter your password"
+                  value={confirmPassword}
+                  onChange={e => setConfirmPassword(e.target.value)}
+                  className="pl-10"
+                />
               </div>
             </div>
 
@@ -122,7 +137,7 @@ export default function SignupPage() {
 
             <p className="text-sm text-center text-foreground/70">
               Already have an account?{" "}
-              <Link to="/login" className="text-black font-medium hover:underline">login</Link>
+              <Link to="/login" className="text-white font-medium hover:underline">login</Link>
             </p>
           </form>
         </motion.div>

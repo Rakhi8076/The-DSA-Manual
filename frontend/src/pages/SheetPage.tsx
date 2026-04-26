@@ -204,7 +204,7 @@ function LoginPromptBanner() {
         <div>
           <p className="text-sm font-semibold text-white">Save your progress permanently!</p>
           <p className="text-xs text-gray-400">
-            Login to sync across devices, get AI insights & use the DSA chatbot.
+            Login to sync across devices, get AI insights & use the AlgoShee chatbot.
           </p>
         </div>
       </div>
