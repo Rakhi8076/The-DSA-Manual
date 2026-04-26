@@ -32,11 +32,13 @@ export default function SignupPage() {
       setLoading(true);
       await signup(name, email, password);
       setSubmitted(true); // 👈 navigate hataya, yeh daala
-    } catch (err) {
-      console.log("Signup error:", err);
-
-      // ❗ FORCE success UI (email verification case ke liye)
-      setSubmitted(true);
+    } catch (err: any) {
+      const msg = err?.message || "";
+      if (msg.includes("already registered")) {
+        setError("This email is already registered. Please login instead.");
+      } else {
+        setSubmitted(true);
+      }
     } finally {
       setLoading(false);
     }
