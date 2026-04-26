@@ -36,7 +36,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const login = useCallback(async (email: string, password: string) => {
     const data = await loginUser({ email, password });
-    // ✅ loginUser already throws if !res.ok via handleResponse
     localStorage.setItem("dsa-token", data.token);
     localStorage.setItem("dsa-user", JSON.stringify(data.user));
     setUser(data.user);
@@ -45,9 +44,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const signup = useCallback(
     async (name: string, email: string, password: string) => {
-      // ✅ Signup just sends email — no token returned, no token check
       await signupUser({ name, email, password });
-      // Don't setUser — user must verify email first
     },
     []
   );
@@ -55,6 +52,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const logout = useCallback(() => {
     localStorage.removeItem("dsa-token");
     localStorage.removeItem("dsa-user");
+    // ✅ chat history nahi hatao — user wapas login kare toh history mile
     setUser(null);
   }, []);
 
