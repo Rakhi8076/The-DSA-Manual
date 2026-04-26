@@ -61,7 +61,7 @@ export default function SignupPage() {
             <p className="text-foreground/70">We sent a verification link to</p>
             <p className="font-semibold mt-1">{email}</p>
             <p className="text-foreground/70 mt-3 text-sm">Click the link in your email to verify your account.</p>
-            <p className="text-foreground/70 mt-1 text-sm">(Check spam folder too 📁)</p>
+            <p className="text-foreground/70 mt-1 text-sm">(Check spam folder too)</p>
           </motion.div>
         </main>
         <Footer />
