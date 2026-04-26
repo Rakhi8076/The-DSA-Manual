@@ -40,22 +40,6 @@ def create_token(email: str, user_id: str):    # ✅ userId added
         algorithm="HS256"
     )
 
-ADMIN_EMAIL = os.getenv("ADMIN_EMAIL")  
-
-def _send_admin_notification(user_name: str, user_email: str):
-    message = Mail(
-        from_email=SENDGRID_FROM_EMAIL,
-        to_emails=ADMIN_EMAIL,           
-        subject=f"New Signup: {user_name}",
-        html_content=f"""
-        <h3>New user signed up on DSA Manual!</h3>
-        <p><b>Name:</b> {user_name}</p>
-        <p><b>Email:</b> {user_email}</p>
-        <p><b>Time:</b> {datetime.utcnow().strftime("%d %b %Y, %I:%M %p")} UTC</p>
-        """
-    )
-    sg = SendGridAPIClient(SENDGRID_API_KEY)
-    sg.send(message)
 
 def _send_verification_email(to_email: str, token: str):    # ✅ Moved to bg task
     verify_link = f"{BACKEND_URL}/auth/verify?token={token}"
@@ -104,9 +88,6 @@ async def signup(user: SignupModel, background_tasks: BackgroundTasks):  # ✅ N
     background_tasks.add_task(                     # ✅ Non-blocking email
         _send_verification_email, user.email, verify_token
     )
-    background_tasks.add_task(
-        _send_admin_notification, user.name, user.email
-)
 
     return {"message": "Signup successful! Please check your email to verify your account."}
 
