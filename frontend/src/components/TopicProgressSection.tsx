@@ -145,7 +145,7 @@ export function TopicProgressSection() {
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.04, duration: 0.4 }}
-              className="bg-white/10 rounded-2xl p-5 flex flex-col gap-4 hover:bg-white/15 transition-colors duration-200"
+              className="glass-card rounded-2xl p-6 flex flex-col gap-4 hover:bg-white/5 transition-colors duration-200"
             >
               {/* Top row: emoji + topic name + label */}
               <div className="flex items-center justify-between">
