@@ -164,7 +164,7 @@ export function HeroSection() {
                 {
                   step: "01",
                   title: "Pick a Sheet",
-                  description: "Choose from curated DSA sheets built by top educators — Striver, Love Babbar, Neetcode and more.",
+                  description: "Choose from curated DSA sheets built by top educators — Striver, Love Babbar, and Apna College.",
                   icon: BookOpen,
                 },
                 {
