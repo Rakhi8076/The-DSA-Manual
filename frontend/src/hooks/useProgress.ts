@@ -2,6 +2,8 @@ import { useState, useCallback, useEffect } from "react";
 import { getUserProgress, setProgress as setProgressAPI } from "@/lib/api";
 import { sheets } from "@/data/sheets";
 
+const LOCAL_KEY = "dsa-guest-progress";
+
 function getSheetId(questionId: string): string {
   if (questionId.startsWith("striver")) return "striver";
   if (questionId.startsWith("lb_"))     return "lovebabbar";
@@ -43,60 +45,80 @@ function getLinkedQuestionIds(questionId: string): string[] {
   return linkedIds.length > 0 ? linkedIds : [questionId];
 }
 
+// Guest: localStorage helpers
+function loadLocalProgress(): Record<string, boolean> {
+  try {
+    const raw = localStorage.getItem(LOCAL_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch { return {}; }
+}
+
+function saveLocalProgress(progress: Record<string, boolean>) {
+  localStorage.setItem(LOCAL_KEY, JSON.stringify(progress));
+}
+
 export function useProgress() {
   const [progress, setProgress] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
-    const loadFromDB = async () => {
-      const userId = getUserId();
-      if (!userId) return;
-      try {
-        const solvedIds = await getUserProgress(userId);
-        const map: Record<string, boolean> = {};
-        solvedIds.forEach(id => { map[id] = true; });
-        setProgress(map);
-      } catch (err) {
-        console.error("Progress load failed:", err);
-      }
-    };
-    loadFromDB();
+    const userId = getUserId();
+
+    if (userId) {
+      // Logged in — load from DB
+      getUserProgress(userId)
+        .then(solvedIds => {
+          const map: Record<string, boolean> = {};
+          solvedIds.forEach(id => { map[id] = true; });
+          setProgress(map);
+        })
+        .catch(err => console.error("Progress load failed:", err));
+    } else {
+      // Guest — load from localStorage
+      setProgress(loadLocalProgress());
+    }
   }, []);
 
   const toggleSolved = useCallback(async (questionId: string) => {
     const userId = getUserId();
-    if (!userId) return;
-
     const linkedIds = getLinkedQuestionIds(questionId);
     const newState = !progress[questionId];
 
-    try {
-      // ✅ Saare linked questions directly set karo — toggle nahi
-      await Promise.all(
-        linkedIds.map(id =>
-          setProgressAPI({
-            userId,
-            questionId: id,
-            sheetId: getSheetId(id),
-            solved: newState,
-          })
-        )
-      );
-
-      // ✅ UI ek saath update
+    if (userId) {
+      // Logged in — save to DB
+      try {
+        await Promise.all(
+          linkedIds.map(id =>
+            setProgressAPI({
+              userId,
+              questionId: id,
+              sheetId: getSheetId(id),
+              solved: newState,
+            })
+          )
+        );
+        setProgress(prev => {
+          const next = { ...prev };
+          linkedIds.forEach(id => { next[id] = newState; });
+          return next;
+        });
+      } catch (err) {
+        console.error("Toggle failed:", err);
+      }
+    } else {
+      // Guest — save to localStorage
       setProgress(prev => {
         const next = { ...prev };
         linkedIds.forEach(id => { next[id] = newState; });
+        saveLocalProgress(next);
         return next;
       });
-
-    } catch (err) {
-      console.error("Toggle failed:", err);
     }
   }, [progress]);
 
   const isSolved = useCallback((questionId: string) => {
     return !!progress[questionId];
   }, [progress]);
+
 
   const getSolvedCount = useCallback((questionIds: string[]) => {
     return questionIds.filter(id => !!progress[id]).length;

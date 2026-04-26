@@ -26,7 +26,7 @@ const App = () => (
           <Routes>
             <Route path="/dashboard" element={<DashboardPage />} />
             <Route path="/" element={<Index />} />
-            <Route path="/sheet/:sheetId" element={<ProtectedRoute><SheetPage /></ProtectedRoute>} />
+            <Route path="/sheet/:sheetId" element={<SheetPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignupPage />} />
             <Route path="*" element={<NotFound />} />

@@ -7,6 +7,7 @@ import { useProgress } from "@/hooks/useProgress";
 import { TopicAccordion } from "@/components/TopicAccordion";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { useAuth } from "@/context/AuthContext";
 
 type DiffFilter = "All" | "Easy" | "Medium" | "Hard";
 type StatusFilter = "Solved" | "Unsolved";
@@ -14,6 +15,7 @@ type StatusFilter = "Solved" | "Unsolved";
 export default function SheetPage() {
   const { sheetId } = useParams<{ sheetId: string }>();
   const sheet = sheets.find(s => s.id === sheetId);
+  const { user } = useAuth();
   const { getSolvedCount, isSolved } = useProgress();
   const [search, setSearch] = useState("");
   const [diffFilter, setDiffFilter] = useState<DiffFilter>("All");
@@ -121,6 +123,9 @@ const filteredTopics = getTopics(filteredQuestions).sort((a, b) => {
             Back
           </Link>
 
+          {/* Guest banner */}
+          {!user && <LoginPromptBanner />}
+
           {/* Sheet header */}
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="mb-8">
             <h1 className="text-2xl md:text-3xl font-extrabold mb-1 text-foreground" style={{ fontFamily: "var(--font-display)" }}>{sheet.name}</h1>
@@ -224,6 +229,40 @@ const filteredTopics = getTopics(filteredQuestions).sort((a, b) => {
 
       <Footer />
     </div>
+  );
+}
+
+function LoginPromptBanner() {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: -10 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="mb-6 rounded-2xl p-4 flex flex-col sm:flex-row items-center justify-between gap-3"
+      style={{
+        background: "linear-gradient(135deg, rgba(99,102,241,0.15), rgba(139,92,246,0.10))",
+        border: "1px solid rgba(139,92,246,0.3)",
+      }}
+    >
+      <div className="flex items-center gap-3">
+        <span className="text-2xl">🔓</span>
+        <div>
+          <p className="text-sm font-semibold text-white">Save your progress permanently!</p>
+          <p className="text-xs text-gray-400">
+            Login to sync across devices, get AI insights & use the DSA chatbot.
+          </p>
+        </div>
+      </div>
+      <Link
+        to="/login"
+        className="shrink-0 px-4 py-2 rounded-full text-sm font-semibold text-white transition-all hover:-translate-y-0.5"
+        style={{
+          background: "linear-gradient(135deg, #6366f1, #8b5cf6)",
+          boxShadow: "0 4px 15px rgba(139,92,246,0.4)",
+        }}
+      >
+        Login / Sign Up →
+      </Link>
+    </motion.div>
   );
 }
 

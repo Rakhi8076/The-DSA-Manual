@@ -66,7 +66,7 @@ export function SheetCard({ sheet, index, isLoggedIn = false }: SheetCardProps) 
             <>View Sheet <ArrowRight className="h-3.5 w-3.5" /></>
           ) : (
             <span className="text-muted-foreground">
-              Login to unlock →
+              View Sheet →
             </span>
           )}
         </div>

@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { MessageCircle, X, Send, Loader2 } from "lucide-react";
 import { sendChatMessage } from "@/lib/api";
+import { useAuth } from "@/context/AuthContext";
 
 interface Message {
     role: "user" | "assistant";
@@ -23,6 +24,9 @@ function renderMessageContent(content: string) {
 }
 
 export function Chatbot() {
+    const { user } = useAuth();
+    if (!user) return null;
+    
     const [open, setOpen] = useState(false);
     const [messages, setMessages] = useState<Message[]>([]); // ✅ empty
     const [input, setInput] = useState("");
