@@ -10,6 +10,9 @@ from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 from fastapi.responses import RedirectResponse
 import secrets
+import resend
+
+
 
 load_dotenv()
 
@@ -138,3 +141,19 @@ async def login(user: LoginModel):
             "email": existing["email"]
         }
     }
+resend.api_key = os.getenv("RESEND_API_KEY")
+
+def _send_verification_email(to_email: str, token: str):
+    verify_link = f"{BACKEND_URL}/auth/verify?token={token}"
+    resend.Emails.send({
+        "from": "DSA Manual <onboarding@resend.dev>",
+        "to": [to_email],
+        "subject": "Verify your DSA Manual account",
+        "html": f"""
+        <h2>Welcome to DSA Manual!</h2>
+        <p>Click below to verify your account:</p>
+        <a href="{verify_link}" style="background:#6366f1;color:white;padding:10px 20px;
+        border-radius:8px;text-decoration:none;">Verify Email</a>
+        <p>Link expires in 24 hours.</p>
+        """
+    })
