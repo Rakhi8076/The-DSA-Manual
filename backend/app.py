@@ -5,6 +5,7 @@ from bson import ObjectId
 from auth import router as auth_router
 from database import get_user_progress, toggle_question, set_question
 import os
+import asyncio
 from groq import Groq
 from dotenv import load_dotenv
 
@@ -22,7 +23,7 @@ app.add_middleware(
 
 app.include_router(auth_router, prefix="/auth", tags=["Auth"])
 
-groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))  # ✅ Backend mein safe
+groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 
 class ToggleInput(BaseModel):
@@ -38,10 +39,21 @@ class SetProgressInput(BaseModel):
     solved:     bool
 
 
-#  Chatbot ke liye model
 class ChatInput(BaseModel):
     message: str
-    history: list[dict] = []  # [{role: "user", content: "..."}, ...]
+    history: list[dict] = []
+
+
+class InsightInput(BaseModel):
+    topic: str
+    solvedEasy: int
+    totalEasy: int
+    solvedMedium: int
+    totalMedium: int
+    solvedHard: int
+    totalHard: int
+    solvedPatterns: list[str] = []
+    unsolvedPatterns: list[str] = []
 
 
 @app.get("/")
@@ -97,64 +109,66 @@ async def set_progress(data: SetProgressInput):
     return {"solved": data.solved, "questionId": data.questionId, "sheetId": data.sheetId}
 
 
-#  Chatbot route
 @app.post("/chat")
 async def chat(data: ChatInput):
     if not data.message.strip():
         raise HTTPException(status_code=400, detail="Message cannot be empty")
 
-    system_prompt = """You are an expert Data Structures and Algorithms assistant specialized in LeetCode problem patterns.
-Your task is to analyze the user's input (which may be a problem name, hint, or partial description) and return relevant similar LeetCode problem no. along with their approaches.
+    system_prompt = """You are a friendly DSA assistant and coding buddy. Your name is AlgoShee.
 
-Follow these rules strictly:
-1. Identify the core pattern of the problem (Binary Search, Sliding Window, Two Pointers, DP, Graph, Backtracking, Greedy, Heap, etc.)
-2. Suggest 5 to 7 most relevant LeetCode problems with:
-   - Problem name
-   - LeetCode problem number
-   - Pattern used
-   - Short 2-3 line approach (beginner-friendly)
-3. If input is unclear, ask a clarification question or provide closest pattern-based guess
-4. Output format:
-   Input:
-   Detected Pattern:
-   Similar Problems:
-   1. (LC ###) Pattern: Approach:
-   2. (LC ###) Pattern: Approach:
-5. Do NOT hallucinate fake LeetCode numbers
-6. Keep answers short, clear, and structured"""
+BEHAVIOR RULES:
+1. If user says hi, hello, hey or general greetings → respond warmly and ask how you can help with DSA
+2. If user is having casual conversation → be friendly and natural, slowly guide towards DSA help
+3. If user mentions a DSA problem, topic, or asks for help → then suggest problems
 
-    #  History ke saath messages banao
+WHEN SUGGESTING PROBLEMS (only when user asks):
+- Identify the core pattern (Binary Search, Sliding Window, Two Pointers, DP, Graph, etc.)
+- Suggest minimum 10 problems, more if available
+- Do NOT stop at 5 or 7 — keep going until all relevant problems are listed
+- Only include problems you are 100% sure exist on LeetCode with correct LC numbers
+- For EACH problem include:
+  * Problem name
+  * LeetCode number
+  * Direct LeetCode link: https://leetcode.com/problems/problem-slug/
+  * Pattern used
+  * 1-2 line approach (beginner-friendly)
+
+OUTPUT FORMAT when suggesting:
+Detected Pattern: <pattern>
+
+Problems to Practice:
+1. Problem Name (LC ###)
+   Link: https://leetcode.com/problems/problem-slug/
+   Pattern: <pattern>
+   Approach: <short approach>
+
+2. ...
+
+STRICT RULES:
+- Never hallucinate fake LC numbers or links
+- Only suggest problems you are 100% sure about
+- If unsure about a link, skip that problem
+- Keep responses conversational and friendly
+- Do not dump all 7 problems unless user asks for more"""
+
     messages = [{"role": "system", "content": system_prompt}]
     messages += data.history
     messages.append({"role": "user", "content": data.message})
 
     try:
-        import asyncio
         response = await asyncio.to_thread(
             groq_client.chat.completions.create,
             model="llama-3.3-70b-versatile",
             messages=messages,
-            max_tokens=1000,
+            max_tokens=2000,
             temperature=0.5,
         )
         reply = response.choices[0].message.content.strip()
         return {"reply": reply}
 
-    except Exception as e:
+    except Exception:
         raise HTTPException(status_code=500, detail="AI service unavailable")
-    
 
-#  AI Insight route
-class InsightInput(BaseModel):
-    topic: str
-    solvedEasy: int
-    totalEasy: int
-    solvedMedium: int
-    totalMedium: int
-    solvedHard: int
-    totalHard: int
-    solvedPatterns: list[str] = []
-    unsolvedPatterns: list[str] = []
 
 @app.post("/ai-insight")
 async def ai_insight(data: InsightInput):
@@ -169,7 +183,6 @@ Their progress:
 Give exactly 1 short actionable line (max 12 words) telling what they should focus on next. Be specific about patterns or difficulty. No fluff."""
 
     try:
-        import asyncio
         response = await asyncio.to_thread(
             groq_client.chat.completions.create,
             model="llama-3.1-8b-instant",
@@ -179,5 +192,5 @@ Give exactly 1 short actionable line (max 12 words) telling what they should foc
         )
         insight = response.choices[0].message.content.strip()
         return {"insight": insight}
-    except Exception as e:
+    except Exception:
         raise HTTPException(status_code=500, detail="AI insight unavailable")

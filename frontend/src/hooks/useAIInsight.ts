@@ -26,14 +26,15 @@ export function useAIInsight() {
     setLoading(prev => ({ ...prev, [data.topic]: true }));
 
 
-      try {
-    const response = await fetch("http://127.0.0.1:8000/ai-insight", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data),
-    });
-    const json = await response.json();
-    const insight = json.insight || "";
+    try {
+      const BASE_URL = import.meta.env.VITE_API_URL;
+      const response = await fetch(`${BASE_URL}/ai-insight`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      const json = await response.json();
+      const insight = json.insight || "";
 
       insightsRef.current[data.topic] = insight;
       setInsights(prev => ({ ...prev, [data.topic]: insight }));
