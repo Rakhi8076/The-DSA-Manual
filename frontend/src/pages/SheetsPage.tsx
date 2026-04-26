@@ -21,7 +21,7 @@ export default function SheetsPage() {
       <Header />
       <main className="flex-1 container py-1">
         <section id="sheets" className="scroll-mt-20">
-          <div className="container py-16">
+          <div className="container py-10">
             <div className="text-center mb-10">
               <h2 className="text-2xl md:text-3xl font-extrabold mb-3">
                 Start Your DSA Practice

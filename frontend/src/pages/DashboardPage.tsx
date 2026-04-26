@@ -34,15 +34,14 @@ export default function DashboardPage() {
       <Header />
 
       <main className="flex-1 container py-1">
-        <div className="container py-16">
+        <div className="container py-10">
 
           {/* Back button */}
           <button
             onClick={() => navigate("/sheets")}
             className="inline-flex items-center gap-1 px-4 py-2 rounded-full text-sm font-semibold mb-6 transition-all hover:-translate-y-0.5 glass-card"
           >
-            <ChevronLeft className="h-4 w-4" />
-            Back to Sheets
+            Back
           </button>
 
           <h1 className="text-2xl md:text-3xl font-extrabold mb-8 text-foreground">

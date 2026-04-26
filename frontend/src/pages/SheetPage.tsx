@@ -96,7 +96,6 @@ export default function SheetPage() {
               boxShadow: "0 1px 12px rgba(0,0,0,0.2)",
             }}
           >
-            <ChevronLeft className="h-4 w-4" />
             Back
           </Link>
 
