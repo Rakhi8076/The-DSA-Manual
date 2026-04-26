@@ -161,7 +161,7 @@ export function SpacePlanets() {
                 <p className="text-[9px] mt-0.5" style={{ color: planet.glow.replace("0.6)", "0.9)").replace("rgba", "rgba") }}>
                   by {planet.creator}
                 </p>
-                <p className="text-[9px] text-white/50">{planet.questions}</p>
+                
               </div>
             </div>
           </div>
