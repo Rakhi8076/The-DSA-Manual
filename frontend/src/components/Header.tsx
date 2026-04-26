@@ -5,9 +5,6 @@ import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-
-
-
 export function Header() {
   const { user, logout } = useAuth();
   const { pathname } = useLocation();

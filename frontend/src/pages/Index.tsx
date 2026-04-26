@@ -14,11 +14,7 @@ const Index = () => {
   const { user } = useAuth();
   const navigate = useNavigate();
 
-  useEffect(() => {
-    if (user) {
-      navigate("/sheets", { replace: true });
-    }
-  }, [user, navigate]);
+
 
   return (
     <div className="flex min-h-screen flex-col">

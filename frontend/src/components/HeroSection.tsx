@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { StarField } from "./StarField";
 import { SpacePlanets } from "./SpacePlanets";
 import { useTheme } from "@/hooks/useTheme";
+import { useAuth } from "@/context/AuthContext"; // ✅ ADD
 
 const floatingCards = [
   {
@@ -42,6 +43,7 @@ const floatingCards = [
 export function HeroSection() {
   const navigate = useNavigate();
   const { isDark } = useTheme();
+  const { user } = useAuth(); // ✅ ADD
 
   return (
     <>
@@ -66,15 +68,29 @@ export function HeroSection() {
             <p className="mb-8 max-w-lg text-base text-foreground/60 leading-relaxed">
               Practice DSA with structured sheets from top educators and improve step by step.
             </p>
+
             <div className="flex items-center gap-3">
-              <motion.button
-                whileHover={{ scale: 1.04, y: -2 }}
-                whileTap={{ scale: 0.97 }}
-                onClick={() => navigate("/signup")}
-                className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-semibold text-primary-foreground shadow-lg transition-shadow hover:shadow-xl"
-              >
-                Start Practicing
-              </motion.button>
+              {/* ✅ FIXED: user logged in hai toh /sheets, warna /signup */}
+              {!user && (
+                <motion.button
+                  whileHover={{ scale: 1.04, y: -2 }}
+                  whileTap={{ scale: 0.97 }}
+                  onClick={() => navigate("/signup")}
+                  className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-semibold text-primary-foreground shadow-lg transition-shadow hover:shadow-xl"
+                >
+                  Start Practicing
+                </motion.button>
+              )}
+              {user && (
+                <motion.button
+                  whileHover={{ scale: 1.04, y: -2 }}
+                  whileTap={{ scale: 0.97 }}
+                  onClick={() => navigate("/sheets")}
+                  className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-semibold text-primary-foreground shadow-lg transition-shadow hover:shadow-xl"
+                >
+                  Go to Sheets
+                </motion.button>
+              )}
             </div>
           </motion.div>
 
@@ -186,7 +202,7 @@ export function HeroSection() {
         </div>
       </section>
 
-      {/* Features Section — Topics ki jagah */}
+      {/* Features Section */}
       <section className="py-20 gradient-bg tech-grid-bg">
         <div className="container">
           <motion.div
@@ -206,11 +222,10 @@ export function HeroSection() {
 
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {[
-               {
+              {
                 title: "Curated Sheets",
                 description: "TUF AtoZ, Love Babbar, Apna College, and The DSA Manual — all in one place, all for free.",
               },
-              
               {
                 title: "AI Assistant — AlgoShee",
                 description: "Ask AlgoShee about any DSA problem. Get similar LeetCode problems with direct links and approaches.",
@@ -231,7 +246,6 @@ export function HeroSection() {
                 title: "Progress Tracking",
                 description: "Track Easy, Medium, Hard problems across all 4 sheets. Watch your progress bar grow in real time.",
               },
-             
             ].map((feature, i) => (
               <motion.div
                 key={feature.title}
@@ -241,7 +255,6 @@ export function HeroSection() {
                 transition={{ delay: i * 0.1, duration: 0.5 }}
                 className="glass-card rounded-2xl p-6"
               >
-                
                 <h3 className="text-base font-bold mb-2 text-foreground" style={{ fontFamily: "var(--font-display)" }}>
                   {feature.title}
                 </h3>
@@ -251,15 +264,6 @@ export function HeroSection() {
               </motion.div>
             ))}
           </div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.7 }}
-            className="text-center mt-12"
-          >
-          </motion.div>
         </div>
       </section>
     </>
