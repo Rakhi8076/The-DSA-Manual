@@ -2,10 +2,10 @@ fastapi
 uvicorn
 email-validator
 gunicorn
+sendgrid
 motor
 pymongo
 python-dotenv
 passlib[bcrypt]
 python-jose[cryptography]
 groq
-bcrypt
