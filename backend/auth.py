@@ -18,6 +18,7 @@ router = APIRouter()
 JWT_SECRET = os.getenv("JWT_SECRET")
 SENDGRID_API_KEY = os.getenv("SENDGRID_API_KEY")
 SENDGRID_FROM_EMAIL = os.getenv("SENDGRID_FROM_EMAIL")
+ADMIN_EMAIL = os.getenv("ADMIN_EMAIL")
 BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")    # ✅ No hardcode
 FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:8080")  # ✅ No hardcode
 
@@ -41,7 +42,8 @@ def create_token(email: str, user_id: str):    # ✅ userId added
     )
 
 
-def _send_verification_email(to_email: str, token: str):    # ✅ Moved to bg task
+def _send_verification_email(to_email: str, token: str): 
+    print(f"⭐ Sending verification to {to_email}")    # ✅ Moved to bg task
     verify_link = f"{BACKEND_URL}/auth/verify?token={token}"
     message = Mail(
         from_email=SENDGRID_FROM_EMAIL,
@@ -60,7 +62,31 @@ def _send_verification_email(to_email: str, token: str):    # ✅ Moved to bg ta
     sg = SendGridAPIClient(SENDGRID_API_KEY)
     sg.send(message)
 
+# ✅ NEW: Admin notification function
+def _send_admin_notification(user_name: str, user_email: str):
+    try:
+        message = Mail(
+            from_email=SENDGRID_FROM_EMAIL,
+            to_emails=ADMIN_EMAIL,
+            subject=f"🎉 New Signup: {user_name}",
+            html_content=f"""
+            <h2>New user signed up on DSA Manual!</h2>
+            <p><b>Name:</b> {user_name}</p>
+            <p><b>Email:</b> {user_email}</p>
+            <p><b>Time:</b> {datetime.utcnow().strftime("%d %b %Y, %I:%M %p")} UTC</p>
+            """
+        )
+        sg = SendGridAPIClient(SENDGRID_API_KEY)
+        response = sg.send(message)
+        print(f"✅ Admin notified: {response.status_code}") 
+        print(f"✅ Response body: {response.body}")  
+        print(f"✅ Response headers: {response.headers}")  
+    except Exception as e:
+        print(f"❌ Admin notification failed: {e}") 
+        import traceback
+        traceback.print_exc()          
 
+    
 @router.post("/signup")
 async def signup(user: SignupModel, background_tasks: BackgroundTasks):  # ✅ Non-blocking
     existing = await users_collection.find_one({"email": user.email})
@@ -88,6 +114,10 @@ async def signup(user: SignupModel, background_tasks: BackgroundTasks):  # ✅ N
     background_tasks.add_task(                     # ✅ Non-blocking email
         _send_verification_email, user.email, verify_token
     )
+
+    print("⭐ About to call admin notification")   # ← ye add karo
+    _send_admin_notification(user.name, user.email)
+    print("⭐ Admin notification called")  
 
     return {"message": "Signup successful! Please check your email to verify your account."}
 
