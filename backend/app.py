@@ -173,7 +173,7 @@ PROGRESS CONTEXT RULES:
     try:
         response = await asyncio.to_thread(
             groq_client.chat.completions.create,
-            model="llama-3.3-70b-versatile",
+            model="llama-3.1-8b-instant",
             messages=messages,
             max_tokens=2000,
             temperature=0.5,
