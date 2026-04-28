@@ -25,13 +25,23 @@ function renderMessageContent(content: string) {
   });
 }
 
+// ✅ Sheet + Topic wise detailed context
 function buildProgressContext(getSolvedCount: (ids: string[]) => number): string {
-  return sheets.map(sheet => {
+  return sheets.map(sheet => {  // ✅ common bhi include
     const total = sheet.questions.length;
     const solved = getSolvedCount(sheet.questions.map(q => q.id));
     const pending = total - solved;
-    return `${sheet.name}: ${solved}/${total} solved, ${pending} pending`;
-  }).join("\n");
+
+    const topics = [...new Set(sheet.questions.map(q => q.topic))];
+    const topicBreakdown = topics.map(topic => {
+      const topicQs = sheet.questions.filter(q => q.topic === topic);
+      const topicSolved = getSolvedCount(topicQs.map(q => q.id));
+      const topicPending = topicQs.length - topicSolved;
+      return `  - ${topic}: ${topicSolved}/${topicQs.length} solved, ${topicPending} pending`;
+    }).join("\n");
+
+    return `${sheet.name} (${sheet.id}): ${solved}/${total} solved, ${pending} pending\nTopics:\n${topicBreakdown}`;
+  }).join("\n\n");
 }
 
 // ✅ User specific chat key
@@ -154,9 +164,9 @@ export function Chatbot() {
               >
                 Clear
               </button>
-              <button onClick={() => setOpen(false)}>
+              {/* <button onClick={() => setOpen(false)}>
                 <X className="h-4 w-4 text-white hover:opacity-70" />
-              </button>
+              </button> */}
             </div>
           </div>
 
