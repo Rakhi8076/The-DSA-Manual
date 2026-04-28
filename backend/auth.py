@@ -46,9 +46,9 @@ def _send_verification_email(to_email: str, token: str):    # ✅ Moved to bg ta
     message = Mail(
         from_email=SENDGRID_FROM_EMAIL,
         to_emails=to_email,
-        subject="Verify your DSA Manual account",
+        subject="Verify your The DSA Manual account",
         html_content=f"""
-        <h2>Welcome to DSA Manual!</h2>
+        <h2>Welcome to The DSA Manual!</h2>
         <p>Click the link below to verify your account:</p>
         <a href="{verify_link}" style="background:#6366f1;color:white;padding:10px 20px;
         border-radius:8px;text-decoration:none;">
