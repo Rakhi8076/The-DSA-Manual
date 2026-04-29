@@ -53,7 +53,8 @@ def send_email(to_email: str, subject: str, html_content: str):
     msg["To"]      = to_email
     msg.attach(MIMEText(html_content, "html"))
 
-    with smtplib.SMTP_SSL("smtp-relay.brevo.com", 465) as server:
+    with smtplib.SMTP("smtp-relay.brevo.com", 587) as server:
+        server.starttls()
         server.login(BREVO_SMTP_LOGIN, BREVO_SMTP_PASSWORD)
         server.sendmail(BREVO_FROM_EMAIL, to_email, msg.as_string())
 
