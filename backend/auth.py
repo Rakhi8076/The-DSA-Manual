@@ -6,9 +6,7 @@ from datetime import datetime, timedelta
 from database import users_collection
 import os
 from dotenv import load_dotenv
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
+import resend
 from fastapi.responses import RedirectResponse
 import secrets
 
@@ -16,13 +14,13 @@ load_dotenv()
 
 router = APIRouter()
 
-JWT_SECRET           = os.getenv("JWT_SECRET")
-BREVO_SMTP_LOGIN     = os.getenv("BREVO_SMTP_LOGIN")
-BREVO_SMTP_PASSWORD  = os.getenv("BREVO_SMTP_PASSWORD")
-BREVO_FROM_EMAIL     = os.getenv("BREVO_FROM_EMAIL")
-ADMIN_EMAIL          = os.getenv("ADMIN_EMAIL")
-BACKEND_URL          = os.getenv("BACKEND_URL", "http://localhost:8000")
-FRONTEND_URL         = os.getenv("FRONTEND_URL", "http://localhost:8080")
+JWT_SECRET   = os.getenv("JWT_SECRET")
+ADMIN_EMAIL  = os.getenv("ADMIN_EMAIL")
+FROM_EMAIL   = os.getenv("FROM_EMAIL")
+BACKEND_URL  = os.getenv("BACKEND_URL", "http://localhost:8000")
+FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:8080")
+
+resend.api_key = os.getenv("RESEND_API_KEY")
 
 
 class SignupModel(BaseModel):
@@ -45,18 +43,13 @@ def create_token(email: str, user_id: str):
     )
 
 
-# ✅ Brevo SMTP helper — ek function sab ke liye
 def send_email(to_email: str, subject: str, html_content: str):
-    msg = MIMEMultipart("alternative")
-    msg["Subject"] = subject
-    msg["From"]    = BREVO_FROM_EMAIL
-    msg["To"]      = to_email
-    msg.attach(MIMEText(html_content, "html"))
-
-    with smtplib.SMTP("smtp-relay.brevo.com", 587) as server:
-        server.starttls()
-        server.login(BREVO_SMTP_LOGIN, BREVO_SMTP_PASSWORD)
-        server.sendmail(BREVO_FROM_EMAIL, to_email, msg.as_string())
+    resend.Emails.send({
+        "from": f"The DSA Manual <{FROM_EMAIL}>",
+        "to": to_email,
+        "subject": subject,
+        "html": html_content
+    })
 
 
 def _send_verification_email(to_email: str, token: str):
