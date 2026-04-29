@@ -168,3 +168,5 @@ async def login(user: LoginModel):
             "email": existing["email"]
         }
     }
+
+print(f"SENDGRID KEY: {SENDGRID_API_KEY[:10] if SENDGRID_API_KEY else 'MISSING'}")
