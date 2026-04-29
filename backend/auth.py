@@ -106,6 +106,7 @@ async def signup(user: SignupModel, background_tasks: BackgroundTasks):
     verify_token        = secrets.token_urlsafe(32)
     verify_token_expiry = datetime.utcnow() + timedelta(hours=24)
 
+    # ✅ DB mein sirf pending data save karo — verified nahi
     new_user = {
         "name": user.name,
         "email": user.email,
@@ -117,13 +118,12 @@ async def signup(user: SignupModel, background_tasks: BackgroundTasks):
     }
     await users_collection.insert_one(new_user)
 
-    # User ko verification email — background mein
     background_tasks.add_task(
         _send_verification_email, user.email, verify_token
     )
-
-    # Admin ko direct call
-    _send_admin_notification(user.name, user.email)
+    background_tasks.add_task(
+        _send_admin_notification, user.name, user.email
+    )
 
     return {"message": "Signup successful! Please check your email to verify your account."}
 
@@ -136,14 +136,22 @@ async def verify_email(token: str):
 
     expiry = user.get("verify_token_expiry")
     if expiry and datetime.utcnow() > expiry:
+        # ✅ Expired token — user delete karo DB se
+        await users_collection.delete_one({"verify_token": token})
         raise HTTPException(status_code=400, detail="Verification link has expired!")
 
+    # ✅ Verify hone pe hi user active karo
     await users_collection.update_one(
         {"verify_token": token},
-        {"$set": {"is_verified": True}, "$unset": {"verify_token": "", "verify_token_expiry": ""}}
+        {
+            "$set": {"is_verified": True},
+            "$unset": {"verify_token": "", "verify_token_expiry": ""}
+        }
     )
 
     return RedirectResponse(url=f"{FRONTEND_URL}/login?verified=true")
+
+
 
 
 @router.post("/login")
