@@ -169,4 +169,4 @@ async def login(user: LoginModel):
         }
     }
 
-print(f"SENDGRID KEY: {SENDGRID_API_KEY[:10] if SENDGRID_API_KEY else 'MISSING'}")
+print("SENDGRID configured") if os.getenv('SENDGRID_API_KEY') else print("Missing SENDGRID_API_KEY")
