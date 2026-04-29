@@ -6,8 +6,10 @@ from datetime import datetime, timedelta
 from database import users_collection
 import os
 from dotenv import load_dotenv
-from sendgrid import SendGridAPIClient
-from sendgrid.helpers.mail import Mail
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+
 from fastapi.responses import RedirectResponse
 import secrets
 
@@ -16,9 +18,10 @@ load_dotenv()
 router = APIRouter()
 
 JWT_SECRET = os.getenv("JWT_SECRET")
-SENDGRID_API_KEY = os.getenv("SENDGRID_API_KEY")
-SENDGRID_FROM_EMAIL = os.getenv("SENDGRID_FROM_EMAIL")
-ADMIN_EMAIL = os.getenv("ADMIN_EMAIL")
+BREVO_SMTP_LOGIN    = os.getenv("BREVO_SMTP_LOGIN")
+BREVO_SMTP_PASSWORD = os.getenv("BREVO_SMTP_PASSWORD")
+BREVO_FROM_EMAIL    = os.getenv("BREVO_FROM_EMAIL")
+ADMIN_EMAIL         = os.getenv("ADMIN_EMAIL")
 BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")    # ✅ No hardcode
 FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:8080")  # ✅ No hardcode
 
@@ -41,15 +44,23 @@ def create_token(email: str, user_id: str):    # ✅ userId added
         algorithm="HS256"
     )
 
-
+def send_email(to_email: str, subject: str, html_content: str):
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = subject
+    msg["From"]    = BREVO_FROM_EMAIL
+    msg["To"]      = to_email
+    msg.attach(MIMEText(html_content, "html"))
+ 
+    with smtplib.SMTP_SSL("smtp-relay.brevo.com", 465) as server:
+        server.login(BREVO_SMTP_LOGIN, BREVO_SMTP_PASSWORD)
+        server.sendmail(BREVO_FROM_EMAIL, to_email, msg.as_string())
+        
 def _send_verification_email(to_email: str, token: str): 
-    print(f"⭐ Sending verification to {to_email}")    # ✅ Moved to bg task
     verify_link = f"{BACKEND_URL}/auth/verify?token={token}"
-    message = Mail(
-        from_email=SENDGRID_FROM_EMAIL,
-        to_emails=to_email,
-        subject="Verify your The DSA Manual account",
-        html_content=f"""
+    send_email(
+         to_email,
+        "Verify your The DSA Manual account",
+        f"""
         <h2>Welcome to The DSA Manual!</h2>
         <p>Click the link below to verify your account:</p>
         <a href="{verify_link}" style="background:#6366f1;color:white;padding:10px 20px;
@@ -59,32 +70,23 @@ def _send_verification_email(to_email: str, token: str):
         <p>Link expires in 24 hours.</p>
         """
     )
-    sg = SendGridAPIClient(SENDGRID_API_KEY)
-    sg.send(message)
 
 # ✅ NEW: Admin notification function
 def _send_admin_notification(user_name: str, user_email: str):
     try:
-        message = Mail(
-            from_email=SENDGRID_FROM_EMAIL,
-            to_emails=ADMIN_EMAIL,
-            subject=f"🎉 New Signup: {user_name}",
-            html_content=f"""
+        send_email(
+            ADMIN_EMAIL,
+            f"New Signup: {user_name}",
+            f"""
             <h2>New user signed up on DSA Manual!</h2>
             <p><b>Name:</b> {user_name}</p>
             <p><b>Email:</b> {user_email}</p>
             <p><b>Time:</b> {datetime.utcnow().strftime("%d %b %Y, %I:%M %p")} UTC</p>
             """
         )
-        sg = SendGridAPIClient(SENDGRID_API_KEY)
-        response = sg.send(message)
-        print(f"✅ Admin notified: {response.status_code}") 
-        print(f"✅ Response body: {response.body}")  
-        print(f"✅ Response headers: {response.headers}")  
+        print(f"✅ Admin notified successfully")
     except Exception as e:
-        print(f"❌ Admin notification failed: {e}") 
-        import traceback
-        traceback.print_exc()          
+        print(f"❌ Admin notification failed: {e}")       
 
     
 @router.post("/signup")
@@ -115,9 +117,7 @@ async def signup(user: SignupModel, background_tasks: BackgroundTasks):  # ✅ N
         _send_verification_email, user.email, verify_token
     )
 
-    print("⭐ About to call admin notification")   # ← ye add karo
-    _send_admin_notification(user.name, user.email)
-    print("⭐ Admin notification called")  
+    _send_admin_notification(user.name, user.email) 
 
     return {"message": "Signup successful! Please check your email to verify your account."}
 
