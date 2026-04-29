@@ -45,7 +45,7 @@ export default function SignupPage() {
   };
 
   // 👇 Signup hone ke baad yeh page dikhao
-  if (submitted) {
+ if (submitted) {
     return (
       <div className="flex min-h-screen flex-col">
         <Header />
@@ -56,12 +56,17 @@ export default function SignupPage() {
             transition={{ duration: 0.5 }}
             className="w-full max-w-md rounded-2xl border border-border bg-card p-8 shadow-card-hover text-center"
           >
-            <div className="text-6xl mb-4">📧</div>
-            <h1 className="text-2xl font-bold font-display mb-2">Check your email!</h1>
-            <p className="text-foreground/70">We sent a verification link to</p>
-            <p className="font-semibold mt-1">{email}</p>
-            <p className="text-foreground/70 mt-3 text-sm">Click the link in your email to verify your account.</p>
-            <p className="text-foreground/70 mt-1 text-sm">(Check spam folder too)</p>
+            <div className="text-6xl mb-4">🎉</div>
+            <h1 className="text-2xl font-bold font-display mb-2">Account Created!</h1>
+            <p className="text-foreground/70">Welcome to The DSA Manual,</p>
+            <p className="font-semibold mt-1">{name}</p>
+            <p className="text-foreground/70 mt-3 text-sm">Your account has been created successfully.</p>
+            <Link
+              to="/login"
+              className="inline-block mt-5 px-6 py-2.5 rounded-full bg-accent text-white font-semibold text-sm hover:bg-accent/90 transition"
+            >
+              Login Now →
+            </Link>
           </motion.div>
         </main>
         <Footer />
