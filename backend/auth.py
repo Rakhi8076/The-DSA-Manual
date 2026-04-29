@@ -19,11 +19,8 @@ JWT_SECRET = os.getenv("JWT_SECRET")
 SENDGRID_API_KEY = os.getenv("SENDGRID_API_KEY")
 SENDGRID_FROM_EMAIL = os.getenv("SENDGRID_FROM_EMAIL")
 ADMIN_EMAIL = os.getenv("ADMIN_EMAIL")
-BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
-FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:8080")
-
-# ✅ Pending users memory mein
-pending_users: dict = {}
+BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")    # ✅ No hardcode
+FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:8080")  # ✅ No hardcode
 
 
 class SignupModel(BaseModel):
@@ -36,7 +33,7 @@ class LoginModel(BaseModel):
     password: str
 
 
-def create_token(email: str, user_id: str):
+def create_token(email: str, user_id: str):    # ✅ userId added
     expire = datetime.utcnow() + timedelta(days=7)
     return jwt.encode(
         {"email": email, "userId": user_id, "exp": expire},
@@ -45,8 +42,8 @@ def create_token(email: str, user_id: str):
     )
 
 
-def _send_verification_email(to_email: str, token: str):
-    print(f"⭐ Sending verification to {to_email}")
+def _send_verification_email(to_email: str, token: str): 
+    print(f"⭐ Sending verification to {to_email}")    # ✅ Moved to bg task
     verify_link = f"{BACKEND_URL}/auth/verify?token={token}"
     message = Mail(
         from_email=SENDGRID_FROM_EMAIL,
@@ -65,14 +62,13 @@ def _send_verification_email(to_email: str, token: str):
     sg = SendGridAPIClient(SENDGRID_API_KEY)
     sg.send(message)
 
-
+# ✅ NEW: Admin notification function
 def _send_admin_notification(user_name: str, user_email: str):
     try:
-        print(f"⭐ Sending admin notification for {user_name}")
         message = Mail(
             from_email=SENDGRID_FROM_EMAIL,
             to_emails=ADMIN_EMAIL,
-            subject=f"New Signup: {user_name}",  # ✅ emoji hataya
+            subject=f"🎉 New Signup: {user_name}",
             html_content=f"""
             <h2>New user signed up on DSA Manual!</h2>
             <p><b>Name:</b> {user_name}</p>
@@ -82,76 +78,67 @@ def _send_admin_notification(user_name: str, user_email: str):
         )
         sg = SendGridAPIClient(SENDGRID_API_KEY)
         response = sg.send(message)
-        print(f"✅ Admin notified: {response.status_code}")
+        print(f"✅ Admin notified: {response.status_code}") 
+        print(f"✅ Response body: {response.body}")  
+        print(f"✅ Response headers: {response.headers}")  
     except Exception as e:
-        print(f"❌ Admin notification failed: {e}")
+        print(f"❌ Admin notification failed: {e}") 
         import traceback
-        traceback.print_exc()
+        traceback.print_exc()          
 
-
+    
 @router.post("/signup")
-async def signup(user: SignupModel, background_tasks: BackgroundTasks):
-    # ✅ DB mein check karo
+async def signup(user: SignupModel, background_tasks: BackgroundTasks):  # ✅ Non-blocking
     existing = await users_collection.find_one({"email": user.email})
     if existing:
         raise HTTPException(status_code=400, detail="Email already registered!")
-
-    # ✅ Pending mein bhi check karo
-    for token, data in pending_users.items():
-        if data["email"] == user.email:
-            raise HTTPException(status_code=400, detail="Email already registered!")
 
     hashed_password = bcrypt.hashpw(
         user.password.encode("utf-8"), bcrypt.gensalt(rounds=10)
     ).decode("utf-8")
 
     verify_token = secrets.token_urlsafe(32)
-    verify_token_expiry = datetime.utcnow() + timedelta(hours=24)
+    verify_token_expiry = datetime.utcnow() + timedelta(hours=24)  # ✅ Expiry added
 
-    # ✅ DB mein mat daalo — memory mein rakho
-    pending_users[verify_token] = {
+    new_user = {
         "name": user.name,
         "email": user.email,
         "password": hashed_password,
         "created_at": datetime.utcnow(),
-        "verify_token_expiry": verify_token_expiry
+        "is_verified": False,
+        "verify_token": verify_token,
+        "verify_token_expiry": verify_token_expiry  # ✅ Stored in DB
     }
+    await users_collection.insert_one(new_user)
 
-    background_tasks.add_task(
+    background_tasks.add_task(                     # ✅ Non-blocking email
         _send_verification_email, user.email, verify_token
     )
-    background_tasks.add_task(
-        _send_admin_notification, user.name, user.email
-    )
+
+    print("⭐ About to call admin notification")   # ← ye add karo
+    _send_admin_notification(user.name, user.email)
+    print("⭐ Admin notification called")  
 
     return {"message": "Signup successful! Please check your email to verify your account."}
 
 
 @router.get("/verify")
 async def verify_email(token: str):
-    # ✅ Pending mein dhundo
-    user_data = pending_users.get(token)
-    if not user_data:
+    user = await users_collection.find_one({"verify_token": token})
+    if not user:
         raise HTTPException(status_code=400, detail="Invalid or expired token!")
 
     # ✅ Expiry check
-    if datetime.utcnow() > user_data["verify_token_expiry"]:
-        pending_users.pop(token, None)
+    expiry = user.get("verify_token_expiry")
+    if expiry and datetime.utcnow() > expiry:
         raise HTTPException(status_code=400, detail="Verification link has expired!")
 
-    # ✅ Verify hone ke baad DB mein store karo
-    await users_collection.insert_one({
-        "name": user_data["name"],
-        "email": user_data["email"],
-        "password": user_data["password"],
-        "created_at": user_data["created_at"],
-        "is_verified": True,
-    })
+    await users_collection.update_one(
+        {"verify_token": token},
+        {"$set": {"is_verified": True}, "$unset": {"verify_token": "", "verify_token_expiry": ""}}
+    )
 
-    # ✅ Pending se hatao
-    pending_users.pop(token, None)
-
-    return RedirectResponse(url=f"{FRONTEND_URL}/login?verified=true")
+    return RedirectResponse(url=f"{FRONTEND_URL}/login?verified=true")  # ✅ No hardcode
 
 
 @router.post("/login")
@@ -170,7 +157,7 @@ async def login(user: LoginModel):
     if not is_valid:
         raise HTTPException(status_code=401, detail="Wrong password!")
 
-    token = create_token(user.email, str(existing["_id"]))
+    token = create_token(user.email, str(existing["_id"]))  # ✅ userId in token
 
     return {
         "message": "Login successful!",
