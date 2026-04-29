@@ -2,7 +2,6 @@ fastapi
 uvicorn
 email-validator
 gunicorn
-sendgrid
 motor
 pymongo
 python-dotenv
