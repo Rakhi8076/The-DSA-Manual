@@ -24,7 +24,14 @@ const App = () => (
       <BrowserRouter>
         <AuthProvider>
           <Routes>
-            <Route path="/dashboard" element={<DashboardPage />} />
+            <Route
+              path="/dashboard"
+              element={
+                <ProtectedRoute>
+                  <DashboardPage />
+                </ProtectedRoute>
+              }
+            />
             <Route path="/" element={<Index />} />
             <Route path="/sheet/:sheetId" element={<SheetPage />} />
             <Route path="/login" element={<LoginPage />} />
