@@ -177,7 +177,7 @@ PROGRESS CONTEXT RULES:
     try:
         response = await asyncio.to_thread(
             groq_client.chat.completions.create,
-            model="qwen/qwen3.6-27b"
+            model="llama-3.1-8b-instant",
             messages=messages,
             max_tokens=2000,
             temperature=0.5,
@@ -204,7 +204,7 @@ Give exactly 1 short actionable line (max 12 words) telling what they should foc
     try:
         response = await asyncio.to_thread(
             groq_client.chat.completions.create,
-            model="qwen/qwen3.6-27b"
+            model="llama-3.1-8b-instant",
             messages=[{"role": "user", "content": prompt}],
             max_tokens=50,
             temperature=0.5,
