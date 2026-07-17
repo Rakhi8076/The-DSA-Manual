@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from bson import ObjectId
 from auth import router as auth_router
-from database import get_user_progress, toggle_question, set_question
+from database import get_user_progress, set_question
 import os
 import asyncio
 from groq import Groq
@@ -24,12 +24,6 @@ app.add_middleware(
 app.include_router(auth_router, prefix="/auth", tags=["Auth"])
 
 groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-
-
-class ToggleInput(BaseModel):
-    userId:     str
-    questionId: str
-    sheetId:    str
 
 
 class SetProgressInput(BaseModel):
@@ -72,23 +66,6 @@ async def get_progress(user_id: str):
 
     solved_ids = await get_user_progress(user_id)
     return {"solvedIds": solved_ids}
-
-
-@app.post("/progress/toggle")
-async def toggle_progress(data: ToggleInput):
-    if not data.userId or data.userId == "undefined":
-        raise HTTPException(status_code=400, detail="Invalid userId")
-    try:
-        ObjectId(data.userId)
-    except Exception:
-        raise HTTPException(status_code=400, detail="Malformed userId")
-
-    is_solved = await toggle_question(
-        user_id=data.userId,
-        question_id=data.questionId,
-        sheet_id=data.sheetId
-    )
-    return {"solved": is_solved, "questionId": data.questionId, "sheetId": data.sheetId}
 
 
 @app.post("/progress/set")

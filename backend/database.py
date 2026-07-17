@@ -34,31 +34,6 @@ async def get_user_progress(user_id: str) -> list[str]:
     return [doc["questionId"] for doc in docs]
 
 
-async def toggle_question(user_id: str, question_id: str, sheet_id: str) -> bool:
-    try:
-        user_object_id = ObjectId(user_id)
-    except Exception:
-        raise HTTPException(status_code=400, detail="Invalid user_id")
-
-    existing = await progress_collection.find_one({
-        "userId":     user_object_id,
-        "questionId": question_id,
-        "sheetId":    sheet_id
-    })
-
-    if existing:
-        await progress_collection.delete_one({"_id": existing["_id"]})
-        return False
-    else:
-        await progress_collection.insert_one({
-            "userId":     user_object_id,
-            "sheetId":    sheet_id,
-            "questionId": question_id,
-            "solvedAt":   get_today()  # ✅ IST date
-        })
-        return True
-
-
 async def set_question(user_id: str, question_id: str, sheet_id: str, solved: bool):
     try:
         user_object_id = ObjectId(user_id)

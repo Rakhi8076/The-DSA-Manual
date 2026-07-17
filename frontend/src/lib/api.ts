@@ -43,19 +43,6 @@ export const getUserProgress = async (userId: string): Promise<string[]> => {
   return data.solvedIds;
 };
 
-export const toggleProgress = async (data: {
-  userId: string;
-  questionId: string;
-  sheetId: string;
-}): Promise<boolean> => {
-  const res = await fetch(`${BASE_URL}/progress/toggle`, {
-    method: "POST",
-    headers: authHeaders(),
-    body: JSON.stringify(data),
-  });
-  const result = await handleResponse(res);
-  return result.solved;
-};
 
 export const setProgress = async (data: {
   userId: string;
