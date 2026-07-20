@@ -31,13 +31,13 @@ export default function SignupPage() {
     try {
       setLoading(true);
       await signup(name, email, password);
-      setSubmitted(true); // 👈 navigate hataya, yeh daala
+      setSubmitted(true);
     } catch (err: any) {
       const msg = err?.message || "";
       if (msg.includes("already registered")) {
         setError("This email is already registered.");
       } else {
-        setSubmitted(true);
+        setError(msg || "Something went wrong. Please try again.");
       }
     } finally {
       setLoading(false);
@@ -45,7 +45,7 @@ export default function SignupPage() {
   };
 
   // 👇 Signup hone ke baad yeh page dikhao
- if (submitted) {
+  if (submitted) {
     return (
       <div className="flex min-h-screen flex-col">
         <Header />
