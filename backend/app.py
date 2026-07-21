@@ -183,7 +183,7 @@ Give exactly 1 short actionable line (max 12 words) telling what they should foc
             groq_client.chat.completions.create,
             model="openai/gpt-oss-120b",
             messages=[{"role": "user", "content": prompt}],
-            max_tokens=50,
+            max_tokens=300,
             temperature=0.5,
         )
         insight = response.choices[0].message.content.strip()
