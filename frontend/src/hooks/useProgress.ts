@@ -68,7 +68,7 @@ export function useProgress() {
   useEffect(() => {
     const userId = getUserId();
     if (userId) {
-      getUserProgress(userId)
+      getUserProgress()
         .then(solvedIds => {
           const map: Record<string, boolean> = {};
           solvedIds.forEach(id => { map[id] = true; });
@@ -97,7 +97,6 @@ export function useProgress() {
         await Promise.all(
           linkedIds.map(id =>
             setProgressAPI({
-              userId,
               questionId: id,
               sheetId: getSheetId(id),
               solved: newState,

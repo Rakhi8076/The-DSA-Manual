@@ -35,8 +35,8 @@ export const signupUser = async (data: {
   return handleResponse(res);
 };
 
-export const getUserProgress = async (userId: string): Promise<string[]> => {
-  const res = await fetch(`${BASE_URL}/progress/${userId}`, {
+export const getUserProgress = async (): Promise<string[]> => {
+  const res = await fetch(`${BASE_URL}/progress`, {
     headers: authHeaders(),
   });
   const data = await handleResponse(res);
@@ -45,7 +45,6 @@ export const getUserProgress = async (userId: string): Promise<string[]> => {
 
 
 export const setProgress = async (data: {
-  userId: string;
   questionId: string;
   sheetId: string;
   solved: boolean;

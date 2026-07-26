@@ -1,5 +1,7 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Depends
+from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from fastapi.middleware.cors import CORSMiddleware
+from jose import jwt, JWTError
 from pydantic import BaseModel
 from bson import ObjectId
 from auth import router as auth_router
@@ -10,6 +12,16 @@ from groq import Groq
 from dotenv import load_dotenv
 
 load_dotenv()
+
+security = HTTPBearer()
+
+def verify_token(credentials: HTTPAuthorizationCredentials = Depends(security)):
+    token = credentials.credentials
+    try:
+        payload = jwt.decode(token, os.getenv("JWT_SECRET"), algorithms=["HS256"])
+        return payload
+    except JWTError:
+        raise HTTPException(status_code=401, detail="Invalid or expired token!")
 
 app = FastAPI(title="DSA Manual API", version="1.0.0")
 
@@ -27,7 +39,6 @@ groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 
 class SetProgressInput(BaseModel):
-    userId:     str
     questionId: str
     sheetId:    str
     solved:     bool
@@ -55,10 +66,9 @@ async def root():
     return {"message": "DSA Manual API is running!"}
 
 
-@app.get("/progress/{user_id}")
-async def get_progress(user_id: str):
-    if not user_id or user_id == "undefined":
-        raise HTTPException(status_code=400, detail="Invalid user_id")
+@app.get("/progress/")
+async def get_progress(user=Depends(verify_token)):
+    user_id = user["userId"]
     try:
         ObjectId(user_id)
     except Exception:
@@ -69,16 +79,15 @@ async def get_progress(user_id: str):
 
 
 @app.post("/progress/set")
-async def set_progress(data: SetProgressInput):
-    if not data.userId or data.userId == "undefined":
-        raise HTTPException(status_code=400, detail="Invalid userId")
+async def set_progress(data: SetProgressInput, user=Depends(verify_token)):
+    user_id = user["userId"]
     try:
-        ObjectId(data.userId)
+        ObjectId(user_id)
     except Exception:
         raise HTTPException(status_code=400, detail="Malformed userId")
 
     await set_question(
-        user_id=data.userId,
+        user_id=user_id,
         question_id=data.questionId,
         sheet_id=data.sheetId,
         solved=data.solved
