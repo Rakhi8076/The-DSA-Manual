@@ -1,12 +1,25 @@
+
 import {
   createContext,
   useContext,
   useState,
   useCallback,
+  useEffect,
   ReactNode,
 } from "react";
 import { loginUser, signupUser } from "@/lib/api";
 
+function getTokenExpiry(token: string): number | null {
+  try {
+    const base64Url = token.split(".")[1];
+    const base64 = base64Url.replace(/-/g, "+").replace(/_/g, "/");
+    const padded = base64.padEnd(base64.length + ((4 - (base64.length % 4)) % 4), "=");
+    const payload = JSON.parse(atob(padded));
+    return payload.exp ? payload.exp * 1000 : null;
+  } catch {
+    return null;
+  }
+}
 export interface User {
   _id: string;
   name: string;
@@ -55,6 +68,33 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     // ✅ chat history nahi hatao — user wapas login kare toh history mile
     setUser(null);
   }, []);
+
+  useEffect(() => {
+    if (!user) return;
+
+    const token = localStorage.getItem("dsa-token");
+    if (!token) return;
+
+    const expiryTime = getTokenExpiry(token);
+    if (!expiryTime) return;
+
+    const timeLeft = expiryTime - Date.now();
+
+    if (timeLeft <= 0) {
+      logout();
+      window.location.href = "/?sessionExpired=true";
+      return;
+    }
+
+    const timer = setTimeout(() => {
+      logout();
+      window.location.href = "/?sessionExpired=true";
+    }, timeLeft);
+
+    return () => clearTimeout(timer);
+  }, [user, logout]);
+
+
 
   return (
     <AuthContext.Provider value={{ user, login, signup, logout }}>
