@@ -26,7 +26,7 @@ class LoginModel(BaseModel):
 
 
 def create_token(email: str, user_id: str):
-    expire = datetime.utcnow() + timedelta(days=7)
+    expire = datetime.utcnow() + timedelta(seconds=30)
     return jwt.encode(
         {"email": email, "userId": user_id, "exp": expire},
         JWT_SECRET,

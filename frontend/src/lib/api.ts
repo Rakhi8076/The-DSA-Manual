@@ -7,6 +7,12 @@ const authHeaders = () => ({
 
 const handleResponse = async (res: Response) => {
   const data = await res.json();
+  if (res.status === 401) {
+    localStorage.removeItem("dsa-token");
+    localStorage.removeItem("dsa-user");
+    window.location.href = "/?sessionExpired=true";
+    throw new Error(data.detail || "Session expired");
+  }
   if (!res.ok) {
     throw new Error(data.detail || "Something went wrong");
   }
