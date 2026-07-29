@@ -65,6 +65,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const logout = useCallback(() => {
     localStorage.removeItem("dsa-token");
     localStorage.removeItem("dsa-user");
+    localStorage.removeItem("dsa-ai-insights");
     // ✅ chat history nahi hatao — user wapas login kare toh history mile
     setUser(null);
   }, []);

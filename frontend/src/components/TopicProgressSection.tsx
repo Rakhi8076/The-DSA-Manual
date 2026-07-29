@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { Loader2 } from "lucide-react";
 import { sheets, getTopics, getQuestionsByTopic } from "@/data/sheets";
@@ -103,24 +103,31 @@ export function TopicProgressSection() {
   });
 
   const solvedKey = topicStats.map(s => `${s.topic}:${s.solved}`).join("|");
+  const prevSolvedRef = useRef<Record<string, number>>({});
 
-  useEffect(() => {
-    topicStats.forEach(stat => {
-      if (stat.hasSolved) {
-        generateInsight({
-          topic: stat.topic,
-          solvedEasy: stat.solvedEasy,
-          totalEasy: stat.totalEasy,
-          solvedMedium: stat.solvedMedium,
-          totalMedium: stat.totalMedium,
-          solvedHard: stat.solvedHard,
-          totalHard: stat.totalHard,
-          solvedPatterns: stat.solvedPatterns,
-          unsolvedPatterns: stat.unsolvedPatterns,
-        });
-      }
-    });
-  }, [solvedKey]);
+useEffect(() => {
+  topicStats.forEach(stat => {
+    if (!stat.hasSolved) return;
+
+    const prevCount = prevSolvedRef.current[stat.topic] ?? -1;
+
+    if (stat.solved !== prevCount) {
+      prevSolvedRef.current[stat.topic] = stat.solved;
+      generateInsight({
+        topic: stat.topic,
+        solvedCount: stat.solved,        
+        solvedEasy: stat.solvedEasy,
+        totalEasy: stat.totalEasy,
+        solvedMedium: stat.solvedMedium,
+        totalMedium: stat.totalMedium,
+        solvedHard: stat.solvedHard,
+        totalHard: stat.totalHard,
+        solvedPatterns: stat.solvedPatterns,
+        unsolvedPatterns: stat.unsolvedPatterns,
+      });
+    }
+  });
+}, [solvedKey]);
 
   return (
     <div className="mt-6">
