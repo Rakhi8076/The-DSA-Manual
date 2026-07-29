@@ -6,7 +6,7 @@ import { TopicProgressSection } from "@/components/TopicProgressSection";
 import { sheets } from "@/data/sheets";
 import { useProgress } from "@/hooks/useProgress";
 import { motion } from "framer-motion";
-import { ChevronLeft } from "lucide-react";
+
 
 export default function DashboardPage() {
   const { user } = useAuth();
@@ -16,15 +16,15 @@ export default function DashboardPage() {
   const mergedSheet = sheets.find(s => s.id === "common");
   const allQuestions = mergedSheet?.questions || [];
 
-  const total    = allQuestions.length;
-  const easy     = allQuestions.filter(q => q.difficulty === "Easy");
-  const medium   = allQuestions.filter(q => q.difficulty === "Medium");
-  const hard     = allQuestions.filter(q => q.difficulty === "Hard");
+  const total = allQuestions.length;
+  const easy = allQuestions.filter(q => q.difficulty === "Easy");
+  const medium = allQuestions.filter(q => q.difficulty === "Medium");
+  const hard = allQuestions.filter(q => q.difficulty === "Hard");
 
-  const solved      = getSolvedCount(allQuestions.map(q => q.id));
-  const easyCount   = getSolvedCount(easy.map(q => q.id));
+  const solved = getSolvedCount(allQuestions.map(q => q.id));
+  const easyCount = getSolvedCount(easy.map(q => q.id));
   const mediumCount = getSolvedCount(medium.map(q => q.id));
-  const hardCount   = getSolvedCount(hard.map(q => q.id));
+  const hardCount = getSolvedCount(hard.map(q => q.id));
 
   const pct = total > 0 ? Math.round((solved / total) * 100) : 0;
   const circumference = 2 * Math.PI * 60;
@@ -113,9 +113,9 @@ export default function DashboardPage() {
                 {/* Easy / Medium / Hard bars */}
                 <div className="flex flex-col gap-4 flex-1 min-w-0">
                   {[
-                    { label: "Easy",   count: easyCount,   total: easy.length,   color: "#4ade80", bg: "rgba(74,222,128,0.15)" },
+                    { label: "Easy", count: easyCount, total: easy.length, color: "#4ade80", bg: "rgba(74,222,128,0.15)" },
                     { label: "Medium", count: mediumCount, total: medium.length, color: "#facc15", bg: "rgba(250,204,21,0.15)" },
-                    { label: "Hard",   count: hardCount,   total: hard.length,   color: "#f87171", bg: "rgba(248,113,113,0.15)" },
+                    { label: "Hard", count: hardCount, total: hard.length, color: "#f87171", bg: "rgba(248,113,113,0.15)" },
                   ].map(({ label, count, total: t, color, bg }) => (
                     <div key={label} className="rounded-xl px-4 py-3" style={{ background: bg }}>
                       <div className="flex justify-between items-center mb-2">
