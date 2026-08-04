@@ -8,6 +8,7 @@ import { TopicAccordion } from "@/components/TopicAccordion";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { useAuth } from "@/context/AuthContext";
+import { useDebounce } from "@/hooks/useDebounce";
 
 type DiffFilter = "All" | "Easy" | "Medium" | "Hard";
 
@@ -18,15 +19,16 @@ export default function SheetPage() {
   const { getSolvedCount, isSolved } = useProgress();
   const [search, setSearch] = useState("");
   const [diffFilter, setDiffFilter] = useState<DiffFilter>("All");
+  const debouncedSearch = useDebounce(search, 300);
 
   const filteredQuestions = useMemo(() => {
     if (!sheet) return [];
     return sheet.questions.filter(q => {
-      if (search && !q.title.toLowerCase().includes(search.toLowerCase())) return false;
+      if (debouncedSearch && !q.title.toLowerCase().includes(debouncedSearch.toLowerCase())) return false;
       if (diffFilter !== "All" && q.difficulty !== diffFilter) return false;
       return true;
     });
-  }, [sheet, search, diffFilter, isSolved]);
+  }, [sheet, debouncedSearch, diffFilter, isSolved]);
 
   if (!sheet) {
     return (
